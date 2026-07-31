@@ -1,0 +1,123 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-por-deficit-de-atencion-hiperactividad-no-especificado",
+  "nombre": "Trastorno por déficit de atención/hiperactividad no especificado",
+  "nombreCorto": "TDAH no especificado",
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F90.9",
+    "cie10": "F90.9",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastorno-por-deficit-de-atencion-hiperactividad",
+    "nombre": "Trastorno por déficit de atención/hiperactividad"
+  },
+  "tipoEntrada": "no_especificado",
+  "orden": 11,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 865)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Esta categoría se aplica a presentaciones en las que predominan los síntomas características del trastorno por déficit de atención/hiperactividad que causan malestar clínicamente significativo o deterioro del funcionamiento social, laboral o de otras áreas importantes, pero que no cumplen todos los criterios del trastorno por déficit de atención/hiperactividad ni de ninguno de los trastornos de la categoría diagnóstica de los trastornos del neurodesarrollo. La categoría de trastorno por déficit de atención/hiperactividad no especificado se utiliza en situaciones en las que el clínico opta por no especificar el motivo de incumplimiento de los criterios de trastorno por déficit de atención/hiperactividad o de un trastorno del neurodesarrollo específico, e incluye presentaciones en las que no existe suficiente información para hacer un diagnóstico más específico."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 865,
+        "lineaFin": 865
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad-no-especificado:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno por déficit de atención/hiperactividad no especificado»?",
+        "opciones": [
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o0",
+            "texto": "F90.9"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 861–866), el código es F90.9.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad-no-especificado:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno por déficit de atención/hiperactividad no especificado",
+        "reverso": "F90.9",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 861,
+    "lineaFin": 866
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 861
+    }
+  ]
+}

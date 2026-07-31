@@ -1,0 +1,710 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-especifico-del-aprendizaje",
+  "nombre": "Trastorno específico del aprendizaje",
+  "nombreCorto": null,
+  "sinonimos": [
+    "Dislexia",
+    "Discalculia"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [
+    {
+      "etiqueta": "Con dificultades en la lectura:",
+      "codigo": "F81.0"
+    },
+    {
+      "etiqueta": "Con dificultad en la expresión escrita:",
+      "codigo": "F81.81"
+    },
+    {
+      "etiqueta": "Con dificultad matemática:",
+      "codigo": "F81.2"
+    }
+  ],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastorno-especifico-del-aprendizaje",
+    "nombre": "Trastorno específico del aprendizaje"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 12,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-especifico-del-aprendizaje-criterios",
+              "nombre": null,
+              "codigo": null,
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Dificultad en el aprendizaje y en la utilización de las aptitudes académicas, evidenciado por la presencia de al menos uno de los siguientes síntomas que han persistido por lo menos durante 6 meses, a pesar de intervenciones dirigidas a estas dificultades:",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Lectura de palabras imprecisa o lenta y con esfuerzo (p. ej., lee palabras sueltas en voz alta incorrectamente o con lentitud y vacilación, con frecuencia adivina palabras, dificultad para expresar bien las palabras).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Dificultad para comprender el significado de lo que lee (p. ej., puede leer un texto con precisión pero no comprende la oración, las relaciones, las inferencias o el sentido profundo de lo que lee).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Dificultades ortográficas (p. ej., puede añadir, omitir o sustituir vocales o consonantes).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Dificultades con la expresión escrita (p. ej., hace múltiples errores gramaticales o de puntuación en una oración; organiza mal el párrafo; la expresión escrita de ideas no es clara).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.5",
+                      "etiqueta": "5",
+                      "tipo": "criterio",
+                      "texto": "Dificultades para dominar el sentido numérico, los datos numéricos o el cálculo (p. ej., comprende mal los números, su magnitud y sus relaciones; cuenta con los dedos para sumar números de un solo dígito en lugar de recordar la operación matemática como hacen sus iguales; se pierde en el cálculo aritmético y puede intercambiar los procedimientos).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.6",
+                      "etiqueta": "6",
+                      "tipo": "criterio",
+                      "texto": "Dificultades con el razonamiento matemático (p. ej., tiene gran dificultad para aplicar los conceptos, hechos u operaciones matemáticas para resolver problemas cuantitativos).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Las aptitudes académicas afectadas están sustancialmente y en grado cuantificable por debajo de lo esperado para la edad cronológica del individuo, e interfieren significativamente con el rendimiento académico o laboral, o con actividades de la vida cotidiana, que se confirman con medidas (pruebas) estandarizadas administradas individualmente y una evaluación clínica integral. En individuos de 17 y más años, la historia documentada de las dificultades del aprendizaje se puede sustituir por la evaluación estandarizada.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Las dificultades de aprendizaje comienzan en la edad escolar, pero pueden no manifestarse totalmente hasta que las demandas de las aptitudes académicas afectadas superan las capacidades limitadas del individuo (p. ej., en exámenes cronometrados, la lectura o escritura de informes complejos y largos para una fecha limite inaplazable, tareas académicas excesivamente pesadas).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Las dificultades de aprendizaje no se explican mejor por discapacidades intelectuales, trastornos visuales o auditivos no corregidos, otros trastornos mentales o neurológicos, adversidad psicosocial, falta de dominio en el lenguaje de instrucción académica o directrices educativas inadecuadas.",
+                  "hijos": [
+                    {
+                      "ruta": "D.nota",
+                      "etiqueta": null,
+                      "tipo": "nota",
+                      "texto": "Se han de cumplir los cuatro criterios diagnósticos basándose en una síntesis clínica de la historia del individuo (del desarrollo, médica, familiar, educativa), informes escolares y evaluación psicoeducativa.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "D.nota",
+                      "etiqueta": null,
+                      "tipo": "nota_codificacion",
+                      "texto": "Especificar todas las áreas académicas y subaptitudes alteradas. Cuando más de un área está alterada, cada una de ellas se codificará individualmente de acuerdo con los siguientes específicadores:",
+                      "hijos": []
+                    }
+                  ]
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": "F81.0",
+                      "etiqueta": "Con dificultades en la lectura:",
+                      "descripcion": null,
+                      "subopciones": [
+                        "Precisión en la lectura de palabras",
+                        "Velocidad o fluidez de la lectura",
+                        "Comprensión de la lectura"
+                      ]
+                    },
+                    {
+                      "codigo": "F81.81",
+                      "etiqueta": "Con dificultad en la expresión escrita:",
+                      "descripcion": null,
+                      "subopciones": [
+                        "Corrección ortográfica",
+                        "Corrección gramatical y de la puntuación",
+                        "Claridad u organización de la expresión escrita"
+                      ]
+                    },
+                    {
+                      "codigo": "F81.2",
+                      "etiqueta": "Con dificultad matemática:",
+                      "descripcion": null,
+                      "subopciones": [
+                        "Sentido de los números",
+                        "Memorización de operaciones aritméticas",
+                        "Cálculo correcto o fluido",
+                        "Razonamiento matemático correcto"
+                      ]
+                    }
+                  ],
+                  "notas": [
+                    "La dislexia es un término alternativo utilizado para referirse a un patrón de dificultades del aprendizaje que se caracteriza por problemas con el reconocimiento de palabras en forma precisa o fluida, deletrear mal y poca capacidad ortográfica. Si se utiliza dislexia para especificar este patrón particular de dificultades, también es importante especificar cualquier dificultad adicional presente, como dificultades de comprensión de la lectura o del razonamiento matemático.",
+                    "Discalculia es un término alternativo utilizado para referirse a un patrón de dificultades que se caracteriza por problemas de procesamiento de la información numérica, aprendizaje de operaciones aritméticas y cálculo correcto o fluido. Si se utiliza discalculia para especificar este patrón particular de dificultades matemáticas, también es importante especificar cualquier dificultad adicional presente, como dificultades del razonamiento matemático o del razonamiento correcto de las palabras."
+                  ]
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Leve",
+                      "descripcion": "Algunas dificultades con las aptitudes de aprendizaje en una o dos áreas académicas, pero suficientemente leves para que el individuo pueda compensarlas o funcionar bien cuando recibe una adaptación adecuada o servicios de ayuda, especialmente durante la edad escolar.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Moderado",
+                      "descripcion": "Dificultades notables con las aptitudes de aprendizaje en una o más áreas académicas, de manera que el individuo tiene pocas probabilidades de llegar a ser competente sin algunos períodos de enseñanza intensiva y especializada durante la edad escolar. Se puede necesitar alguna adaptación o servicios de ayuda al menos durante una parte del horario en la escuela, en el lugar de trabajo o en casa para realizar las actividades de forma correcta y eficaz.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Grave",
+                      "descripcion": "Dificultades graves en las aptitudes de aprendizaje que afectan a varias áreas académicas, de manera que el individuo tiene pocas probabilidades de aprender esas aptitudes sin enseñanza constante e intensiva individualizada y especializada durante la mayor parte de los años escolares. Incluso con diversos métodos de adaptación y servicios adecuados en casa, en la escuela o en el lugar de trabajo, el individuo puede no ser capaz de realizar con eficacia todas las actividades.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 871,
+        "lineaFin": 935
+      }
+    },
+    {
+      "clave": "procedimientos_registro",
+      "claveOriginal": "procedimientos de registro",
+      "titulo": "Procedimientos de registro",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se registrará cada una de las áreas académicas y subaptitudes afectadas por el trastorno de aprendizaje específico. Debido a los requisitos de codificación de la CIE, se codificarán y registrarán por separado las dificultades para la lectura, la expresión escrita y las matemáticas, junto con sus deficiencias correspondientes de subaptitudes. Por ejemplo, las dificultades para la lectura y las matemáticas, y las deficiencias en las subaptitudes de velocidad o fluidez de lectura, comprensión de la lectura, cálculo correcto o fluido y razonamiento matemático correcto se codificarán y registrarán como F81.0 trastorno de aprendizaje específico con dificultades en la lectura, con dificultades de la velocidad y la fluidez de lectura y dificultad de comprensión de la lectura; F81.2 trastorno del aprendizaje específico con dificultad matemática, con dificultad del cálculo correcto o fluido y dificultad de razonamiento matemático correcto."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 937,
+        "lineaFin": 939
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno específico del aprendizaje es un trastorno del neurodesarrollo con un origen biológico que es la base de las anormalidades a nivel cognitivo que están asociadas a los signos conductuales del trastorno. El origen biológico incluye una interacción de factores genéticos, epigenéticos y ambientales que afectan a la capacidad del cerebro para percibir o procesar información, verbal o no verbal, eficientemente y con precisión."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Una característica principal del trastorno específico del aprendizaje son las dificultades persistentes para aprender aptitudes académicas esenciales (Criterio A) que surgen durante los años escolares (es decir, el período de desarrollo). Entre las aptitudes académicas esenciales se incluyen la lectura de palabras sueltas con precisión y fluidez, la comprensión de la lectura, la expresión escrita y la ortografía, el cálculo aritmético y el razonamiento matemático (resolver problemas matemáticos). A diferencia de hablar o caminar, que son hitos del desarrollo adquiridos que surgen con la maduración cerebral, las aptitudes académicas (p. ej., leer, deletrear, escribir, las matemáticas) tienen que ser explicitamente enseñadas y aprendidas. El trastorno específico del aprendizaje interrumpe el patrón normal de aprendizaje de las aptitudes académicas; no es simplemente una consecuencia de la falta de oportunidades para aprender ni de una instrucción insuficiente. Las dificultades para dominar estas aptitudes académicas clave también pueden impedir el aprendizaje de otras asignaturas académicas (p. ej., historia, ciencias, estudios sociales), pero estos problemas son atribuibles a las dificultades para aprender las aptitudes académicas básicas. Las dificultades para localizar letras con los sonidos de la lengua materna –para leer palabras escritas (frecuentemente llamada dislexia [trastorno específico del aprendizaje con dificultades en la lectura])– es una de las manifestaciones más frecuentes del trastorno específico del aprendizaje. Las dificultades para aprender se manifiestan como un abanico de comportamientos o síntomas observables y descriptibles (enumerados en los Criterios A1-A6). Estos síntomas clínicos pueden ser observados, probados en la entrevista clínica o determinados en los informes escolares, en las escalas de clasificación o en las descripciones de las evaluaciones educativas o psicológicas previas. Las dificultades para aprender son persistentes, no transitorias. En los niños y los adolescentes se define persistente como un progreso restringido del aprendizaje (es decir, no hay ningún indicio de que el niño esté alcanzando el nivel de sus compañeros) durante al menos 6 meses, a pesar de tener ayudas adicionales en casa o en el colegio. Por ejemplo, las dificultades para aprender a leer palabras sueltas que no mejoran completa o rápidamente con la enseñanza de aptitudes fonológicas o estrategias de identificación de palabras pueden indicar un trastorno específico del aprendizaje. Las pruebas de que existen problemas persistentes en el aprendizaje se pueden obtener a partir de los sucesivos informes escolares, las carpetas con trabajos evaluados del niño, las medidas (pruebas) basadas en el plan de estudios o la entrevista clínica. En los adultos, la dificultad persistente se refiere a dificultades constantes en las aptitudes relacionadas con la lectoescritura o la aritmética que se manifiestan durante la infancia o la adolescencia y pueden constatarse mediante los informes escolares, las carpetas de trabajos evaluados o las evaluaciones previas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Una segunda característica clave es que el rendimiento del individuo en las aptitudes académicas afectadas está bastante por debajo de lo esperado para la edad (Criterio B). Un indicador clínico importante de las dificultades para aprender aptitudes académicas son los logros académicos bajos para la edad o los logros académicos normales que solamente se sostienen con niveles extraordinariamente altos de esfuerzo o apoyo. En los niños, las aptitudes académicas bajas causan una interferencia significativa en el rendimiento escolar (indicado por los informes escolares y las notas o calificaciones del profesor). Otro indicador clínico, particularmente en los adultos, es la evitación de actividades que requieren aptitudes académicas. También en la edad adulta, las escasas aptitudes académicas interfieren en el rendimiento laboral o en las actividades cotidianas que requieren estas aptitudes (indicado por el propio paciente o por terceros). Sin embargo, este criterio también requiere datos psicométricos procedentes de una prueba sobre logros académicos administrada individualmente, psicométricamente válida y culturalmente apropiada, y que esté referida a la normalidad o a determinados criterios. Las aptitudes académicas están distribuidas en un continuo y, por lo tanto, no hay un punto claro que se pueda utilizar como referencia para diferenciar a los individuos con y sin trastorno específico del aprendizaje. Así pues, cualquier umbral que se utilice para especificar qué constituyen logros académicos significativamente bajos (p. ej., aptitudes académicas bastante por debajo de las expectativas propias de la edad) será, en gran parte, arbitrario. Se necesitan resultados bajos en una o más pruebas o subpruebas dentro de un dominio académico (es decir, por lo menos 1,5 desviaciones estándar [DE] por debajo del promedio de la población de la misma edad, lo que equivale a una puntuación estándar de 78 o menos y se sitúa por debajo del percentil 7) para conseguir la mayor certeza diagnóstica. No obstante, las puntuaciones exactas variarán según las pruebas normalizadas que se utilicen. Basándose en la valoración clínica, se puede utilizar un umbral menos estricto (p. ej., 1,0 DE por debajo del promedio de la población de la misma edad) cuando los problemas de aprendizaje se apoyan en datos coincidentes de la evaluación clínica, la historia académica, los informes escolares y los resultados de pruebas. Además, como las pruebas estandarizadas no están disponibles en todos los idiomas, el diagnóstico se puede basar, en parte, en la valoración clínica de los resultados obtenidos con las medidas (pruebas) disponibles."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Una tercera característica clave es que las dificultades del aprendizaje son muy evidentes en los primeros años escolares en la mayoría de los individuos (Criterio C). Sin embargo, en otros, las dificultades del aprendizaje pueden no manifestarse totalmente hasta cursos escolares posteriores, cuando las exigencias de aprendizaje aumentan y superan las capacidades limitadas del individuo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otra característica diagnóstica clave es que las dificultades del aprendizaje se consideran \"específicas\" por cuatro razones. Primera, no se explican mejor por trastornos del desarrollo intelectual (trastorno de desarrollo intelectual [discapacidad intelectual]; retraso general del desarrollo); trastornos auditivos o visuales, o trastornos neurológicos o motores (Criterio D). El trastorno específico del aprendizaje afecta al aprendizaje de individuos que, en otros aspectos, muestran niveles normales de funcionamiento intelectual (generalmente estimado mediante una puntuación de CI por encima de 70, aproximadamente"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[±5 puntos para compensar los errores de medición]). Se cita mucho la frase \"bajo rendimiento académico inesperado\" como la característica definitoria del trastorno específico del aprendizaje, ya que las discapacidades específicas del aprendizaje no son parte de un problema general para aprender, como se manifiesta en el trastorno del desarrollo intelectual o en el retraso global del desarrollo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En segundo lugar, las dificultades del aprendizaje no se pueden atribuir a factores externos más generales, como la mala situación económica o ambiental, el absentismo crónico o la falta de estudios, presentes en el contexto social del individuo. En tercer lugar, las dificultades del aprendizaje no pueden atribuirse a trastornos neurológicos (p. ej., ictus infantil) o motores, ni a trastornos visuales o auditivos, que muchas veces se asocian a problemas con las aptitudes académicas pero que son distinguibles por la presencia de signos neurológicos. Por último, la dificultad del aprendizaje puede restringirse a una sola aptitud o un solo dominio académico (p. ej., leer palabras sueltas, recordar o calcular datos numéricos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno específico del aprendizaje también puede aparecer en individuos identificados como \"dotados\" intelectualmente. Estos individuos pueden ser capaces de mantener un rendimiento académico aparentemente adecuado mediante el uso de estrategias compensatorias, esfuerzos extraordinariamente grandes o apoyos, hasta que las demandas o los procedimientos de evaluación del aprendizaje (p. ej., exámenes cronometrados) les impiden demostrar lo aprendido o cumplir las tareas requeridas. En estos casos, las calificaciones del individuo serán bajas en comparación con las capacidades y logros en otros ámbitos más que con la media de rendimiento de la población."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Es necesaria una evaluación exhaustiva. El trastorno específico del aprendizaje solamente puede ser diagnosticado una vez que empieza la educación formal, pero se puede diagnosticar después, en cualquier momento, en los niños, los adolescentes o los adultos siempre que haya constancia de su inicio durante los años de educación formal (es decir, el período de desarrollo). Ninguna fuente única de datos es suficiente para el diagnóstico del trastorno específico del aprendizaje. En cambio, el trastorno específico del aprendizaje es un diagnóstico clínico basado en una síntesis de los antecedentes médicos, del desarrollo, educativos y familiares del individuo; la historia de la dificultad de aprendizaje, incluida su manifestación previa y actual; la repercusión que la dificultad tiene en el funcionamiento académico, laboral o social; los informes escolares previos o actuales; las carpetas de trabajos que requieren aptitudes académicas; las evaluaciones basadas en el plan de estudios, y las puntuaciones previas o actuales de pruebas normalizadas para medir los logros académicos. Si se sospecha un trastorno intellectual, sensorial, neurológico o motor, la evaluación del trastorno específico del aprendizaje también debería incluir métodos apropiados para estos trastornos. Por tanto, la evaluación exhaustiva implicará a profesionales con experiencia en el trastorno específico del aprendizaje y una evaluación psicológica/cognitiva. Como el trastorno específico del aprendizaje persiste normalmente en la edad adulta, raramente es necesario realizar una reevaluación, a no ser que se hayan producido cambios marcados en las dificultades del aprendizaje (mejora o empeoramiento) o que se pida con fines específicos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 941,
+        "lineaFin": 961
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los síntomas del trastorno específico del aprendizaje (dificultades con aspectos de la lectura, la escritura o las matemáticas) frecuentemente, pero no siempre, concurren. Es frecuente un perfil de aptitudes desiguales, como, por ejemplo, una combinación de aptitudes excepcionales para el dibujo, el diseño u otras áreas visoespaciales, y una lectura lenta, con esfuerzo e imprecisa, una comprensión escasa de la lectura y una expresión escrita deficiente. En los años preescolares, el trastorno específico del aprendizaje va precedido a menudo, pero no invariablemente, de retrasos de la atención, el lenguaje o las habilidades motoras que pueden persistir y concurrir con el trastorno específico del aprendizaje."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los individuos con trastorno específico del aprendizaje normalmente (pero no siempre) muestran resultados bajos en las pruebas psicológicas del procesamiento cognitivo. Sin embargo, aún no está claro si estas anormalidades cognitivas son la causa, el correlato o la consecuencia de las dificultades de aprendizaje. Las deficiencias cognitivas asociadas a las dificultades para aprender a leer palabras están bien documentadas y se conocen cada vez mejor los déficits cognitivos asociados a la dificultad para adquirir habilidades matemáticas; sin embargo, los déficits cognitivos asociados a otras manifestaciones del trastorno específico del aprendizaje (p. ej., la comprensión lectora, la expresión escrita) están poco específicadas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque hay déficits cognitivos individuales que contribuyen especialmente a cada uno de los síntomas del trastorno específico del aprendizaje, algunos déficits cognitivos son comunes a los distintos subtipos del trastorno específico del aprendizaje (p. ej., la velocidad de procesamiento) y pueden contribuir a la concurrencia sintomática del trastorno específico del aprendizaje. La naturaleza concurrente de los síntomas del trastorno específico del aprendizaje y los déficits cognitivos compartidos por los diferentes subtipos del trastorno específico del aprendizaje sugieren un sustrato de mecanismos biológicos comunes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Así, se observa que individuos con síntomas conductuales o resultados de pruebas parecidos presentan deficits cognitivos diversos y que muchas de estas deficiencias de procesamiento se encuentran también en otros trastornos del neurodesarrollo (p. ej., trastorno por deficit de atención/ hiperactividad [TDAH], trastorno del espectro autista, trastornos de la comunicación, trastorno del desarrollo de la coordinación)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Como grupo, los individuos con este trastorno muestran alteraciones circunscritas en el procesamiento cognitivo y en la estructura y la función cerebrales. También son evidentes a nivel de grupo las diferencias genéticas. Sin embargo, para hacer el diagnóstico, en este momento ni son útiles las pruebas cognitivas, las técnicas de neuroimagen y las pruebas genéticas, ni se requiere evaluar las deficiencias del procesamiento cognitivo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 963,
+        "lineaFin": 973
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La prevalencia del trastorno específico del aprendizaje en las áreas académicas de la lectura, la expresión escrita y las matemáticas es del 5-15 % en los niños de edad escolar de Brasil, Irlanda del Norte y Estados Unidos. La prevalencia en los adultos es desconocida."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 975,
+        "lineaFin": 977
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El inicio, el reconocimiento y el diagnóstico del trastorno específico del aprendizaje normalmente se producen durante los años de la educación primaria, cuando los niños tienen que aprender a leer, deletrear, escribir y calcular. Sin embargo, en la primera infancia se observan frecuentemente algunos precursos, como los retrasos o las deficiencias del lenguaje, las dificultades para rimar o contar, y las dificultades con las habilidades motoras finas que son necesarias para escribir, antes de comenzar la instrucción formal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las manifestaciones pueden ser conductuales (p. ej., resistencia a participar en el aprendizaje, conducta negativista). El trastorno específico del aprendizaje dura toda la vida, pero el curso y la expresión clínica son variables, dependiendo, en parte, de la interacción entre las exigencias que plantean las tareas del entorno, la variedad y gravedad de las dificultades de aprendizaje del individuo, las aptitudes de aprendizaje del individuo, la comorbilidad y los sistemas de apoyo e intervención disponibles. No obstante, los problemas de fluidez y comprensión de la lectura, con la ortografía, de expresión escrita y con las aptitudes numéricas cotidianas persisten normalmente en la edad adulta."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La manifestación de los síntomas puede cambiar con la edad y, por tanto, los problemas de aprendizaje del individuo pueden persistir o cambiar a lo largo de la vida. Los adultos con trastorno específico del aprendizaje parecen tener limitaciones y restricciones en las actividades y la participación en los ámbitos de la comunicación, de las interacciones interpersonales y comunitarias, y de la vida social y cívica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ejemplos de los síntomas que se pueden observar en los niños de edad preescolar son la falta de interés por jugar con los sonidos del lenguaje (p. ej., repeticiones, rimas) y la dificultad para aprender versos infantiles. Los niños preescolares con trastorno específico del aprendizaje pueden utilizar frecuentemente el balbuceo infantil, pronunciar mal las palabras y tener problemas para recordar los nombres de las letras, los números o los días de la semana. Pueden no reconocer letras en sus propios nombres y tener problemas para aprender a contar. Los niños de 5-6 años con trastorno específico del aprendizaje pueden ser incapaces de reconocer o escribir letras, pueden ser incapaces de escribir su propio nombre o pueden usar de forma persistente deletreos inventados más allá de los marcos temporales típicos del desarrollo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Pueden tener problemas para separar en sílabas las palabras habladas (p. ej., \"conde\" en \"con\" y \"de\") y problemas para reconocer palabras que riman (p. ej., gato, pato, rato). Los niños de 5-6 años también pueden tener problemas para conectar las letras con sus sonidos (p. ej., la letra b hace el sonido /b/) y pueden ser incapaces de reconocer fonemas (p. ej., no saben, en un grupo de palabras [perro, mapa, gafas], cuál empieza con el mismo sonido que \"gato\")."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno específico del aprendizaje en los niños con edad de ir a la escuela primaria se manifiesta típicamente como una dificultad marcada para aprender las correlaciones letra-sonido (particularmente en los niños angloparlantes), como una descodificación fluida de las palabras, de la ortografía o de los datos matemáticos; la lectura en voz alta es lenta, imprecisa y con esfuerzo, y algunos niños tienen problemas para entender la magnitud que representa un número hablado o escrito. Los niños en los cursos iniciales de primaria (de $1^{\\circ}$ a $3^{\\circ}$) pueden continuar con problemas para reconocer y manipular fonemas y ser incapaces de leer palabras comunes de una sola sílaba (como sal o dos) y de reconocer palabras comunes que se deletrean de forma irregular (p. ej., en inglés \"said, two\"). Se pueden cometer errores que indiquen problemas para conectar sonidos y letras (p. ej., \"las\" por \"sal\") y tener dificultades para poner números y letras en orden secuencial. Los niños de los cursos $1^{\\circ}$ a $3^{\\circ}$ también pueden tener dificultades para recordar datos numéricos o las operaciones aritméticas de sumar, restar, etc., y pueden también quejarse de que la lectura y la aritmética son dificiles y evitar hacerlas. Los niños con trastorno específico del aprendizaje de los cursos medios (cursos $4^{\\circ}$-$6^{\\circ}$) pueden pronunciar mal o saltarse partes de las palabras largas con múltiples silabas (p. ej., decir \"conible\" para \"convertible\", \"aminal\" por \"animal\") y confundir palabras que suenan parecidas (p. ej., \"tornado\" con \"soldado\"). Pueden tener problemas para recordar fechas, nombres y números de teléfono, y pueden tener dificultades para acabar los deberes o los exámenes a tiempo. Los niños de los cursos medios también pueden tener una mala comprensión con o sin lectura lenta, con esfuerzo e imprecisa, y pueden tener problemas para leer palabras funcionales pequeñas (p. ej., eso, el, un, en). También pueden deletrear muy mal y hacer trabajos escritos de baja calidad. Pueden acertar la primera parte de una palabra y después adivinarla de forma aleatoria (p. ej., leer \"reto\" como \"reloj\") y pueden expresar miedo a leer en voz alta o negarse a hacerlo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En cambio, los adolescentes pueden haber dominado la descodificación de las palabras, pero la lectura sigue siendo lenta y con esfuerzo, y es probable que muestren problemas marcados en la comprensión lectora y en la expresión escrita (incluida una mala ortografía), y falta de dominio de los datos matemáticos o en la resolución de problemas matemáticos. Durante la adolescencia y la vida adulta, los individuos con trastorno específico del aprendizaje pueden seguir cometiendo muchos errores de ortografía y leyendo las palabras sueltas y el texto corrido lentamente, con mucho esfuerzo y con problemas para pronunciar palabras con múltiples sílabas. Pueden necesitar releer el material frecuentemente para entender la idea principal y tienen problemas para hacer inferencias a partir de un texto escrito. Los adolescentes y los adultos pueden evitar las actividades que requieran la lectura o la aritmética (leer por placer, leer instrucciones). Los adultos con trastorno específico del aprendizaje tienen problemas duraderos con la ortografía, una lectura lenta y con esfuerzo, y problemas para hacer inferencias a partir de los datos numéricos de los documentos escritos relacionados con el trabajo. Pueden evitar las actividades de ocio y laborales que requieran leer o escribir, o utilizar métodos alternativos para acceder a los textos (p. ej., un software que convierte texto en voz/voz en texto, audiolibros, medios audiovisuales)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Una expresión clínica alternativa son las dificultades de aprendizaje circunscritas que persisten durante toda la vida, como la incapacidad para dominar el sentido básico de los números (p. ej., saber cuál de dos números o puntos representa más magnitud) o la falta de dominio para deletrear o identificar palabras. La evitación o la resistencia a participar en actividades que requieren aptitudes académicas es frecuente en los niños, los adolescentes y los adultos. Los individuos con escasas habilidades lectoras y matemáticas es más probable que refieran malestar socioemocional (p. ej., tristeza, soledad) al ir avanzando en la educación primaria."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los episodios de ansiedad grave o de trastornos de ansiedad, con quejas somáticas o ataques de pánico, son frecuentes durante toda la vida y acompañan tanto a la expresión circunscrita como a la expresión más amplia de las dificultades del aprendizaje."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 979,
+        "lineaFin": 997
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Ambiental. Hay factores ambientales, incluidas las condiciones socioeconómicas (p. ej., nivel socioeconómico bajo) y la exposición a neurotóxicos, que elevan el riesgo del trastorno específico del aprendizaje o las dificultades lectoras y matemáticas. Entre los riesgos del trastorno específico del aprendizaje o las dificultades lectoras y matemáticas se encuentra la exposición prenatal o posnatal precoz a cualquiera de los siguientes: contaminación del aire, nicotina, éteres difenílicos polibromados o bifenilos policlorados (ignífugos), plomo y manganeso."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Genético y fisiológico. El trastorno específico del aprendizaje parece agregarse en familias, sobre todo si afecta a la lectura, matemáticas y ortografía. El riesgo relativo del trastorno específico del aprendizaje en la lectura o las matemáticas es sustancialmente más alto (p. ej., 4-8 veces y 5-10 veces más alto, respectivamente) en los familiares de primer grado de los individuos con estas dificultades de aprendizaje en comparación con los individuos que no las tienen. En particular, las tasas varian según el método usado para confirmar el estado diagnóstico de los progenitores (pruebas objetivas o autorreporte). Los antecedentes familiares de dificultades para la lectura (dislexia) y en las habilidades de lectoescritura de los padres predicen los problemas de lectoescritura o el trastorno específico del aprendizaje en los hijos, lo que indica una intervención combinada de factores genéticos y ambientales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Hay una heredabilidad alta tanto para las aptitudes de lectura como para las discapacidades de la lectura en las lenguas alfabéticas y no alfabéticas, incluida una alta heredabilidad para la mayoría de las manifestaciones de aptitudes y discapacidades del aprendizaje (p. ej., valores de estimación de heredabilidad de más de 0,6). La covariación entre las diferentes manifestaciones de las dificultades del aprendizaje es alta, lo que indica que los genes relacionados con una presentación se correlacionan en gran medida con los genes relacionados con otras manifestaciones."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El parto pretérmino y el peso muy bajo al nacer son factores de riesgo del trastorno específico del aprendizaje. En los individuos con neurofibromatosis de tipo 1, el riesgo del trastorno específico del aprendizaje es alto, presentando algún trastorno del aprendizaje hasta el 75 % de los individuos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Modificadores del curso. Los problemas marcados de comportamientos inatentos, internalizantes y externalizantes en los años preescolares predicen dificultades más tardías en la lectura y las matemáticas (pero no necesariamente el trastorno específico del aprendizaje), y falta de respuesta a las intervenciones académicas eficaces. El deterioro del lenguaje en los años preescolares se asociafuertemente a deterioros posteriores en la lectura (p. ej., lectura de palabras, comprensión lectora). Por ejemplo, el retraso o los trastornos del habla o del lenguaje, o el deterioro del procesamiento cognitivo (p. ej., conciencia fonológica, memoria de trabajo, denominación de una serie rápida) pueden predecir un posterior trastorno específico del aprendizaje para la lectura y la expresión escrita. Además, un diagnóstico de TDAH en la infancia se asocia a bajo rendimiento de lectura o matemáticas en la edad adulta. La comorbilidad con el TDAH predice un peor resultado de salud mental que la asociada al trastorno específico del aprendizaje sin TDAH. Una enseñanza sistemática, intensiva e individualizada mediante intervenciones basadas en datos científicos podría mejorar o disminuir las dificultades del aprendizaje en algunos individuos o promover el uso de estrategias compensatorias en otros, y así mitigar resultados que de lo contrario serían malos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 999,
+        "lineaFin": 1009
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno específico del aprendizaje se produce en los diferentes ámbitos lingüísticos y etnorraciales, y en todos los contextos socioeconómicos, aunque su manifestación puede variar según la naturaleza de los sistemas simbólicos hablados y escritos, y según las prácticas culturales y educativas. Por ejemplo, los requisitos del procesamiento cognitivo de la lectura y del trabajo con números varián mucho en las diferentes ortografías. En la lengua inglesa, el clásico síntoma clínico observable de la dificultad para aprender a leer es la lectura imprecisa y lenta de palabras sueltas; en otras lenguas alfabéticas (p. ej., el castellano, el alemán) y en las lenguas no alfabéticas (p. ej., el chino, el japonés), el síntoma clásico es la lectura lenta pero precisa. En las personas que están aprendiendo inglés, la evaluación debería incluir la consideración de si el origen de las dificultades para leer es un dominio limitado del inglés o un trastorno específico del aprendizaje. Los factores de riesgo para el trastorno específico del aprendizaje en las personas que están aprendiendo inglés son los antecedentes familiares de un trastorno específico del aprendizaje o un retraso del lenguaje en la lengua materna, además de las dificultades y los déficits de memoria fonológica con el inglés y la incapacidad de alcanzar el nivel de los compañeros. Si se sospecha que hay diferencias de cultura o de lengua (p. ej., alguien que aprende inglés se ve influido por un dominio del inglés limitado), la evaluación tiene que tener en cuenta el dominio que tiene el individuo de su primera lengua o lengua materna, además del de la segunda lengua (en este ejemplo, el inglés). Lo importante es que los niños que hablan una lengua en casa que difiere fonológicamente de la lengua de la enseñanza académica no tienen más probabilidades de presentar deficiencias fonológicas que sus compañeros que hablan la misma lengua en casa y en el colegio. Las dificultades de lectura concurrentes pueden variar en las distintas lenguas; por ejemplo, las dificultades de lectura son menos frecuentes entre los niños con trastorno del desarrollo de la coordinación que leen en chino en Taiwán que entre los niños de los países angloparlantes, posiblemente debido a las características de las dos lenguas escritas (logográfica frente a alfabética). La evaluación podría considerar también el contexto lingüístico y cultural en el que vive el individuo, además de su historia educativa y de aprendizaje en el contexto lingüístico cultural original. Entre los factores de riesgo de presentar problemas de aprendizaje de los niños refugiados e inmigrantes están los estereotipos y bajas expectativas de los docentes, el acoso de los compañeros, la discriminación étnica y racializada, los malentendidos parentales sobre los estilos y expectativas de la educación, los traumas y los factores de estrés posmigratorio."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1011,
+        "lineaFin": 1015
+      }
+    },
+    {
+      "clave": "sexo_genero",
+      "claveOriginal": "aspectos diagnosticos relacionados con el sexo y el genero",
+      "titulo": "Aspectos diagnósticos relacionados con el sexo y el género",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno específico del aprendizaje es más frecuente en el sexo masculino que en el femenino (las proporciones varian entre aproximadamente 2:1 y 3:1) y no puede atribuirse a factores como los sesgos de evaluación, las variaciones en la definición o las diferencias de medidas, lengua, contexto etnorracial o nivel socioeconómico. Las diferencias sexuales de la dislexia (trastorno específico del aprendizaje con dificultad en la lectura) podrían estar parcialmente mediadas por la velocidad de procesamiento."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1017,
+        "lineaFin": 1019
+      }
+    },
+    {
+      "clave": "suicidio",
+      "claveOriginal": "asociacion con pensamientos o conductas suicidas",
+      "titulo": "Asociación con pensamientos o conductas suicidas",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En adolescentes de escuelas públicas de Estados Unidos de 15 años de edad, la baja capacidad de lectura se asoció a pensamientos y conductas suicidas al compararlos con adolescentes con puntuaciones típicas de lectura, incluso después de controlar las variables sociodemográficas y psiquiátricas. En un estudio poblacional de adultos en Canadá, la prevalencia vitalicia de los intentos de suicidio entre aquellos con trastorno específico del aprendizaje fue mayor que entre aquellos otros sin trastorno específico del aprendizaje, incluso después de ajustar la adversidad infantil, los antecedentes de patología mental y consumo de sustancias, y los factores sociodemográficos. En aquellos con trastorno específico del aprendizaje, el antecedente de ser testigos de violencia doméstica parental crónica y de haber tenido alguna vez un trastorno depresivo mayor se asoció a un mayor riesgo de conducta suicida."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1021,
+        "lineaFin": 1023
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno especifico del aprendizaje",
+      "titulo": "Consecuencias funcionales del trastorno específico del aprendizaje",
+      "reconocida": true,
+      "orden": 10,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno específico del aprendizaje puede tener consecuencias funcionales negativas durante toda la vida, como logros académicos bajos, tasas más altas de abandono de la escuela secundaria, bajos porcentajes de educación postsecundaria, altos niveles de malestar psicológico y peor salud mental en general, tasas más altas de desempleo o infraempleo e ingresos más bajos. El abandono escolar y los síntomas depresivos concurrentes aumentan el riesgo de padecer problemas de salud mental, incluidos los pensamientos o conductas suicidas, mientras que unos niveles altos de apoyo social o emocional predicen mejores resultados de salud mental."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1025,
+        "lineaFin": 1027
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 11,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Variaciones normales en los logros académicos. El trastorno específico del aprendizaje se distingue de las variaciones normales en los logros académicos atribuibles a factores externos (p. ej., falta de oportunidades educativas, enseñanza sistematicamente mala, aprendizaje en una segunda lengua) en que las dificultades de aprendizaje persisten en presencia de las oportunidades educativas adecuadas, de una exposición a la misma formación que el grupo de compañeros, y de la competencia en la lengua académica, incluso si difiere de la lengua principal de uno."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del desarrollo intelectual (discapacidad intelectual). El trastorno específico del aprendizaje difiere de las dificultades de aprendizaje generales asociadas al trastorno del desarrollo intelectual porque las dificultades se producen en presencia de niveles normales de funcionamiento intelectual (es decir, una puntuación del CI de, al menos, $ 7 0 \\pm 5 $ ). Si existe un trastorno del desarrollo intelectual, el trastorno específico del aprendizaje solamente se puede diagnosticar cuando las dificultades de aprendizaje superan las que normalmente se asocian al trastorno del desarrollo intelectual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dificultades de aprendizaje debidas a trastornos neurológicos o sensoriales. El trastorno específico del aprendizaje se distingue de las dificultades de aprendizaje debidas a trastornos neurológicos o sensoriales (p. ej., ictus infantil, lesión cerebral traumática, discapacidad auditiva, discapacidad visual) porque en estos casos hay hallazgos anormales en la exploración neurológica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos neurocognitivos. El trastorno específico del aprendizaje se distingue de los problemas de aprendizaje asociados a trastornos cognitivos neurodegenerativos. En el trastorno específico del aprendizaje, la expresión clínica de las dificultades específicas se produce durante el período de desarrollo, lo que a veces se hace evidente solamente cuando las exigencias del aprendizaje crecen y sobrepasan las capacidades limitadas del individuo (como puede ocurrir en la etapa adulta) y no se manifiestan como un empeoramiento marcado de un estado anterior."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno por déficit de atención/hiperactividad. El trastorno específico del aprendizaje se distingue del rendimiento académico bajo asociado al TDAH porque, en esta última afección, los problemas pueden no reflejar necesariamente dificultades específicas para aprender aptitudes académicas, sino dificultades para utilizar esas aptitudes. Sin embargo, la concurrencia del trastorno específico del aprendizaje y el TDAH es más frecuente de lo esperado por efecto del azar. Si se cumplen los criterios de los dos trastornos, se pueden dar los dos diagnósticos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos psicóticos. El trastorno específico del aprendizaje se distingue de las dificultades académicas y del procesamiento cognitivo asociadas a la esquizofrenia u otros trastornos psicóticos porque en estos trastornos hay una pérdida (muchas veces rápida) de estos dominios funcionales. Sin embargo, las deficiencias de la capacidad lectora son más graves en el trastorno específico del aprendizaje de lo que cabría predecir partiendo de los deterioros cognitivos generales asociados a la esquizofrenia. Si se cumplen los criterios de ambos trastornos, pueden hacerse los dos diagnósticos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1029,
+        "lineaFin": 1045
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 12,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los distintos tipos de trastorno específico del aprendizaje concurren habitualmente entre sí. (p. ej., trastorno específico del aprendizaje con dificultad matemática y con dificultad en la lectura) y con otros trastornos del neurodesarrollo (p. ej., TDAH, trastornos de la comunicación, trastorno del desarrollo de la coordinación, trastorno del espectro autista), otros trastornos mentales (p. ej., trastornos de ansiedad y depresivos) o problemas conductuales. En particular, las estimaciones de la comorbilidad entre las dificultades matemáticas y lectoras varián según las pruebas empleadas para definir la dificultad matemática, probablemente porque un mismo síntoma (p. ej., problemas aritméticos) puede ir asociado a diferentes deficits cognitivos (p. ej., un déficit en las habilidades lingüísticas o un déficit en el procesamiento numérico). Esta comorbilidad no excluye necesariamente el diagnóstico de trastorno específico del aprendizaje, pero sí puede dificultar la realización de pruebas y el diagnóstico diferencial, porque cada uno de los trastornos concurrentes interfiere independientemente en la realización de las actividades cotidianas, incluido el aprendizaje. Por tanto, es necesaria la valoración clínica para atribuir tales deterioros a las dificultades de aprendizaje. Si hay alguna indicación de que otro diagnóstico pudiera explicar las dificultades para aprender las aptitudes académicas esenciales que se describen en el Criterio A, no se debería diagnosticar el trastorno específico del aprendizaje."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1047,
+        "lineaFin": 1049
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [
+      {
+        "id": "and:trastorno-especifico-del-aprendizaje:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno específico del aprendizaje — Criterio A",
+        "reverso": "Dificultad en el aprendizaje y en la utilización de las aptitudes académicas, evidenciado por la presencia de al menos uno de los siguientes síntomas que han persistido por lo menos durante 6 meses, a pesar de intervenciones dirigidas a estas dificultades:\n1. Lectura de palabras imprecisa o lenta y con esfuerzo (p. ej., lee palabras sueltas en voz alta incorrectamente o con lentitud y vacilación, con frecuencia adivina palabras, dificultad para expresar bien las palabras).\n2. Dificultad para comprender el significado de lo que lee (p. ej., puede leer un texto con precisión pero no comprende la oración, las relaciones, las inferencias o el sentido profundo de lo que lee).\n3. Dificultades ortográficas (p. ej., puede añadir, omitir o sustituir vocales o consonantes).\n4. Dificultades con la expresión escrita (p. ej., hace múltiples errores gramaticales o de puntuación en una oración; organiza mal el párrafo; la expresión escrita de ideas no es clara).\n5. Dificultades para dominar el sentido numérico, los datos numéricos o el cálculo (p. ej., comprende mal los números, su magnitud y sus relaciones; cuenta con los dedos para sumar números de un solo dígito en lugar de recordar la operación matemática como hacen sus iguales; se pierde en el cálculo aritmético y puede intercambiar los procedimientos).\n6. Dificultades con el razonamiento matemático (p. ej., tiene gran dificultad para aplicar los conceptos, hechos u operaciones matemáticas para resolver problemas cuantitativos).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-especifico-del-aprendizaje:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno específico del aprendizaje — Criterio B",
+        "reverso": "Las aptitudes académicas afectadas están sustancialmente y en grado cuantificable por debajo de lo esperado para la edad cronológica del individuo, e interfieren significativamente con el rendimiento académico o laboral, o con actividades de la vida cotidiana, que se confirman con medidas (pruebas) estandarizadas administradas individualmente y una evaluación clínica integral. En individuos de 17 y más años, la historia documentada de las dificultades del aprendizaje se puede sustituir por la evaluación estandarizada.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-especifico-del-aprendizaje:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno específico del aprendizaje — Criterio C",
+        "reverso": "Las dificultades de aprendizaje comienzan en la edad escolar, pero pueden no manifestarse totalmente hasta que las demandas de las aptitudes académicas afectadas superan las capacidades limitadas del individuo (p. ej., en exámenes cronometrados, la lectura o escritura de informes complejos y largos para una fecha limite inaplazable, tareas académicas excesivamente pesadas).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-especifico-del-aprendizaje:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno específico del aprendizaje — Criterio D",
+        "reverso": "Las dificultades de aprendizaje no se explican mejor por discapacidades intelectuales, trastornos visuales o auditivos no corregidos, otros trastornos mentales o neurológicos, adversidad psicosocial, falta de dominio en el lenguaje de instrucción académica o directrices educativas inadecuadas.\nSe han de cumplir los cuatro criterios diagnósticos basándose en una síntesis clínica de la historia del individuo (del desarrollo, médica, familiar, educativa), informes escolares y evaluación psicoeducativa.\nEspecificar todas las áreas académicas y subaptitudes alteradas. Cuando más de un área está alterada, cada una de ellas se codificará individualmente de acuerdo con los siguientes específicadores:",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-especifico-del-aprendizaje:codigo:F81.0",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno específico del aprendizaje — código de «Con dificultades en la lectura:»",
+        "reverso": "F81.0",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastorno-especifico-del-aprendizaje:codigo:F81.81",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno específico del aprendizaje — código de «Con dificultad en la expresión escrita:»",
+        "reverso": "F81.81",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastorno-especifico-del-aprendizaje:codigo:F81.2",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno específico del aprendizaje — código de «Con dificultad matemática:»",
+        "reverso": "F81.2",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+        "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-por-deficit-de-atencion-hiperactividad",
+        "nombre": "Trastorno por déficit de atención/hiperactividad",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 869,
+    "lineaFin": 1050
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (3)",
+      "textoLiteral": null,
+      "linea": 869
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo",
+  "nombre": "Trastorno de la fluidez de inicio en la infancia (tartamudeo)",
+  "nombreCorto": "Trastorno de la fluidez de inicio en la infancia",
+  "sinonimos": [
+    "tartamudeo",
+    "Tartamudeo"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F80.81",
+    "cie10": "F80.81",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-de-la-comunicacion",
+    "nombre": "Trastornos de la comunicación"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 5,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo-criterios",
+              "nombre": null,
+              "codigo": "F80.81",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Alteraciones de la fluidez y la organización temporal normales del habla que son inadecuadas para la edad del individuo y las habilidades de lenguaje, persisten con el tiempo y se caracterizan por la aparición frecuente y notable de uno (o más) de los siguientes factores:",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Repetición de sonidos y silabas.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Prolongación de sonido de consonantes y de vocales.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Palabras fragmentadas (p. ej., pausas en medio de una palabra).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Bloqueo audible o silencioso (pausas en el habla, llenas o vacias).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.5",
+                      "etiqueta": "5",
+                      "tipo": "criterio",
+                      "texto": "Circunloquios (sustitución de palabras para evitar palabras problemáticas).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.6",
+                      "etiqueta": "6",
+                      "tipo": "criterio",
+                      "texto": "Palabras producidas con un exceso de tensión física.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.7",
+                      "etiqueta": "7",
+                      "tipo": "criterio",
+                      "texto": "Repetición de palabras completas monosilábicas (p. ej., \"YoYo-YoYo lo veo\").",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "La alteración causa ansiedad al hablar o limitaciones en la comunicación eficaz, la participación social, el rendimiento académico o laboral de forma individual o en cualquier combinación.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "El inicio de los síntomas se produce en las primeras fases del período de desarrollo. (Nota: Los casos de inicio más tardio se diagnostican como F98.5 trastorno de la fluidez de inicio en el adulto.)",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "La alteración no se puede atribuir a un déficit motor o sensitivo del habla, disfluencia asociada a un daño neurológico (p. ej., ictus, tumor, traumatismo) o a otra afección médica, y no se explica mejor por otro trastorno mental.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 313,
+        "lineaFin": 337
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La característica principal del trastorno de la fluidez de inicio en la infancia (tartamudeo) es una alteración de la fluidez y la organización temporal del habla que no se corresponde con la edad del individuo. La alteración se caracteriza por la repetición frecuente o la prolongación de ciertos sonidos o sílabas y otras alteraciones de la fluidez, como palabras fragmentadas (p. ej., pausas en medio de una palabra), bloqueo audible o silencioso (es decir, pausas en el habla, llenas o vacías), circunloquios (es decir, sustitucion de palabras para evitar palabras problemáticas), palabras producidas con exceso de tensión física y repeticiones de palabras completas monosilábicas (p. ej., \"Yo-Yo-Yo-Yo lo veo\"). La alteración de la fluidez puede interferir con el rendimiento académico u ocupacional y con la comunicación social. El alcance de la alteración varía en las distintas situaciones y a menudo es más grave cuando la comunicación está sujeta a algún tipo de presión (p. ej., hacer una presentación en el colegio, realizar una entrevista de trabajo). La disfluencia muchas veces está ausente durante la lectura oral y al cantar o hablar con objetos inanimados o mascotas."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 339,
+        "lineaFin": 341
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se puede desarrollar una anticipación temerosa del problema. El locutor puede intentar evitar las disfluencias mediante mecanismos lingüísticos (p. ej., alterando la velocidad del habla, evitando ciertas palabras o sonidos) o evitando ciertas situaciones, como telefonear o hablar en público. Además de ser características de la afección, se ha mostrado que el estrés y la ansiedad exacerban la disfluencia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno de la fluidez de inicio en la infancia también puede acompañarse de movimientos motores (p. ej., parpadeos de ojos, tics, temblores en los labios o la cara, sacudidas de la cabeza, movimientos de la respiración, apretar los puños). Los niños con trastorno de la fluidez muestran diferentes niveles de habilidades del lenguaje, y la relación entre el trastorno de la fluidez y las habilidades del lenguaje no está clara."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los estudios han mostrado diferencias neurológicas tanto estructurales como funcionales en los niños que tartamudean. Los varones tienen más probabilidades de tartamudear que las mujeres y las estimaciones varian dependiendo de la edad y la posible causa del tartamudeo. Las causas del tartamudeo son multifactoriales, incluidos ciertos factores genéticos y neurofisiológicos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 343,
+        "lineaFin": 349
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno de la fluidez de inicio en la infancia o tartamudeo del desarrollo se presenta antes de los 6 años en el 80-90 % de los individuos afectados, situándose la edad de inicio entre los 2 y 7 años. El inicio puede ser insidioso o más repentino. Típicamente, las disfluencias empiezan gradualmente con repetición de las consonantes iniciales, las primeras palabras de una frase o las palabras largas. El niño puede no ser consciente de estas alteraciones de la fluidez. Cuando el trastorno progresa, las disfluencias llegan a ser más frecuentes e interfieren más, ocurriendo en las palabras o frases más significativas de lo que se expresa. Cuando el niño llega a ser consciente de la dificultad para hablar, puede desarrollar mecanismos para evitar las disfluencias y las respuestas emocionales asociadas, evitando, por ejemplo, hablar en público y utilizando frases cortas y sencillas. Los estudios longitudinales muestran que un 65-85 % de los niños se recupera de la alteración de la fluidez, y la gravedad del trastorno de la fluidez a los 8 años predice la recuperación o la persistencia del trastorno durante la adolescencia y después."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 351,
+        "lineaFin": 355
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Genético y fisiológico. El riesgo de tartamudeo entre los familiares biológicos de primer grado de los individuos con trastorno de la fluidez de inicio en la infancia es más de tres veces mayor que el riesgo de la población general. A día de hoy se han identificado mutaciones de cuatro genes que subyacen en algunos casos de tartamudeo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 357,
+        "lineaFin": 359
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno de la fluidez de inicio en la infancia (tartamudeo)",
+      "titulo": "Consecuencias funcionales del trastorno de la fluidez de inicio en la infancia (tartamudeo)",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Además de ser características de la afección, el estrés y la ansiedad pueden exacerbar la disfluencia. La alteración del funcionamiento social puede ser el resultado de esta ansiedad. Las actitudes negativas referentes a la comunicación pueden ser consecuencia funcional del tartamudeo que aparece en los años preescolares y aumenta con la edad."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 361,
+        "lineaFin": 363
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Déficit sensitivo. Las disfluencias del habla pueden asociarse a una deficiencia auditiva u otro déficit sensitivo o motor del habla. Cuando las disfluencias del habla sobrepasan las que normalmente se asocian a estos problemas, se puede hacer el diagnóstico de trastorno de la fluidez de inicio en la infancia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Disfluencias normales del habla. El trastorno debe distinguirse de las disfluencias normales que ocurren frecuentemente en los niños pequeños, como repeticiones de palabras enteras o frases (p. ej., \"Yo quiero, yo quiero helado\"), frases incompletas, interjecciones, pausas vacías y comentarios aparte. Si estas dificultades aumentan en frecuencia o complejidad mientras el niño crece, el diagnóstico de trastorno de la fluidez de inicio en la infancia podría ser apropiado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno específico del aprendizaje, con dificultades en la lectura. A los niños que presentan disfluencias al leer en voz alta se les puede diagnosticar erróneamente un trastorno de la lectura. La fluidez oral al leer se mide típicamente mediante evaluaciones cronometradas. Las velocidades de lectura lentas podrían no reflejar con precisión la capacidad lectora real de los niños que tartamudean."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Bilingüismo. Es necesario distinguir las disfluencias resultantes del intento de aprender un idioma nuevo de las disfluencias indicativas de un trastorno de la fluidez, que típicamente aparecerían en los dos idiomas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Efectos secundarios de la medicación. El tartamudeo puede ocurrir como efecto secundario de una medicación, lo que puede detectarse por su relación temporal con la exposición a dicha medicación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Disfluencias de inicio en el adulto. Si el inicio de las disfluencias es durante la adolescencia o después de esta, se trata de una \"disfluencia de inicio en el adulto\", y no de un trastorno del neurodesarrollo. Las disfluencias de inicio en el adulto se asocian a daños neurológicos específicos y a diversas afecciones médicas y trastornos mentales, y pueden ser especificadas con ellos, aunque no constituyen un diagnóstico del DSM-5."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de la Tourette. Los tics vocales y las vocalizaciones repetitivas del trastorno de la Tourette deberían ser distinguibles de los sonidos repetitivos del trastorno de la fluidez de inicio en la infancia por su naturaleza y ritmo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 365,
+        "lineaFin": 379
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno de la fluidez de inicio en la infancia puede concurrir con otros trastornos, como el trastorno por déficit de atención con hiperactividad, el trastorno del espectro autista, el trastorno del desarrollo intelectual (discapacidad intelectual), el trastorno del lenguaje o trastorno específico del aprendizaje, los trastornos comiciales, el trastorno de ansiedad social, el trastorno del sonido del habla y otros trastornos del desarrollo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 381,
+        "lineaFin": 385
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno de la fluidez de inicio en la infancia (tartamudeo)»?",
+        "opciones": [
+          {
+            "id": "o0",
+            "texto": "F80.81"
+          },
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 311–388), el código es F80.81.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la fluidez de inicio en la infancia — Criterio A",
+        "reverso": "Alteraciones de la fluidez y la organización temporal normales del habla que son inadecuadas para la edad del individuo y las habilidades de lenguaje, persisten con el tiempo y se caracterizan por la aparición frecuente y notable de uno (o más) de los siguientes factores:\n1. Repetición de sonidos y silabas.\n2. Prolongación de sonido de consonantes y de vocales.\n3. Palabras fragmentadas (p. ej., pausas en medio de una palabra).\n4. Bloqueo audible o silencioso (pausas en el habla, llenas o vacias).\n5. Circunloquios (sustitución de palabras para evitar palabras problemáticas).\n6. Palabras producidas con un exceso de tensión física.\n7. Repetición de palabras completas monosilábicas (p. ej., \"YoYo-YoYo lo veo\").",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la fluidez de inicio en la infancia — Criterio B",
+        "reverso": "La alteración causa ansiedad al hablar o limitaciones en la comunicación eficaz, la participación social, el rendimiento académico o laboral de forma individual o en cualquier combinación.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la fluidez de inicio en la infancia — Criterio C",
+        "reverso": "El inicio de los síntomas se produce en las primeras fases del período de desarrollo. (Nota: Los casos de inicio más tardio se diagnostican como F98.5 trastorno de la fluidez de inicio en el adulto.)",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la fluidez de inicio en la infancia — Criterio D",
+        "reverso": "La alteración no se puede atribuir a un déficit motor o sensitivo del habla, disfluencia asociada a un daño neurológico (p. ej., ictus, tumor, traumatismo) o a otra afección médica, y no se explica mejor por otro trastorno mental.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno de la fluidez de inicio en la infancia (tartamudeo)",
+        "reverso": "F80.81",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-especifico-del-aprendizaje",
+        "nombre": "Trastorno específico del aprendizaje",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastornos-de-tics",
+        "nombre": "Trastornos de tics",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 311,
+    "lineaFin": 388
+  },
+  "advertencias": []
+}

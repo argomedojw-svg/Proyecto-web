@@ -1,0 +1,335 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-del-sonido-del-habla",
+  "nombre": "Trastorno del sonido del habla",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F80.0",
+    "cie10": "F80.0",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-de-la-comunicacion",
+    "nombre": "Trastornos de la comunicación"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 4,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-del-sonido-del-habla-criterios",
+              "nombre": null,
+              "codigo": "F80.0",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Dificultad persistente en la producción fonológica que interfiere con la inteligibilidad del habla o impide la comunicación verbal de mensajes.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "La alteración causa limitaciones en la comunicación eficaz, que interfiere con la participación social, los logros académicos o el desempeño laboral, de forma individual o en cualquier combinación.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "El inicio de los sintomas se produce en las primeras fases del periodo de desarrollo.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Las dificultades no se pueden atribuir a afecciones congénitas o adquiridas, como parálisis cerebral, paladar hendido, hipoacusia, traumatismo cerebral u otras afecciones médicas o neurológicas.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 263,
+        "lineaFin": 273
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La producción fonológica describe la articulación clara de los fonemas (es decir, los sonidos individuales) que se combinan para crear palabras habladas. La producción fonológica requiere tanto el conocimiento fonológico de los sonidos del habla como la habilidad de coordinar los movimientos de los articuladores (es decir, la mandíbula, la lengua y los labios) con la respiración y la vocalización del habla. Los niños con dificultades para la producción fonológica pueden presentar problemas de diferentes grados en el conocimiento fonológico de los sonidos hablados o en la habilidad para coordinar los movimientos del habla. El trastorno del sonido del habla se diagnostica cuando la producción de los sonidos del habla no es la que se esperaría de un niño para su edad y etapa de desarrollo, y cuando las deficiencias no son el resultado de una alteración física, estructural, neurológica o auditiva. En los niños de 3 años con desarrollo normal, el habla general debería ser inteligible, mientras que a los 2 años solo es comprensible el 50%. Los chicos tienen más probabilidades de tener un trastorno del sonido del habla que las chicas (rango de 1,5-1,8 frente a 1,0)"
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 275,
+        "lineaFin": 277
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del lenguaje puede concurrir con el trastorno del sonido del habla aunque esta comorbilidad es rara hacia los 6 años de edad. A menudo están presentes antecedentes familiares de trastornos del habla o del lenguaje."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si la capacidad de coordinar rápidamente los articuladores está claramente mermada, puede haber antecedentes de retraso o de incoordinación en la adquisición de las habilidades que también utilizan los articuladores y la musculatura facial relacionada; entre otras, estas habilidades incluyen masticar, mantener la boca cerrada y sonarse la nariz. Pueden estar alteradas otras áreas de coordinación motora, como en el trastorno del desarrollo de la coordinación. Los términos apraxia infantil y dispraxia verbal se utilizan para los problemas de la producción del habla con componentes motores."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 279,
+        "lineaFin": 283
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Aprender a producir los sonidos del habla claramente y con precisión, y aprender a producir un habla fluida son habilidades del desarrollo. La articulación de los sonidos del habla sigue un patrón de desarrollo que se refleja en las pruebas estandarizadas para cada edad. No es inusual que los niños con un desarrollo normal acorten palabras y sílabas cuando aprenden hablar, pero la progresión en el dominio de la producción fonológica debería conducirles hacia un habla mayoritariamente inteligible a los 3 años. Los niños con trastorno del sonido del habla siguen utilizando procesos inmaduros de simplificación fonológica después de la edad en que la mayoría puede emitir palabras claramente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Al llegar a los 5 años se debería producir la mayoría de los sonidos del habla con claridad, y la mayoría de las palabras se debería pronunciar correctamente conforme a la normalidad para la edad y la comunidad. Los sonidos del inglés mal articulados con más frecuencia tienden a aprenderse también más tarde, llevando a que se les llame en inglés los \"ocho que tardan\" (l, r, s, z, th, ch, dzh, y zh) (comentario del editor: no hay equivalencia en castellano). La mala articulación de cualquiera de estos sonidos se puede considerar dentro de los limites normales hasta los 8 años; sin embargo, cuando están implicados múltiples sonidos, es importante centrarse en algunos de esos sonidos como parte de un plan para mejorar la inteligibilidad, en lugar de esperar hasta la edad en que casi todos los niños pueden producirlos correctamente. El ceceo (es decir, articular mal los sibilantes) es particularmente frecuente y puede implicar patrones frontales o laterales en la dirección de las corrientes de aire. Puede asociarse a un patrón de deglución con empuje lingual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La mayoría de los niños con trastorno del sonido del habla responde bien al tratamiento, y las dificultades del habla mejoran con el tiempo, con lo que el trastorno podría no ser para toda la vida. Sin embargo, cuando también está presente un trastorno del lenguaje, el trastorno del sonido del habla tiene peor pronóstico y puede asociarse al trastorno específico del aprendizaje."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 285,
+        "lineaFin": 293
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Variaciones normales del habla. Se deberían tener en cuenta las variaciones del habla regionales, sociales y culturales/étnicas antes de hacer este diagnóstico. Los niños bilingües pueden presentar un índice de inteligibilidad en general menor, cometer en general más errores en consonantes y vocales, y producir más patrones erróneos infrecuentes que los niños angloparlantes monolingües si solo se les evalúa en inglés."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Audición u otra deficiencia sensorial. Los sordos y duros de oído pueden cometer más errores fonológicos. Cuando las deficiencias del habla superan las que normalmente se asocian a estos problemas, se puede hacer el diagnóstico de trastorno del sonido del habla."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Deficiencias estructurales. Las alteraciones del habla pueden estar causadas por deficiencias estructurales (p. ej., un paladar hendido)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Disartria. Las alteraciones del habla pueden atribuirse a un trastorno motor, como la parálisis cerebral. Los signos neurológicos, así como las características distintivas de la voz, diferencian la disartria del trastorno del sonido del habla, aunque en los niños pequeños (menores de 3 años) la diferenciación puede ser difícil, particularmente cuando la afectación motora general es inexistente o mínima (como, p. ej., en el síndrome de Worster-Drought)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Mutismo selectivo. El uso limitado del habla puede ser un signo de mutismo selectivo, un trastorno de ansiedad que se caracteriza por ausencia de habla en uno o más contextos o entornos. El mutismo selectivo se puede manifestar en los niños que padecen un trastorno del habla porque sientan vergüenza a causa de sus deficiencias, aunque muchos niños con mutismo selectivo muestran un habla normal en los entornos \"seguros\", como en casa o con los amigos cercanos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 295,
+        "lineaFin": 305
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El habla puede alterarse de manera diferencial en determinadas afecciones genéticas (p. ej., el síndrome de Down, la delección 22q, la mutación génica de FoxP2)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 307,
+        "lineaFin": 309
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-del-sonido-del-habla:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno del sonido del habla»?",
+        "opciones": [
+          {
+            "id": "o0",
+            "texto": "F80.0"
+          },
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 259–310), el código es F80.0.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-del-sonido-del-habla:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del sonido del habla — Criterio A",
+        "reverso": "Dificultad persistente en la producción fonológica que interfiere con la inteligibilidad del habla o impide la comunicación verbal de mensajes.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-sonido-del-habla:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del sonido del habla — Criterio B",
+        "reverso": "La alteración causa limitaciones en la comunicación eficaz, que interfiere con la participación social, los logros académicos o el desempeño laboral, de forma individual o en cualquier combinación.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-sonido-del-habla:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del sonido del habla — Criterio C",
+        "reverso": "El inicio de los sintomas se produce en las primeras fases del periodo de desarrollo.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-sonido-del-habla:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del sonido del habla — Criterio D",
+        "reverso": "Las dificultades no se pueden atribuir a afecciones congénitas o adquiridas, como parálisis cerebral, paladar hendido, hipoacusia, traumatismo cerebral u otras afecciones médicas o neurológicas.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-sonido-del-habla:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno del sonido del habla",
+        "reverso": "F80.0",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 259,
+    "lineaFin": 310
+  },
+  "advertencias": []
+}

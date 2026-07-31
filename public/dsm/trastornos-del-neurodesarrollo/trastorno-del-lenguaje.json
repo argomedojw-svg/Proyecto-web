@@ -1,0 +1,400 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-del-lenguaje",
+  "nombre": "Trastorno del lenguaje",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F80.2",
+    "cie10": "F80.2",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-de-la-comunicacion",
+    "nombre": "Trastornos de la comunicación"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 3,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-del-lenguaje-criterios",
+              "nombre": null,
+              "codigo": "F80.2",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Dificultades persistentes en la adquisición y uso del lenguaje en todas sus modalidades (es decir, hablado, escrito, lenguaje de signos u otro) debido a deficiencias de la comprensión o la producción que incluye lo siguiente:",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Vocabulario reducido (conocimiento y uso de palabras).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Estructura gramatical limitada (capacidad para situar las palabras y las terminaciones de palabras juntas para formar frases basándose en reglas gramaticales y morfológicas).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Deterioro del discurso (capacidad para usar vocabulario y conectar frases para explicar o describir un tema o una serie de sucesos, o tener una conversación).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Las capacidades de lenguaje están notablemente y desde un punto de vista cuantificable por debajo de lo esperado para la edad, lo que produce limitaciones funcionales en la comunicación eficaz, la participación social, los logros académicos o el desempeño laboral, de forma individual o en cualquier combinación.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "El inicio de los síntomas se produce en las primeras fases del periodo de desarrollo.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Las dificultades no se pueden atribuir a un deterioro auditivo o sensorial de otro tipo, a una disfuncion motora o a otra afección médica o neurológica, y no se explica mejor el trastorno del desarrollo intelectual (discapacidad intelectual) o retraso global del desarrollo.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 191,
+        "lineaFin": 207
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las características esenciales del trastorno del lenguaje son las dificultades para la adquisición y el uso del lenguaje debido a deficiencias de la compresión o la producción del vocabulario, la gramática, la estructura de las frases y el discurso. Las deficiencias del lenguaje son evidentes en la comunicación hablada, la comunicación escrita o el lenguaje de señas. El aprendizaje y el uso del lenguaje dependen de las habilidades receptivas y expresivas. La capacidad expresiva se refiere a la producción de señales vocales, gestuales o verbales, mientras que la capacidad receptiva se refiere al proceso de recibir y comprender los mensajes lingüísticos. Las habilidades del lenguaje tienen que evaluarse en la modalidad expresiva y en la receptiva, ya que cada una de estas puede tener una gravedad diferente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del lenguaje normalmente afecta al vocabulario y a la gramática, y esto limita la capacidad de discurso. Las primeras palabras y frases del niño es probable que se retrasen; el vocabulario es más limitado y menos variado de lo esperado, y las frases son más cortas y menos complejas, y presentan errores gramaticales, especialmente en el tiempo pasado. Las deficiencias de comprensión del lenguaje frecuentemente se subestiman, ya que los niños pueden tener la habilidad de utilizar el contexto para inferir significados. Puede haber problemas para encontrar las palabras, las definiciones verbales están empobrecidas o existe poca comprensión de los sinónimos, los significados múltiples o los juegos de palabras de forma apropiada para la edad y la cultura. Se manifiestan problemas para recordar nuevas palabras y frases, así como dificultades para seguir instrucciones más largas, dificultades para recordar series de datos verbales (p. ej., recordar un número de teléfono o una lista de la compra) y dificultades para recordar secuencias de sonidos nuevos, habilidad que podría ser importante para aprender nuevas palabras. Las dificultades del discurso se muestran mediante una capacidad reducida para producir información adecuada sobre acontecimientos clave y para narrar una historia coherente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La dificultad en el lenguaje se manifiesta por unas habilidades que están por debajo de lo esperado para la edad desde un punto de vista cuantificable y que interfieren significativamente con los logros académicos, el desempeño laboral, la comunicación eficaz o la socialización (Criterio B). El diagnóstico de trastorno del lenguaje se debería realizar basándose en la síntesis de los antecedentes del individuo, las observaciones clínicas directas en diferentes contextos (es decir, en la casa, la escuela y el trabajo) y los resultados de las pruebas estandarizadas para medir la capacidad de lenguaje, que pueden utilizarse para orientar las estimaciones de la gravedad."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 209,
+        "lineaFin": 217
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "A menudo están presentes antecedentes familiares de trastornos del lenguaje. Los individuos, incluso los niños, pueden ser hábiles para adaptarse a su lenguaje limitado. Pueden parecer tímidos o reticentes a hablar. Los individuos afectados pueden preferir comunicarse solamente con miembros de su familia o con otros individuos conocidos. Aunque estos indicadores sociales no son diagnósticos de un trastorno del lenguaje, si son notables y persistentes sí justifican la derivación para una evaluación completa."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 219,
+        "lineaFin": 221
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La adquisición del lenguaje está marcada por cambios que se producen desde su inicio en la niñez temprana hasta alcanzar el nivel de competencia del adulto, que aparece durante la adolescencia. Los cambios aparecen en las diferentes dimensiones del lenguaje (sonidos, palabras, gramática, narraciones/textos expositivos y habilidades conversacionales) en aumento y sincronía según la edad. El trastorno del lenguaje aparece durante el período del desarrollo temprano; sin embargo, hay una variación considerable en la adquisición temprana del vocabulario y en las primeras combinaciones de palabras. Las diferencias individuales durante la primera infancia no son, como indicadores aislados, muy predictivos de los resultados posteriores, aunque un inicio tardío del lenguaje a los 24 meses de edad fue, en una muestra poblacional, el mejor predictor del resultado a los 7 años de edad. A los 4 años, las diferencias individuales en cuanto a capacidad del lenguaje son más estables, se miden con más precisión y son muy predictivas de los resultados posteriores. El trastorno del lenguaje diagnosticado en niños de 4 o más años suele ser estable en el tiempo y normalmente persiste hasta la edad adulta, aunque es probable que cambie el perfil particular de puntos fuertes y débiles durante el curso del desarrollo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos del lenguaje pueden tener consecuencias sociales durante toda la vida. Los niños con trastorno del lenguaje corren el riesgo de ser víctimas de sus compañeros. En las niñas con trastornos del lenguaje durante la infancia, el riesgo de sufrir agresiones sexuales en la etapa adulta podría llegar a ser tres veces mayor que el de las niñas no afectadas."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 223,
+        "lineaFin": 227
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los niños con deficiencias receptivas del lenguaje tienen peor pronóstico que los que tienen deficiencias expresivas predominantes. Los deterioros receptivos del lenguaje son más resistentes al tratamiento y se observan frecuentemente dificultades en la comprensión de la lectura."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Medioambientales. El bilingüismo ni produce ni empeora un trastorno del lenguaje, pero los niños bilingües pueden presentar retrasos o diferencias en el desarrollo del lenguaje. Un trastorno del lenguaje en un niño bilingüe afectará a los dos idiomas; por tanto, es importante considerar la evaluación en ambas lenguas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Genéticos y fisiológicos. Los trastornos del lenguaje son altamente heredables y los miembros de la familia tienen más posibilidades de tener antecedentes de deficiencias lingüísticas. Los estudios de gemelos de base poblacional encuentran reiteradamente una considerable heredabilidad del trastorno del lenguaje, y los estudios moleculares señalan la interacción de varios genes en las vías causales."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 229,
+        "lineaFin": 237
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Variaciones normales del lenguaje. El trastorno del lenguaje debe diferenciarse de las variaciones normales del desarrollo. Puede ser difícil hacer esta distinción antes de los 4 años de edad. Se deben tener en cuenta las variaciones de lenguaje regionales, sociales y culturales/étnicas (es decir, los dialectos) cuando se evaluan las deficiencias del lenguaje de un individuo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Audición u otra deficiencia sensorial. Se tiene que descartar la discapacidad auditiva como causa primaria de la dificultad con el lenguaje. Las deficiencias del lenguaje pueden asociarse a una discapacidad auditiva, a otra deficiencia sensorial o a una deficiencia motora del habla. Cuando las deficiencias del lenguaje exceden las que normalmente se asocian a estos problemas, se puede hacer el diagnóstico de trastorno del lenguaje."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del desarrollo intelectual (discapacidad intelectual). Un deterioro del lenguaje es a menudo la presentación característica de un trastorno del desarrollo intelectual. Sin embargo, es posible que no se pueda realizar el diagnóstico definitivo del trastorno del desarrollo intelectual hasta que el niño pueda completar las evaluaciones estandarizadas. El trastorno del lenguaje puede aparecer con niveles variables de capacidad intelectual, y no es necesario que exista discrepancia entre la capacidad verbal y la no verbal para hacer el diagnóstico de trastorno del lenguaje."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del espectro autista. El trastorno del espectro autista se manifiesta a menudo con retra so del desarrollo del lenguaje. Sin embargo, el trastorno del espectro autista suele acompañarse de conductas que no están presentes en el trastorno del lenguaje, como la falta de interés social o las interacciones sociales inusuales (p. ej., tirar de la mano a las personas sin ni siquiera intentar mirarlas), los patrones de juego extraños (p. ej., llevar los juguetes de un lado a otro pero sin jugar nunca con ellos), los patrones de comunicación poco habituales (p. ej., saberse el alfabeto pero no responder al propio nombre) y la adhesión rigida a rutinas y comportamientos repetitivos (p. ej., agitar las manos, dar vueltas sobre sí mismo, ecolalia)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos neurológicos. El trastorno del lenguaje se puede producir asociado a trastornos neurológicos, incluida la epilepsia (p. ej., afasia adquirida o sindrome de Landau-Kleffner)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Regresión de lenguaje. La pérdida del habla y del lenguaje a cualquier edad requiere una evaluación exhaustiva para determinar si existe o no alguna afección neurológica específica, como el síndrome de Landau-Kleffner. La pérdida del lenguaje puede ser un síntoma de crisis epiléptica, por lo que sería necesaria una evaluación diagnóstica para excluir la presencia de una epilepsia (es decir, electroencefalogramas normales y de sueño). Los declives de las conductas sociales y de comunicación críticas durante los primeros 2 años de vida son evidentes en la mayoría de los niños con trastorno del espectro autista y deben señalar la necesidad de valorar el trastorno del espectro autista."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 239,
+        "lineaFin": 251
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del lenguaje puede asociarse a otros trastornos del neurodesarrollo, como el trastorno específico del aprendizaje (lectoescritura y aritmética), el trastorno del desarrollo intelectual, el trastorno por déficit de atención/hiperactividad, el trastorno del espectro autista y el trastorno del desarrollo de la coordinación. También está asociado al trastorno de comunicación social (pragmático). En las muestras clínicas, el trastorno del lenguaje puede concurrir con el trastorno del sonido del habla aunque los datos procedentes de una gran muestra poblacional de niños de 6 años en Estados Unidos indican que la comorbilidad podría ser rara (1,3 %). Existen a menudo antecedentes familiares de trastornos del habla o del lenguaje."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 253,
+        "lineaFin": 255
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-del-lenguaje:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno del lenguaje»?",
+        "opciones": [
+          {
+            "id": "o0",
+            "texto": "F80.2"
+          },
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 189–258), el código es F80.2.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-del-lenguaje:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del lenguaje — Criterio A",
+        "reverso": "Dificultades persistentes en la adquisición y uso del lenguaje en todas sus modalidades (es decir, hablado, escrito, lenguaje de signos u otro) debido a deficiencias de la comprensión o la producción que incluye lo siguiente:\n1. Vocabulario reducido (conocimiento y uso de palabras).\n2. Estructura gramatical limitada (capacidad para situar las palabras y las terminaciones de palabras juntas para formar frases basándose en reglas gramaticales y morfológicas).\n3. Deterioro del discurso (capacidad para usar vocabulario y conectar frases para explicar o describir un tema o una serie de sucesos, o tener una conversación).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-lenguaje:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del lenguaje — Criterio B",
+        "reverso": "Las capacidades de lenguaje están notablemente y desde un punto de vista cuantificable por debajo de lo esperado para la edad, lo que produce limitaciones funcionales en la comunicación eficaz, la participación social, los logros académicos o el desempeño laboral, de forma individual o en cualquier combinación.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-lenguaje:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del lenguaje — Criterio C",
+        "reverso": "El inicio de los síntomas se produce en las primeras fases del periodo de desarrollo.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-lenguaje:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del lenguaje — Criterio D",
+        "reverso": "Las dificultades no se pueden atribuir a un deterioro auditivo o sensorial de otro tipo, a una disfuncion motora o a otra afección médica o neurológica, y no se explica mejor el trastorno del desarrollo intelectual (discapacidad intelectual) o retraso global del desarrollo.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-lenguaje:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno del lenguaje",
+        "reverso": "F80.2",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+        "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-del-espectro-autista",
+        "nombre": "Trastorno del espectro autista",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 189,
+    "lineaFin": 258
+  },
+  "advertencias": []
+}

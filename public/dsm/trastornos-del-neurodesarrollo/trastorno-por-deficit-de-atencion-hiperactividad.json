@@ -1,0 +1,870 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-por-deficit-de-atencion-hiperactividad",
+  "nombre": "Trastorno por déficit de atención/hiperactividad",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [
+    "TDAH"
+  ],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [
+    {
+      "etiqueta": "Presentación combinada",
+      "codigo": "F90.2"
+    },
+    {
+      "etiqueta": "Presentación predominante con falta de atención",
+      "codigo": "F90.0"
+    },
+    {
+      "etiqueta": "Presentación predominante hiperactiva/impulsiva",
+      "codigo": "F90.1"
+    }
+  ],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastorno-por-deficit-de-atencion-hiperactividad",
+    "nombre": "Trastorno por déficit de atención/hiperactividad"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 9,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-por-deficit-de-atencion-hiperactividad-criterios",
+              "nombre": null,
+              "codigo": null,
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Patrón persistente de inatención y/o hiperactividad-impulsividad que interfiere con el funcionamiento o el desarrollo, que se caracteriza por (1) y/o (2):",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Inatención: Seis (o más) de los siguientes síntomas se han mantenido durante al menos 6 meses en un grado que no concuerda con el nivel de desarrollo y que afecta directamente a las actividades sociales y académicas/laborales:",
+                      "hijos": [
+                        {
+                          "ruta": "A.1.nota",
+                          "etiqueta": null,
+                          "tipo": "nota",
+                          "texto": "Los sintomas no son solo una manifestación del comportamiento de oposición, desafío, hostilidad o fracaso en la comprensión de tareas o instrucciones. Para adolescentes mayores y adultos (a partir de 17 años de edad), se requiere un mínimo de cinco sintomas.",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.a",
+                          "etiqueta": "a",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia falla en prestar la debida atención a detalles o por descuido se cometen errores en las tareas escolares, en el trabajo o durante otras actividades (p. ej., se pasan por alto o se pierden detalles, el trabajo no se lleva a cabo con precisión).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.b",
+                          "etiqueta": "b",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia tiene dificultades para mantener la atención en tareas o actividades recreativas (p. ej., tiene dificultad para mantener la atención en clases, conversaciones o la lectura prolongada).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.c",
+                          "etiqueta": "c",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia parece no escuchar cuando se le habla directamente (p. ej., parece tener la mente en otras cosas, incluso en ausencia de cualquier distracción aparente).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.d",
+                          "etiqueta": "d",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia no sigue las instrucciones y no termina las tareas escolares, los quehaceres o los deberes laborales (p. ej., inicia tareas pero se distrae rápidamente y se evade con facilidad).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.e",
+                          "etiqueta": "e",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia tiene dificultad para organizar tareas y actividades (p. ej., dificultad para gestionar tareas secuenciales; dificultad para poner los materiales y pertenencias en orden; descuido y desorganización en el trabajo; mala gestión del tiempo; no cumple los plazos).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.f",
+                          "etiqueta": "f",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia evita, le disgusta o se muestra poco entusiasta en iniciar tareas que requieren un esfuerzo mental sostenido (p. ej., tareas escolares o quehaceres domésticos; en adolescentes mayores y adultos, preparación de informes, completar formularios, revisar artículos largos).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.g",
+                          "etiqueta": "g",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia pierde cosas necesarias para tareas o actividades (p. ej., materiales escolares, lápices, libros, instrumentos, billetero, llaves, papeles del trabajo, gafas, móvil).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.h",
+                          "etiqueta": "h",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia se distrae con facilidad por estimulos externos (para adolescentes mayores y adultos, puede incluir pensamientos no relacionados).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.1.i",
+                          "etiqueta": "i",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia olvida las actividades cotidianas (p. ej., hacer las tareas, hacer las diligencias; en adolescentes mayores y adultos, devolver las llamadas, pagar las facturas, acudir a las citas).",
+                          "hijos": []
+                        }
+                      ]
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Hiperactividad e impulsividad: Seis (o más) de los siguientes sintomas se han mantenido durante al menos 6 meses en un grado que no concuerda con el nivel de desarrollo y que afecta directamente a las actividades sociales y académicas/laborales:",
+                      "hijos": [
+                        {
+                          "ruta": "A.2.nota",
+                          "etiqueta": null,
+                          "tipo": "nota",
+                          "texto": "Los síntomas no son solo una manifestación del comportamiento de oposición, desafío, hostilidad o fracaso para comprender tareas o instrucciones. Para adolescentes mayores y adultos (a partir de 17 años de edad), se requiere un mínimo de cinco síntomas.",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.a",
+                          "etiqueta": "a",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia juguetea con o golpea las manos o los pies o se retuerce en el asiento.",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.b",
+                          "etiqueta": "b",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia se levanta en situaciones en que se espera que permanezca sentado (p. ej., se levanta en la clase, en la oficina o en otro lugar de trabajo, o en otras situaciones que requieren mantenerse en su lugar).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.c",
+                          "etiqueta": "c",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia corretea o trepa en situaciones en las que no resulta apropiado. (Nota: En adolescentes o adultos, puede limitarse a estar inquieto.)",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.d",
+                          "etiqueta": "d",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia es incapaz de jugar o de ocuparse tranquilamente en actividades recreativas.",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.e",
+                          "etiqueta": "e",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia está \"ocupado,\" actuando como si \"lo impulsara un motor\" (p. ej., es incapaz de estar o se siente incómodo estando quieto durante un tiempo prolongado, como en restaurantes, reuniones; los otros pueden pensar que está intranquilo o que le resulta dificil seguirlos).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.f",
+                          "etiqueta": "f",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia habla excesivamente.",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.g",
+                          "etiqueta": "g",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia responde inesperadamente o antes de que se haya concluido una pregunta (p. ej., termina las frases de otros; no respeta el turno de conversación).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.h",
+                          "etiqueta": "h",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia le es difícil esperar su turno (p. ej., mientras espera en una cola).",
+                          "hijos": []
+                        },
+                        {
+                          "ruta": "A.2.i",
+                          "etiqueta": "i",
+                          "tipo": "criterio",
+                          "texto": "Con frecuencia interrumpe o se inmiscuye con otros (p. ej., se mete en las conversaciones, juegos o actividades; puede empezar a utilizar las cosas de otras personas sin esperar o recibir permiso; en adolescentes y adultos, puede inmiscuirse o adelantarse a lo que hacen otros).",
+                          "hijos": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Algunos síntomas de inatención o hiperactivo-impulsivos estaban presentes antes de los 12 años.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Varios síntomas de inatención o hiperactivo-impulsivos están presentes en dos o más contextos (p. ej., en casa, en la escuela o en el trabajo; con los amigos o parientes; en otras actividades).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Existen pruebas claras de que los síntomas interfieren con el funcionamiento social, académico o laboral, o reducen la calidad estos.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "Los sintomas no se producen exclusivamente durante el curso de la esquizofrenia o de otro trastorno psicótico y no se explican mejor por otro trastorno mental (p. ej., trastorno del estado de ánimo, trastorno de ansiedad, trastorno disociativo, trastorno de la personalidad, intoxicación o abstinencia de sustancias).",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": "F90.2",
+                      "etiqueta": "Presentación combinada",
+                      "descripcion": "Si se cumple el Criterio A1 (inatención) y el Criterio A2 (hiperactividad-impulsividad) durante los últimos 6 meses.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": "F90.0",
+                      "etiqueta": "Presentación predominante con falta de atención",
+                      "descripcion": "Si se cumple el Criterio A1 (inatención) pero no se cumple el Criterio A2 (hiperactividad-impulsividad) durante los últimos 6 meses.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": "F90.1",
+                      "etiqueta": "Presentación predominante hiperactiva/impulsiva",
+                      "descripcion": "Si se cumple el Criterio A2 (hiperactividad-impulsividad) y no se cumple el Criterio A1 (inatención) durante los últimos 6 meses.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "En remisión parcial",
+                      "descripcion": "Cuando previamente se cumplian todos los criterios, no todos los criterios se han cumplido durante los últimos 6 meses, y los sintomas siguen deteriorando el funcionamiento social, académico o laboral.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Leve",
+                      "descripcion": "Pocos o ningún sintoma están presentes más que los necesarios para el diagnóstico, y los sintomas solo producen deterioro mínimo del funcionamiento social o laboral.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Moderado",
+                      "descripcion": "Síntomas o deterioros funcionales presentes entre \"leve\" y \"grave\".",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Grave",
+                      "descripcion": "Presencia de muchos síntomas aparte de los necesarios para el diagnóstico o de varios síntomas particularmente graves, o los sintomas producen deterioro notable del funcionamiento social o laboral.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 649,
+        "lineaFin": 725
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La característica principal del trastorno por déficit de atención/hiperactividad (TDAH) es un patrón persistente de inatención y/o hiperactividad-impulsividad que interfiere con el funcionamiento o el desarrollo. La inatención se manifiesta conductualmente en el TDAH como desviaciones en las tareas, no seguir las instrucciones o terminar los trabajos y tareas, dificultad para mantener la atención y desorganización que no se deben a un desafío o a falta de comprensión. La hiperactividad se refiere a una actividad motora excesiva (como un niño que corretea) cuando no es apropiado, o a jugueteos, golpes o locuacidad excesivos. En los adultos, la hiperactividad puede manifestarse como una inquietud extrema y un nivel de actividad que cansa a las otras personas. La impulsividad se refiere a acciones apresuradas que se producen en el momento, sin reflexión, y que crean un gran riesgo de dañar al individuo (p. ej., ir corriendo a la calle sin mirar). La impulsividad puede reflejar un deseo de recompensas inmediatas o la incapacidad de retrasar la gratificación. Los comportamientos impulsivos pueden manifestarse como una tendencia a inmiscuirse socialmente (p. ej., interrumpir excesivamente a los otros) y/o a tomar decisiones importantes sin tener en cuenta las consecuencias a largo plazo (p. ej., aceptar un trabajo sin información adecuada)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El TDAH empieza en la infancia. El requisito de que varios síntomas estén presentes antes de los 12 años de edad transmite la importancia de una presentación clínica sustancial durante la infancia. Al mismo tiempo, no se especifica una edad de inicio más temprana por las dificultades para establecer retrospectivamente y con precisión el inicio durante la infancia. La memoria de los síntomas infantiles en los adultos tiende a ser poco fiable y convendría obtener información adicional. El TDAH no puede diagnosticarse en ausencia de todo síntoma antes de los 12 años de edad. Cuando los síntomas de lo que parece ser un TDAH aparecen por primera vez después de los 13 años de edad, es más probable que puedan explicarse por otro trastorno mental o que representen los efectos cognitivos del consumo de alguna sustancia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las manifestaciones del trastorno deben estar presentes en más de un entorno (p. ej., en casa y en la escuela o en casa y en el trabajo). La confirmación de los síntomas sustanciales en los diferentes entornos normalmente no se puede realizar con precisión sin consultar con informantes que hayan observado al individuo en esos contextos. De manera característica, los síntomas varian dependiendo del contexto dentro de cada entorno. Los signos del trastorno pueden ser mínimos o estar ausentes cuando el individuo recibe recompensas frecuentes por comportamientos apropiados, está bajo estrecha supervisión, está en una situación nueva, está participando en actividades especialmente interesantes, tiene una estimulación externa constante (p. ej., por pantallas electrónicas) o está en situaciones donde interactúa cara a cara con otra persona (p. ej., la consulta del clínico)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 727,
+        "lineaFin": 733
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los retrasos del desarrollo lingüístico, motor o social no son específicos del TDAH, pero frecuentemente concurren. La disregulación emocional o impulsividad emocional es frecuente en los niños y adultos con TDAH. Los individuos con TDAH se describen y son descritos por otros como personas que se enfurecen rápidamente, se frustran con facilidad y reaccionan emotivamente de forma exagerada."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Incluso en ausencia de un trastorno específico del aprendizaje, muchas veces está deteriorado el rendimiento académico o laboral. Los individuos con TDAH pueden mostrar deficits neurocognitivos en diversas áreas, como la memoria de trabajo, el cambio de tarea, la variabilidad del tiempo de reacción, la vigilancia y la planificación/organización, aunque estas pruebas no son suficientemente sensibles o específicas para servir de indicios diagnósticos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque el TDAH no se asocia a rasgos físicos específicos, las tasas de anomalías físicas menores (p. ej., hipertelorismo, paladar ojival, orejas de implantación baja) pueden estar elevadas. Pueden aparecer retrasos motores sutiles y otros signos neurológicos leves. (Obsérvese que la torpeza y los retrasos motores marcados deben codificarse por separado [p. ej., trastorno del desarrollo de la coordinación.)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los niños con trastornos del neurodesarrollo de causa conocida (p. ej., el síndrome del X frágil, el síndrome de la delección de 22q11) pueden también presentar con frecuencia síntomas de inatención e impulsividad/hiperactividad; se les debe diagnosticar el TDAH si los síntomas cumplen todos los criterios del trastorno."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 735,
+        "lineaFin": 743
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las encuestas de población sugieren que el TDAH ocurre en todo el mundo en casi un 7,2 % de los niños; sin embargo, la prevalencia entre países varía mucho, entre el 0,1 y el 10,2 % de los niños y adolescentes. La prevalencia es mayor en poblaciones especiales como los niños en acogida o en correccionales. En un metaanálisis transnacional, el TDAH se observó en el 2,5 % de los adultos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 745,
+        "lineaFin": 747
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos padres observan la actividad motora excesiva por primera vez cuando el niño está en la primera infancia, pero los síntomas son dificiles de distinguir de los comportamientos normales, muy variables antes de los 4 años. El TDAH se identifica más frecuentemente durante la escuela primaria, cuando la inatención llega a ser más destacada y deteriora el rendimiento. El trastorno es relativamente estable durante la adolescencia temprana, pero algunos individuos tienen un curso que empeora con la aparición de comportamientos antisociales. En la mayoría de los individuos con TDAH, los síntomas de hiperactividad motora llegan a ser menos obvios durante la adolescencia y la vida adulta, aunque pueden persistir las dificultades debidas a la inquietud, la inatención, la poca planificación y la impulsividad. Una proporción sustancial de niños con TDAH tiene deterioros que persisten durante la edad adulta."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En la etapa preescolar, la principal manifestación es la hiperactividad. La inatención llega a ser más marcada durante la escuela primaria. Durante la adolescencia, los signos de hiperactividad (p. ej., correr y trepar) son menos frecuentes y pueden limitarse al jugueteo o a una sensación interior de nerviosismo, inquietud o impaciencia. En la edad adulta, junto con la inatención y la inquietud, puede ser problemática la impulsividad aun cuando la hiperactividad haya disminuido."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 749,
+        "lineaFin": 753
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Temperamental. El TDAH se acompaña de una menor inhibición conductual y de mayores esfuerzos por controlarse o ponerse freno, de emotividad negativa y de una elevada búsqueda de novedades. Estos rasgos pueden predisponer a algunos niños al TDAH, pero no son específicos del trastorno."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ambiental. El peso al nacer muy bajo y el grado de prematuridad confieren un mayor riesgo de TDAH; cuanto más extremo es el bajo peso, mayor es el riesgo. La exposición prenatal al tabaquismo se asociía al TDAH incluso después de controlar los antecedentes psiquiátricos parentales y el nivel socioeconómico. Una minoria de casos puede tener relación con reacciones a aspectos de la dieta. La exposición a neurotóxicos (p. ej., plomo), las infecciones (p. ej., encefalitis) y la exposición al alcohol durante la vida intrauterina se han correlacionado con la aparición posterior de un TDAH, pero no se sabe si estas asociaciones son causales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Genético y fisiológico. La heredabilidad del TDAH es aproximadamente del 74 %. Los estudios de asociación pangenómicos (GWAS, por sus siglas en inglés) a gran escala han identificado varios locus enriquecidos en regiones genómicas evolutivamente constreñidas y genes de pérdida de función, así como alrededor de regiones reguladoras de expresión cerebral. No existe ningún gen único del TDAH."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se deberían considerar las discapacidades visuales y auditivas, las anormalidades metabólicas y los deficits nutricionales como posibles influencias sobre los síntomas del TDAH. La tasa de TDAH está elevada en los individuos con epilepsia idiopática."
+        },
+        {
+          "tipo": "imagen_ausente",
+          "referenciaOriginal": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260725125619440c914b80174008%2Fcrop_1_1784955442864.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=%2BNq%2FBCcecTLrv%2FGLfX9oVIDk6A4%3D&Expires=1785560242",
+          "descripcion": "[PENDIENTE]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Modificadores del curso. Los patrones de interacción familiar en la primera infancia normalmente no causan TDAH, pero pueden influir en su curso o contribuir al desarrollo secundario de problemas conductuales."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 755,
+        "lineaFin": 767
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las diferencias entre las prevalencias del TDAH de diferentes regiones parecen ser atribuibles principalmente a los diferentes procedimientos diagnósticos y prácticas metodológicas, incluidos el uso de distintas entrevistas diagnósticas y las diferencias en si se requiere o no el deterioro funcional y, de ser así, en cómo se define este. La prevalencia se ve también afectada por la variación cultural en las actitudes hacia las normas y expectativas de comportamiento de los niños y jóvenes en distintos contextos sociales, y por las diferencias culturales en la interpretación de las conductas infantiles por los progenitores y los docentes, incluidas las diferencias por género. En Estados Unidos, las tasas de identificación clínica entre las poblaciones afroamericanas y latinoamericanas tienden a ser menores que las de las poblaciones blancas no latinoamericanas. La infradetección puede deberse al etiquetado erróneo de los síntomas del TDAH como negativistas o disruptivos en los grupos étnicos o racializados socialmente oprimidos debido a sesgos implicitos o explícitos de los clínicos, dando lugar a un diagnóstico excesivo de trastornos disruptivos. La mayor prevalencia entre los jóvenes blancos no latinoamericanos puede estar también influida por una mayor demanda de diagnóstico de los comportamientos que se consideran relacionados con el TDAH. Las valoraciones de los síntomas por los informantes pueden estar mediatizadas por el trasfondo cultural del niño y el informante, lo que indica que las prácticas diagnósticas culturalmente competentes son importantes para evaluar el TDAH."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 769,
+        "lineaFin": 771
+      }
+    },
+    {
+      "clave": "sexo_genero",
+      "claveOriginal": "aspectos diagnosticos relacionados con el sexo y el genero",
+      "titulo": "Aspectos diagnósticos relacionados con el sexo y el género",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El TDAH es más frecuente en el sexo masculino que en el femenino entre la población general, con una proporción de aproximadamente 2:1 en los niños y 1,6:1 en los adultos. El sexo femenino tiene más tendencia que el masculino a presentar principalmente rasgos de inatención. Las diferencias sexuales en cuanto a la intensidad de los síntomas del TDAH podrían deberse a distintas predisposiciones genéticas y cognitivas entre los sexos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 773,
+        "lineaFin": 775
+      }
+    },
+    {
+      "clave": "marcadores_diagnosticos",
+      "claveOriginal": "marcadores diagnosticos",
+      "titulo": "Marcadores diagnósticos",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "No existe ningún marcador biológico que sea diagnóstico del TDAH. Aunque el TDAH se ha relacionado con una mayor potencia de las ondas lentas (\"theta\" de 4-7 Hz) y una potencia disminuida de las ondas rápidas (\"beta\" de 14-30 Hz), una revisión posterior no encontró diferencias entre la potencia de las ondas theta y beta de los niños y adultos con TDAH y los sujetos de control."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque algunos estudios de neuroimagen han hallado diferencias entre los niños con TDAH y los sujetos de control, los metaanálisis de todos los estudios de neuroimagen no muestran diferencias entre los individuos con TDAH y los sujetos de control. Esto se debe probablemente a diferencias en términos de criterios diagnósticos, tamaño muestral, tarea empleada y aspectos técnicos de la técnica de neuroimagen. Hasta que se resuelvan estos problemas, ninguna forma de neuroimagen podrá utilizarse para diagnosticar el TDAH."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 777,
+        "lineaFin": 781
+      }
+    },
+    {
+      "clave": "suicidio",
+      "claveOriginal": "asociacion con pensamientos o conductas suicidas",
+      "titulo": "Asociación con pensamientos o conductas suicidas",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El TDAH es un factor de riesgo de ideación y conductas suicidas en los niños. Asimismo, en la etapa adulta, el TDAH se asociía a un mayor riesgo de intentos de suicidio cuando concurre con trastornos del ánimo, la conducta o por consumo de sustancias, incluso después de controlar la comorbilidad. Los pensamientos suicidas son también más frecuentes en las poblaciones con TDAH que en los sujetos de control sin TDAH. El TDAH ha predicho la persistencia de los pensamientos suicidas en los soldados del ejército estadounidense."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 783,
+        "lineaFin": 785
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno por deficit de atencion/hiperactividad",
+      "titulo": "Consecuencias funcionales del trastorno por déficit de atención/hiperactividad",
+      "reconocida": true,
+      "orden": 10,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El TDAH se asocia a niveles menores de rendimiento escolar y logros académicos. Los deficits académicos, los problemas relacionados con la escuela y la tendencia negligente hacia los compañeros tienden a estar más asociados con los síntomas marcados de inatención, mientras que el rechazo de los compañeros y, en menor grado, las lesiones por accidentes son más destacados con los síntomas marcados de hiperactividad o impulsividad. La aplicación insuficiente o variable a las tareas que requieren un esfuerzo sostenido suele ser interpretada por los demás como vagancia, irresponsabilidad o falta de colaboración."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los jóvenes con TDAH presentan escasa estabilidad laboral. Los adultos con TDAH tienen peores datos de rendimiento, éxito y asistencia ocupacional, más probabilidades de estar sin empleo y mayores cotas de conflictos interpersonales. De media, los individuos con TDAH presentan menor escolarización, obtienen menos logros vocacionales y muestran puntuaciones intelectuales reducidas en comparación con sus homólogos, aunque existe una gran variabilidad. En su forma grave, el trastorno es marcadamente discapacitante, afectando a la adaptación social, familiar y académica/ocupacional."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las relaciones familiares pueden caracterizarse por la discordia y las interacciones negativas. Los individuos con TDAH tienen menos autoestima que sus homólogos sin TDAH. Las relaciones con los compañeros se ven a menudo perturbadas por el rechazo, la falta de cuidado o las burlas de estos hacia el individuo con TDAH."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los niños con TDAH tienen significativamente más probabilidades que sus homólogos sin TDAH de desarrollar un trastorno de conducta en la adolescencia y un trastorno de la personalidad antisocial en el período adulto, aumentando en consecuencia la probabilidad de padecer trastornos por consumo de sustancias y de ir a prisión. El riesgo posterior de los trastornos por consumo de sustancias es elevado, sobre todo cuando aparece un trastorno de la conducta o un trastorno de la personalidad antisocial."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los individuos con TDAH tienen más riesgo que sus homólogos de sufrir lesiones. Los niños y los adultos con TDAH tienen mayor riesgo de tener traumatismos y de presentar después el síndrome de estrés postraumático. Los accidentes y las infracciones de tráfico son más frecuentes en los conductores con TDAH. Los individuos con TDAH tienen una tasa de mortalidad más alta en general, en gran parte por accidentes y lesiones. También puede haber una probabilidad elevada de tener obesidad e hipertensión entre los individuos con TDAH."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 787,
+        "lineaFin": 799
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 11,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno negativista desafiante. Los individuos con trastorno negativista desafiante pueden resistirse a realizar un trabajo o las tareas escolares que requieren dedicación porque se resisten a amoldarse a las exigencias de los demás. Su comportamiento se caracteriza por la negatividad, la hostilidad y el desafío. En los individuos con TDAH se tienen que distinguir estos síntomas de la aversion a la escuela o hacia las tareas mentalmente exigentes debido a la dificultad de mantener el esfuerzo mental, al olvido de las instrucciones y a la impulsividad. El diagnóstico diferencial es aún más complicado por el hecho de que algunos individuos con TDAH pueden desarrollar actitudes negativistas secundarias hacia este tipo de tareas y devaluar su importancia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno explosivo intermitente. El TDAH y el trastorno explosivo intermitente comparten altos niveles de conducta impulsiva. Sin embargo, los individuos con trastorno explosivo intermitente muestran una hostilidad pronunciada hacia los otros que no es característica del TDAH, y no presentan los problemas para sostener la atención que se observan en el TDAH. Además, el trastorno explosivo intermitente es raro en la infancia. El trastorno explosivo intermitente se puede diagnosticar en presencia de un TDAH."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otros trastornos del neurodesarrollo. La actividad motora elevada, que puede ocurrir en el TDAH, se debe distinguir del comportamiento motor repetitivo que caracteriza al trastorno de movimientos estereotipados y a algunos casos de trastorno del espectro autista. En el trastorno de movimientos estereotipados, el comportamiento motor generalmente es fijo y repetitivo (balanceo del cuerpo, morderse), mientras que la tendencia a juguetear y la inquietud del TDAH son típicamente generalizadas y no se caracterizan por movimientos repetitivos estereotipados. En el trastorno de la Tourette, los frecuentes tics múltiples se pueden confundir con la tendencia a juguetear generalizada del TDAH. Puede ser necesaria una observación prolongada para diferenciar el jugueteo de los episodios de tics múltiples."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno específico del aprendizaje. Los niños solamente con trastorno específico del aprendizaje pueden parecer inatentos por su frustración, su falta de interés o su capacidad limitada en cuanto a procesos intelectuales, incluidas la memoria de trabajo y la velocidad de proceso, mientras que la inatención se reduce mucho al realizar una tarea que no requiera el proceso cognitivo afectado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del desarrollo intelectual (discapacidad intelectual). Los síntomas del TDAH son frecuentes en los niños con trastorno del desarrollo intelectual que se encuentran en situaciones académicas que no son las apropiadas para su capacidad intelectual. En estos casos, los síntomas no son evidentes durante las tareas no académicas. El diagnóstico de TDAH en caso de trastorno del desarrollo intelectual requiere que la inatención o la hiperactividad sea excesiva para la edad mental."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del espectro autista. Los individuos con TDAH y los que tienen un trastorno del espectro autista muestran inatención, disfunción social y un comportamiento difícil de manejar. La disfunción social y el rechazo de los compañeros que se observan en los individuos con TDAH se debe distinguir de la desvinculación social, del aislamiento y de la indiferencia a las señales de comunicación faciales y tonales que se observan en los individuos con trastorno del espectro autista. Los niños con trastorno del espectro autista pueden tener rabietas por su incapacidad de tolerar los cambios en el curso de los acontecimientos esperados. En cambio, los niños con TDAH pueden portarse mal o tener una rabieta durante una transición importante a causa de su impulsividad o de su autocontrol bajo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de apego reactivo. Los niños con trastorno de apego reactivo pueden mostrar desinhibición social, pero no todos los síntomas centrales del TDAH; además, muestran otros rasgos, como la falta de relaciones duraderas, que no son características del TDAH."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos de ansiedad. El TDAH comparte los síntomas de inatención con los trastornos de ansiedad. Los individuos con TDAH son inatentos por su dedicación preferente a las actividades novedosas y estimulantes o por distraerse pensando en actividades agradables. Esto se distingue de la inatención attribuible a la preocupación y la rumiación que se observa en los trastornos de ansiedad. La inquietud también se puede observar en los trastornos de ansiedad. Sin embargo, en el TDAH, el síntoma no se asoci a preocupación y rumiación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de estrés postraumático. Los problemas de concentración asociados al trastorno de estrés postraumático (TEPT) pueden diagnosticarse erróneamente de TDAH en los niños. Los niños menores de 6 años suelen manifestar el TEPT con síntomas inespecíficos como inquietud, irritabilidad, inatención y escasa concentración, que pueden emular al TDAH. Los progenitores también pueden minimizar los síntomas de origen traumático de sus hijos, y los docentes y otros cuidadores no son a menudo conscientes de que el niño ha estado expuesto a sucesos traumáticos. Una evaluación exhaustiva de la exposición a sucesos traumáticos en el pasado puede descartar el TEPT."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos depresivos. Los individuos con trastornos depresivos pueden presentar incapacidad para concentrarse. Sin embargo, la baja concentración en los trastornos del estado de ánimo solamente llega a ser prominente durante los episodios depresivos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno bipolar. Los individuos con trastorno bipolar pueden tener una intensa actividad, escasa concentración y mucha impulsividad, pero estas características son episódicas, a diferencia del TDAH, en que los síntomas son persistentes. Más aun, en el trastorno bipolar, la elevada impulsividad o inatención va acompañada de un estado de ánimo elevado, de grandiosidad y de otros síntomas bipolares específicos. Los niños con TDAH pueden mostrar cambios importantes del estado de ánimo en un solo día; esta labilidad es distinta de la de un episodio maníaco o hipomaníaco, que debe durar 4 días o más para ser un indicador clínico de trastorno bipolar, incluso en los niños. El trastorno bipolar es raro en los preadolescentes incluso cuando son prominentes la irritabilidad y la ira graves, mientras que el TDAH es frecuente en los niños y en los adolescentes que muestran ira e irritabilidad excesivas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de desregulación disruptiva del estado de ánimo. El trastorno de desregulación disruptiva del estado de ánimo se caracteriza por irritabilidad generalizada, intolerancia y frustración, pero la impulsividad y la atención desorganizada no son las características principales. Sin embargo, la mayoría de los niños y los adolescentes con este trastorno tiene también síntomas que cumplen los criterios del TDAH, que se diagnostica por separado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos por consumo de sustancias. Diferenciar el TDAH de los trastornos por consumo de sustancias puede ser problemático si la primera presentación de los síntomas del TDAH sigue al inicio del abuso o consumo frecuente. Para el diagnóstico diferencial podría ser esencial obtener pruebas claras de la presencia de un TDAH antes del abuso de sustancias a partir de los informantes o de informes previos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos de la personalidad. En los adolescentes y los adultos puede ser difícil distinguir el TDAH de los trastornos de la personalidad limite, narcisista y otros. Algunos trastornos de la personalidad tienden a compartir rasgos de desorganización, intrusividad social, desregulación emocional y desregulación cognitiva. Pero el TDAH no se caracteriza por miedo al abandono, autolesión, ambivalencia extrema y otros rasgos de los trastornos de la personalidad. Se pueden necesitar observaciones clínicas extensas, entrevistas con informantes o una historia detallada para distinguir el comportamiento impulsivo, socialmente intrusivo o inapropiado del comportamiento narcisista, agresivo o dominador para hacer este diagnóstico diferencial."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos psicóticos. El TDAH no se diagnostica si los síntomas de inatención e hiperactividad se presentan exclusivamente durante el curso de un trastorno psicótico."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Síntomas de TDAH inducidos por medicación. Los síntomas de inatención, hiperactividad o impulsividad atribuibles al uso de medicación (p. ej., broncodilatadores, isoniacida, neurolépticos [que producen acatisia], medicación sustitutiva del tiroides) se diagnostican como otros trastornos específicos o no especificados relacionados con otras sustancias (o sustancias desconocidas)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos neurocognitivos. Aunque el deterioro de la atención compleja puede ser uno de los dominios cognitivos afectados en un trastorno neurocognitivo, debe representar un declive con respecto al nivel funcional previo para poder justificar un diagnóstico de trastorno neurocognitivo mayor o leve. Es más, el trastorno neurocognitivo mayor o leve aparece típicamente en la etapa adulta. En cambio, la inatención del TDAH debe haber estado presente desde antes de los 12 años de edad y no supone un declive con respecto al funcionamiento anterior."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 801,
+        "lineaFin": 839
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 12,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque el TDAH es más frecuente en los varones, las mujeres con TDAH tienen mayores tasas de diversos trastornos comórbidos, especialmente el trastorno negativista desafiante, el trastorno del espectro autista y los trastornos de la personalidad y por consumo de sustancias. El trastorno negativista desafiante concurre con el TDAH en aproximadamente la mitad de los niños con presentación combinada y en cerca de una cuarta parte de los niños y adolescentes con presentación predominantemente inatenta. El trastorno de conducta concurre en aproximadamente una cuarta parte de los niños y los adolescentes con trastorno de desregulación disruptiva del estado de ánimo tiene síntomas que también cumplen los criterios del TDAH; un menor porcentaje de niños con TDAH tiene síntomas que cumplen los criterios del trastorno de desregulación disruptiva del estado de ánimo. El trastorno específico del aprendizaje frecuentemente concurre con el TDAH. Los trastornos de ansiedad, el trastorno depresivo, el trastorno obsesivo-compulsivo y el trastorno explosivo intermitente ocurren en una minoría de individuos con TDAH, aunque más frecuentemente que en la población general. Aunque los trastornos por consumo de sustancias son relativamente más frecuentes entre los adultos con TDAH que entre la población general, los trastornos están presentes solamente en una minoría de adultos con TDAH. En los adultos, el trastorno de la personalidad antisocial y otros trastornos de la personalidad pueden concurrir con el TDAH."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El TDAH puede concurrir, con perfiles sintomáticos variables, con otros trastornos del neurodesarrollo, incluidos el trastorno específico del aprendizaje, el trastorno del espectro autista, el trastorno del desarrollo intelectual, los trastornos del lenguaje, el trastorno del desarrollo de la coordinación y los trastornos de tics."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos del sueño comórbidos en el TDAH se asocian a deterioros diurnos de la cognición (p. ej., inatención). Muchos individuos con TDAH refieren una somnolencia diurna que puede cumplir los criterios del trastorno de hipersomnia. De una cuarta parte a la mitad de los individuos con TDAH refieren problemas de sueño; los estudios han mostrado una asociación del TDAH con el insomnio, el trastorno del ritmo circadiano de sueño-vigilia, respiración alterada por el sueño y síndrome de piernas inquietas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se ha observado que los individuos con TDAH presentan tasas elevadas de varias afecciones médicas, especialmente de trastornos alérgicos y autoinmunes, así como de epilepsia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 841,
+        "lineaFin": 849
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno por déficit de atención/hiperactividad — Criterio A",
+        "reverso": "Patrón persistente de inatención y/o hiperactividad-impulsividad que interfiere con el funcionamiento o el desarrollo, que se caracteriza por (1) y/o (2):\n1. Inatención: Seis (o más) de los siguientes síntomas se han mantenido durante al menos 6 meses en un grado que no concuerda con el nivel de desarrollo y que afecta directamente a las actividades sociales y académicas/laborales:\nLos sintomas no son solo una manifestación del comportamiento de oposición, desafío, hostilidad o fracaso en la comprensión de tareas o instrucciones. Para adolescentes mayores y adultos (a partir de 17 años de edad), se requiere un mínimo de cinco sintomas.\na. Con frecuencia falla en prestar la debida atención a detalles o por descuido se cometen errores en las tareas escolares, en el trabajo o durante otras actividades (p. ej., se pasan por alto o se pierden detalles, el trabajo no se lleva a cabo con precisión).\nb. Con frecuencia tiene dificultades para mantener la atención en tareas o actividades recreativas (p. ej., tiene dificultad para mantener la atención en clases, conversaciones o la lectura prolongada).\nc. Con frecuencia parece no escuchar cuando se le habla directamente (p. ej., parece tener la mente en otras cosas, incluso en ausencia de cualquier distracción aparente).\nd. Con frecuencia no sigue las instrucciones y no termina las tareas escolares, los quehaceres o los deberes laborales (p. ej., inicia tareas pero se distrae rápidamente y se evade con facilidad).\ne. Con frecuencia tiene dificultad para organizar tareas y actividades (p. ej., dificultad para gestionar tareas secuenciales; dificultad para poner los materiales y pertenencias en orden; descuido y desorganización en el trabajo; mala gestión del tiempo; no cumple los plazos).\nf. Con frecuencia evita, le disgusta o se muestra poco entusiasta en iniciar tareas que requieren un esfuerzo mental sostenido (p. ej., tareas escolares o quehaceres domésticos; en adolescentes mayores y adultos, preparación de informes, completar formularios, revisar artículos largos).\ng. Con frecuencia pierde cosas necesarias para tareas o actividades (p. ej., materiales escolares, lápices, libros, instrumentos, billetero, llaves, papeles del trabajo, gafas, móvil).\nh. Con frecuencia se distrae con facilidad por estimulos externos (para adolescentes mayores y adultos, puede incluir pensamientos no relacionados).\ni. Con frecuencia olvida las actividades cotidianas (p. ej., hacer las tareas, hacer las diligencias; en adolescentes mayores y adultos, devolver las llamadas, pagar las facturas, acudir a las citas).\n2. Hiperactividad e impulsividad: Seis (o más) de los siguientes sintomas se han mantenido durante al menos 6 meses en un grado que no concuerda con el nivel de desarrollo y que afecta directamente a las actividades sociales y académicas/laborales:\nLos síntomas no son solo una manifestación del comportamiento de oposición, desafío, hostilidad o fracaso para comprender tareas o instrucciones. Para adolescentes mayores y adultos (a partir de 17 años de edad), se requiere un mínimo de cinco síntomas.\na. Con frecuencia juguetea con o golpea las manos o los pies o se retuerce en el asiento.\nb. Con frecuencia se levanta en situaciones en que se espera que permanezca sentado (p. ej., se levanta en la clase, en la oficina o en otro lugar de trabajo, o en otras situaciones que requieren mantenerse en su lugar).\nc. Con frecuencia corretea o trepa en situaciones en las que no resulta apropiado. (Nota: En adolescentes o adultos, puede limitarse a estar inquieto.)\nd. Con frecuencia es incapaz de jugar o de ocuparse tranquilamente en actividades recreativas.\ne. Con frecuencia está \"ocupado,\" actuando como si \"lo impulsara un motor\" (p. ej., es incapaz de estar o se siente incómodo estando quieto durante un tiempo prolongado, como en restaurantes, reuniones; los otros pueden pensar que está intranquilo o que le resulta dificil seguirlos).\nf. Con frecuencia habla excesivamente.\ng. Con frecuencia responde inesperadamente o antes de que se haya concluido una pregunta (p. ej., termina las frases de otros; no respeta el turno de conversación).\nh. Con frecuencia le es difícil esperar su turno (p. ej., mientras espera en una cola).\ni. Con frecuencia interrumpe o se inmiscuye con otros (p. ej., se mete en las conversaciones, juegos o actividades; puede empezar a utilizar las cosas de otras personas sin esperar o recibir permiso; en adolescentes y adultos, puede inmiscuirse o adelantarse a lo que hacen otros).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno por déficit de atención/hiperactividad — Criterio B",
+        "reverso": "Algunos síntomas de inatención o hiperactivo-impulsivos estaban presentes antes de los 12 años.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno por déficit de atención/hiperactividad — Criterio C",
+        "reverso": "Varios síntomas de inatención o hiperactivo-impulsivos están presentes en dos o más contextos (p. ej., en casa, en la escuela o en el trabajo; con los amigos o parientes; en otras actividades).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno por déficit de atención/hiperactividad — Criterio D",
+        "reverso": "Existen pruebas claras de que los síntomas interfieren con el funcionamiento social, académico o laboral, o reducen la calidad estos.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad:criterio:E",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno por déficit de atención/hiperactividad — Criterio E",
+        "reverso": "Los sintomas no se producen exclusivamente durante el curso de la esquizofrenia o de otro trastorno psicótico y no se explican mejor por otro trastorno mental (p. ej., trastorno del estado de ánimo, trastorno de ansiedad, trastorno disociativo, trastorno de la personalidad, intoxicación o abstinencia de sustancias).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad:codigo:F90.2",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno por déficit de atención/hiperactividad — código de «Presentación combinada»",
+        "reverso": "F90.2",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad:codigo:F90.0",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno por déficit de atención/hiperactividad — código de «Presentación predominante con falta de atención»",
+        "reverso": "F90.0",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastorno-por-deficit-de-atencion-hiperactividad:codigo:F90.1",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno por déficit de atención/hiperactividad — código de «Presentación predominante hiperactiva/impulsiva»",
+        "reverso": "F90.1",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+        "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-del-espectro-autista",
+        "nombre": "Trastorno del espectro autista",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-especifico-del-aprendizaje",
+        "nombre": "Trastorno específico del aprendizaje",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-de-movimientos-estereotipados",
+        "nombre": "Trastorno de movimientos estereotipados",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastornos-de-tics",
+        "nombre": "Trastornos de tics",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 647,
+    "lineaFin": 852
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (3)",
+      "textoLiteral": null,
+      "linea": 647
+    }
+  ]
+}

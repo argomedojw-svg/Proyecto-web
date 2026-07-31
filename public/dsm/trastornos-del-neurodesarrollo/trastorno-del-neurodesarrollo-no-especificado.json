@@ -1,0 +1,123 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-del-neurodesarrollo-no-especificado",
+  "nombre": "Trastorno del neurodesarrollo no especificado",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F89",
+    "cie10": "F89",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "otros-trastornos-del-neurodesarrollo",
+    "nombre": "Otros trastornos del neurodesarrollo"
+  },
+  "tipoEntrada": "no_especificado",
+  "orden": 19,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 1384)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Esta categoría se aplica a presentaciones en las que predominan los sintomas características de un trastorno del neurodesarrollo que causan deterioro en lo social, laboral u otras áreas importantes del funcionamiento, pero que no cumplen todos los criterios de alguno de los trastornos de la categoría diagnóstica de los trastornos del neurodesarrollo. La categoría trastorno del neurodesarrollo no especificado se utiliza en situaciones en las que el clínico opta por no especificar el motivo de incumplimiento de los criterios de un trastorno específico del neurodesarrollo, e incluye presentaciones en las que no existe suficiente información para hacer un diagnóstico más específico (por ejemplo, en el ámbito de urgencias)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1384,
+        "lineaFin": 1384
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-del-neurodesarrollo-no-especificado:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno del neurodesarrollo no especificado»?",
+        "opciones": [
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o0",
+            "texto": "F89"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 1380–1380), el código es F89.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-del-neurodesarrollo-no-especificado:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno del neurodesarrollo no especificado",
+        "reverso": "F89",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 1380,
+    "lineaFin": 1380
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 1380
+    }
+  ]
+}

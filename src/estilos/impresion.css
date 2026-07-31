@@ -1,0 +1,119 @@
+/**
+ * Hoja de estilos de impresión.
+ *
+ * Objetivo: una ficha impresa legible en blanco y negro, con las tres voces
+ * (oficial, validado, sin validar) todavía distinguibles sin color.
+ */
+
+@media print {
+  :root {
+    /* Se fuerza el tema claro en papel, sea cual sea el de pantalla. */
+    --fondo: #ffffff;
+    --fondo-elevado: #ffffff;
+    --fondo-sutil: #ffffff;
+    --texto: #000000;
+    --texto-suave: #2a2a2a;
+    --texto-tenue: #555555;
+    --borde: #bbbbbb;
+    --borde-fuerte: #888888;
+    --validado: #000000;
+    --sin-validar: #000000;
+    --validado-suave: transparent;
+    --sin-validar-suave: transparent;
+    --sin-validar-trama: rgba(0, 0, 0, 0.16);
+  }
+
+  html,
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 10.5pt;
+  }
+
+  /* Todo lo que no es contenido desaparece. */
+  header[class*='sticky'],
+  nav[aria-label='Índice del manual'],
+  nav[aria-label='Índice de la ficha'],
+  .salto-contenido {
+    display: none !important;
+  }
+
+  article {
+    display: block !important;
+    max-width: none !important;
+    gap: 0 !important;
+  }
+
+  /* Las secciones se imprimen siempre abiertas, estén plegadas o no. */
+  details {
+    display: block !important;
+  }
+  details > div {
+    display: block !important;
+  }
+  summary {
+    list-style: none;
+    page-break-after: avoid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .oficial {
+    max-width: none;
+    font-size: 10.5pt;
+    line-height: 1.5;
+  }
+
+  /* Las tres voces siguen siendo distintas sin color:
+     tipografía + filete + sangría + trama. */
+  .propio {
+    border-left: 3px solid #000000 !important;
+    background: transparent !important;
+    padding-left: 0.7rem !important;
+  }
+  .propio-sin-validar {
+    border-left: 3px dashed #000000 !important;
+    background-image: repeating-linear-gradient(
+      135deg,
+      transparent 0 5px,
+      rgba(0, 0, 0, 0.14) 5px 6px
+    ) !important;
+    padding-left: 0.7rem !important;
+  }
+
+  /* La dirección de los enlaces internos no aporta nada en papel. */
+  a[href^='#']::after {
+    content: '';
+  }
+
+  table {
+    page-break-inside: auto;
+    min-width: 0 !important;
+    font-size: 9pt;
+  }
+  tr {
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+
+  .overflow-x-auto {
+    overflow: visible !important;
+  }
+
+  @page {
+    margin: 1.8cm 1.6cm;
+  }
+}

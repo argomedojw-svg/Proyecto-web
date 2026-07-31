@@ -1,0 +1,369 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-de-la-comunicacion-social-pragmatico",
+  "nombre": "Trastorno de la comunicación social (pragmático)",
+  "nombreCorto": "Trastorno de la comunicación social",
+  "sinonimos": [
+    "pragmático"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F80.82",
+    "cie10": "F80.82",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-de-la-comunicacion",
+    "nombre": "Trastornos de la comunicación"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 6,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-de-la-comunicacion-social-pragmatico-criterios",
+              "nombre": null,
+              "codigo": "F80.82",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Dificultades persistentes en el uso social de la comunicación verbal y no verbal que se manifiesta por todos los siguientes factores:",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Deficiencias en el uso de la comunicación para propósitos sociales, como saludar y compartir información, de manera que sea apropiada al contexto social.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Deterioro de la capacidad para cambiar la comunicación de forma que se adapte al contexto o a las necesidades del que escucha, como hablar de forma diferente en un aula o en un parque, conversar de forma diferente con un niño o con un adulto, y evitar el uso de un lenguaje demasiado formal.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Dificultades para seguir las normas de conversación y narración, como respetar el turno en la conversación, expresarse de otro modo cuando no se es bien comprendido y saber cuándo utilizar signos verbales y no verbales para regular la interacción.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Dificultades para comprender lo que no se dice explicitamente (p.ej., hacer inferencias) y significados no literales o ambiguos del lenguaje (p.ej., expresiones idiomáticas, humor, metáforas, múltiples significados que dependen del contexto para la interpretación).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Las deficiencias causan limitaciones funcionales en la comunicación eficaz, la participación social, las relaciones sociales, los logros académicos o el desempeño laboral, ya sea individualmente o en combinación.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Los síntomas comienzan en las primeras fases del periodo de desarrollo (pero las deficiencias pueden no manifestarse totalmente hasta que la necesidad de comunicación social supera las capacidades limitadas).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Los síntomas no se pueden atribuir a otra afección médica o neurológica ni a la baja capacidad en los dominios de morfología y gramática, y no se explican mejor por un trastorno del espectro autista, trastorno del desarrollo intelectual (discapacidad intelectual), retraso global del desarrollo u otro trastorno mental.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 393,
+        "lineaFin": 393
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno de la comunicación social (pragmático) se caracteriza por una dificultad primaria con la pragnática (es decir, el uso social del lenguaje y la comunicación), y se manifiesta en forma de deficiencias de la comprensión y para seguir las reglas sociales de comunicación verbal y no verbal en contextos naturales, para cambiar el lenguaje según las necesidades del que escucha o la situación y para seguir las normas de conversación y narración. Las deficiencias de comunicación social causan limitaciones funcionales en la comunicación eficaz, la participación social, el desarrollo de relaciones sociales, los logros académicos y el desempeño laboral. Las deficiencias no se explican mejor por escasa capacidad en el dominio del lenguaje estructural o una capacidad cognitiva deficiente, o por un trastorno del espectro autista."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 395,
+        "lineaFin": 397
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La característica asociada más frecuente del trastorno de la comunicación social (pragmático) es el deterioro del lenguaje, que se caracteriza por antecedentes de retraso para alcanzar los hitos del lenguaje y problemas con el lenguaje estructural desde hace tiempo o en el momento actual (véase \"Trastorno del lenguaje\" anteriormente en este capítulo). Los individuos con deficiencias de la comunicación social pueden evitar las interacciones sociales. El trastorno por déficit de atención/ hiperactividad (TDAH), los problemas emocionales y conductuales, y los trastornos específicos del aprendizaje también son más frecuentes entre los individuos afectados."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 399,
+        "lineaFin": 403
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Como la comunicación social (pragmática) depende del progreso adecuado del desarrollo del habla y el lenguaje, el diagnóstico del trastorno de la comunicación social (pragmático) es raro entre los niños de menos de 4 años. Al llegar a los 4 o 5 años, la mayoría de los niños debería tener capacidades del habla y del lenguaje suficientes como para permitir la identificación de deficiencias específicas en la comunicación social. Las formas más leves del trastorno pueden no resultar evidentes hasta la adolescencia temprana, cuando el lenguaje y las interacciones sociales empiezan a ser más complejas. El resultado del trastorno de la comunicación social (pragmático) es variable, con algunos niños que mejoran sustancialmente con el tiempo y otros cuyas dificultades persisten hasta la edad adulta. Incluso entre los que tienen una mejoría significativa, las deficiencias tempranas en la pragmática pueden causar alteraciones duraderas en las relaciones y los comportamientos sociales, y bajo rendimiento en la adquisición de otras capacidades relacionadas, como la expresión escrita, la comprensión lectora y la lectura oral."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 405,
+        "lineaFin": 407
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Genético y fisiológico. Los antecedentes familiares de trastorno del espectro autista, los trastornos de la comunicación y el trastorno específico del aprendizaje parecen aumentar el riesgo del trastorno de la comunicación social (pragmático); esto incluye a los hermanos de los niños que padecen estos trastornos, que pueden presentar sintomas precoces del trastorno de la comunicación social (pragmático)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 409,
+        "lineaFin": 411
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del espectro autista. El trastorno del espectro autista es la principal consideración diagnóstica para los individuos que presentan deficiencias de la comunicación social. Se pueden diferenciar los dos trastornos por la presencia en el trastorno del espectro autista de patrones restringidos/repetitivos de comportamiento, intereses o actividades, y su ausencia en el trastorno de la comunicación social (pragmático). Los individuos con trastorno del espectro autista pueden mostrar solo patrones restringidos/repetitivos de comportamiento, de intereses o de actividades durante las primeras fases del periodo de desarrollo y, por lo tanto, se debería obtener una historia completa. La ausencia actual de síntomas no excluye el diagnóstico de trastorno del espectro autista si anteriormente existian intereses restringidos y comportamientos repetitivos. Se debería considerar el diagnóstico de trastorno de la comunicación social (pragmático) solamente si los síntomas actuales no cumplen, o la historia del desarrollo no revela síntomas que cumplan, los criterios diagnósticos de los patrones restringidos/repetitivos de comportamiento, de intereses o de actividades del trastorno del espectro autista (es decir, el Criterio B) como causa del deterioro actual. Los síntomas relativos a la comunicación social, aunque similares desde el punto de vista cualitativo, pueden ser más leves en el trastorno de la comunicación social (pragmático) que en el trastorno del espectro autista."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno por déficit de atención/hiperactividad. Los déficits primarios del TDAH pueden causar un deterioro de la comunicación social y limitaciones funcionales de la comunicación eficaz, la participación social o los logros académicos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de ansiedad social. Los síntomas del trastorno de la comunicación social (pragmático) se solapan con los del trastorno de ansiedad social. La característica que los diferencia es el momento del inicio de los síntomas. En el trastorno de la comunicación social (pragmático), el individuo nunca ha tenido una comunicación social eficaz; en el trastorno de ansiedad social, la capacidad de comunicación social se desarrolló apropiadamente, pero no se utiliza por ansiedad, miedo o angustia en relación con las interacciones sociales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del desarrollo intelectual (discapacidad intelectual) y retraso general del desarrollo. Las habilidades de la comunicación social pueden ser deficientes entre los individuos con retraso general del desarrollo o con trastorno del desarrollo intelectual, pero no se da un diagnóstico separado a no ser que las deficiencias de la comunicación social superen claramente las limitaciones intelectuales."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 413,
+        "lineaFin": 421
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-de-la-comunicacion-social-pragmatico:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno de la comunicación social (pragmático)»?",
+        "opciones": [
+          {
+            "id": "o0",
+            "texto": "F80.82"
+          },
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 389–422), el código es F80.82.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-de-la-comunicacion-social-pragmatico:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la comunicación social — Criterio A",
+        "reverso": "Dificultades persistentes en el uso social de la comunicación verbal y no verbal que se manifiesta por todos los siguientes factores:\n1. Deficiencias en el uso de la comunicación para propósitos sociales, como saludar y compartir información, de manera que sea apropiada al contexto social.\n2. Deterioro de la capacidad para cambiar la comunicación de forma que se adapte al contexto o a las necesidades del que escucha, como hablar de forma diferente en un aula o en un parque, conversar de forma diferente con un niño o con un adulto, y evitar el uso de un lenguaje demasiado formal.\n3. Dificultades para seguir las normas de conversación y narración, como respetar el turno en la conversación, expresarse de otro modo cuando no se es bien comprendido y saber cuándo utilizar signos verbales y no verbales para regular la interacción.\n4. Dificultades para comprender lo que no se dice explicitamente (p.ej., hacer inferencias) y significados no literales o ambiguos del lenguaje (p.ej., expresiones idiomáticas, humor, metáforas, múltiples significados que dependen del contexto para la interpretación).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-la-comunicacion-social-pragmatico:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la comunicación social — Criterio B",
+        "reverso": "Las deficiencias causan limitaciones funcionales en la comunicación eficaz, la participación social, las relaciones sociales, los logros académicos o el desempeño laboral, ya sea individualmente o en combinación.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-la-comunicacion-social-pragmatico:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la comunicación social — Criterio C",
+        "reverso": "Los síntomas comienzan en las primeras fases del periodo de desarrollo (pero las deficiencias pueden no manifestarse totalmente hasta que la necesidad de comunicación social supera las capacidades limitadas).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-la-comunicacion-social-pragmatico:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la comunicación social — Criterio D",
+        "reverso": "Los síntomas no se pueden atribuir a otra afección médica o neurológica ni a la baja capacidad en los dominios de morfología y gramática, y no se explican mejor por un trastorno del espectro autista, trastorno del desarrollo intelectual (discapacidad intelectual), retraso global del desarrollo u otro trastorno mental.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-la-comunicacion-social-pragmatico:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno de la comunicación social (pragmático)",
+        "reverso": "F80.82",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+        "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-del-espectro-autista",
+        "nombre": "Trastorno del espectro autista",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-por-deficit-de-atencion-hiperactividad",
+        "nombre": "Trastorno por déficit de atención/hiperactividad",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 389,
+    "lineaFin": 422
+  },
+  "advertencias": []
+}

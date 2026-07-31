@@ -1,0 +1,528 @@
+{
+  "esquema": "dsm5tr-busqueda/1",
+  "version": 1,
+  "generadoEn": "2026-07-26T19:09:55.087Z",
+  "entradas": [
+    {
+      "id": "otro-trastorno-de-tics-especificado",
+      "nombre": "Otro trastorno de tics especificado",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F95.8"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos motores",
+      "archivo": "trastornos-del-neurodesarrollo/otro-trastorno-de-tics-especificado.json"
+    },
+    {
+      "id": "otro-trastorno-del-neurodesarrollo-especificado",
+      "nombre": "Otro trastorno del neurodesarrollo especificado",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F88"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Otros trastornos del neurodesarrollo",
+      "archivo": "trastornos-del-neurodesarrollo/otro-trastorno-del-neurodesarrollo-especificado.json"
+    },
+    {
+      "id": "otro-trastorno-por-deficit-de-atencion-hiperactividad-especificado",
+      "nombre": "Otro trastorno por déficit de atención/hiperactividad especificado",
+      "sinonimos": [
+        "Otro TDAH especificado"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F90.8"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastorno por déficit de atención/hiperactividad",
+      "archivo": "trastornos-del-neurodesarrollo/otro-trastorno-por-deficit-de-atencion-hiperactividad-especificado.json"
+    },
+    {
+      "id": "retraso-global-del-desarrollo",
+      "nombre": "Retraso global del desarrollo",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F88"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos del desarrollo intelectual",
+      "archivo": "trastornos-del-neurodesarrollo/retraso-global-del-desarrollo.json"
+    },
+    {
+      "id": "trastorno-de-la-comunicacion-no-especificado",
+      "nombre": "Trastorno de la comunicación no especificado",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F80.9"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos de la comunicación",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-la-comunicacion-no-especificado.json"
+    },
+    {
+      "id": "trastorno-de-la-comunicacion-social-pragmatico",
+      "nombre": "Trastorno de la comunicación social (pragmático)",
+      "sinonimos": [
+        "pragmático",
+        "Trastorno de la comunicación social"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F80.82"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Diagnóstico diferencial",
+        "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "Trastorno del espectro autista",
+        "Trastorno por déficit de atención/hiperactividad"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos de la comunicación",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-la-comunicacion-social-pragmatico.json"
+    },
+    {
+      "id": "trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo",
+      "nombre": "Trastorno de la fluidez de inicio en la infancia (tartamudeo)",
+      "sinonimos": [
+        "tartamudeo",
+        "Tartamudeo",
+        "Trastorno de la fluidez de inicio en la infancia"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F80.81"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Consecuencias funcionales del trastorno de la fluidez de inicio en la infancia (tartamudeo)",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno específico del aprendizaje",
+        "Trastornos de tics"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos de la comunicación",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo.json"
+    },
+    {
+      "id": "trastorno-de-movimientos-estereotipados",
+      "nombre": "Trastorno de movimientos estereotipados",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F98.4"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Sin comportamiento autolesivo",
+        "Leve",
+        "Moderado",
+        "Grave",
+        "Procedimientos de registro",
+        "Especificadores",
+        "Características diagnósticas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno del espectro autista",
+        "Trastornos de tics"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos motores",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-movimientos-estereotipados.json"
+    },
+    {
+      "id": "trastorno-de-tics-no-especificado",
+      "nombre": "Trastorno de tics no especificado",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F95.9"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos motores",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-tics-no-especificado.json"
+    },
+    {
+      "id": "trastorno-del-desarrollo-de-la-coordinacion",
+      "nombre": "Trastorno del desarrollo de la coordinación",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F82"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Consecuencias funcionales del trastorno del desarrollo de la coordinación",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "Trastorno del espectro autista",
+        "Trastorno por déficit de atención/hiperactividad"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos motores",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-desarrollo-de-la-coordinacion.json"
+    },
+    {
+      "id": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual-no-especificado",
+      "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual) no especificado",
+      "sinonimos": [
+        "discapacidad intelectual",
+        "Trastorno del desarrollo intelectual no especificado"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F79"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos del desarrollo intelectual",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-desarrollo-intelectual-discapacidad-intelectual-no-especificado.json"
+    },
+    {
+      "id": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+      "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+      "sinonimos": [
+        "discapacidad intelectual",
+        "Discapacidad intelectual",
+        "Trastorno del desarrollo intelectual"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F70",
+        "F71",
+        "F72",
+        "F73"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Leve",
+        "Moderado",
+        "Grave",
+        "Profundo",
+        "Especificadores",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Aspectos diagnósticos relacionados con el sexo y el género",
+        "Asociación con pensamientos o conductas suicidas",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Relación con otras clasificaciones",
+        "Trastorno del espectro autista",
+        "Trastorno específico del aprendizaje"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos del desarrollo intelectual",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-desarrollo-intelectual-discapacidad-intelectual.json"
+    },
+    {
+      "id": "trastorno-del-espectro-autista",
+      "nombre": "Trastorno del espectro autista",
+      "sinonimos": [
+        "Trastorno de Asperger",
+        "Autismo infantil",
+        "Autismo de Kanner",
+        "Trastorno generalizado del desarrollo",
+        "Trastorno autista"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F84.0"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Requiere ayuda muy considerable",
+        "Requiere ayuda considerable",
+        "Requiere ayuda",
+        "Con o sin déficit intelectual acompañante",
+        "Con o sin deterioro del lenguaje acompañante",
+        "Procedimientos de registro",
+        "Especificadores",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Aspectos diagnósticos relacionados con el sexo y el género",
+        "Asociación con pensamientos o conductas suicidas",
+        "Consecuencias funcionales del trastorno del espectro autista",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "Trastorno del lenguaje",
+        "Trastorno de la comunicación social (pragmático)",
+        "Trastorno por déficit de atención/hiperactividad",
+        "Trastorno de movimientos estereotipados"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastorno del espectro autista",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-espectro-autista.json"
+    },
+    {
+      "id": "trastorno-del-lenguaje",
+      "nombre": "Trastorno del lenguaje",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F80.2"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "Trastorno del espectro autista"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos de la comunicación",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-lenguaje.json"
+    },
+    {
+      "id": "trastorno-del-neurodesarrollo-no-especificado",
+      "nombre": "Trastorno del neurodesarrollo no especificado",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F89"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Otros trastornos del neurodesarrollo",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-neurodesarrollo-no-especificado.json"
+    },
+    {
+      "id": "trastorno-del-sonido-del-habla",
+      "nombre": "Trastorno del sonido del habla",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F80.0"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Desarrollo y curso",
+        "Diagnóstico diferencial",
+        "Comorbilidad"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos de la comunicación",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-sonido-del-habla.json"
+    },
+    {
+      "id": "trastorno-especifico-del-aprendizaje",
+      "nombre": "Trastorno específico del aprendizaje",
+      "sinonimos": [
+        "Dislexia",
+        "Discalculia"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F81.0",
+        "F81.81",
+        "F81.2"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Con dificultades en la lectura:",
+        "Con dificultad en la expresión escrita:",
+        "Con dificultad matemática:",
+        "Leve",
+        "Moderado",
+        "Grave",
+        "Procedimientos de registro",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Aspectos diagnósticos relacionados con el sexo y el género",
+        "Asociación con pensamientos o conductas suicidas",
+        "Consecuencias funcionales del trastorno específico del aprendizaje",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "Trastorno por déficit de atención/hiperactividad"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastorno específico del aprendizaje",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-especifico-del-aprendizaje.json"
+    },
+    {
+      "id": "trastorno-por-deficit-de-atencion-hiperactividad-no-especificado",
+      "nombre": "Trastorno por déficit de atención/hiperactividad no especificado",
+      "sinonimos": [
+        "TDAH no especificado"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F90.9"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastorno por déficit de atención/hiperactividad",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-por-deficit-de-atencion-hiperactividad-no-especificado.json"
+    },
+    {
+      "id": "trastorno-por-deficit-de-atencion-hiperactividad",
+      "nombre": "Trastorno por déficit de atención/hiperactividad",
+      "sinonimos": [],
+      "abreviaturas": [
+        "TDAH"
+      ],
+      "codigos": [
+        "F90.2",
+        "F90.0",
+        "F90.1"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Presentación combinada",
+        "Presentación predominante con falta de atención",
+        "Presentación predominante hiperactiva/impulsiva",
+        "En remisión parcial",
+        "Leve",
+        "Moderado",
+        "Grave",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Aspectos diagnósticos relacionados con el sexo y el género",
+        "Marcadores diagnósticos",
+        "Asociación con pensamientos o conductas suicidas",
+        "Consecuencias funcionales del trastorno por déficit de atención/hiperactividad",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "Trastorno del espectro autista",
+        "Trastorno específico del aprendizaje",
+        "Trastorno de movimientos estereotipados",
+        "Trastornos de tics"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastorno por déficit de atención/hiperactividad",
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-por-deficit-de-atencion-hiperactividad.json"
+    },
+    {
+      "id": "trastornos-de-tics",
+      "nombre": "Trastornos de tics",
+      "sinonimos": [
+        "Trastorno de la Tourette",
+        "Trastorno de tics motores o vocales persistente (crónico)",
+        "Trastorno de tics provisional",
+        "Tourette"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F95.2",
+        "F95.1",
+        "F95.0"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Trastorno de la Tourette",
+        "Trastorno de tics motores o vocales persistente (crónico)",
+        "Solo contics motores",
+        "Solo con tics vocales",
+        "Trastorno de tics provisional",
+        "Especificadores",
+        "Características diagnósticas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Aspectos diagnósticos relacionados con el sexo y el género",
+        "Asociación con pensamientos o conductas suicidas",
+        "Consecuencias funcionales de los trastornos de tics",
+        "Diagnóstico diferencial",
+        "Comorbilidad"
+      ],
+      "categoriaId": "trastornos-del-neurodesarrollo",
+      "categoriaNombre": "Trastornos del neurodesarrollo",
+      "subcategoriaNombre": "Trastornos motores",
+      "archivo": "trastornos-del-neurodesarrollo/trastornos-de-tics.json"
+    }
+  ]
+}

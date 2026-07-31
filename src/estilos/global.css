@@ -1,0 +1,167 @@
+@import './tokens.css';
+@import '@fontsource-variable/source-serif-4/index.css';
+@import '@fontsource-variable/inter/index.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: var(--borde);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--fondo);
+    color: var(--texto);
+    font-family: var(--fuente-propia);
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Foco visible en TODO elemento interactivo, sin excepciones. */
+  :focus-visible {
+    outline: 2px solid var(--acento);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+  /* Se elimina solo el anillo por defecto, nunca el de :focus-visible. */
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  ::selection {
+    background: var(--acento-suave);
+    color: var(--texto);
+  }
+
+  /* Barras de desplazamiento discretas y coherentes con el tema. */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--borde-fuerte) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: var(--borde-fuerte);
+    border-radius: 6px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+}
+
+@layer components {
+  /* ---------------------------------------------------------------- */
+  /* Tratamiento 1 · CONTENIDO OFICIAL DEL DSM                         */
+  /* Serif, sin filete, sin sangría, sin trama. Es la voz por defecto. */
+  /* ---------------------------------------------------------------- */
+  .oficial {
+    font-family: var(--fuente-manual);
+    font-size: var(--tam-manual);
+    line-height: var(--interlineado-manual);
+    color: var(--texto);
+    max-width: var(--medida-lectura);
+  }
+  .oficial p + p {
+    margin-top: 0.9em;
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Tratamiento 2 · EDUCATIVO VALIDADO                                */
+  /* Sans + filete continuo + sangría + fondo liso tenue.              */
+  /* ---------------------------------------------------------------- */
+  .propio {
+    font-family: var(--fuente-propia);
+    font-size: 0.9375rem;
+    line-height: 1.62;
+    max-width: var(--medida-lectura);
+    border-left: 3px solid var(--validado);
+    background-color: var(--validado-suave);
+    padding: 0.85rem 1rem 0.85rem 1.05rem;
+    border-radius: 0 5px 5px 0;
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Tratamiento 3 · EDUCATIVO SIN VALIDAR                             */
+  /* Sans + filete discontinuo + sangría + TRAMA diagonal.             */
+  /* La trama es lo que hace que se distinga en gris y en impresión.   */
+  /* ---------------------------------------------------------------- */
+  .propio-sin-validar {
+    font-family: var(--fuente-propia);
+    font-size: 0.9375rem;
+    line-height: 1.62;
+    max-width: var(--medida-lectura);
+    border-left: 3px dashed var(--sin-validar);
+    background-color: var(--sin-validar-suave);
+    background-image: var(--trama-sin-validar);
+    padding: 0.85rem 1rem 0.85rem 1.05rem;
+    border-radius: 0 5px 5px 0;
+  }
+
+  /* Enlaces dentro de texto largo. */
+  .enlace {
+    color: var(--acento);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+  }
+  .enlace:hover {
+    text-decoration-thickness: 2px;
+  }
+
+  /* Píldora de código CIE. */
+  .codigo-cie {
+    font-family: var(--fuente-mono);
+    font-size: 0.8125rem;
+    letter-spacing: 0.01em;
+    background: var(--fondo-sutil);
+    border: 1px solid var(--borde);
+    border-radius: 4px;
+    padding: 0.05rem 0.35rem;
+    white-space: nowrap;
+  }
+
+  /* Enlace de salto para lectores de pantalla y teclado. */
+  .salto-contenido {
+    position: absolute;
+    left: -9999px;
+    z-index: 100;
+    padding: 0.6rem 1rem;
+    background: var(--acento);
+    color: var(--acento-contraste);
+    border-radius: 0 0 6px 0;
+  }
+  .salto-contenido:focus {
+    left: 0;
+    top: 0;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Movimiento reducido                                                 */
+/* ------------------------------------------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

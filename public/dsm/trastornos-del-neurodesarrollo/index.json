@@ -1,0 +1,401 @@
+{
+  "esquema": "dsm5tr-categoria/1",
+  "version": 1,
+  "id": "trastornos-del-neurodesarrollo",
+  "nombre": "Trastornos del neurodesarrollo",
+  "orden": 1,
+  "introduccion": [
+    {
+      "tipo": "subtitulo",
+      "texto": "Los trastornos"
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "Los trastornos del neurodesarrollo son un grupo de afecciones con inicio en el período del desarrollo. Los trastornos se manifiestan normalmente de manera precoz en el desarrollo, a menudo antes de que el niño empiece la escuela primaria, y se caracterizan por deficits o diferencias en el desarrollo de los procesos cerebrales, que producen deficiencias del funcionamiento personal, social, académico u ocupacional. El rango de los deficits o diferencias del desarrollo varía desde limitaciones muy específicas del aprendizaje o del control de las funciones ejecutivas hasta deficiencias globales de las habilidades sociales o la capacidad intelectual. Si bien su definición se creyó categórica anteriormente, las estrategias dimensionales empleadas más recientemente para medir los síntomas muestran un rango de gravedad, a menudo sin un límite muy claro con el desarrollo típico. Por tanto, el diagnóstico de un trastorno requiere la presencia tanto de síntomas como de deterioro funcional."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "Los trastornos del neurodesarrollo concurren frecuentemente entre sí; por ejemplo, los individuos con un trastorno del espectro autista a menudo tienen un trastorno del desarrollo intelectual (discapacidad intelectual) y muchos niños con un trastorno por déficit de atención/ hiperactividad (TDAH) también tienen un trastorno específico del aprendizaje. Los trastornos del neurodesarrollo concurren también a menudo con otros trastornos mentales y conductuales de inicio en la infancia (p. ej., los trastornos de la comunicación y los trastornos del espectro autista pueden asociarse a trastornos de ansiedad; el TDAH, al trastorno negativista desafiante; los tics, al trastorno obsesivo-compulsivo). Para algunos trastornos del neurodesarrollo, la presentación clínica incluye conductas más frecuentes o intensas en comparación con las de los niños normales de la misma edad evolutiva y el mismo género, además de los déficits y retrasos para alcanzar los hitos esperados. Por ejemplo, el trastorno del espectro autista se diagnostica solamente cuando los déficits características de la comunicación social están acompañados por comportamientos excesivamente repetitivos, por intereses restringidos y por la insistencia en la monotonía."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "El trastorno del desarrollo intelectual se caracteriza por un déficit de las capacidades mentales generales, como el razonamiento, la resolución de problemas, la planificación, el pensamiento abstracto, el juicio, el aprendizaje académico y el aprendizaje de la experiencia. Estos producen deficiencias del funcionamiento adaptativo, de tal manera que el individuo no alcanza los estándares de independencia personal y de responsabilidad social en uno o más aspectos de la vida cotidiana, incluidos la comunicación, la participación social, el funcionamiento académico u ocupacional y la independencia personal en casa o en la comunidad. El retraso general del desarrollo, como sugiere su nombre, se diagnostica cuando un individuo no alcanza los hitos esperados del desarrollo en varias áreas del funcionamiento intelectual. El diagnóstico se utiliza en los individuos menores de 5 años de edad que son incapaces de someterse a evaluaciones sistemáticas del funcionamiento intelectual, por lo que el nivel de gravedad clínica no puede valorarse de manera fiable. El trastorno del desarrollo intelectual puede deberse a un daño adquirido durante el período del desarrollo a causa, por ejemplo, de una lesión cerebral grave, en cuyo caso también puede diagnosticarse un trastorno neurocognitivo."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "Los trastornos de la comunicación incluyen el trastorno del lenguaje, el trastorno del sonido del habla, el trastorno de la comunicación social (pragmático) y el trastorno de la fluidez de inicio en la infancia (tartamudeo). Los primeros tres trastornos se caracterizan por deficits en el desarrollo y en el uso del lenguaje, el habla y la comunicación social, respectivamente. El trastorno de la comunicación social se caracteriza por deficits en las habilidades de comunicación verbal y no verbal que ocasionan deterioro social y no se explican mejor por una escasa capacidad de lenguaje estructural, un trastorno del desarrollo intelectual o un trastorno del espectro autista. El trastorno de la fluidez de inicio en la infancia se caracteriza por alteraciones de la fluidez normal y la producción motora del habla, como la repetición de sonidos o sílabas, la prolongación de los sonidos de las consonantes o las vocales, las palabras fragmentadas, los bloqueos y las palabras producidas con exceso de tensión física. Como otras alteraciones del neurodesarrollo, los trastornos de la comunicación comienzan precozmente y pueden producir deficiencias funcionales durante toda la vida."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "El trastorno del espectro autista se caracteriza por déficits persistentes en la comunicación social y la interacción social en múltiples contextos, incluidos los déficits de la reciprocidad social, los comportamientos comunicativos no verbales usados para la interacción social y las habilidades para desarrollar, mantener y entender las relaciones. Además de los déficits de la comunicación social, el diagnóstico del trastorno del espectro autista requiere la presencia de patrones de comportamiento, intereses o actividades de tipo restrictivo o repetitivo. Como los síntomas cambian con el desarrollo y pueden enmascararse por mecanismos compensatorios, los criterios diagnósticos pueden cumplirse basándose en la información histórica, aunque la presentación actual tiene que causar un deterioro significativo."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "Dentro del diagnóstico del trastorno del espectro autista, las características clínicas individuales se registran a través del uso de especificadores (con o sin déficit intelectual acompañante; con o sin deterioro del lenguaje acompañante; asociado a otra afección médica/genética o factor ambiental conocidos; asociado a un problema del neurodesarrollo, mental o del comportamiento), además de especificadores que describen la gravedad de los síntomas autistas. Estos especificadores ofrecen a los clínicos la oportunidad de individualizar el diagnóstico y de comunicar una descripción clínica más detallada de los individuos afectados. Por ejemplo, muchos individuos previamente diagnosticados de trastorno de Asperger ahora recibirían un diagnóstico de trastorno del espectro autista sin deterioro intelectual ni del lenguaje."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "El TDAH es un trastorno del neurodesarrollo definido por niveles problemáticos de inatención, desorganización y/o hiperactividad-impulsividad. La inatención y la desorganización implican la incapacidad de seguir tareas, que parezca que no escuchan y que pierdan los materiales necesarios para las tareas a unos niveles que son incompatibles con la edad o el nivel del desarrollo. La hiperactividad-impulsividad implica actividad excesiva, movimientos nerviosos, incapacidad de permanecer sentado, intromisión en las actividades de otras personas e incapacidad para esperar que son excesivos para la edad o el nivel del desarrollo. En la infancia, el TDAH frecuentemente se solapa con trastornos que a menudo se consideran \"trastornos exteriorizadores\", como el trastorno negativista desafiante y el trastorno de conducta. El TDAH a menudo persiste hasta la edad adulta, con consecuentes deterioros del funcionamiento social, académico y ocupacional."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "El trastorno específico del aprendizaje, como su propio nombre indica, se diagnostica cuando hay deficits específicos en la capacidad del individuo para percibir o procesar información a fin de aprender los conocimientos académicos de forma eficiente y precisa. Este trastorno del neurodesarrollo se manifiesta primero durante los años de escolarización formal y se caracteriza por dificultades persistentes y deteriorantes para adquirir los conocimientos académicos básicos de lectura, escritura y/o matemáticas. El rendimiento del individuo en los aspectos académicos afectados está muy por debajo de la media para su edad o se consiguen niveles de rendimiento aceptables tan solo realizando esfuerzos extraordinarios. El trastorno específico del aprendizaje puede producirse en individuos que se consideren bien dotados intelectualmente y manifestarse solamente cuando las exigencias del aprendizaje o los procedimientos de evaluación (p. ej., exámenes cronometrados) suponen barreras que no pueden superar mediante la inteligencia innata o estrategias compensatorias. En todos los individuos, el trastorno específico del aprendizaje puede producir deterioros de por vida en aquellas actividades que dependan del conocimiento afectado, incluido el rendimiento laboral."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "Los trastornos motores del neurodesarrollo incluyen el trastorno del desarrollo de la coordinación, el trastorno de movimientos estereotipados y los trastornos de tics. El trastorno del desarrollo de la coordinación se caracteriza por deficits en la adquisición y ejecución de las habilidades motoras coordinadas, y se manifiesta con una torpeza y lentitud o inexactitud en la ejecución de las habilidades motoras que interfiere con las actividades de la vida cotidiana. El trastorno de movimientos estereotipados se diagnostica cuando el individuo tiene comportamientos motores repetitivos, aparentemente guiados y sin objetivo, como agitar las manos, mecer el cuerpo, golpearse la cabeza, morderse o darse golpes. Los movimientos interfieren con las actividades sociales, académicas u otras. Si los comportamientos causan autolesiones, esto se debería especificar como parte de la descripción diagnóstica. Los trastornos de tics se caracterizan por la presencia de tics motores o vocales, que son movimientos o vocalizaciones súbitos, rápidos, recurrentes, no rítmicos y estereotipados. La duración, la supuesta etiología y la presentación clínica definen el trastorno de tics específico que se diagnostica: el trastorno de la Tourette, el trastorno de tics motores o vocales persistentes (crónico), el trastorno de tics provisional, otro trastorno de tics especificado y el trastorno de tics no especificado. El trastorno de la Tourette se diagnostica cuando el individuo tiene múltiples tics motores y vocales que han estado presentes durante al menos 1 año y que tienen un curso sintomático fluctuante."
+    },
+    {
+      "tipo": "parrafo",
+      "texto": "El uso de especificadores en los diagnósticos de los trastornos del neurodesarrollo enriquece la descripción clínica del curso clínico y la sintomatología actual del individuo. Dichos especificadores comprenden los siguientes: existen especificadores de gravedad para el trastorno del desarrollo intelectual, el trastorno del espectro autista, el TDAH, el trastorno específico del aprendizaje y el trastorno de movimientos estereotipados. Hay disponibles especificadores indicativos de la sintomatología actual para el TDAH, el trastorno específico del aprendizaje y el trastorno de tics motores o vocales persistente. El trastorno del espectro autista y el trastorno de movimientos estereotipados contemplan también el especificador \"asociado a una afección genética o médica de otro tipo, o a un factor ambiental conocidos\". Este especificador permite a los clínicos documentar factores que podrían haber intervenido en la etiología del trastorno, además de los que podrían afectar al curso clínico."
+    }
+  ],
+  "subcategorias": [
+    {
+      "id": "trastornos-del-desarrollo-intelectual",
+      "nombre": "Trastornos del desarrollo intelectual",
+      "orden": 0,
+      "introduccion": [],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 33,
+        "lineaFin": 33
+      }
+    },
+    {
+      "id": "trastornos-de-la-comunicacion",
+      "nombre": "Trastornos de la comunicación",
+      "orden": 1,
+      "introduccion": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos de la comunicación incluyen las deficiencias del lenguaje, el habla y la comunicación. El habla es la producción expresiva de sonidos, e incluye la articulación, la fluidez, la voz y la calidad de resonancia de un individuo. El lenguaje incluye la forma, la función y el uso de un sistema convencional de símbolos (es decir, palabras habladas, lenguaje de señas, palabras escritas, imágenes) regido por reglas para la comunicación. La comunicación es todo comportamiento verbal o no verbal (sea intencional o no intencional) capaz de influir en el comportamiento, las ideas o las actitudes de otro individuo. Las evaluaciones de las capacidades para el habla, el lenguaje o la comunicación deben tener en cuenta el contexto cultural y lingüístico del individuo, particularmente en los individuos que crecen en ambientes bilingües. Las medidas estandarizadas del desarrollo del lenguaje y de la capacidad intelectual no verbal deben ser pertinentes para el grupo cultural y lingüístico (p. ej., las pruebas desarrolladas y estandarizadas para un grupo pueden no ser apropiadas para otro grupo). La categoría diagnóstica de los trastornos de la comunicación incluye lo siguiente: el trastorno del lenguaje, el trastorno del sonido del habla, el trastorno de la fluidez de inicio en la infancia (tartamudeo), el trastorno de la comunicación social (pragmático) y los trastornos de la comunicación no especificados. Las diferencias sexuales en el desarrollo de la comunicación temprana pueden dar lugar a índices de prevalencia de los trastornos de la comunicación más elevados en los chicos que en las chicas. Dados los rasgos que se asocian a los trastornos de la comunicación y la relación que tiene la comunicación con otros dominios del desarrollo, los trastornos de la comunicación presentan tasas altas de comorbilidad con otros trastornos del neurodesarrollo (p. ej., trastorno del espectro autista, trastorno del desarrollo intelectual [discapacidad intelectual], trastornos mentales [p. ej., trastornos de ansiedad]) y algunas afecciones médicas (p. ej., trastornos comiciales, anomalías cromosómicas específicas)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 183,
+        "lineaFin": 183
+      }
+    },
+    {
+      "id": "trastorno-del-espectro-autista",
+      "nombre": "Trastorno del espectro autista",
+      "orden": 2,
+      "introduccion": [],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 433,
+        "lineaFin": 433
+      }
+    },
+    {
+      "id": "trastorno-por-deficit-de-atencion-hiperactividad",
+      "nombre": "Trastorno por déficit de atención/hiperactividad",
+      "orden": 3,
+      "introduccion": [],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 643,
+        "lineaFin": 643
+      }
+    },
+    {
+      "id": "trastorno-especifico-del-aprendizaje",
+      "nombre": "Trastorno específico del aprendizaje",
+      "orden": 4,
+      "introduccion": [],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 867,
+        "lineaFin": 867
+      }
+    },
+    {
+      "id": "trastornos-motores",
+      "nombre": "Trastornos motores",
+      "orden": 5,
+      "introduccion": [],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1051,
+        "lineaFin": 1051
+      }
+    },
+    {
+      "id": "otros-trastornos-del-neurodesarrollo",
+      "nombre": "Otros trastornos del neurodesarrollo",
+      "orden": 6,
+      "introduccion": [],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1362,
+        "lineaFin": 1362
+      }
+    }
+  ],
+  "trastornos": [
+    {
+      "id": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+      "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+      "nombreCorto": "Trastorno del desarrollo intelectual",
+      "codigo": null,
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastornos-del-desarrollo-intelectual",
+      "orden": 0,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-desarrollo-intelectual-discapacidad-intelectual.json",
+      "totalSecciones": 13,
+      "subentradas": []
+    },
+    {
+      "id": "retraso-global-del-desarrollo",
+      "nombre": "Retraso global del desarrollo",
+      "nombreCorto": null,
+      "codigo": "F88",
+      "tipoEntrada": "variante",
+      "subcategoriaId": "trastornos-del-desarrollo-intelectual",
+      "orden": 1,
+      "archivo": "trastornos-del-neurodesarrollo/retraso-global-del-desarrollo.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual-no-especificado",
+      "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual) no especificado",
+      "nombreCorto": "Trastorno del desarrollo intelectual no especificado",
+      "codigo": "F79",
+      "tipoEntrada": "no_especificado",
+      "subcategoriaId": "trastornos-del-desarrollo-intelectual",
+      "orden": 2,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-desarrollo-intelectual-discapacidad-intelectual-no-especificado.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-del-lenguaje",
+      "nombre": "Trastorno del lenguaje",
+      "nombreCorto": null,
+      "codigo": "F80.2",
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastornos-de-la-comunicacion",
+      "orden": 3,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-lenguaje.json",
+      "totalSecciones": 7,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-del-sonido-del-habla",
+      "nombre": "Trastorno del sonido del habla",
+      "nombreCorto": null,
+      "codigo": "F80.0",
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastornos-de-la-comunicacion",
+      "orden": 4,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-sonido-del-habla.json",
+      "totalSecciones": 6,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo",
+      "nombre": "Trastorno de la fluidez de inicio en la infancia (tartamudeo)",
+      "nombreCorto": "Trastorno de la fluidez de inicio en la infancia",
+      "codigo": "F80.81",
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastornos-de-la-comunicacion",
+      "orden": 5,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-la-fluidez-de-inicio-en-la-infancia-tartamudeo.json",
+      "totalSecciones": 8,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-de-la-comunicacion-social-pragmatico",
+      "nombre": "Trastorno de la comunicación social (pragmático)",
+      "nombreCorto": "Trastorno de la comunicación social",
+      "codigo": "F80.82",
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastornos-de-la-comunicacion",
+      "orden": 6,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-la-comunicacion-social-pragmatico.json",
+      "totalSecciones": 6,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-de-la-comunicacion-no-especificado",
+      "nombre": "Trastorno de la comunicación no especificado",
+      "nombreCorto": null,
+      "codigo": "F80.9",
+      "tipoEntrada": "no_especificado",
+      "subcategoriaId": "trastornos-de-la-comunicacion",
+      "orden": 7,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-la-comunicacion-no-especificado.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-del-espectro-autista",
+      "nombre": "Trastorno del espectro autista",
+      "nombreCorto": null,
+      "codigo": "F84.0",
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastorno-del-espectro-autista",
+      "orden": 8,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-espectro-autista.json",
+      "totalSecciones": 14,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-por-deficit-de-atencion-hiperactividad",
+      "nombre": "Trastorno por déficit de atención/hiperactividad",
+      "nombreCorto": null,
+      "codigo": null,
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastorno-por-deficit-de-atencion-hiperactividad",
+      "orden": 9,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-por-deficit-de-atencion-hiperactividad.json",
+      "totalSecciones": 13,
+      "subentradas": []
+    },
+    {
+      "id": "otro-trastorno-por-deficit-de-atencion-hiperactividad-especificado",
+      "nombre": "Otro trastorno por déficit de atención/hiperactividad especificado",
+      "nombreCorto": "Otro TDAH especificado",
+      "codigo": "F90.8",
+      "tipoEntrada": "otro_especificado",
+      "subcategoriaId": "trastorno-por-deficit-de-atencion-hiperactividad",
+      "orden": 10,
+      "archivo": "trastornos-del-neurodesarrollo/otro-trastorno-por-deficit-de-atencion-hiperactividad-especificado.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-por-deficit-de-atencion-hiperactividad-no-especificado",
+      "nombre": "Trastorno por déficit de atención/hiperactividad no especificado",
+      "nombreCorto": "TDAH no especificado",
+      "codigo": "F90.9",
+      "tipoEntrada": "no_especificado",
+      "subcategoriaId": "trastorno-por-deficit-de-atencion-hiperactividad",
+      "orden": 11,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-por-deficit-de-atencion-hiperactividad-no-especificado.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-especifico-del-aprendizaje",
+      "nombre": "Trastorno específico del aprendizaje",
+      "nombreCorto": null,
+      "codigo": null,
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastorno-especifico-del-aprendizaje",
+      "orden": 12,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-especifico-del-aprendizaje.json",
+      "totalSecciones": 13,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-del-desarrollo-de-la-coordinacion",
+      "nombre": "Trastorno del desarrollo de la coordinación",
+      "nombreCorto": null,
+      "codigo": "F82",
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastornos-motores",
+      "orden": 13,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-desarrollo-de-la-coordinacion.json",
+      "totalSecciones": 10,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-de-movimientos-estereotipados",
+      "nombre": "Trastorno de movimientos estereotipados",
+      "nombreCorto": null,
+      "codigo": "F98.4",
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastornos-motores",
+      "orden": 14,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-movimientos-estereotipados.json",
+      "totalSecciones": 10,
+      "subentradas": []
+    },
+    {
+      "id": "trastornos-de-tics",
+      "nombre": "Trastornos de tics",
+      "nombreCorto": null,
+      "codigo": null,
+      "tipoEntrada": "trastorno",
+      "subcategoriaId": "trastornos-motores",
+      "orden": 15,
+      "archivo": "trastornos-del-neurodesarrollo/trastornos-de-tics.json",
+      "totalSecciones": 12,
+      "subentradas": [
+        {
+          "nombre": "Trastorno de la Tourette",
+          "codigo": "F95.2",
+          "ancla": "trastornos-de-tics-trastorno-de-la-tourette"
+        },
+        {
+          "nombre": "Trastorno de tics motores o vocales persistente (crónico)",
+          "codigo": "F95.1",
+          "ancla": "trastornos-de-tics-trastorno-de-tics-motores-o-vocales-persistente-cronico"
+        },
+        {
+          "nombre": "Trastorno de tics provisional",
+          "codigo": "F95.0",
+          "ancla": "trastornos-de-tics-trastorno-de-tics-provisional"
+        }
+      ]
+    },
+    {
+      "id": "otro-trastorno-de-tics-especificado",
+      "nombre": "Otro trastorno de tics especificado",
+      "nombreCorto": null,
+      "codigo": "F95.8",
+      "tipoEntrada": "otro_especificado",
+      "subcategoriaId": "trastornos-motores",
+      "orden": 16,
+      "archivo": "trastornos-del-neurodesarrollo/otro-trastorno-de-tics-especificado.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-de-tics-no-especificado",
+      "nombre": "Trastorno de tics no especificado",
+      "nombreCorto": null,
+      "codigo": "F95.9",
+      "tipoEntrada": "no_especificado",
+      "subcategoriaId": "trastornos-motores",
+      "orden": 17,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-de-tics-no-especificado.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    },
+    {
+      "id": "otro-trastorno-del-neurodesarrollo-especificado",
+      "nombre": "Otro trastorno del neurodesarrollo especificado",
+      "nombreCorto": null,
+      "codigo": "F88",
+      "tipoEntrada": "otro_especificado",
+      "subcategoriaId": "otros-trastornos-del-neurodesarrollo",
+      "orden": 18,
+      "archivo": "trastornos-del-neurodesarrollo/otro-trastorno-del-neurodesarrollo-especificado.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    },
+    {
+      "id": "trastorno-del-neurodesarrollo-no-especificado",
+      "nombre": "Trastorno del neurodesarrollo no especificado",
+      "nombreCorto": null,
+      "codigo": "F89",
+      "tipoEntrada": "no_especificado",
+      "subcategoriaId": "otros-trastornos-del-neurodesarrollo",
+      "orden": 19,
+      "archivo": "trastornos-del-neurodesarrollo/trastorno-del-neurodesarrollo-no-especificado.json",
+      "totalSecciones": 1,
+      "subentradas": []
+    }
+  ],
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 1,
+    "lineaFin": 0
+  },
+  "advertencias": []
+}

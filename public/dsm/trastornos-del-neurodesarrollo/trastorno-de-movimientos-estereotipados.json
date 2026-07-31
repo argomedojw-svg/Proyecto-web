@@ -1,0 +1,489 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-de-movimientos-estereotipados",
+  "nombre": "Trastorno de movimientos estereotipados",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F98.4",
+    "cie10": "F98.4",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-motores",
+    "nombre": "Trastornos motores"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 14,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-de-movimientos-estereotipados-criterios",
+              "nombre": null,
+              "codigo": "F98.4",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Comportamiento motor repetitivo, aparentemente guiado y sin objetivo(p.ej., sacudir o agitar las manos, mecer el cuerpo, golpearse la cabeza, morderse, golpearse el propio cuerpo).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "El comportamiento motor repetitivo interfiere en las actividades sociales, académicas u otras, y puede dar lugar a la autolesión.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Comienza en las primeras fases del periodo de desarrollo.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El comportamiento motor repetitivo no se puede atribuir a los efectos fisiológicos de una sustancia o una afección neurológica,y no se explica mejor por otro trastorno del neurodesarrollo o mental(p.ej., tricotilomanía[trastorno de arrancarse el cabello],trastorno obsesivo-compulsivo).",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con comportamiento autolesivo(o comportamiento que derivaría en lesión si no se emplearan medidas preventivas).",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Sin comportamiento autolesivo",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Asociado a una afección genética o médica,a un trastorno del neurodesarrollo o a un factor ambiental conocidos(p.ej., síndrome de Lesch-Nyhan,trastorno del desarrollo intelectual[discapacidad intelectual],exposición intrauterina al alcohol).",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "Utilizar un código adicional para identificar la afección genética o médica,el trastorno del desarrollo neurológico o el factor medioambiental."
+                  ]
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Leve",
+                      "descripcion": "Los síntomas desaparecen fácilmente mediante estimulo sensorial o distracción.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Moderado",
+                      "descripcion": "Los síntomas requieren medidas de protección explicitas y modificación del comportamiento.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Grave",
+                      "descripcion": "Se necesita vigilancia continua y medidas de protección para prevenir lesiones graves.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1137,
+        "lineaFin": 1137
+      }
+    },
+    {
+      "clave": "procedimientos_registro",
+      "claveOriginal": "procedimientos de registro",
+      "titulo": "Procedimientos de registro",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En el trastorno de movimientos estereotipados asociado a una afección genética o médica de otro tipo conocida, a un trastorno del neurodesarrollo o a un factor ambiental, se registrará: trastorno de movimientos estereotipados asociado a (nombre de la afección, trastorno o factor) (p. ej., trastorno de movimientos estereotipados asociado a síndrome de Lesch-Nyhan)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1146,
+        "lineaFin": 1148
+      }
+    },
+    {
+      "clave": "especificadores",
+      "claveOriginal": "especificadores",
+      "titulo": "Especificadores",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La gravedad de los movimientos estereotipados no autolesivos varía entre presentaciones leves, que se suprimen fácilmente con un estímulo sensorial o una distracción, y movimientos continuos que interfieren de forma marcada en todas las actividades de la vida cotidiana. La gravedad de los comportamientos autolesivos varía a lo largo de varias dimensiones, como la frecuencia, el impacto sobre el funcionamiento adaptativo y la gravedad de las lesiones corporales (desde hematomas leves o eritemas por golpes de la mano contra el cuerpo, pasando por laceraciones o amputación de los dedos, hasta el desprendimiento de retina por golpes en la cabeza)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1150,
+        "lineaFin": 1152
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La característica esencial del trastorno de movimientos estereotipados es el comportamiento motor repetitivo, aparentemente guiado y sin objetivo (Criterio A). Estos movimientos muchas veces son movimientos rítmicos de la cabeza, de las manos o del cuerpo sin función adaptativa obvia. Estos movimientos pueden o no responder a los esfuerzos para pararlos. En los niños con desarrollo normal, los movimientos se suelen poder parar cuando se les dirige la atención o cuando se distrae al niño para que no los haga. Entre los niños con trastornos del neurodesarrollo, los comportamientos normalmente responden menos a tales intentos. En otros casos, el individuo muestra comportamientos de autocontrol (p. ej., sentarse encima de las manos, envolver los brazos en ropa, encontrar un dispositivo protector)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El repertorio de comportamientos es variable; cada individuo presenta su comportamiento particular y \"firmado\". Entre los ejemplos de movimientos estereotipados no autolesivos se incluyen, entre otros, mecer el cuerpo, el aleteo bilateral o movimientos rotativos de las manos, los movimientos rápidos de los dedos delante de la cara, agitar o aletear los brazos, y asentir con la cabeza; los estiramientos de boca se observan habitualmente asociados a los movimientos de los miembros superiores. Los comportamientos estereotipados autolesivos son, entre otros, los golpes repetitivos en la cabeza, abofetearse la cara, meterse los dedos en el ojo y morderse las manos, los labios u otras partes del cuerpo. Meterse los dedos en los ojos es particularmente preocupante; ocurre más frecuentemente entre los niños con deterioro visual. Se pueden combinar múltiples movimientos (p. ej., ladear la cabeza, mecer el torso, agitar una pequeña cuerda delante de la cara de forma repetitiva)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los movimientos estereotipados se pueden producir muchas veces durante el día, durando de pocos segundos a varios minutos o más tiempo. La frecuencia puede variar desde muchas veces durante un solo día hasta que pasen varias semanas entre episodios. Los comportamientos varian según el contexto, produciéndose cuando el individuo está absorto en otras actividades o cuando está emocionado, estresado, fatigado o aburrido. El Criterio A requiere que los movimientos carezcan \"aparentemente\" de objetivo. Sin embargo, los movimientos pueden tener alguna utilidad. Por ejemplo, los movimientos estereotipados pueden reducir la ansiedad en respuesta a los factores estresantes externos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El Criterio B requiere que los movimientos estereotipados interfieran en las actividades sociales, académicas o de otro tipo y, en algunos niños pequeños, pueden dar lugar a una autolesión (en caso de no adoptar medidas protectoras). La presencia o ausencia de conductas autolesivas debe indicarse con los especificadores \"con comportamiento autolesivo\" o \"sin comportamiento autolesivo\". Si existe una autolesión, debería ser codificada utilizando el especificador correspondiente. El comienzo de los movimientos estereotipados se da en las primeras fases del período de desarrollo (Criterio C). El Criterio D requiere que el comportamiento repetitivo y estereotipado del trastorno de movimientos estereotipados no pueda atribuirse a los efectos fisiológicos de una sustancia o una afección neurológica, y no se pueda explicar mejor por otro trastorno del neurodesarrollo o mental. La presencia de movimientos estereotipados puede indicar un problema del neurodesarrollo no detectado, especialmente en los niños de 1 a 3 años de edad."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1154,
+        "lineaFin": 1164
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los movimientos estereotipados simples (p. ej., mecerse) son frecuentes en los niños pequeños con desarrollo normal (p. ej., 5-19 % en el Reino Unido y EE.UU.). Los movimientos estereotipados complejos son mucho menos comunes (produciéndose en aproximadamente un 3-4 %). Entre el 4 y el 16 % de los individuos con trastorno del desarrollo intelectual (discapacidad intelectual) presenta estereotipias y autolesiones en las muestras de países de rentas altas. El riesgo es mayor en los individuos con trastorno del desarrollo intelectual grave. Entre los individuos con trastorno del desarrollo intelectual que viven en residencias, el 10-15 % puede tener un trastorno de movimientos estereotipados con autolesiones. Los comportamientos e intereses repetitivos y restringidos podrían ser marcadores de riesgo de aparición de la autolesión, la agresión y la destrucción en los niños con trastorno del desarrollo intelectual grave."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1166,
+        "lineaFin": 1168
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los movimientos estereotipados comienzan normalmente en los primeros 3 años de vida. Los movimientos estereotipados simples son frecuentes en la infancia y pueden estar implicados en la adquisición del dominio motor. Entre los niños que desarrollan estereotipias motoras complejas, aproximadamente el 80 % muestra síntomas antes de los 24 meses de edad, el 12 % entre los 24 y los 35 meses, y el 8 % a los 36 meses o más tarde. En la mayoría de los niños con desarrollo normal, la intensidad y la frecuencia de los movimientos estereotipados disminuyen con el tiempo. El comienzo de las estereotipias motoras complejas puede producirse en la infancia o más tarde durante el período de desarrollo. Entre los individuos con trastorno del desarrollo intelectual, los comportamientos estereotipados y autolesivos pueden persistir durante años, aunque la tipografía o el patrón de las autolesiones puede cambiar."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1170,
+        "lineaFin": 1174
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Ambiental. El aislamiento social es un factor de riesgo para la autoestimulación que puede progresar hasta los movimientos estereotipados con autolesiones repetitivas. El estrés ambiental también puede desencadenar comportamientos estereotipados. El miedo puede cambiar el estado fisiológico y dar lugar a un aumento en la frecuencia de los comportamientos estereotipados."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Genético y fisiológico. Se cree que el trastorno de movimientos estereotipados es en cierto modo hereditario, partiendo de la elevada frecuencia de casos que presentan antecedentes familiares positivos de estereotipias motoras. La significativa reducción del volumen del putamen en los niños con estereotipias sugiere que las vías corticoestriatales asociadas a los comportamientos habituales (es decir, los circuitos de la zona premotora al putamen posterior) podrían constituir el lugar anatómico que subyace en las estereotipias motoras complejas. El funcionamiento cognitivo bajo está vinculado a un mayor riesgo de comportamientos estereotipados y a una peor respuesta a las intervenciones. Los movimientos estereotipados son más frecuentes entre los individuos con trastorno del desarrollo intelectual de moderado a grave/profundo, que, debido a un determinado síndrome particular (p. ej., síndrome de Rett) o a un factor ambiental (p. ej., un entorno con estimulación relativamente insuficiente), parecen tener mayor riesgo de estereotipias. El comportamiento autolesivo y repetitivo puede ser un fenotipo conductual en los síndromes neurogenéticos. Por ejemplo, en el síndrome de Lesch-Nyhan hay movimientos distónicos estereotipados junto con automutilación de los dedos, mordedura de los labios y otras formas de autolesión –a no ser que se contenga al individuo-, y en el síndrome de Rett y el síndrome de Cornelia de Lange la autolesión puede producirse por las estereotipias mano-boca. Los comportamientos estereotipados pueden producirse por una afección médica dolorosa (p. ej., infección del oído medio, problemas dentales, reflujo gastroesofágico)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1176,
+        "lineaFin": 1180
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los comportamientos estereotipados repetitivos, con o sin autolesión, se manifiestan de varias formas en muchas culturas. Las actitudes culturales hacia los comportamientos inusuales pueden provocar que el diagnóstico sea tardío. La tolerancia general y las actitudes hacia los movimientos estereotipados varian de una cultura a otra y se deberían tener en cuenta."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1182,
+        "lineaFin": 1184
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Desarrollo normal. Los movimientos simples estereotipados son comunes en la lactancia y en la primera infancia. El acto de mecerse puede producirse en la transición entre el sueño y la vigilia, y es un comportamiento que normalmente se resuelve con la edad. Las estereotipias complejas son menos frecuentes en los niños con desarrollo normal y desaparecen fácilmente con la distracción o la estimulación sensorial. La rutina cotidiana del individuo rara vez se afecta y los movimientos generalmente no causan malestar. El diagnóstico no sería apropiado en estas circunstancias."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del espectro autista. Los movimientos estereotipados pueden ser un síntoma de presentación del trastorno del espectro autista, que se debería considerar cuando se evaluan movimientos y comportamientos repetitivos. Las deficiencias de la comunicación social y la reciprocidad, que se manifiestan en el trastorno del espectro autista, generalmente están ausentes en el trastorno de movimientos estereotipados y, por lo tanto, son características distintivas la interacción social, la comunicación social y los comportamientos e intereses repetitivos rígidos. En presencia de un trastorno del espectro autista, solamente se diagnosticará el trastorno de movimientos estereotipados cuando haya autolesiones o cuando los comportamientos estereotipados sean lo suficientemente graves como para ser objeto de tratamiento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos de tics. Típicamente, las estereotipias tienen una edad de comienzo más temprana (antes de los 3 años) que los tics, que tienen una media de edad de comienzo de 4-6 años. Tienen también un patrón consistente y fijo comparado con los tics, que tienen una presentación variable que cambia típicamente con el tiempo. Las estereotipias pueden comprometer los brazos, las manos o el cuerpo entero, mientas que los tics normalmente afectan a los ojos, la cara, la cabeza y los hombros. Las estereotipias son más fijas, rítmicas y prolongadas que los tics, que generalmente son breves, rápidos, aleatorios y fluctuantes. Las estereotipias son egosintónicas (a los niños les gustan), a diferencia de los tics, que normalmente son egodistónicos. Los tics aumentan y disminuyen en términos de localización y tiempo, y están característicamente asociados a sensaciones premonitorias (sensaciones físicas que preceden a muchos movimientos en forma de tics). Tanto los tics como los movimientos estereotipados se reducen con la distracción."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno obsesivo-compulsivo y trastornos relacionados. El trastorno de movimientos estereotipados se distingue del trastorno obsesivo-compulsivo (TOC) por la ausencia de obsesiones y por la naturaleza de los movimientos repetitivos. En el TOC, el individuo se siente impulsado a realizar comportamientos repetitivos en respuesta a una obsesión o siguiendo unas reglas que se tienen que aplicar rigidamente, mientras que en el trastorno de movimientos estereotipados los comportamientos parecen ser intencionados, pero sin objetivo. La tricotilomanía (trastorno de arrancarse el cabello) y la excoriación (dañarse la piel) son trastornos caracterizados por comportamientos repetitivos centrados en el cuerpo (p. ej., arrancarse y dañarse la piel) que pueden parecer intencionados, pero que no son aparentemente sin objetivo, y que pueden no ser rítmicos ni seguir un patrón. Además, el comienzo del trastorno de tricotilomanía y excoriación normalmente no se produce en el período de desarrollo temprano, sino durante la pubertad o más tarde."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otras afecciones neurológicas y médicas. El diagnóstico de movimientos estereotipados requiere la exclusión de hábitos, manierismos, discinesias paroxísticas y corea hereditaria benigna. Son necesarias la historia y la exploración neurológicas para identificar características indicativas de otros trastornos, como las mioclonías, la distonía, los tics y la corea. Los movimientos involuntarios asociados a una afección neurológica se pueden distinguir por sus signos y síntomas. Por ejemplo, los movimientos repetitivos y estereotipados en la discinesia tardía pueden distinguirse por los antecedentes de un uso crónico de neurolépticos y la característica discinesia oral o facial, o por los movimientos irregulares del torso o de las extremidades. Estos tipos de movimientos no dan lugar a una autolesión. Las estereotipias son una manifestación corriente de diferentes trastornos neurogenéticos, como el síndrome de Lesch-Nyhan, el síndrome de Rett, el síndrome del X frágil, el síndrome de Cornelia de Lange y el síndrome de Smith-Magenis. En el caso del trastorno de movimientos estereotipados asociado a una afección conocida genética o médica de otro tipo, a un trastorno del neurodesarrollo o a un factor medioambiental, se debe registrar: trastorno de movimientos estereotipados asociado a (nombre de la afección, trastorno o factor) (p. ej., trastorno de movimientos estereotipados asociado a síndrome de Lesch-Nyhan)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Conductas repetitivas inducidas por sustancias. El diagnóstico de trastorno de movimientos estereotipados no es correcto para el rascado o pellizcado repetitivo de la piel asociado a la intoxicación o el abuso de anfetaminas. En estos casos correspondería hacer el diagnóstico de trastorno obsesivo-compulsivo o trastorno relacionado inducido por sustancias/medicamentos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Estereotipias funcionales (de conversión). Los movimientos estereotipados deben distinguirse de los movimientos funcionales (de conversión). El inicio repentino, la distraibilidad, el patrón cambiante con mejorías o empeoramientos sin explicación y la coexistencia de otros síntomas del trastorno de síntomas neurológicos funcionales (trastorno de conversión) son algunos de los rasgos típicos que ayudan a identificar las estereotipias funcionales."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1186,
+        "lineaFin": 1202
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Constituyen una comorbilidad frecuente en los niños con estereotipias motoras crónicas el trastorno por déficit de atención/hiperactividad, los problemas de la coordinación motora, el trastorno de tics/de la Tourette y la ansiedad."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1204,
+        "lineaFin": 1206
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-de-movimientos-estereotipados:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno de movimientos estereotipados»?",
+        "opciones": [
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          },
+          {
+            "id": "o0",
+            "texto": "F98.4"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 1133–1209), el código es F98.4.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-de-movimientos-estereotipados:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de movimientos estereotipados — Criterio A",
+        "reverso": "Comportamiento motor repetitivo, aparentemente guiado y sin objetivo(p.ej., sacudir o agitar las manos, mecer el cuerpo, golpearse la cabeza, morderse, golpearse el propio cuerpo).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-movimientos-estereotipados:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de movimientos estereotipados — Criterio B",
+        "reverso": "El comportamiento motor repetitivo interfiere en las actividades sociales, académicas u otras, y puede dar lugar a la autolesión.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-movimientos-estereotipados:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de movimientos estereotipados — Criterio C",
+        "reverso": "Comienza en las primeras fases del periodo de desarrollo.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-movimientos-estereotipados:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de movimientos estereotipados — Criterio D",
+        "reverso": "El comportamiento motor repetitivo no se puede atribuir a los efectos fisiológicos de una sustancia o una afección neurológica,y no se explica mejor por otro trastorno del neurodesarrollo o mental(p.ej., tricotilomanía[trastorno de arrancarse el cabello],trastorno obsesivo-compulsivo).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-de-movimientos-estereotipados:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno de movimientos estereotipados",
+        "reverso": "F98.4",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-del-espectro-autista",
+        "nombre": "Trastorno del espectro autista",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastornos-de-tics",
+        "nombre": "Trastornos de tics",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 1133,
+    "lineaFin": 1209
+  },
+  "advertencias": []
+}

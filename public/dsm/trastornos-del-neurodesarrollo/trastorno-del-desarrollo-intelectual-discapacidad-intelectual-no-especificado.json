@@ -1,0 +1,125 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual-no-especificado",
+  "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual) no especificado",
+  "nombreCorto": "Trastorno del desarrollo intelectual no especificado",
+  "sinonimos": [
+    "discapacidad intelectual"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F79",
+    "cie10": "F79",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-del-desarrollo-intelectual",
+    "nombre": "Trastornos del desarrollo intelectual"
+  },
+  "tipoEntrada": "no_especificado",
+  "orden": 2,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 181)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Esta categoría se reserva para individuos mayores de 5 años cuando la valoración del grado del trastorno del desarrollo intelectual (discapacidad intelectual) es difícil o imposible mediante los procedimientos localmente disponibles debido a deterioros sensoriales o fisicos asociados, como la ceguera o la sordera prelingual y la discapacidad locomotora, a la presencia de problemas de comportamiento graves o a la existencia concurrente de un trastorno mental. Esta categoría solo se utilizará en circunstancias excepcionales y se debe volver a valorar después de un período de tiempo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 181,
+        "lineaFin": 181
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual-no-especificado:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno del desarrollo intelectual (discapacidad intelectual) no especificado»?",
+        "opciones": [
+          {
+            "id": "o0",
+            "texto": "F79"
+          },
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 177–182), el código es F79.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual-no-especificado:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno del desarrollo intelectual (discapacidad intelectual) no especificado",
+        "reverso": "F79",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 177,
+    "lineaFin": 182
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 177
+    }
+  ]
+}

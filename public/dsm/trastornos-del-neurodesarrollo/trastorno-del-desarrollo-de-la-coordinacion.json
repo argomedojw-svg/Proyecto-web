@@ -1,0 +1,442 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-del-desarrollo-de-la-coordinacion",
+  "nombre": "Trastorno del desarrollo de la coordinación",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F82",
+    "cie10": "F82",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-motores",
+    "nombre": "Trastornos motores"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 13,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-del-desarrollo-de-la-coordinacion-criterios",
+              "nombre": null,
+              "codigo": "F82",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "La adquisición y ejecución de habilidades motoras coordinadas está muy por debajo de lo esperado para la edad cronológica del individuo y la oportunidad de aprendizaje y el uso de las aptitudes. Las dificultades se manifiestan como torpeza (p. ej., dejar caer o chocar con objetos), así como lentitud e imprecisión en la realización de habilidades motoras (p. ej., coger un objeto, utilizar las tijeras o los cubiertos, escribir a mano, montar en bicicleta o participar en deportes).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "El déficit de actividades motoras del Criterio A interfiere de forma significativa y persistente con las actividades de la vida cotidiana apropiadas para la edad cronológica (p. ej., el cuidado y mantenimiento de uno mismo) y afecta a la productividad académica/escolar, las actividades prevocacionales y vocacionales, el ocio y el juego.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Los sintomas comienzan en las primeras fases del periodo de desarrollo.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Las deficiencias de las habilidades motoras no se explican mejor por el trastorno del desarrollo intelectual (discapacidad intelectual) o deterioros visuales, y no se pueden atribuir a una afección neurológica que altera el movimiento (p. ej., parálisis cerebral, distrofia muscular, trastorno degenerativo).",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1055,
+        "lineaFin": 1067
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El diagnóstico de trastorno del desarrollo de la coordinación se hace mediante la síntesis clínica de los antecedentes (del desarrollo y médicos), la exploración física, los informes académicos o laborales y la evaluación individual mediante pruebas normalizadas psicométricamente válidas y culturalmente apropiadas. La manifestación del deterioro de las aptitudes que requieren coordinación motora (Criterio A) varía con la edad. Los niños pequeños pueden tener retrasos para alcanzar los hitos motores (p. ej., sentarse, gatear, caminar), aunque muchos logran los hitos motores normales. También pueden tener retrasos para desarrollar habilidades tales como utilizar escaleras, pedalear, abrocharse la camisa, acabar rompecabezas y usar cremalleras. Incluso cuando se logra la habilidad, la ejecución del movimiento puede parecer torpe, lenta o menos precisa que la de los otros niños. Los niños mayores y los adultos pueden presentar lentitud o imprecisión en los aspectos motores de actividades como hacer rompecabezas, construir maquetas, participar en juegos deportivos (particularmente en equipo), escribir a mano o a máquina, conducir u ocuparse del autocuidado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del desarrollo se diagnostica solamente si el deterioro de las habilidades motoras interfiere significativamente con el rendimiento o la participación en las actividades cotidianas de la vida familiar, social, escolar o comunitaria (Criterio B). Ejemplos de estas actividades son vestirse, comer con los cubiertos apropiados para la edad y sin ensuciarse, participar en juegos físicos con otros, utilizar herramientas específicas en clase, como reglas y tijeras, y participar en actividades físicas de equipo en el colegio. No solamente está deteriorada la capacidad de realizar estas actividades, sino que también es frecuente una lentitud pronunciada en la ejecución. La competencia para escribir a mano está frecuentemente afectada y, por consiguiente, se alteran la legibilidad y la velocidad de escritura, y se afectan los logros académicos (el impacto se distingue de la dificultad específica del aprendizaje por el énfasis en el componente motor de las habilidades para la expresión escrita). En los adultos, los problemas de coordinación afectan a las actividades cotidianas de naturaleza académica o laboral, especialmente a aquellas que requieren velocidad y precisión."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El Criterio C explica que el comienzo de los síntomas del trastorno del desarrollo de la coordinación debe producirse en las primeras fases del período de desarrollo. Sin embargo, el trastorno del desarrollo de la coordinación no se diagnostica normalmente antes de los 5 años de edad porque existe una variación considerable en la edad a la que se adquieren muchas habilidades motoras, por la inestabilidad de las mediciones en la primera infancia (p. ej., algunos niños alcanzan después un nivel normal) o debido a que otras causas de retraso motor podrían no haberse manifestado aún."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El Criterio D especifica que el diagnóstico del trastorno del desarrollo de la coordinación se hace si los problemas de coordinación no se explican mejor por un deterioro visual o no son atribuibles a una afección neurológica. Así pues, se deben incluir la evaluación de la función visual y la exploración neurológica en la evaluación diagnóstica. Si existe un trastorno del desarrollo intelectual (discapacidad intelectual), las dificultades motoras superan las esperables en función de la edad mental; sin embargo, no se especifica ningún umbral de CI o criterio de discrepancia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del desarrollo de la coordinación no tiene subtipos distintos; sin embargo, los individuos pueden tener un deterioro predominante en las habilidades motoras gruesas o en las habilidades motoras finas, como la habilidad de escribir a mano."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otros términos utilizados para describir el trastorno del desarrollo de la coordinación son: dispraxia infantil, trastorno específico del desarrollo de la función motora y síndrome del niño torpe."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1069,
+        "lineaFin": 1083
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Algunos niños con trastorno del desarrollo de la coordinación muestran actividades motoras añadidas (normalmente suprimidas), como movimientos coreiformes de las extremidades no apoyadas o movimientos en espejo. Estos movimientos de \"desbordamiento\" se consideran inmadureces del neurodesarrollo o signos neurológicos menores, más que anomalías neurológicas. Tanto en la bibliografía actual como en la práctica clínica, su papel en el diagnóstico no está todavía claro y requiere más evaluación."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1085,
+        "lineaFin": 1087
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La prevalencia del trastorno del desarrollo en los niños de 5 a 11 años de edad varía del 5 al 6 % a escala internacional (en el Reino Unido, el 1,8 % de los niños de 7 años de edad están diagnosticados de trastorno del desarrollo de la coordinación grave y el 3 % de trastorno del desarrollo de la coordinación probable), y del 7 al 8 % en Canadá, Suecia y Taiwán. El sexo masculino está más afectado que el femenino, con una proporción masculino:femenino de entre 2:1 y 7:1."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1089,
+        "lineaFin": 1091
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El curso del trastorno del desarrollo es variable pero estable hasta, al menos, el primer o segundo año de seguimiento. Aunque puede haber mejorías a largo plazo, se calcula que los problemas de los movimientos coordinados continuan durante la adolescencia en el 50-70 % de los niños. El comienzo se produce en la primera infancia. Los hitos motores retrasados pueden ser los primeros signos o se identifica el trastorno por primera vez cuando el niño intenta sujetar un cuchillo y un tenedor, abrocharse la ropa o jugar con pelotas. En la infancia media existen dificultades motoras para hacer rompecabezas, construir maquetas, jugar a la pelota, escribir a mano y organizar las propias pertenencias siempre que se requiera secuenciación y coordinación motora. En los primeros años de la vida adulta sigue habiendo dificultades para aprender nuevas tareas que requieran habilidades motoras complejas/automáticas, como conducir y utilizar herramientas. La incapacidad de tomar apuntes o de escribir a mano con rapidez puede afectar al rendimiento en el trabajo. La concurrencia con otros trastornos (véase el apartado \"Comorbilidad\" para este trastorno) repercute también en la presentación, el curso y el resultado."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1093,
+        "lineaFin": 1095
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Ambiental. El trastorno del desarrollo de la coordinación se asoci a la prematuridad, un bajo peso al nacer y la exposición prenatal al alcohol."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Genético y fisiológico. Se han hallado deterioros de los procesos subyacentes del neurodesarrollo en cuanto a habilidades visomotoras, tanto en la percepción visomotora como en la mentalización espacial. Podría intervenir también una disfunción cerebelosa, que afectaría a la capacidad de realizar rápidos ajustes motóricos al aumentar la complejidad del movimiento requerido. Sin embargo, todavía no está clara la base neural exacta del trastorno del desarrollo de la coordinación. Debido a la concurrencia entre el trastorno del desarrollo de la coordinación y otros trastornos del neurodesarrollo, incluidos el trastorno por déficit de atención/hiperactividad (TDAH), las discapacidades del aprendizaje específico y el trastorno del espectro autista, se ha propuesto la existencia de un efecto genético compartido. Sin embargo, la concurrencia sistemática entre gemelos se observa solamente en los casos graves."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Modificadores del curso. Los individuos con TDAH y trastorno del desarrollo de la coordinación presentan un mayor deterioro que los individuos con trastorno del desarrollo de la coordinación sin TDAH."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1097,
+        "lineaFin": 1103
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del desarrollo de la coordinación ocurre en todos los contextos culturales, etnorraciales y socioeconómicos. Al mismo tiempo, se han comunicado variaciones culturales del desarrollo motor (tanto aceleradas como retardadas en relación con las normas de EE. UU.). Estas parecen estar relacionadas con las prácticas de los cuidadores referentes a las expectativas de movilidad independiente durante el desarrollo, las escasas oportunidades de movilidad entre los niños en condiciones de pobreza extrema y las diferencias en los métodos de medición. Por definición, \"las actividades de la vida cotidiana\" implican diferencias culturales, por lo que es necesario tener en cuenta el contexto en que vive cada niño y si el niño ha tenido las oportunidades apropiadas para aprender y practicar tales actividades. La mayor prevalencia del trastorno del desarrollo de la coordinación en los estudios de niños de algunos países de rentas bajas y medias podría reflejar el efecto de la desventaja socioeconómica sobre el desarrollo motor."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1105,
+        "lineaFin": 1109
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno del desarrollo de la coordinacion",
+      "titulo": "Consecuencias funcionales del trastorno del desarrollo de la coordinación",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del desarrollo de la coordinación conlleva un deterioro funcional en las actividades de la vida cotidiana (Criterio B), aumentando dicho deterioro con las afecciones concurrentes. Entre las consecuencias del trastorno del desarrollo de la coordinación cabe citar una menor participación en los juegos y deportes de equipo, niveles bajos de autoestima y autovaloración, problemas emocionales o conductuales, deterioro de los logros académicos, mala salud física, poca actividad física y obesidad, y mala calidad de vida en relación con la salud."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1111,
+        "lineaFin": 1113
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Deterioros motores debidos a otra afección médica. Los problemas de la coordinación pueden asociarse a un deterioro de la función visual y a trastornos neurológicos específicos (p. ej., parálisis cerebral, lesiones progresivas del cerebelo, trastornos neuromusculares). En tales casos, se encuentran hallazgos adicionales en la exploración neurológica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del desarrollo intelectual (discapacidad intelectual). Si está presente el trastorno del desarrollo intelectual, las competencias motoras pueden estar deterioradas de conformidad con la discapacidad intelectual. Sin embargo, si las dificultades motoras excedieran las que se podrián atribuir al trastorno del desarrollo intelectual y se cumplen los criterios del trastorno del desarrollo de la coordinación, se podría diagnosticar también dicho trastorno del desarrollo de la coordinación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno por déficit de atención/hiperactividad. Los individuos con TDAH pueden caerse, chocar con objetos o tirar cosas. Se requiere una observación cuidadosa en los diferentes contextos para averiguar si la falta de competencia motora se puede atribuir a una tendencia a la distraibilidad y la impulsividad, y no a un trastorno del desarrollo de la coordinación. Si se cumplen los criterios del TDAH y del trastorno del desarrollo de la coordinación, se pueden realizar los dos diagnósticos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del espectro autista. Los individuos con trastorno del espectro autista podrían no estar interesados en participar en tareas que requieran habilidades de coordinación complejas, como los juegos de pelota, lo que afectará a los resultados de los exámenes y al funcionamiento, pero sin ser reflejo de la competencia motora central. La concurrencia del trastorno del desarrollo de la coordinación y del trastorno del espectro autista es frecuente. Si se cumplen los criterios de los dos trastornos, se pueden hacer los dos diagnósticos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Síndrome de hiperlaxitud articular. Los individuos con síndromes que cursan con articulaciones hiperextensibles (hallado en la evaluación física, muchas veces con síntomas de dolor) pueden presentar síntomas similares a los del trastorno del desarrollo de la coordinación."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1115,
+        "lineaFin": 1125
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos que frecuentemente concurren con el trastorno del desarrollo de la coordinación son los trastornos de la comunicación, el trastorno específico del aprendizaje (especialmente, lectura y expresión escrita), los problemas de inatención, incluido el TDAH (la afección concurrente más frecuente, con una concurrencia de aproximadamente el 50 %), el trastorno del espectro autista, los problemas conductuales disruptivos y emocionales, y el síndrome de hiperlaxitud articular. Se pueden presentar diferentes grupos de concurrencia (p. ej., un grupo con trastornos graves de lectura, problemas motores finos y problemas para escribir a mano; otro grupo con deterioro del control de los movimientos y de la planificación motora). La presencia de otros trastornos no excluye el trastorno del desarrollo de la coordinación, pero puede dificultar las evaluaciones e interferir de forma independiente en la realización de actividades de la vida cotidiana, por lo que se requerirá la valoración del examinador para atribuir el deterioro a las habilidades motoras."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1127,
+        "lineaFin": 1129
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-del-desarrollo-de-la-coordinacion:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno del desarrollo de la coordinación»?",
+        "opciones": [
+          {
+            "id": "o0",
+            "texto": "F82"
+          },
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 1053–1132), el código es F82.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-del-desarrollo-de-la-coordinacion:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo de la coordinación — Criterio A",
+        "reverso": "La adquisición y ejecución de habilidades motoras coordinadas está muy por debajo de lo esperado para la edad cronológica del individuo y la oportunidad de aprendizaje y el uso de las aptitudes. Las dificultades se manifiestan como torpeza (p. ej., dejar caer o chocar con objetos), así como lentitud e imprecisión en la realización de habilidades motoras (p. ej., coger un objeto, utilizar las tijeras o los cubiertos, escribir a mano, montar en bicicleta o participar en deportes).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-de-la-coordinacion:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo de la coordinación — Criterio B",
+        "reverso": "El déficit de actividades motoras del Criterio A interfiere de forma significativa y persistente con las actividades de la vida cotidiana apropiadas para la edad cronológica (p. ej., el cuidado y mantenimiento de uno mismo) y afecta a la productividad académica/escolar, las actividades prevocacionales y vocacionales, el ocio y el juego.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-de-la-coordinacion:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo de la coordinación — Criterio C",
+        "reverso": "Los sintomas comienzan en las primeras fases del periodo de desarrollo.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-de-la-coordinacion:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo de la coordinación — Criterio D",
+        "reverso": "Las deficiencias de las habilidades motoras no se explican mejor por el trastorno del desarrollo intelectual (discapacidad intelectual) o deterioros visuales, y no se pueden atribuir a una afección neurológica que altera el movimiento (p. ej., parálisis cerebral, distrofia muscular, trastorno degenerativo).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-de-la-coordinacion:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno del desarrollo de la coordinación",
+        "reverso": "F82",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+        "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-del-espectro-autista",
+        "nombre": "Trastorno del espectro autista",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-por-deficit-de-atencion-hiperactividad",
+        "nombre": "Trastorno por déficit de atención/hiperactividad",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 1053,
+    "lineaFin": 1132
+  },
+  "advertencias": []
+}

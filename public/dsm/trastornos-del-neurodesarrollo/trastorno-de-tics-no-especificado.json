@@ -1,0 +1,123 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-de-tics-no-especificado",
+  "nombre": "Trastorno de tics no especificado",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F95.9",
+    "cie10": "F95.9",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-motores",
+    "nombre": "Trastornos motores"
+  },
+  "tipoEntrada": "no_especificado",
+  "orden": 17,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 1358)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Esta categoria se aplica a presentaciones en las que predominan los síntomas características de un trastorno de tics que causan malestar clínicamente significativo o deterioro en lo social, laboral u otras áreas importantes del funcionamiento, pero que no cumplen todos los criterios de un trastorno de tics ni de ninguno de los trastornos de la categoria diagnóstica de los trastornos del neurodesarrollo. La categoria trastorno de tics no especificado se utiliza en situaciones en las que el clínico opta por no especificar el motivo de incumplimiento de los criterios de un trastorno de tics o de un trastorno específico del neurodesarrollo, e incluye presentaciones en las que no existe suficiente información para hacer un diagnóstico más específico."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1358,
+        "lineaFin": 1358
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-de-tics-no-especificado:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno de tics no especificado»?",
+        "opciones": [
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          },
+          {
+            "id": "o0",
+            "texto": "F95.9"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 1354–1361), el código es F95.9.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-de-tics-no-especificado:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno de tics no especificado",
+        "reverso": "F95.9",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 1354,
+    "lineaFin": 1361
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 1354
+    }
+  ]
+}

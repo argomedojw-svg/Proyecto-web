@@ -1,0 +1,126 @@
+/**
+ * Tokens de diseño.
+ *
+ * Referencias: Notion, UpToDate, Obsidian. Lectura larga y consulta rápida.
+ * Sin estética de panel SaaS: nada de sombras marcadas, degradados decorativos
+ * ni iconografía redundante.
+ *
+ * Todo el contraste está calculado sobre el fondo correspondiente y cumple
+ * WCAG AA (4,5:1) como mínimo en cuerpo de texto.
+ */
+
+:root {
+  /* --- Tipografía --------------------------------------------------- */
+  /* Serif para el texto del manual; sans para todo lo que añade la persona. */
+  --fuente-manual: 'Source Serif 4 Variable', 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --fuente-propia: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fuente-mono: ui-monospace, 'Cascadia Mono', 'Segoe UI Mono', Consolas, monospace;
+
+  --tam-manual: 1.0625rem; /* 17px: cómodo para 2.000 palabras seguidas */
+  --interlineado-manual: 1.72;
+  --medida-lectura: 66ch;
+
+  /* --- Métrica ------------------------------------------------------ */
+  --ancho-barra-lateral: 19rem;
+  --alto-cabecera: 3.25rem;
+
+  /* --- Movimiento --------------------------------------------------- */
+  --transicion: 120ms ease;
+}
+
+/* ------------------------------------------------------------------ */
+/* Tema claro                                                          */
+/* ------------------------------------------------------------------ */
+
+:root,
+:root[data-tema='claro'] {
+  color-scheme: light;
+
+  --fondo: #fcfbf9;
+  --fondo-elevado: #ffffff;
+  --fondo-sutil: #f3f1ed;
+  --fondo-hover: #ebe8e2;
+
+  --texto: #1b1917; /* 16,1:1 */
+  --texto-suave: #524d47; /* 8,4:1 */
+  --texto-tenue: #6b645d; /* 5,9:1 */
+
+  --borde: #e4e0d9;
+  --borde-fuerte: #c5bfb5;
+
+  --acento: #14635c; /* 6,5:1 */
+  --acento-suave: #e3efed;
+  --acento-contraste: #ffffff;
+
+  --validado: #14635c;
+  --validado-suave: #e6f1ef;
+  --validado-trama: rgba(20, 99, 92, 0.1);
+
+  --sin-validar: #8a5300; /* 6,2:1 */
+  --sin-validar-suave: #fbf2e2;
+  --sin-validar-trama: rgba(138, 83, 0, 0.13);
+
+  --peligro: #9c1f1f; /* 7,4:1 */
+  --peligro-suave: #fbeceb;
+
+  --sombra-panel: 0 1px 2px rgba(27, 25, 23, 0.06);
+  --realce-busqueda: #ffe9a8;
+  --realce-busqueda-texto: #3d2f00;
+}
+
+/* ------------------------------------------------------------------ */
+/* Tema oscuro                                                         */
+/* ------------------------------------------------------------------ */
+
+:root[data-tema='oscuro'] {
+  color-scheme: dark;
+
+  --fondo: #15171a;
+  --fondo-elevado: #1c1f23;
+  --fondo-sutil: #212529;
+  --fondo-hover: #2a2e34;
+
+  --texto: #e9e6e2; /* 14,2:1 */
+  --texto-suave: #aca69e; /* 7,3:1 */
+  --texto-tenue: #948e86; /* 5,4:1 */
+
+  --borde: #2d3237;
+  --borde-fuerte: #474d54;
+
+  --acento: #63c9bb; /* 9,8:1 */
+  --acento-suave: #17322f;
+  --acento-contraste: #0b1211;
+
+  --validado: #63c9bb;
+  --validado-suave: #17322f;
+  --validado-trama: rgba(99, 201, 187, 0.14);
+
+  --sin-validar: #d9a84e; /* 8,9:1 */
+  --sin-validar-suave: #2f2717;
+  --sin-validar-trama: rgba(217, 168, 78, 0.16);
+
+  --peligro: #e58080; /* 7,1:1 */
+  --peligro-suave: #2e1a1a;
+
+  --sombra-panel: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --realce-busqueda: #5a4a12;
+  --realce-busqueda-texto: #ffe9a8;
+}
+
+/* ------------------------------------------------------------------ */
+/* Tramas de fondo                                                     */
+/* ------------------------------------------------------------------ */
+
+/*
+ * La distinción entre contenido oficial, educativo validado y educativo sin
+ * validar NO depende del color. Se apoya en cuatro canales redundantes a la vez
+ * —familia tipográfica, filete lateral, sangría y trama de fondo— para que
+ * sobreviva en modo oscuro, en impresión y en escala de grises.
+ */
+:root {
+  --trama-sin-validar: repeating-linear-gradient(
+    135deg,
+    transparent 0 5px,
+    var(--sin-validar-trama) 5px 6px
+  );
+}

@@ -1,0 +1,151 @@
+{
+  "esquema": "dsm5tr-indice/1",
+  "version": 1,
+  "generadoEn": "2026-07-26T19:09:32.715Z",
+  "categorias": [
+    {
+      "id": "trastornos-del-neurodesarrollo",
+      "nombre": "Trastornos del neurodesarrollo",
+      "orden": 1,
+      "archivo": "trastornos-del-neurodesarrollo/index.json",
+      "disponible": true,
+      "totalTrastornos": 20
+    },
+    {
+      "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "orden": 2,
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastorno-bipolar-y-trastornos-relacionados",
+      "nombre": "Trastorno bipolar y trastornos relacionados",
+      "orden": 3,
+      "archivo": "trastorno-bipolar-y-trastornos-relacionados/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-depresivos",
+      "nombre": "Trastornos depresivos",
+      "orden": 4,
+      "archivo": "trastornos-depresivos/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-de-ansiedad",
+      "nombre": "Trastornos de ansiedad",
+      "orden": 5,
+      "archivo": "trastornos-de-ansiedad/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastorno-obsesivo-compulsivo-y-trastornos-relacionados",
+      "nombre": "Trastorno obsesivo-compulsivo y trastornos relacionados",
+      "orden": 6,
+      "archivo": "trastorno-obsesivo-compulsivo-y-trastornos-relacionados/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-relacionados-con-traumas-y-factores-de-estres",
+      "nombre": "Trastornos relacionados con traumas y factores de estrés",
+      "orden": 7,
+      "archivo": "trastornos-relacionados-con-traumas-y-factores-de-estres/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-disociativos",
+      "nombre": "Trastornos disociativos",
+      "orden": 8,
+      "archivo": "trastornos-disociativos/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastorno-de-sintomas-somaticos-y-trastornos-relacionados",
+      "nombre": "Trastorno de síntomas somáticos y trastornos relacionados",
+      "orden": 9,
+      "archivo": "trastorno-de-sintomas-somaticos-y-trastornos-relacionados/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-alimentarios-y-de-la-ingestion-de-alimentos",
+      "nombre": "Trastornos alimentarios y de la ingestión de alimentos",
+      "orden": 10,
+      "archivo": "trastornos-alimentarios-y-de-la-ingestion-de-alimentos/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-de-la-excrecion",
+      "nombre": "Trastornos de la excreción",
+      "orden": 11,
+      "archivo": "trastornos-de-la-excrecion/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-del-sueno-vigilia",
+      "nombre": "Trastornos del sueño-vigilia",
+      "orden": 12,
+      "archivo": "trastornos-del-sueno-vigilia/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "disfunciones-sexuales",
+      "nombre": "Disfunciones sexuales",
+      "orden": 13,
+      "archivo": "disfunciones-sexuales/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "disforia-de-genero",
+      "nombre": "Disforia de género",
+      "orden": 14,
+      "archivo": "disforia-de-genero/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-disruptivos-del-control-de-los-impulsos-y-de-la-conducta",
+      "nombre": "Trastornos disruptivos, del control de los impulsos y de la conducta",
+      "orden": 15,
+      "archivo": "trastornos-disruptivos-del-control-de-los-impulsos-y-de-la-conducta/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-relacionados-con-sustancias-y-trastornos-adictivos",
+      "nombre": "Trastornos relacionados con sustancias y trastornos adictivos",
+      "orden": 16,
+      "archivo": "trastornos-relacionados-con-sustancias-y-trastornos-adictivos/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-neurocognitivos",
+      "nombre": "Trastornos neurocognitivos",
+      "orden": 17,
+      "archivo": "trastornos-neurocognitivos/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    },
+    {
+      "id": "trastornos-de-la-personalidad",
+      "nombre": "Trastornos de la personalidad",
+      "orden": 18,
+      "archivo": "trastornos-de-la-personalidad/index.json",
+      "disponible": false,
+      "totalTrastornos": 0
+    }
+  ]
+}

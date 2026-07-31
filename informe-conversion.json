@@ -1,0 +1,613 @@
+{
+  "generadoEn": "2026-07-26T19:09:32.727Z",
+  "incidencias": [
+    {
+      "codigo": "tabla_fragmentada",
+      "severidad": "info",
+      "mensaje": "Tabla \"Escala de gravedad del trastorno del desarrollo intelectual (discapacidad intelectual)\" reconstruida: fragmento 2",
+      "textoLiteral": null,
+      "linea": 87,
+      "ambito": null
+    },
+    {
+      "codigo": "tabla_fragmentada",
+      "severidad": "info",
+      "mensaje": "Tabla \"Escala de gravedad del trastorno del desarrollo intelectual (discapacidad intelectual)\" reconstruida: fragmento 3",
+      "textoLiteral": null,
+      "linea": 95,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 15–17)",
+      "textoLiteral": "…r deficits en las habilidades de comunicación ⟨+⟩ verbal y no verbal que ocasionan deterioro so…",
+      "linea": 17,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 27–29)",
+      "textoLiteral": "…ud o inexactitud en la ejecución de las habi- ⟨+⟩ lidades motoras que interfiere con las activi…",
+      "linea": 29,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 127–129)",
+      "textoLiteral": "… una mejoría significativa del funcionamiento ⟨+⟩ intelectual, tanto que el diagnóstico de tras…",
+      "linea": 129,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 185–187)",
+      "textoLiteral": "…ación es todo comportamiento verbal o no ver- ⟨+⟩ bal (sea intencional o no intencional) capaz …",
+      "linea": 187,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 213–215)",
+      "textoLiteral": "…o es probable que se retrasen; el vocabulario ⟨+⟩ es más limitado y menos variado de lo esperad…",
+      "linea": 215,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 233–235)",
+      "textoLiteral": "…s en el desarrollo del lenguaje. Un trastorno ⟨+⟩ del lenguaje en un niño bilingüe afectará a l…",
+      "linea": 235,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 289–291)",
+      "textoLiteral": "…tamente conforme a la normalidad para la edad ⟨+⟩ y la comunidad. Los sonidos del inglés mal ar…",
+      "linea": 291,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 353–355)",
+      "textoLiteral": "… más, ocurriendo en las palabras o frases más ⟨+⟩ significativas de lo que se expresa. Cuando e…",
+      "linea": 355,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 383–385)",
+      "textoLiteral": "…storno del espectro autista, el trastorno del ⟨+⟩ desarrollo intelectual (discapacidad intelect…",
+      "linea": 385,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 401–403)",
+      "textoLiteral": "…ítulo). Los individuos con deficiencias de la ⟨+⟩ comunicación social pueden evitar las interac…",
+      "linea": 403,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 527–529)",
+      "textoLiteral": "…. En los niños mayores y los adultos sin dis- ⟨+⟩ capacidades intelectuales o retrasos de lengu…",
+      "linea": 529,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 535–537)",
+      "textoLiteral": "…n el trastorno del espectro autista tienden a ⟨+⟩ ser anormales en su intensidad o foco (p. ej.…",
+      "linea": 537,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 555–557)",
+      "textoLiteral": "… en las muestras infantiles y de adultos. Sin ⟨+⟩ embargo, la prevalencia parece ser menor entr…",
+      "linea": 557,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 567–569)",
+      "textoLiteral": "…independientemente en la edad adulta, como el ⟨+⟩ diagnóstico del trastorno del espectro autist…",
+      "linea": 569,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 601–603)",
+      "textoLiteral": "…edad adulta, según indican medidas como vivir ⟨+⟩ independientemente y el empleo remunerado. La…",
+      "linea": 603,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 619–621)",
+      "textoLiteral": "…s cuando tales comportamientos repetitivos se ⟨+⟩ pueden explicar mejor por la presencia del tr…",
+      "linea": 621,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 723–725)",
+      "textoLiteral": "…rios para el diagnóstico o de varios síntomas ⟨+⟩ particularmente graves, o los sintomas produc…",
+      "linea": 725,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 789–791)",
+      "textoLiteral": "… la tendencia negligente hacia los compañeros ⟨+⟩ tienden a estar más asociados con los síntoma…",
+      "linea": 791,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 809–811)",
+      "textoLiteral": "… de interés o su capacidad limitada en cuanto ⟨+⟩ a procesos intelectuales, incluidas la memori…",
+      "linea": 811,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 829–831)",
+      "textoLiteral": "… de los síntomas del TDAH sigue al inicio del ⟨+⟩ abuso o consumo frecuente. Para el diagnóstic…",
+      "linea": 831,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 945–947)",
+      "textoLiteral": "…ar letras con los sonidos de la lengua mater- ⟨+⟩ na –para leer palabras escritas (frecuentemen…",
+      "linea": 947,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1013–1015)",
+      "textoLiteral": "…ste ejemplo, el inglés). Lo importante es que ⟨+⟩ los niños que hablan una lengua en casa que d…",
+      "linea": 1015,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1033–1035)",
+      "textoLiteral": "…iste un trastorno del desarrollo intelectual, ⟨+⟩ el trastorno específico del aprendizaje solam…",
+      "linea": 1035,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1033–1037)",
+      "textoLiteral": "…puede diagnosticar cuando las dificultades de ⟨+⟩ aprendizaje superan las que normalmente se as…",
+      "linea": 1037,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1081–1083)",
+      "textoLiteral": "…el desarrollo de la coordinación son: dispra- ⟨+⟩ xia infantil, trastorno específico del desarr…",
+      "linea": 1083,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1107–1109)",
+      "textoLiteral": "…e los niños en condiciones de pobreza extrema ⟨+⟩ y las diferencias en los métodos de medición.…",
+      "linea": 1109,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1156–1158)",
+      "textoLiteral": "…atención o cuando se distrae al niño para que ⟨+⟩ no los haga. Entre los niños con trastornos d…",
+      "linea": 1158,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1172–1174)",
+      "textoLiteral": "…l desarrollo intelectual, los comportamientos ⟨+⟩ estereotipados y autolesivos pueden persistir…",
+      "linea": 1174,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1192–1194)",
+      "textoLiteral": "…media de edad de comienzo de 4-6 años. Tienen ⟨+⟩ también un patrón consistente y fijo comparad…",
+      "linea": 1194,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1270–1272)",
+      "textoLiteral": "…do por el trastorno de tics motores o vocales ⟨+⟩ persistente [crónico], seguido por el trastor…",
+      "linea": 1272,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1282–1284)",
+      "textoLiteral": "…quen una historia de tics más leves que empe- ⟨+⟩ zaron en la infancia, incluso si en las prime…",
+      "linea": 1284,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 1326–1328)",
+      "textoLiteral": "…us tics. Los individuos con síntomas más gra- ⟨+⟩ ves generalmente tienen mayor deterioro en la…",
+      "linea": 1328,
+      "ambito": null
+    },
+    {
+      "codigo": "titulo_huerfano",
+      "severidad": "aviso",
+      "mensaje": "Título de trastorno tomado de un párrafo sin encabezado: \"Trastorno del desarrollo intelectual (discapacidad intelectual)\"",
+      "textoLiteral": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+      "linea": 35,
+      "ambito": "Trastornos del desarrollo intelectual"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno de la fluidez de inicio en la infancia (tartamudeo)\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno de la fluidez de inicio en la infancia (tartamudeo)",
+      "linea": 361,
+      "ambito": "Trastorno de la fluidez de inicio en la infancia (tartamudeo)"
+    },
+    {
+      "codigo": "tabla_como_criterios",
+      "severidad": "aviso",
+      "mensaje": "Los criterios diagnósticos venían dentro de una tabla HTML; se han reestructurado",
+      "textoLiteral": null,
+      "linea": 393,
+      "ambito": "Trastorno de la comunicación social (pragmático)"
+    },
+    {
+      "codigo": "encabezado_duplicado",
+      "severidad": "aviso",
+      "mensaje": "\"Trastorno del espectro autista\" rotula a la vez la subcategoría y su único trastorno; la segunda aparición se toma como el trastorno",
+      "textoLiteral": "Trastorno del espectro autista",
+      "linea": 435,
+      "ambito": "Trastorno del espectro autista"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno del espectro autista\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno del espectro autista",
+      "linea": 597,
+      "ambito": "Trastorno del espectro autista"
+    },
+    {
+      "codigo": "titulo_huerfano",
+      "severidad": "aviso",
+      "mensaje": "Título de trastorno tomado de un párrafo sin encabezado: \"Trastorno por déficit de atención/ hiperactividad\"",
+      "textoLiteral": "Trastorno por déficit de atención/ hiperactividad",
+      "linea": 647,
+      "ambito": "Trastorno por déficit de atención/hiperactividad"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 705,
+      "ambito": "Trastorno por déficit de atención/hiperactividad"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 713,
+      "ambito": "Trastorno por déficit de atención/hiperactividad"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno por déficit de atención/hiperactividad\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno por déficit de atención/hiperactividad",
+      "linea": 787,
+      "ambito": "Trastorno por déficit de atención/hiperactividad"
+    },
+    {
+      "codigo": "encabezado_duplicado",
+      "severidad": "aviso",
+      "mensaje": "\"Trastorno específico del aprendizaje\" rotula a la vez la subcategoría y su único trastorno; la segunda aparición se toma como el trastorno",
+      "textoLiteral": "Trastorno específico del aprendizaje",
+      "linea": 869,
+      "ambito": "Trastorno específico del aprendizaje"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 897,
+      "ambito": "Trastorno específico del aprendizaje"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"F81.0 Con dificultades en la lectura:\"",
+      "textoLiteral": "F81.0 Con dificultades en la lectura:",
+      "linea": 899,
+      "ambito": "Trastorno específico del aprendizaje"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"F81.81 Con dificultad en la expresión escrita:\"",
+      "textoLiteral": "F81.81 Con dificultad en la expresión escrita:",
+      "linea": 909,
+      "ambito": "Trastorno específico del aprendizaje"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"F81.2 Con dificultad matemática:\"",
+      "textoLiteral": "F81.2 Con dificultad matemática:",
+      "linea": 917,
+      "ambito": "Trastorno específico del aprendizaje"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno específico del aprendizaje\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno específico del aprendizaje",
+      "linea": 1025,
+      "ambito": "Trastorno específico del aprendizaje"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno del desarrollo de la coordinación\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno del desarrollo de la coordinación",
+      "linea": 1111,
+      "ambito": "Trastorno del desarrollo de la coordinación"
+    },
+    {
+      "codigo": "tabla_como_criterios",
+      "severidad": "aviso",
+      "mensaje": "Los criterios diagnósticos venían dentro de una tabla HTML; se han reestructurado",
+      "textoLiteral": null,
+      "linea": 1137,
+      "ambito": "Trastorno de movimientos estereotipados"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales de los trastornos de tics\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales de los trastornos de tics",
+      "linea": 1324,
+      "ambito": "Trastornos de tics"
+    },
+    {
+      "codigo": "tabla_posicion_dudosa",
+      "severidad": "aviso",
+      "mensaje": "La tabla \"Escala de gravedad del trastorno del desarrollo intelectual (discapacidad intelectual)\" quedó dentro de \"caracteristicas_diagnosticas\"; el manual la referencia desde otro apartado. Se conserva donde aparece.",
+      "textoLiteral": null,
+      "linea": 77,
+      "ambito": "Trastorno del desarrollo intelectual (discapacidad intelectual)"
+    },
+    {
+      "codigo": "imagen_remota",
+      "severidad": "aviso",
+      "mensaje": "Imagen con URL remota: no funciona sin conexión. Se deja un hueco explícito.",
+      "textoLiteral": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260725125619440c914b801",
+      "linea": 79,
+      "ambito": "Trastorno del desarrollo intelectual (discapacidad intelectual)"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (4)",
+      "textoLiteral": null,
+      "linea": 35,
+      "ambito": "Trastorno del desarrollo intelectual (discapacidad intelectual)"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 171,
+      "ambito": "Retraso global del desarrollo"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 177,
+      "ambito": "Trastorno del desarrollo intelectual (discapacidad intelectual) no especificado"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 423,
+      "ambito": "Trastorno de la comunicación no especificado"
+    },
+    {
+      "codigo": "guion_sin_pareja",
+      "severidad": "aviso",
+      "mensaje": "Párrafo cortado por guion cuya continuación no era contigua (hay una figura o tabla en medio). Queda partido en dos bloques.",
+      "textoLiteral": "…déficit intelectual acompañante\" o \"sin déficit intelectual acompañan-",
+      "linea": 489,
+      "ambito": "Trastorno del espectro autista"
+    },
+    {
+      "codigo": "imagen_remota",
+      "severidad": "aviso",
+      "mensaje": "Imagen con URL remota: no funciona sin conexión. Se deja un hueco explícito.",
+      "textoLiteral": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260725125619440c914b801",
+      "linea": 491,
+      "ambito": "Trastorno del espectro autista"
+    },
+    {
+      "codigo": "tabla_posicion_dudosa",
+      "severidad": "aviso",
+      "mensaje": "La tabla \"Niveles de gravedad del trastorno del espectro autista\" quedó dentro de \"procedimientos_registro\"; el manual la referencia desde otro apartado. Se conserva donde aparece.",
+      "textoLiteral": null,
+      "linea": 499,
+      "ambito": "Trastorno del espectro autista"
+    },
+    {
+      "codigo": "imagen_remota",
+      "severidad": "aviso",
+      "mensaje": "Imagen con URL remota: no funciona sin conexión. Se deja un hueco explícito.",
+      "textoLiteral": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260725125619440c914b801",
+      "linea": 765,
+      "ambito": "Trastorno por déficit de atención/hiperactividad"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (3)",
+      "textoLiteral": null,
+      "linea": 647,
+      "ambito": "Trastorno por déficit de atención/hiperactividad"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 853,
+      "ambito": "Otro trastorno por déficit de atención/hiperactividad especificado"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 861,
+      "ambito": "Trastorno por déficit de atención/hiperactividad no especificado"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (3)",
+      "textoLiteral": null,
+      "linea": 869,
+      "ambito": "Trastorno específico del aprendizaje"
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Criterio reunido tras un código al margen (línea 1061)",
+      "textoLiteral": "…o chocar con objetos), así como lentitud ⟨+⟩ e imprecisión en la realización de habil…",
+      "linea": 1061,
+      "ambito": "Trastorno del desarrollo de la coordinación"
+    },
+    {
+      "codigo": "ocr_sospechoso",
+      "severidad": "aviso",
+      "mensaje": "Criterio con 3 posibles daños de OCR (falta espacio tras puntuación); el texto se conserva literal",
+      "textoLiteral": "Asociado a una afección genética o médica,a un trastorno del neurodesarrollo o a un factor ambiental conocidos(p.ej., sí",
+      "linea": 1137,
+      "ambito": "Trastorno de movimientos estereotipados"
+    },
+    {
+      "codigo": "conjunto_nombrado",
+      "severidad": "info",
+      "mensaje": "Conjunto de criterios nombrado: \"Trastorno de la Tourette\"",
+      "textoLiteral": null,
+      "linea": 1218,
+      "ambito": "Trastornos de tics"
+    },
+    {
+      "codigo": "conjunto_nombrado",
+      "severidad": "info",
+      "mensaje": "Conjunto de criterios nombrado: \"Trastorno de tics motores o vocales persistente (crónico)\"",
+      "textoLiteral": null,
+      "linea": 1230,
+      "ambito": "Trastornos de tics"
+    },
+    {
+      "codigo": "conjunto_nombrado",
+      "severidad": "info",
+      "mensaje": "Conjunto de criterios nombrado: \"Trastorno de tics provisional\"",
+      "textoLiteral": null,
+      "linea": 1250,
+      "ambito": "Trastornos de tics"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (3)",
+      "textoLiteral": null,
+      "linea": 1210,
+      "ambito": "Trastornos de tics"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 1348,
+      "ambito": "Otro trastorno de tics especificado"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 1354,
+      "ambito": "Trastorno de tics no especificado"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 1368,
+      "ambito": "Otro trastorno del neurodesarrollo especificado"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 1380,
+      "ambito": "Trastorno del neurodesarrollo no especificado"
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+  "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+  "nombreCorto": "Trastorno del desarrollo intelectual",
+  "sinonimos": [
+    "discapacidad intelectual",
+    "Discapacidad intelectual"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [
+    {
+      "etiqueta": "Leve",
+      "codigo": "F70"
+    },
+    {
+      "etiqueta": "Moderado",
+      "codigo": "F71"
+    },
+    {
+      "etiqueta": "Grave",
+      "codigo": "F72"
+    },
+    {
+      "etiqueta": "Profundo",
+      "codigo": "F73"
+    }
+  ],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-del-desarrollo-intelectual",
+    "nombre": "Trastornos del desarrollo intelectual"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 0,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual-criterios",
+              "nombre": null,
+              "codigo": null,
+              "preambulo": [
+                "El trastorno del desarrollo intelectual (discapacidad intelectual) es un trastorno que comienza durante el período de desarrollo y que incluye limitaciones del funcionamiento intelectual como también del comportamiento adaptativo en los dominios conceptual, social y práctico. Se deben cumplir los tres criterios siguientes:"
+              ],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Deficiencias de las funciones intelectuales, como el razonamiento, la resolución de problemas, la planificación, el pensamiento abstracto, el juicio, el aprendizaje académico y el aprendizaje a partir de la experiencia, confirmados mediante la evaluación clínica y pruebas de inteligencia estandarizadas individualizadas.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Deficiencias del comportamiento adaptativo que producen fracaso del cumplimiento de los estándares de desarrollo y socioculturales para la autonomía personal y la responsabilidad social. Sin apoyo continuo, las deficiencias adaptativas limitan el funcionamiento en una o más actividades de la vida cotidiana, como la comunicación, la participación social y la vida independiente en múltiples entornos tales como el hogar, la escuela, el trabajo y la comunidad.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Inicio de las deficiencias intelectuales y adaptativas durante el período de desarrollo.",
+                  "hijos": [
+                    {
+                      "ruta": "C.nota",
+                      "etiqueta": null,
+                      "tipo": "nota",
+                      "texto": "El término trastorno del desarrollo se utiliza para clarificar su relación con el sistema de clasificación de la CIE-11 de la OMS, que emplea el término trastornos del desarrollo intelectual. El término equivalente discapacidad intelectual se pone entre paréntesis para que pueda seguir usándose. En la bibliografía médica e investigativa se emplean ambos términos, mientras que discapacidad intelectual es el término de uso habitual por las profesiones de la enseñanza y otras, los grupos de presión y el público en general. En Estados Unidos, la Public Law 111-256 (Rosa's Law) sustituyó \"retraso mental\" por \"discapacidad intelectual\" en todas las referencias de las leyes federales a este trastorno.",
+                      "hijos": []
+                    }
+                  ]
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar la gravedad actual (véase la Tabla 1):",
+                  "opciones": [
+                    {
+                      "codigo": "F70",
+                      "etiqueta": "Leve",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": "F71",
+                      "etiqueta": "Moderado",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": "F72",
+                      "etiqueta": "Grave",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": "F73",
+                      "etiqueta": "Profundo",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 37,
+        "lineaFin": 57
+      }
+    },
+    {
+      "clave": "especificadores",
+      "claveOriginal": "especificadores",
+      "titulo": "Especificadores",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los diversos niveles de gravedad se definen según el funcionamiento adaptativo, y no según las puntuaciones de cociente intelectual (CI), porque es el funcionamiento adaptativo el que determina el nivel de apoyos requerido. Además, las medidas del CI son menos válidas en el extremo más bajo del rango de CI."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 59,
+        "lineaFin": 61
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las características principales de trastorno del desarrollo intelectual (discapacidad intelectual) son las deficiencias de las capacidades mentales generales (Criterio A) y el deterioro del funcionamiento adaptativo cotidiano, en comparación con los sujetos de igual edad, género y nivel sociocultural (Criterio B). El inicio se produce durante el período del desarrollo (Criterio C). El diagnóstico de trastorno del desarrollo intelectual se basa tanto en la evaluación clínica como en las pruebas standarizadas de las funciones intelectuales, las pruebas neuropsicológicas standarizadas y las pruebas standarizadas del funcionamiento adaptativo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El Criterio A se refiere a las funciones intelectuales que implican el razonamiento, la resolución de problemas, la planificación, el pensamiento abstracto, el juicio, el aprendizaje a partir de la instrucción y la experiencia, y la comprensión práctica. Los componentes críticos incluyen la comprensión verbal, la memoria de trabajo, el razonamiento perceptivo, el razonamiento cuantitativo, el pensamiento abstracto y la eficacia cognitiva. El funcionamiento intelectual de forma habitual se mide con pruebas de inteligencia administradas individualmente que son psicométricamente válidas, completas y apropiadas culturalmente. Los individuos con trastorno del desarrollo intelectual tienen puntuaciones que se sitúan, aproximadamente, dos o más desviaciones estándar por debajo de la media poblacional, incluido un margen para los errores de medición (generalmente, ±5 puntos). En las pruebas con una desviación estándar de 15 y una media de 100, esto supone una puntuación de 65-70 (70±5). Se requiere tener formación y juicio clínicos para interpretar los resultados de las pruebas y valorar el rendimiento intelectual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Entre los factores que pueden afectar a las puntuaciones de las pruebas se incluyen los efectos de la práctica (es decir, el aprendizaje a partir de repetidas pruebas) y el \"efecto Flynn\" (es decir, las puntuaciones exageradamente altas debido a normas desfasadas para la prueba). Las puntuaciones invalidas pueden derivarse del uso de pruebas de cribado de la inteligencia breves o de pruebas en grupo; unos resultados muy dispares en las subpruebas individuales pueden invalidar la puntuación global del CI. Los instrumentos tienen que estar adaptados teniendo en cuenta la situación sociocultural y la lengua materna del individuo. Los trastornos concurrentes que pueden afectar a la comunicación, al lenguaje y/o a la función motora o sensorial pueden afectar a las puntuaciones de las pruebas. Los perfiles cognitivos individuales que se basan en pruebas neuropsicológicas y en la evaluación intelectual mediante baterías cruzadas (el uso de varias pruebas de CI o cognitivas de otro tipo para crear un perfil) son más útiles para entender las capacidades intelectuales que una única puntuación de CI."
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Escala de gravedad del trastorno del desarrollo intelectual (discapacidad intelectual)",
+          "encabezados": [
+            "Escala de gravedad",
+            "Dominio conceptual",
+            "Dominio social",
+            "Dominio práctico"
+          ],
+          "filas": [
+            [
+              "Leve",
+              "En los niños de edad preescolar puede no haber diferencias conceptuales manifiestas. En los niños de edad escolar y en los adultos existen dificultades en el aprendizaje de las aptitudes académicas relativas a la lectura, la escritura, la aritmética, el tiempo o el dinero, y se necesita ayuda en uno o más campos para cumplir las expectativas relacionadas con la edad. En los adultos existe alteración del pensamiento abstracto, de la función ejecutiva (es decir, la planificación, la definición de estrategias, la determinación de prioridades y la flexibilidad cognitiva) y de la memoria a corto plazo, así como del uso funcional de las aptitudes académicas (p. ej., leer, manejar el dinero). Existe un enfoque algo concreto de los problemas y las soluciones en comparación con los grupos de la misma edad.",
+              "En comparación con los grupos de edad de desarrollo similar, el individuo es inmaduro en cuanto a las relaciones sociales. Por ejemplo, puede haber dificultad para percibir de forma precisa las señales sociales de sus iguales. La comunicación, la conversación y el lenguaje son más concretos o inmaduros de lo esperado para la edad. Puede haber dificultades de regulación de la emoción y del comportamiento de forma apropiada para la edad; estas dificultades son percibidas por sus iguales en las situaciones sociales. Existe una comprensión limitada del riesgo en las situaciones sociales; el juicio social es inmaduro para la edad y el individuo corre el riesgo de ser manipulado por los otros (ingenuidad).",
+              "El individuo puede funcionar de forma apropiada para la edad en el cuidado personal. Los individuos necesitan cierta ayuda con las tareas complejas de la vida cotidiana en comparación con sus iguales. En la vida adulta, la ayuda implica normalmente la compra, el transporte, la organización doméstica y el cuidado de los hijos, la preparación de los alimentos, y la gestión bancaria y del dinero. Las habilidades recreativas son similares a las de los grupos de la misma edad, aunque necesita ayuda respecto al juicio relacionado con el bienestar y la organización del ocio. En la vida adulta, con frecuencia se observa competitividad en los trabajos que no destacan en habilidades conceptuales. Los individuos generalmente necesitan ayuda para tomar decisiones sobre el cuidado de la salud y sobre temas legales, y para aprender a realizar de manera competente una ocupación que requiera habilidad. Se necesita normalmente ayuda para criar una familia."
+            ],
+            [
+              "Moderado",
+              "Durante todo el desarrollo, las habilidades conceptuales de los individuos están notablemente retrasadas en comparación con sus iguales. En los preescolares, el lenguaje y las habilidades preacadémicas se desarrollan lentamente. En los niños de edad escolar, el progreso de la lectura, la escritura, las matemáticas, la comprensión del tiempo y el dinero se produce lentamente a lo largo de los años escolares y está notablemente reducido en comparación con sus iguales. En los adultos, el desarrollo de las aptitudes académicas está tipicamente en un nivel elemental y se necesita ayuda para todas las habilidades académicas, en el trabajo y en la vida personal. Se necesita ayuda continua a diario para completar las tareas conceptuales de la vida cotidiana, y otras personas podrían tener que encargarse de la totalidad de las responsabilidades del individuo.",
+              "El individuo presenta notables diferencias respecto a sus iguales en cuanto al comportamiento social y comunicativo a lo largo del desarrollo. El lenguaje hablado es tipicamente el principal instrumento de comunicación social, pero es mucho menos complejo que en sus iguales. La capacidad de relación está vinculada de forma evidente a la familia y a los amigos, y el individuo puede tener amistades satisfactorias a lo largo de la vida y, en ocasiones, relaciones sentimentales en la vida adulta. Sin embargo, estos individuos podrían no percibir o interpretar con precisión las señales sociales. El juicio social y la capacidad para tomar decisiones son limitados, y los cuidadores han de ayudar al individuo en las decisiones de la vida. La amistad, que normalmente se desarrolla con los compañeros, con frecuencia está afectada por limitaciones de la comunicación o sociales. Para tener éxito en el trabajo es necesaria una ayuda social y comunicativa importante.",
+              "El individuo puede responsabilizarse de sus necesidades personales, como comer y vestirse, y de las funciones excretoras y la higiene como un adulto, aunque se necesita un período largo de aprendizaje y tiempo para que el individuo sea autónomo en estos campos, y podría necesitar personas que le recuerden lo que tiene que hacer. De manera similar, podría participar en todas las tareas domésticas de la vida adulta, aunque se necesita un período largo de aprendizaje y se requiere ayuda continua para lograr un nivel de funcionamiento adulto. Podrá asumir encargos independientes en los trabajos que requieran habilidades conceptuales y de comunicación limitadas, pero se necesitará una ayuda considerable de sus compañeros y supervisores, y de otras personas, para administrar las expectativas sociales, las complejidades laborales y las responsabilidades complementarias, como la programación, el transporte, los beneficios sanitarios y la gestión del dinero. Se pueden desarrollar diversas habilidades recreativas. Estas personas necesitan normalmente ayuda adicional y oportunidades de aprendizaje durante un período de tiempo largo. Una minoría importante presenta un comportamiento inadaptado que causa problemas sociales."
+            ],
+            [
+              "Grave",
+              "Las habilidades conceptuales están reducidas. El individuo tiene generalmente pocas comprensión del lenguaje escrito o de los conceptos que implican números, cantidades, tiempo y dinero. Los cuidadores proporcionan un grado notable de ayuda para la resolución de los problemas durante toda la vida.",
+              "El lenguaje hablado está bastante limitado en cuanto a vocabulario y gramática. El habla puede consistir en palabras o frases sueltas, y se puede complementar con medios potenciadores. El habla y la comunicación se centran en el aquí y ahora dentro de los acontecimientos cotidianos. El lenguaje se utiliza para la comunicación social, más que para la explicación. Los individuos comprenden el habla sencilla y la comunicación gestual. Las relaciones con los miembros de la familia y con otros parientes son fuente de placer y de ayuda.",
+              "El individuo necesita ayuda para todas las actividades de la vida cotidiana, como comer, vestirse, bañarse y realizar las funciones excretoras. El individuo necesita supervisión constante. El individuo no puede tomar decisiones responsables sobre el bienestar propio o de otras personas. En la vida adulta, la participación en tareas domésticas, de ocio y de trabajo necesita apoyo y ayuda constante. La adquisición de habilidades en todos los dominios implica aprendizaje a largo plazo y con ayuda constante. En una minoría importante existen comportamientos inadaptados, incluidas las autolesiones."
+            ],
+            [
+              "Profundo",
+              "Las habilidades conceptuales se refieren generalmente al mundo físico, más que a procesos simbólicos. El individuo puede utilizar objetos específicos para el cuidado de sí mismo, el trabajo y el ocio. Se pueden haber adquirido algunas habilidades visoespaciales, como la concordancia y la clasificación basada en las características físicas. Sin embargo, la existencia concurrente de alteraciones motoras y sensitivas puede impedir el uso funcional de los objetos.",
+              "El individuo tiene una comprensión muy limitada de la comunicación simbólica en el habla y la gestualidad. El individuo puede comprender algunas instrucciones o gestos sencillos. El individuo expresa su propio deseo y sus emociones principalmente mediante la comunicación no verbal y no simbólica El individuo disfruta de la relación con miembros bien conocidos de la familia, con los cuidadores y con otros parientes, e inicia y responde a las interacciones sociales mediante señales gestuales y emocionales. La existencia concurrente de alteraciones sensoriales y físicas puede impedir muchas actividades sociales.",
+              "El individuo depende de otros para todos los aspectos del cuidado físico diario, la salud y la seguridad, aunque también puede participar en algunas de estas actividades. Los individuos sin alteraciones físicas graves pueden ayudar en algunas de las tareas de la vida cotidiana en el hogar, como llevar los platos a la mesa. Las acciones sencillas con objetos pueden ser la base de la participación en algunas actividades vocacionales con un alto nivel de ayuda continua. Las actividades recreativas pueden implicar, por ejemplo, disfrutar escuchando música, viendo películas, saliendo a pasear o participando en actividades acuáticas, todo ello con la ayuda de otros. La existencia concurrente de alteraciones físicas y sensoriales es un impedimento frecuente para la participación (más allá de la mera observación) en las actividades domésticas, recreativas y vocacionales. En una minoría importante existen comportamientos inadaptados."
+            ]
+          ],
+          "fragmentosUnidos": 3
+        },
+        {
+          "tipo": "imagen_ausente",
+          "referenciaOriginal": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260725125619440c914b80174008%2Fcrop_1_1784955442808.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=iigOeGu%2FvAGcIJal1nvQetDwn%2B0%3D&Expires=1785560242",
+          "descripcion": "[PENDIENTE]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Este tipo de pruebas puede identificar áreas de fortaleza y debilidad relativas, que son evaluaciones importantes para la planificación académica y vocacional. Los resultados de las pruebas de CI son aproximaciones al funcionamiento conceptual, pero pueden ser insuficientes para evaluar el razonamiento en situaciones reales y el dominio de las tareas prácticas. Por ejemplo, una persona con deficits en el funcionamiento intelectual cuya puntuación de CI esté algo por encima de 65-70 podría tener, no obstante, problemas tan considerables del comportamiento adaptativo en el juicio social u otras áreas del funcionamiento adaptativo que el rendimiento real de esta persona sería clínicamente comparable al de los individuos con una puntuación más baja en el CI. Así pues, el juicio clínico es importante para interpretar los resultados de las pruebas de CI, y usarlas como únicos criterios para diagnosticar un trastorno del desarrollo intelectual es insuficiente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las deficiencias del funcionamiento adaptativo (Criterio B) se refieren a la habilidad de la persona para alcanzar los estándares de la comunidad respecto a la autonomía personal y la responsabilidad social en comparación con otras personas de edad y nivel sociocultural parecidos. El funcionamiento adaptativo implica el razonamiento adaptativo en tres dominios: conceptual, social y práctico. El dominio conceptual (académico) implica la competencia en memoria, lenguaje, lectura, escritura, razonamiento matemático, adquisición de conocimientos prácticos, resolución de problemas y juicio en situaciones nuevas, entre otros. El dominio social implica la conciencia de los pensamientos, sentimientos y experiencias de los demás, la empatía, las habilidades para la comunicación interpersonal, las habilidades para hacer amigos y el juicio social, entre otros. El dominio práctico implica al aprendizaje y la autogestión en diferentes situaciones vitales, como el cuidado personal, las responsabilidades en el trabajo, la gestión del dinero, el ocio, la autogestión del comportamiento y la organización de tareas para la escuela o el trabajo, entre otros. La capacidad intelectual, la educación, la motivación, la socialización, los rasgos de la personalidad, las oportunidades vocacionales, la experiencia cultural y las otras afecciones médicas o trastornos mentales concurrentes influyen en el funcionamiento adaptativo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El funcionamiento adaptativo se evalúa utilizando la evaluación clínica y las medidas individualizadas cultural y psicométricamente apropiadas. Las medidas estandarizadas se utilizan con los informantes que conocen al paciente (p. ej., un padre u otro miembro de la familia, un profesor, un terapeuta, un cuidador) y con el propio individuo en el grado en que sea posible. Otras fuentes de información son las evaluaciones educativas, del desarrollo, médicas y de salud mental. Las puntuaciones de las medidas estandarizadas y de las diversas fuentes de entrevistas deben interpretarse según la valoración clínica. Cuando es difícil o imposible administrar las pruebas estandarizadas debido a varios factores (p. ej., una deficiencia sensorial o un comportamiento gravemente problemático), se puede diagnosticar al individuo de trastorno del desarrollo intelectual no especificado. El funcionamiento adaptativo puede ser difícil de evaluar en un entorno controlado (p. ej., prisiones, centros de detención); si es posible, se debería obtener información corroborativa que refleje el funcionamiento fuera de esos entornos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El Criterio B se cumple cuando, por lo menos, un dominio del funcionamiento adaptativo -el conceptual, el social o el práctico- está suficientemente alterado como para necesitar apoyo continuo para que la persona funcione adecuadamente en múltiples ámbitos, como el hogar, la escuela, el trabajo y la comunidad. El Criterio C, el inicio durante el período de desarrollo, se refiere al reconocimiento de que existen deficiencias intelectuales y adaptativas durante la infancia o la adolescencia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Una evaluación exhaustiva abarcaría una valoración de la capacidad intelectual y del funcionamiento adaptativo; la identificación de las etiologías genéticas y no genéticas; la evaluación de las afecciones médicas asociadas (p. ej., parálisis cerebral, trastorno comicial); y la evaluación de los trastornos mentales, emocionales y conductuales concurrentes. Como componentes de la evaluación cabe considerar la historia clínica básica prenatal y perinatal, un historial familiar de tres generaciones, una exploración física, una evaluación genética (p. ej., cariotipo o análisis de la micromatriz cromosómica y pruebas para detectar determinados síndromes genéticos específicos), un criado metabólico y una valoración de neuroimagen."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 63,
+        "lineaFin": 105
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del desarrollo intelectual es una afección heterogénea con múltiples causas. Se pueden asociar dificultades para el juicio social, la evaluación de riesgos, la autogestión del comportamiento, las emociones o las relaciones interpersonales, o la motivación en los entornos de la escuela o el trabajo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dado que no existe conciencia del riesgo y el peligro, las tasas de lesiones accidentales pueden estar aumentadas. La falta de habilidades para la comunicación puede predisponer a comportamientos disruptivos y agresivos. La credulidad muchas veces es un rasgo que incluye la ingenuidad en las situaciones sociales y la tendencia a ser fácilmente arrastrado por otros. La credulidad y la falta de conciencia de los riesgos pueden producir la explotación y la posible victimización por terceros, el fraude, la implicación accidental en delitos, las confesiones falsas y el riesgo de maltrato físico y sexual. Estas características asociadas pueden ser importantes en los casos penales, incluidas las audiencias judiciales para evaluar la capacidad intelectual de un acusado con el fin de determinar si se puede aplicar la pena de muerte."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Más allá de los deficits en el funcionamiento adaptativo, los individuos pueden también angustiarse a causa de sus limitaciones intelectuales. Aunque este malestar no siempre se considera que afecte al funcionamiento, la angustia puede suponer un rasgo importante del cuadro clínico."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 107,
+        "lineaFin": 113
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del desarrollo intelectual tiene una prevalencia global en la población general de aproximadamente el 10 por 1.000; sin embargo, la prevalencia mundial varía dependiendo del país y el nivel de desarrollo, siendo aproximadamente del 16 por 1.000 en los países de rentas medias y del 9 por 1.000 en los países de rentas altas. La prevalencia varía también según la edad, siendo mayor entre los jóvenes que entre los adultos. En Estados Unidos, la prevalencia por 1.000 habitantes no varía significativamente según el grupo etnorracial."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 115,
+        "lineaFin": 117
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El inicio del trastorno del desarrollo intelectual se produce durante el período de desarrollo. La edad y los rasgos características al inicio dependen de la etiología y de la gravedad de la disfunción cerebral. Los hitos motores, del lenguaje y sociales retrasados pueden identificarse en los 2 primeros años de vida en los casos más graves de trastorno del desarrollo intelectual, mientras que los niveles leves pueden no ser identificables hasta la edad escolar, cuando la dificultad para el aprendizaje académico empieza a ser evidente. Los antecedentes o la presentación actual deben cumplir todos los criterios (incluido el Criterio C). Algunos niños de menos de 5 años, cuya presentación finalmente cumplirá los criterios del trastorno del desarrollo intelectual, tienen deficiencias que cumplen los criterios del retraso general del desarrollo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando el trastorno del desarrollo intelectual se asocia a un síndrome genético, puede haber un aspecto físico característico (p. ej., como en el síndrome de Down). Algunos sindromes tienen un fenotipo conductual, lo que hace referencia a comportamientos específicos que son características de un trastorno genético particular (p. ej., el síndrome de Lesch-Nyhan). En las formas adquiridas, el inicio puede ser abrupto después de una enfermedad, como una meningitis o una encefalitis, o de un traumatismo craneal cuando este se produce durante el período de desarrollo. Cuando el trastorno del desarrollo intelectual se produce después de una pérdida de las habilidades cognitivas previamente adquiridas, como en las lesiones cerebrales traumáticas graves, se pueden realizar los diagnósticos de trastorno del desarrollo intelectual y de trastorno neurocognitivo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque, en general, el trastorno del desarrollo intelectual no es progresivo, en algunos trastornos genéticos (p. ej., el síndrome de Rett) hay períodos de empeoramiento seguidos de estabilización y en otros (p. ej., el síndrome de San Filippo, el síndrome de Down) se produce un empeoramiento progresivo de la función intelectual en grado variable. En algunos casos, el empeoramiento progresivo del funcionamiento intelectual puede representar la superposición de un trastorno cognitivo que se desarrolla en la etapa adulta (p. ej., las personas con síndrome de Down tienen un riesgo alto de presentar un trastorno neurocognitivo por enfermedad de Alzheimer en la vida adulta). En esta situación se asignan los dos diagnósticos, el de trastorno del desarrollo intelectual y el de trastorno neurocognitivo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno generalmente es para toda la vida, aunque los niveles de gravedad pueden cambiar con el tiempo. El curso puede verse influido por las afecciones médicas o genéticas y por la presencia de cuadros concurrentes (p. ej., deficiencias auditivas o visuales, epilepsia). Las intervenciones tempranas y continuadas pueden mejorar el funcionamiento adaptativo durante toda la infancia y la edad adulta. En algunos casos, estas pueden llevar a una mejoría significativa del funcionamiento intelectual, tanto que el diagnóstico de trastorno del desarrollo intelectual podría dejar de ser aplicable. Así pues, la práctica común, cuando se evaluan los bebés y los niños pequeños, es posponer el diagnóstico de trastorno del desarrollo intelectual hasta después de que se haya realizado una intervención apropiada. En los niños mayores y en los adultos, el grado de apoyo prestado puede permitir la participación completa en todas las actividades cotidianas y una mejor función adaptativa. Las evaluaciones diagnósticas deben determinar si las habilidades adaptativas mejoradas son el resultado de una nueva adquisición de habilidades estable y generalizada (en tal caso, el diagnóstico de trastorno del desarrollo intelectual puede dejar de ser apropiado), o si la mejora está supeditada a la presencia de apoyos e intervenciones de forma continuada (en tal caso, el diagnóstico de trastorno del desarrollo intelectual aún puede ser apropiado)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 119,
+        "lineaFin": 129
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Genéticos y fisiológicos. Las etiologías prenatales incluyen síndromes genéticos (p. ej., variaciones en la secuencia o el número de copias de uno o más genes, trastornos cromosómicos), errores innatos del metabolismo, malformaciones cerebrales, enfermedad materna (incluida la patología de la placenta) e influencias ambientales (p. ej., alcohol, otras drogas, tóxicos, teratógenos). Las causas perinatales incluyen la variedad de acontecimientos relacionados con el preparto y el parte que conducen a la encefalopatía neonatal. Las causas posnatales incluyen el daño hipóxico-isquémico, el daño cerebral traumático, las infecciones, los trastornos desmielinizantes, los trastornos convulsivos (p. ej., espasmos infantiles), la privación social grave y crónica, y los síndromes tóxico-metabólicos e intoxicaciones (p. ej., plomo, mercurio)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 131,
+        "lineaFin": 133
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del desarrollo intelectual ocurre en todos los grupos etnorraciales. Las diferencias de prevalencia entre distintos contextos sociales y culturales pueden deberse a variaciones en los riesgos medioambientales del trastorno (p. ej., lesión perinatal, privación social crónica), asociadas al nivel socioeconómico y el acceso a la asistencia sanitaria de calidad. Por ejemplo, en Australia occidental, la prevalencia poblacional del trastorno del desarrollo intelectual entre los niños aborígenes es de 39 por 1.000 habitantes, a diferencia del 16 por 1.000 de la población joven no aborigen, más pudiente. Son necesarios la sensibilidad cultural y el conocimiento de las condiciones socioestructurales durante la evaluación, y se deben tener en cuenta los antecedentes socioeconómicos, étnicos, culturales y lingüísticos del individuo, las experiencias vividas y el funcionamiento adaptativo dentro de su comunidad y ambiente cultural. Las explicaciones culturales del trastorno del desarrollo intelectual varian y pueden incluir creencias acerca de influencias y castigos sobrenaturales por ofensas, presentas o reales, de la madre o los progenitores, lo que puede asociarse a vergüenza y a que no se notifique el trastorno."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 135,
+        "lineaFin": 137
+      }
+    },
+    {
+      "clave": "sexo_genero",
+      "claveOriginal": "aspectos diagnosticos relacionados con el sexo y el genero",
+      "titulo": "Aspectos diagnósticos relacionados con el sexo y el género",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En general, los varones tienen más posibilidades que las mujeres de ser diagnosticados de formas leves (el promedio de la proporción varón:mujer es de 1,6:1) y graves (el promedio de la proporción varón:mujer es de 1,2:1) del trastorno del desarrollo intelectual. Sin embargo, la proporción entre los sexos varía mucho en los estudios publicados. Los factores genéticos vinculados con el sexo, las diferencias sexuales en cuanto a otros factores genéticos, como las variantes del número de copias, y la vulnerabilidad del sexo masculino a los problemas cerebrales pueden explicar algunas de las diferencias entre los sexos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 139,
+        "lineaFin": 141
+      }
+    },
+    {
+      "clave": "suicidio",
+      "claveOriginal": "asociacion con pensamientos o conductas suicidas",
+      "titulo": "Asociación con pensamientos o conductas suicidas",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En los individuos con trastorno del desarrollo intelectual puede haber riesgo de suicidio asociado a un trastorno mental comórbido, a una mayor función intelectual y adaptativa, y a factores de estrés en el pasado inmediato. El trastorno mental comórbido puede manifestarse de forma atípica en el trastorno del desarrollo intelectual; por ello, reconocer la comorbilidad y averiguar si existen pensamientos suicidas es importante durante el proceso de valoración, prestando especial atención a los cambios de comportamiento del individuo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 143,
+        "lineaFin": 145
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 10,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El diagnóstico de trastorno del desarrollo intelectual se debería hacer siempre que los Criterios A, B y C se cumplan. No se debería asumir un diagnóstico de trastorno del desarrollo intelectual por el hecho de que haya una particular afección genética o médica. Un síndrome genético vinculado a un trastorno del desarrollo intelectual se debería registrar como un diagnóstico concurrente con el trastorno del desarrollo intelectual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos neurocognitivos mayores y leves. El trastorno del desarrollo intelectual se clasifica como un trastorno del neurodesarrollo y es distinto de los trastornos neurocognitivos, que se caracterizan por una pérdida del funcionamiento cognitivo. El trastorno neurocognitivo mayor puede ser concurrente con el trastorno del desarrollo intelectual (p. ej., un individuo con síndrome de Down que desarrolla una enfermedad de Alzheimer, o un individuo con trastorno del desarrollo intelectual que pierde más capacidad cognitiva después de una lesión craneal). En tales casos, se pueden realizar los diagnósticos de trastorno del desarrollo intelectual y de trastorno neurocognitivo. Más aun, cuando el funcionamiento cognitivo se estabiliza después de una lesión cerebral traumática o no traumática con inicio en el período de desarrollo (infancia y adolescencia) y el declive cognitivo no continua, se pueden usar los diagnósticos de trastorno neurocognitivo y trastorno del desarrollo intelectual si se cumplen los criterios del trastorno del desarrollo intelectual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos de la comunicación y trastorno específico del aprendizaje. Estos trastornos del neurodesarrollo son específicos de los dominios de la comunicación y del aprendizaje, y no muestran deficiencias del comportamiento intelectual y adaptativo. Pueden concurrir con el trastorno del desarrollo intelectual. Se realizan los dos diagnósticos si se cumplen todos los criterios para el trastorno del desarrollo intelectual y para un trastorno de la comunicación o un trastorno específico del aprendizaje."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del espectro autista. El trastorno del desarrollo intelectual es frecuente entre los individuos con trastorno del espectro autista. La evaluación de la capacidad intelectual se puede complicar por las deficiencias sociales, comunicativas y conductuales inherentes al trastorno del espectro autista, que pueden interferir en la comprensión y el seguimiento de los procedimientos de las pruebas. Es esencial la evaluación apropiada del funcionamiento intelectual en el trastorno del espectro autista, así como la reevaluación durante el período de desarrollo, ya que las puntuaciones del CI en el trastorno del espectro autista pueden ser inestables, particularmente en la primera infancia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 147,
+        "lineaFin": 155
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 11,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En el trastorno del desarrollo intelectual concurren con frecuencia afecciones del neurodesarrollo y otras afecciones mentales y médicas, produciéndose algunas afecciones (p. ej., trastornos mentales, parálisis cerebral y epilepsia) con frecuencias de tres a cuatro veces mayores que las de la población general. El pronóstico y el resultado de los diagnósticos concurrentes pueden verse influidos por la presencia del trastorno del desarrollo intelectual. Los procedimientos de evaluación pueden requerir modificaciones a causa de los trastornos asociados, como los trastornos de la comunicación, el trastorno del espectro autista, los trastornos motores y sensoriales, y otros trastornos. Los informantes que conocen al paciente son esenciales para identificar síntomas como la irritabilidad, la desregulación del estado de ánimo, la hostilidad, los problemas alimentarios y los problemas de sueño, y también para evaluar el funcionamiento adaptativo en los distintos entornos de la comunidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos del neurodesarrollo y mentales de otro tipo concurrentes con mayor frecuencia son el trastorno por déficit de atención/hiperactividad, los trastornos depresivo y bipolar, los trastornos de ansiedad, el trastorno del espectro autista, el trastorno de movimientos estereotipados (con o sin comportamientos autolesivos), los trastornos del control de los impulsos y el trastorno neurocognitivo mayor. El trastorno de depresión mayor puede producirse en todo el espectro de gravedad del trastorno del desarrollo intelectual. El comportamiento autolesivo requiere atención diagnóstica rápida y puede justificar un diagnóstico independiente de trastorno de movimientos estereotipados. Los individuos con trastorno del desarrollo intelectual, particularmente los que tienen un trastorno del desarrollo intelectual más grave, pueden también mostrar hostilidad y comportamientos disruptivos, con daños a terceros o destrucción de propiedades."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los individuos con trastorno del desarrollo intelectual presentan desproporcionadamente más problemas de salud que la población general, incluida la obesidad. A menudo no pueden expresar verbalmente los síntomas físicos que les aquejan. Ello puede conducir a que haya problemas de salud sin diagnosticar ni tratar."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 157,
+        "lineaFin": 163
+      }
+    },
+    {
+      "clave": "relacion_otras_clasificaciones",
+      "claveOriginal": "relacion con otras clasificaciones",
+      "titulo": "Relación con otras clasificaciones",
+      "reconocida": true,
+      "orden": 12,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La CIE-11 utiliza el término trastornos del desarrollo intelectual para indicar que se trata de trastornos que implican deficiencias del funcionamiento cerebral en un momento temprano de la vida. Estos trastornos se describen en la CIE-11 como un metasíndrome que se produce en el período de desarrollo de forma análoga a la demencia o al trastorno neurocognitivo mayor que se presenta más tardiamente en la vida. Hay cuatro subtipos de trastorno del desarrollo intelectual en la CIE-11: leve, moderado, grave y profundo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La Asociación Americana de Discapacidades Intelectuales y del Desarrollo (American Association on Intellectual and Developmental Disabilities, AAIDD) también utiliza el término discapacidad intelectual. La clasificación de la AAIDD es multidimensional, en vez de categórica, y se basa en el constructo de la discapacidad. En vez de hacer una lista de especificadores de gravedad, como se hace en el DSM-5, la AAIDD pone el enfasis en el perfil de apoyos basado en la gravedad."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 165,
+        "lineaFin": 169
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo intelectual — Criterio A",
+        "reverso": "Deficiencias de las funciones intelectuales, como el razonamiento, la resolución de problemas, la planificación, el pensamiento abstracto, el juicio, el aprendizaje académico y el aprendizaje a partir de la experiencia, confirmados mediante la evaluación clínica y pruebas de inteligencia estandarizadas individualizadas.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo intelectual — Criterio B",
+        "reverso": "Deficiencias del comportamiento adaptativo que producen fracaso del cumplimiento de los estándares de desarrollo y socioculturales para la autonomía personal y la responsabilidad social. Sin apoyo continuo, las deficiencias adaptativas limitan el funcionamiento en una o más actividades de la vida cotidiana, como la comunicación, la participación social y la vida independiente en múltiples entornos tales como el hogar, la escuela, el trabajo y la comunidad.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo intelectual — Criterio C",
+        "reverso": "Inicio de las deficiencias intelectuales y adaptativas durante el período de desarrollo.\nEl término trastorno del desarrollo se utiliza para clarificar su relación con el sistema de clasificación de la CIE-11 de la OMS, que emplea el término trastornos del desarrollo intelectual. El término equivalente discapacidad intelectual se pone entre paréntesis para que pueda seguir usándose. En la bibliografía médica e investigativa se emplean ambos términos, mientras que discapacidad intelectual es el término de uso habitual por las profesiones de la enseñanza y otras, los grupos de presión y el público en general. En Estados Unidos, la Public Law 111-256 (Rosa's Law) sustituyó \"retraso mental\" por \"discapacidad intelectual\" en todas las referencias de las leyes federales a este trastorno.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual:codigo:F70",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo intelectual (discapacidad intelectual) — código de «Leve»",
+        "reverso": "F70",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual:codigo:F71",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo intelectual (discapacidad intelectual) — código de «Moderado»",
+        "reverso": "F71",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual:codigo:F72",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo intelectual (discapacidad intelectual) — código de «Grave»",
+        "reverso": "F72",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-desarrollo-intelectual-discapacidad-intelectual:codigo:F73",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del desarrollo intelectual (discapacidad intelectual) — código de «Profundo»",
+        "reverso": "F73",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-del-espectro-autista",
+        "nombre": "Trastorno del espectro autista",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-especifico-del-aprendizaje",
+        "nombre": "Trastorno específico del aprendizaje",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 35,
+    "lineaFin": 170
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (4)",
+      "textoLiteral": null,
+      "linea": 35
+    }
+  ]
+}

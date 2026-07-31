@@ -1,0 +1,45 @@
+{
+  "name": "dsm5tr-biblioteca",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Biblioteca clínica interactiva de la Seccion II del DSM-5-TR. Uso personal, sin conexion.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "convert": "tsx scripts/convert.ts && npm run build:search",
+    "build:search": "tsx scripts/build-search-index.ts",
+    "andamiaje": "tsx scripts/generar-andamiaje.ts",
+    "validate": "tsx scripts/validate.ts",
+    "verify": "node scripts/verificar-fidelidad.mjs && node scripts/verificar-cobertura.mjs",
+    "check": "tsc --noEmit && npm run convert && npm run validate && npm run verify",
+    "typecheck": "tsc --noEmit",
+    "sync:drive": "node scripts/sincronizar-drive.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.0",
+    "fuse.js": "^7.5.0",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.4",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.23",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vite": "^6.4.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

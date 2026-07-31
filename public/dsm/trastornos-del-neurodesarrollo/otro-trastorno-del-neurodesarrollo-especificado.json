@@ -1,0 +1,131 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "otro-trastorno-del-neurodesarrollo-especificado",
+  "nombre": "Otro trastorno del neurodesarrollo especificado",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F88",
+    "cie10": "F88",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "otros-trastornos-del-neurodesarrollo",
+    "nombre": "Otros trastornos del neurodesarrollo"
+  },
+  "tipoEntrada": "otro_especificado",
+  "orden": 18,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 1374)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Esta categoría se aplica a presentaciones en las que predominan los síntomas características de un trastorno del neurodesarrollo que causan deterioro en lo social, laboral u otras áreas importantes del funcionamiento, pero que no cumplen todos los criterios de alguno de los trastornos de la categoría diagnóstica de los trastornos del neurodesarrollo. La categoría de otro trastorno del neurodesarrollo especificado se utiliza en situaciones en las que el clínico opta por comunicar el motivo específico por el que la presentación no cumple los criterios de ningún trastorno específico del neurodesarrollo. Esto se hace registrando \"otro trastorno del neurodesarrollo especificado\" y a continuación el motivo específico (p. ej., \"trastorno del neurodesarrollo asociado a exposición intrauterina al alcohol\")."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Una presentación que se puede especificar utilizando \"otro especificado\" es, por ejemplo, la siguiente:"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del neurodesarrollo asociado a exposición intrauterina al alcohol: El trastorno del neurodesarrollo asociado a exposición intrauterina al alcohol se caracteriza por diversas discapacidades del desarrollo después de la exposición in utero al alcohol."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1374,
+        "lineaFin": 1378
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:otro-trastorno-del-neurodesarrollo-especificado:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Otro trastorno del neurodesarrollo especificado»?",
+        "opciones": [
+          {
+            "id": "o3",
+            "texto": "F80.9"
+          },
+          {
+            "id": "o0",
+            "texto": "F88"
+          },
+          {
+            "id": "o2",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 1368–1379), el código es F88.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:otro-trastorno-del-neurodesarrollo-especificado:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Otro trastorno del neurodesarrollo especificado",
+        "reverso": "F88",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 1368,
+    "lineaFin": 1379
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 1368
+    }
+  ]
+}

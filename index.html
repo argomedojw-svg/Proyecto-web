@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Biblioteca clínica de consulta y estudio del DSM-5-TR. Uso personal." />
+    <meta name="color-scheme" content="light dark" />
+    <title>Biblioteca DSM-5-TR</title>
+    <script>
+      // Se aplica el tema antes de pintar para que no haya destello al cargar.
+      (function () {
+        try {
+          var guardado = localStorage.getItem('dsm5tr:tema');
+          var tema =
+            guardado === 'claro' || guardado === 'oscuro'
+              ? guardado
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'oscuro'
+                : 'claro';
+          document.documentElement.dataset.tema = tema;
+        } catch (e) {
+          document.documentElement.dataset.tema = 'claro';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="raiz"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

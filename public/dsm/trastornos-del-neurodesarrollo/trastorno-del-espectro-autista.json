@@ -1,0 +1,823 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-del-espectro-autista",
+  "nombre": "Trastorno del espectro autista",
+  "nombreCorto": null,
+  "sinonimos": [
+    "Trastorno de Asperger",
+    "Autismo infantil",
+    "Autismo de Kanner",
+    "Trastorno generalizado del desarrollo",
+    "Trastorno autista"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F84.0",
+    "cie10": "F84.0",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastorno-del-espectro-autista",
+    "nombre": "Trastorno del espectro autista"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 8,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-del-espectro-autista-criterios",
+              "nombre": null,
+              "codigo": "F84.0",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Deficiencias persistentes en la comunicación social y en la interacción social en diversos contextos, manifestado por todo lo siguiente, actualmente o por los antecedentes (los ejemplos son ilustrativos, pero no exhaustivos):",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Las deficiencias en la reciprocidad socioemocional varian, por ejemplo, desde un acercamiento social anormal y fracaso de la conversación normal en ambos sentidos, pasando por la disminución en intereses, emociones o afectos compartidos, hasta el fracaso en iniciar o responder a interacciones sociales.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Las deficiencias en las conductas comunicativas no verbales utilizadas en la interacción social varian, por ejemplo, desde una comunicación verbal y no verbal poco integrada, pasando por anomalías del contacto visual y del lenguaje corporal o deficiencias de la comprensión y el uso de gestos, hasta una falta total de expresión facial y de comunicación no verbal.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Las deficiencias en el desarrollo, mantenimiento y comprensión de las relaciones varian, por ejemplo, desde dificultades para ajustar el comportamiento en diversos contextos sociales, pasando por dificultades para compartir juegos imaginativos o para hacer amigos, hasta la ausencia de interés por otras personas.",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Patrones restrictivos y repetitivos de comportamiento, intereses o actividades, que se manifiestan en dos o más de los siguientes puntos, actualmente o por los antecedentes (los ejemplos son ilustrativos, pero no exhaustivos):",
+                  "hijos": [
+                    {
+                      "ruta": "B.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Movimientos, utilización de objetos o habla estereotipados o repetitivos (p. ej., estereotipias motoras simples, alineación de los juguetes o cambio de lugar de los objetos, ecolalia, frases idiosincrásicas).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "B.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Insistencia en la monotonia, excesiva inflexibilidad de rutinas o patrones ritualizados de comportamiento verbal o no verbal (p. ej., gran angustia frente a cambios pequeños, dificultades con las transiciones, patrones de pensamiento rigidos, rituales de saludo, necesidad de tomar el mismo camino o de comer los mismos alimentos cada día).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "B.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Intereses muy restringidos y fijos que son anormales en cuanto a su intensidad o foco de interés (p. ej., fuerte apego o preocupación por objetos inusuales, intereses excesivamente circunscritos o perseverantes).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "B.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Hiperreactividad o hiporreactividad a los estímulos sensoriales o interés inhabitual por aspectos sensoriales del entorno (p. ej., indiferencia aparente al dolor/temperatura, respuesta adversa a sonidos o texturas específicos, olfateo o palpación excesiva de objetos, fascinación visual por las luces o el movimiento).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Los sintomas deben estar presentes en las primeras fases del periodo de desarrollo (pero pueden no manifestarse totalmente hasta que la demanda social supera las capacidades limitadas, o pueden estar enmascarados por estrategias aprendidas en fases posteriores de la vida).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Los sintomas causan un deterioro clínicamente significativo en lo social, laboral u otras áreas importantes del funcionamiento habitual.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "Estas alteraciones no se explican mejor por el trastorno del desarrollo intelectual (discapacidad intellectual) o por el retraso global del desarrollo. El trastorno del desarrollo intelectual y el trastorno del espectro autista con frecuencia coinciden; para hacer diagnósticos de comorbilidades de un trastorno del espectro autista y trastorno del desarrollo, la comunicación social ha de estar por debajo de lo previsto para el nivel general de desarrollo.",
+                  "hijos": [
+                    {
+                      "ruta": "E.nota",
+                      "etiqueta": null,
+                      "tipo": "nota",
+                      "texto": "A los pacientes con un diagnóstico bien establecido según el DSM-IV de trastorno autista, enfermedad de Asperger o trastorno generalizado del desarrollo no especificado de otro modo, se les aplicará el diagnóstico de trastorno del espectro autista. Los pacientes con deficiencias notables de la comunicación social, pero cuyos sintomas no cumplen los criterios de trastorno del espectro autista, deben ser evaluados para diagnosticar el trastorno de la comunicación social (pragmática).",
+                      "hijos": []
+                    }
+                  ]
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar la gravedad actual sobre la base de los deterioros de la comunicación social y los patrones de comportamiento restringidos y repetitivos (véase la Tabla 2):",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Requiere ayuda muy considerable",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Requiere ayuda considerable",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Requiere ayuda",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con o sin déficit intelectual acompañante",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con o sin deterioro del lenguaje acompañante",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Asociado a una afección médica o genética, o a un factor ambiental conocidos. (Nota de codificación",
+                      "descripcion": "Utilizar un código adicional para identificar la afección médica o genética asociada.) Asociado a un problema del neurodesarrollo, mental o del comportamiento",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con catatonía (véanse los criterios de catatonía asociados a otro trastorno mental; para la definición,véase la página 135. (Nota de codificación: Utilizar el código adicional F06.1 catatonía asociada a trastorno del espectro autista para indicar la presencia de la catatonía concurrente.)",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 437,
+        "lineaFin": 485
+      }
+    },
+    {
+      "clave": "procedimientos_registro",
+      "claveOriginal": "procedimientos de registro",
+      "titulo": "Procedimientos de registro",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Puede resultar útil observar el nivel de ayuda que se necesita para cada uno de los dos dominios psicopatológicos troncales de la Tabla 2 (p. ej., \"necesita una ayuda muy notable para los deficits de comunicación social y necesita una ayuda notable para los comportamientos restringidos y repetitivos\"). La especificación \"con déficit intelectual acompañante\" o \"sin déficit intelectual acompañan-"
+        },
+        {
+          "tipo": "imagen_ausente",
+          "referenciaOriginal": "https://maas-watermark-prod-new.cn-wlcb.ufileos.com/ocr%2Fcrop%2F20260725125619440c914b80174008%2Fcrop_1_1784955442860.png?UCloudPublicKey=TOKEN_6df395df-5d8c-4f69-90f8-a4fe46088958&Signature=tdo6EJlavd9wz6jN6PEin74cMi8%3D&Expires=1785560242",
+          "descripcion": "[PENDIENTE]"
+        },
+        {
+          "tipo": "tabla",
+          "titulo": "Niveles de gravedad del trastorno del espectro autista",
+          "encabezados": [
+            "Nivel de gravedad",
+            "Comunicación social",
+            "Comportamientos restringidos y repetitivos"
+          ],
+          "filas": [
+            [
+              "Grado 3“Necesita ayuda muy notable”",
+              "Las deficiencias graves de las aptitudes de comunicación social, verbal y no verbal, causan alteraciones graves del funcionamiento, un inicio muy limitado de interacciones sociales y una respuesta mínima a la apertura social de las otras personas. Por ejemplo, una persona con pocas palabras inteligibles, que raramente inicia una interacción y que, cuando lo hace, utiliza estrategias inhabituales para cumplir solamente con lo necesario, y que únicamente responde a las aproximaciones sociales muy directas.",
+              "La inflexibilidad del comportamiento, la extrema dificultad para hacer frente a los cambios y los otros comportamientos restringidos/repetitivos interfieren notablemente con el funcionamiento en todos los ámbitos. Ansiedad intensa/dificultad para cambiar el foco de la acción."
+            ],
+            [
+              "Grado 2“Necesita ayuda notable”",
+              "Deficiencias notables en las aptitudes de comunicación social, verbal y no verbal; problemas sociales obvios incluso con ayuda in situ; inicio limitado de interacciones sociales, y respuestas reducidas o anormales a la apertura social de otras personas. Por ejemplo, una persona que emite frases sencillas, cuya interacción se limita a intereses especiales muy concretos y que tiene una comunicación no verbal muy excéntrica.",
+              "La inflexibilidad del comportamiento, la dificultad para hacer frente a los cambios y los otros comportamientos restringidos/repetitivos resultan con frecuencia evidentes para el observador casual e interfieren con el funcionamiento en diversos contextos. Ansiedad y/o dificultad para cambiar el foco de la acción."
+            ],
+            [
+              "Grado 1“Necesita ayuda”",
+              "Sin ayuda in situ, las deficiencias de la comunicación social causan problemas importantes. Dificultad para iniciar interacciones sociales y ejemplos claros de respuestas atípicas o insatisfactorias a la apertura social de las otras personas. Puede parecer que tiene poco interés en las interacciones sociales. Por ejemplo, una persona que es capaz de hablar con frases completas y que establece la comunicación, pero cuya conversación amplia con otras personas falla y cuyos intentos de hacer amigos son excéntricos y habitualmente no tienen éxito.",
+              "La inflexibilidad del comportamiento causa una interferencia significativa con el funcionamiento en uno o más contextos. Dificultad para alternar actividades. Los problemas de organización y de planificación dificultan la autonomía."
+            ]
+          ],
+          "fragmentosUnidos": 1
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "te\" debe anotarse a continuación. La especificación de deterioro del lenguaje debe anotarse después. Si existe deterioro del lenguaje acompañante, se debe registrar el actual nivel de funcionamiento verbal (p. ej., \"con deterioro del lenguaje acompañante: habla ininteligible\" o \"con deterioro del lenguaje acompañante: habla de frases simples\")."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En los trastornos del espectro del autismo que puedan llevar los especificadores \"asociado a una afección médica o genética, o a un factor ambiental conocidos\" o \"asociado a un problema del desarrollo neurológico, mental o del comportamiento\", se debe anotar: trastorno del espectro del autismo asociado a (nombre de la afección, el trastorno o el factor) (p. ej., trastorno del espectro del autismo asociado a complejo de esclerosis tuberosa). Estos especificadores se emplean con las presentaciones en que la afección o el problema mencionado puede llegar a ser relevante para la atención clínica del individuo, y no indican necesariamente que dicha afección o problema esté causalmente relacionado con el trastorno del espectro del autismo. Si el problema asociado del desarrollo neurológico, mental o del comportamiento cumple los criterios de un trastorno del desarrollo neurológico u otro trastorno mental, se deben diagnosticar tanto el trastorno del espectro del autismo como el otro trastorno."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si existe catatonía, anotar por separado \"catatonía asociada a trastorno del espectro del autism\". Para más información,véanse los criterios de la catatonía asociada a otro trastorno mental en el capítulo \"Espectro de la esquizofrenia y otros trastornos psicóticos\"."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 487,
+        "lineaFin": 505
+      }
+    },
+    {
+      "clave": "especificadores",
+      "claveOriginal": "especificadores",
+      "titulo": "Especificadores",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los especificadores de gravedad (véase la Tabla 2) pueden utilizarse para describir sucintamente la sintomatología actual (que podría estar por debajo del nivel 1), con el reconocimiento de que la gravedad puede variar según el contexto y fluctuar en el tiempo. La gravedad de las dificultades para la comunicación social y la de los comportamientos restringidos y repetitivos se deberían evaluar por separado. Las categorías de gravedad descriptivas no se deberían utilizar para determinar la elegibilidad y la provisión de servicios. Ciertamente, hay individuos con habilidades relativamente mejores en general que pueden experimentar retos psicosociales diferentes o incluso mayores. Por ello, las necesidades de servicios solo se pueden desarrollar a nivel individual y a través de la discusión de las prioridades y los objetivos personales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Respecto el especificador \"con o sin déficit intelectual acompañante\", es necesario entender el perfil intelectual (a menudo inconsistente) del niño o del adulto con trastorno del espectro autista para interpretar las características diagnósticas. Es necesario hacer estimaciones separadas de la capacidad verbal y no verbal (p. ej., utilizando pruebas no verbales sin limite de tiempo para evaluar los posibles aspectos positivos en los individuos con lenguaje limitado)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para utilizar el especificador \"con o sin deterioro del lenguaje acompañante\" se debería evaluar y describir el nivel actual del funcionamiento verbal. Ejemplos de descripciones específicas de \"con deterioro del lenguaje acompañante\" podrían incluir el habla no inteligible (no verbal) y el uso de palabras sueltas o frases muy cortas. El nivel de lenguaje de los individuos \"sin deterioro del lenguaje acompañante\" se puede describir más como un habla con frases enteras o habla fluida. Como el lenguaje receptivo puede ir por detrás del desarrollo del lenguaje expresivo en el trastorno del espectro autista, las capacidades receptivas y expresivas del lenguaje se deberían considerar por separado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El especificador \"asociado a una afección médica o genética o a un factor ambiental conocidos\" se puede utilizar cuando el individuo tiene una afección genética conocida (p. ej., síndrome de Rett, síndrome del X frágil, síndrome de Down), una afección médica conocida (p. ej., epilepsia) o antecedentes de exposición ambiental intrauterina a un teratógeno o una infección conocidos (p. ej., síndrome fetal por valproato, síndrome alcohólico fetal, rubeola fetal). Este especificador no debe tomarse como sinónimo de causación del trastorno del espectro autista. Una afección puede consignarse como asociada al trastorno del espectro autista cuando se piensa que puede informar o ser clínicamente relevante para el tratamiento, y no porque el clínico esté indicando una causa. Ejemplos de ello son el trastorno del espectro autista asociado a una variante genómica única referente al número de copias que pudiera ser clínicamente relevante, aunque la anomalía específica en sí pueda no haber sido causa directa del autismo ni haberse vinculado previamente con el trastorno del espectro autista, o la enfermedad de Crohn, que podría exacerbar los síntomas conductuales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El especificador \"asociado a un problema del neurodesarrollo, mental o del comportamiento\" puede aplicarse para indicar problemas (p. ej., irritabilidad, problemas de sueño, conducta autolesiva o regresión del desarrollo) que contribuyan a la formulación funcional o sean objeto de tratamiento. Los trastornos adicionales del neurodesarrollo, mentales o del comportamiento también deben consignarse como diagnósticos aparte (p. ej., trastorno por déficit de atención con hiperactividad; trastorno del desarrollo de la coordinación; trastornos disruptivos, del control de los impulsos y de la conducta; trastornos de ansiedad, depresivos o bipolares; trastorno de tics o de la Tourette; trastornos de la conducta alimentaria, de la excreción o del sueño)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La catatonía puede presentarse como comorbilidad del trastorno del espectro autista. Además de los síntomas clásicos de adopción de posturas, negativismo (oposición o ausencia de respuesta a las instrucciones o estimulos externos), mutismo y estupor, un aumento o empeoramiento de las estereotipias y las conductas autolesivas puede formar parte del complejo sintomático de la catatonía en el ámbito del trastorno del espectro autista."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 507,
+        "lineaFin": 519
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las características principales del trastorno del espectro autista son el deterioro persistente de la comunicación social recíproca y la interacción social (Criterio A), y los patrones de conducta, intereses o actividades restrictivos y repetitivos (Criterio B). Estos síntomas están presentes desde la primera infancia y limitan o impiden el funcionamiento cotidiano (Criterios C y D). La etapa en que el deterioro funcional llega a ser obvio variará según las características del individuo y su entorno. Las características diagnósticas centrales son evidentes en el período de desarrollo, pero la intervención, la compensación y las ayudas actuales pueden enmascarar las dificultades en, al menos, algunos contextos. Las manifestaciones del trastorno también varián mucho según la gravedad de la afección autista, el nivel del desarrollo, la edad cronológica y posiblemente el género; de ahí el término espectro. En los individuos sin deterioro cognitivo o del lenguaje, los déficits (p. ej., Criterio A, Criterio B) pueden manifestarse de forma más sutil que en aquellos otros que presentan deterioros intelectuales o lingüísticos, pudiendo los primeros realizar grandes esfuerzos para ocultar dichos déficits. Las deficiencias de la comunicación social del Criterio A serán más sutiles si el individuo tiene, en general, mejores habilidades comunicativas (p. ej., tiene fluidez verbal, no tiene deterioros intelectuales). Asimismo, las deficiencias del Criterio B (es decir, patrones restringidos de comportamiento e intereses) pueden resultar menos obvias si los intereses están más cerca de los normativos típicos de la edad (p. ej., el antiguo Egipto o los trenes en lugar de menear una cuerda). El trastorno del espectro autista incluye trastornos previamente llamados autismo de la primera infancia, autismo infantil, autismo de Kanner, autismo de alto funcionamiento, autismo atípico, trastorno generalizado del desarrollo no especificado, trastorno desintegrativo de la infancia y trastorno de Asperger."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los deterioros de la comunicación social y la interacción social especificados en el Criterio A son generalizados y prolongados. Los diagnósticos son más válidos y fiables cuando se basan en múltiples fuentes de información, como las observaciones clínicas, la historia del cuidador y, cuando es posible, los autoinformes. Las deficiencias verbales y no verbales de la comunicación social tienen diferentes manifestaciones según la edad, el nivel intelectual y las capacidades lingüísticas del individuo, además de otros factores, como la historia del tratamiento y las ayudas actuales. Muchos individuos tienen deficiencias lingüísticas que varian entre la ausencia completa del habla por retrasos del lenguaje hasta la escasa comprensión del habla de los demás, la ecolalia o el lenguaje poco natural y demasiado literal. Aun cuando estén intactas las capacidades formales del lenguaje (p. ej., vocabulario, gramática), el uso de este en el trastorno del espectro autista estaría deteriorado para la comunicación social recíproca."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las deficiencias de la reciprocidad socioemocional (es decir, de la capacidad para interactuar con otros y compartir pensamientos y sentimientos) pueden observarse, por ejemplo, en los niños pequeños con el trastorno, que pocas veces o nunca inician la interacción social y no comparten emociones, junto a una imitación reducida o ausente del comportamiento de otros. El lenguaje que existe muchas veces es unilateral, carece de reciprocidad social y se utiliza para pedir o clasificar más que para comentar, compartir sentimientos o conversar. En los niños mayores y los adultos sin discapacidades intelectuales o retrasos de lenguaje, las deficiencias de la reciprocidad socioemocional pueden ser más evidentes en la dificultad para procesar y responder a las señales sociales complejas (p. ej., cuándo y cómo unirse a una conversación, cosas que no se deberían decir). Los individuos que han desarrollado estrategias de compensación para algunas dificultades sociales siguen teniendo problemas en las situaciones nuevas o sin ayuda, y sufren por el esfuerzo y la ansiedad de tener que calcular conscientemente lo que resulta socialmente intuitivo para la mayoría de las personas. Este comportamiento puede contribuir a rebajar la determinación del trastorno del espectro autista en estos individuos, quizá especialmente en las mujeres adultas. Por tanto, quizá se necesiten evaluaciones más prolongadas, la observación en entornos naturalistas y preguntar por el coste de las interacciones sociales. Si se les pregunta por dicho coste de las interacciones sociales, por ejemplo, estos individuos pueden responder que las interacciones sociales les resultan agotadoras, que son incapaces de centrarse por el esfuerzo mental que les supone vigilar las convenciones sociales, que su autoestima se ve afectada negativamente al no poder ser ellos mismos, y así sucesivamente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las deficiencias en los comportamientos comunicativos no verbales utilizados para la interacción social se manifiestan por un contacto ocular (relativo a las normas culturales), unos gestos y expresiones faciales, una orientación corporal o una entonación de la voz que están disminuidos o ausentes, o son atípicos. Una característica temprana del trastorno del espectro autista es una alteración de la atención compartida que se manifiesta por incapacidad para señalar con las manos o para mostrar o llevar objetos cuyo interés pueda compartirse con otros, o por incapacidad para seguir cómo otro señala con las manos o dirige la mirada. Los individuos pueden aprender algunos gestos funcionales, pero su repertorio es más pequeño que el de otras personas y a menudo no utilizan gestos expresivos espontáneamente en la comunicación. Entre los jóvenes y los adultos con un lenguaje fluido, las dificultades para coordinar la comunicación no verbal con el habla pueden dar la impresión de un \"lenguaje corporal\" extraño, rígido o exagerado durante las interacciones. Las alteraciones pueden ser relativamente sutiles dentro de los dominios individuales (p. ej., alguien puede mantener contacto con los ojos relativamente bien mientras habla), pero van a ser más pronunciadas al integrarse escasamente, en la comunicación social, el contacto ocular, los gestos, la postura corporal, la prosodia y la expresión facial, o al resultar difícil mantener dicha integración de forma mantenida o en situaciones de estrés."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las deficiencias para desarrollar, mantener y entender las relaciones se deberían valorar según la normalidad para la edad, el género y la cultura. Puede haber un interés social ausente, reducido o atípico, manifestado por el rechazo a las otras personas, la pasividad o un trato inapropiado que parece agresivo o destructivo. Estas dificultades son particularmente evidentes en los niños pequeños, que muchas veces muestran falta de juegos sociales y de imaginación compartidos (p. ej., un juego simbólico flexible y apropiado para la edad) y después insisten en jugar según unas reglas muy inflexibles. Los individuos más mayores pueden tener problemas para entender qué comportamientos se consideran apropiados en una situación pero no en otra (p. ej., el comportamiento informal durante una entrevista de trabajo) o las diferentes maneras en que el lenguaje puede utilizarse para comunicar (p. ej., ironía, mentiras piadosas). Puede haber una obvia preferencia por las actividades solitarias o las interacciones con gente mucho más pequeña o mayor. Frecuentemente existe el deseo de establecer amistades sin una idea completa o realista de qué supone la amistad (p. ej., amistades unilaterales o amistades basadas únicamente en intereses especiales compartidos). También es importante tener en cuenta las relaciones con los hermanos, los compañeros de trabajo y los cuidadores (en términos de reciprocidad)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del espectro autista también se define por patrones de comportamiento, intereses o actividades restringidos y repetitivos (como está especificado en el Criterio B), que se manifiestan de forma distinta según la edad y la capacidad, la intervención y las ayudas actuales. Entre los comportamientos estereotipados o repetitivos se incluyen las estereotipias motoras simples (p. ej., el aleteo de manos, los movimientos rápidos de los dedos), el uso repetitivo de objetos (p. ej., girar monedas, alinear juguetes) y el habla repetitiva (p. ej., ecolalia, la repetición retrasada o inmediata de palabras escuchadas, el uso del \"tú\" refiriéndose a uno mismo, el uso de palabras, frases o patrones prosódicos estereotipados). La excesiva inflexibilidad de las rutinas y patrones de comportamiento restringidos se pueden manifestar como una resistencia a los cambios (p. ej., angustia por cambios aparentemente pequeños, como tomar una ruta alternativa para ir a la escuela o el trabajo, insistir en seguir las reglas, rigidez de pensamiento) o patrones de comportamiento verbal o no verbal ritualizados (p. ej., preguntas repetitivas, caminar continuamente por un perímetro). Los intereses muy restringidos y fijos en el trastorno del espectro autista tienden a ser anormales en su intensidad o foco (p. ej., un niño pequeño con un fuerte apego por una sartén o una cuerda, un niño preocupado por las aspiradoras, un adulto que pasa horas escribiendo horarios). Algunas fascinaciones y rutinas pueden tener relación con una aparente hiperreactividad o hiporreactividad a los estímulos sensoriales, que se manifiesta por respuestas extremas a sonidos o texturas específicos, oler o tocar objetos excesivamente, fascinación por las luces o los objetos que giran y, a veces, una aparente indiferencia al dolor, el calor o el frío. Son frecuentes las reacciones extremas y los rituales relacionados con el sabor, el olor, la textura o la aparencia de los alimentos, y las restricciones alimentarias excesivas, que pueden ser una característica de la presentación del trastorno del espectro autista."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos individuos con trastorno del espectro autista sin deterioros intelectuales o del lenguaje aprenden a suprimir el comportamiento repetitivo en público. En estos individuos, las conductas repetitivas, como mecerse o juguetear con los dedos, pueden ejercer una función ansiolítica o calmante."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los intereses especiales pueden ser una fuente de placer y motivación, y pueden ofrecer vías para la educación y el empleo en fases posteriores de la vida. Los criterios diagnósticos se pueden cumplir si los patrones de comportamiento, los intereses o las actividades restringidos y repetitivos ya estaban claramente presentes durante la infancia o en algún momento del pasado, aunque no continúen."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El Criterio D requiere que las características deban causar deficiencias clínicamente significativas en el funcionamiento social u ocupacional o en otras áreas del funcionamiento actual. El Criterio E especifica que las deficiencias de la comunicación social, aunque a veces se acompañen de un trastorno del desarrollo intelectual (discapacidad intelectual), no están al mismo nivel de desarrollo del individuo; las deficiencias superan las dificultades previstas para el nivel de desarrollo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Existen instrumentos diagnósticos conductuales estandarizados y con buenas propiedades psicométricas –como entrevistas con los cuidadores, cuestionarios y medidas observacionales de los clínicos– que pueden mejorar la fiabilidad del diagnóstico con el paso del tiempo y entre diferentes clínicos. Sin embargo, los síntomas del trastorno del espectro autista se manifiestan como dimensiones que carecen de puntos de corte universalmente aceptados para determinar lo que constituiría un trastorno. Así, el diagnóstico sigue siendo clínico, teniendo en cuenta toda la información disponible, y no viene únicamente dictado por la puntuación de ningún cuestionario o medida observada."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 521,
+        "lineaFin": 545
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos individuos con trastorno del espectro autista también tienen un deterioro intelectual y/o del lenguaje (p. ej., lentitud al hablar, comprensión de lenguaje peor que la producción). Incluso los que tienen una inteligencia normal o alta suelen tener un perfil de capacidades desnivelado. La brecha entre las habilidades intelectuales y las habilidades funcionales adaptativas es a menudo grande. Es frecuente que los individuos con autismo presenten deficiencias en el ámbito de la teoría de la mente (es decir, dificultad para ver el mundo desde la perspectiva de otra persona), aunque estas no están necesariamente presentes en todos los casos. Las deficiencias de la función ejecutiva también son frecuentes, pero no especificas, al igual que las dificultades relativas a la coherencia central (es decir, ser capaces de comprender el contexto o de lograr \"la visión de conjunto\", tendiendo así a centrarse excesivamente en los detalles)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Muchas veces existen deficiencias motoras, como una manera de caminar extraña, torpeza y otros signos motores anormales (p. ej., caminar de puntillas). Pueden producirse autolesiones (p. ej., darse golpes con la cabeza, morderse la muñeca) y son más comunes los comportamientos disruptivos/dificiles en los niños y en los adolescentes con trastorno del espectro autista que en aquellos con otros trastornos, incluido el trastorno del desarrollo intelectual. Algunos individuos presentan un comportamiento motor similar a la catatonía (ir más despacio y \"congelándose\" en medio de una acción), pero estos no alcanzan normalmente la magnitud que se observa en un episodio catatónico. Sin embargo, es posible que los individuos con trastorno del espectro autista presenten un deterioro marcado de los síntomas motores y muestren un episodio catatónico completo con síntomas como el mutismo, las posturas, las muecas y la flexibilidad cérea. El período de riesgo para la catatonía comórbida parece ser mayor durante la adolescencia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 547,
+        "lineaFin": 551
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las frecuencias descritas para el trastorno del espectro autista en Estados Unidos se encuentran entre el 1 y el 2 % de la población, con estimaciones parecidas en las muestras infantiles y de adultos. Sin embargo, la prevalencia parece ser menor entre los niños afroamericanos (1,1 %) y latinoamericanos (0,8 %) que entre los niños blancos de Estados Unidos (1,3 %), incluso después de tener en cuenta el efecto de los recursos socioeconómicos. La prevalencia descrita del trastorno del espectro autista puede verse afectada por el diagnóstico erróneo, el diagnóstico retardado o el infradiagnóstico de los individuos de algunos ámbitos etnorraciales. La prevalencia en los países distintos de Estados Unidos ha llegado a ser del 1 % de la población (mediana de prevalencia mundial del 0,62 %), sin variaciones sustanciales dependiendo de la región geográfica o la etnia, ni entre las muestras de niños y adultos. Globalmente, la proporción varones:mujeres en las muestras epidemiológicas bien validadas parece ser de 3:1, existiendo dudas sobre el infradiagnóstico del trastorno del espectro autista en las mujeres y niñas."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 553,
+        "lineaFin": 557
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "También se deberían describir la edad y el patrón de inicio en el trastorno del espectro autista. Las características conductuales del trastorno del espectro autista se hacen ya evidentes en la primera infancia, presentando algunos casos falta de interés por la interacción social en el primer año de vida. Los síntomas se reconocen normalmente durante el segundo año de vida (12-24 meses de edad), pero se pueden observar antes de los 12 meses si los retrasos del desarrollo son graves, o notar después de los 24 meses si los síntomas son más sutiles. La descripción del patrón de inicio puede incluir información acerca de los retrasos tempranos del desarrollo o de cualquier pérdida de capacidades sociales o de lenguaje. En los casos en que se han perdido capacidades, los padres o cuidadores pueden explicar la historia del deterioro gradual o relativamente rápido de los comportamientos sociales o las capacidades del lenguaje. Normalmente, esto ocurriría entre los 12 y 24 meses de edad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los estudios prospectivos muestran que, en la mayoría de los casos, el inicio del trastorno del espectro autista se asociía a deterioros de las conductas críticas sociales y comunicativas en los 2 primeros años de vida. Estos deterioros funcionales son raros en otros trastornos del neurodesarrollo y pueden constituir un indicador especialmente útil de la presencia de un trastorno del espectro autista. En casos raros se produce una regresión del desarrollo que aparece después de al menos 2 años de desarrollo normal (descrita anteriormente como trastorno desintegrativo infantil), que es mucho menos frecuente y justifica una investigación médica mucho más extensa (es decir, síndrome de puntas-ondas continuas durante el sueño de ondas lentas y síndrome de Landau-Kleffner). En estas afecciones encefalopáticas se incluyen a menudo pérdidas de capacidades más allá de la comunicación social (p. ej., pérdida del autocuidado, de la capacidad de ir al lavabo, de las capacidades motoras) (véase también el síndrome de Rett en el apartado \"Diagnóstico diferencial\" de este trastorno)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los primeros síntomas del trastorno del espectro autista implican frecuentemente un retraso en el desarrollo del lenguaje, acompañado a menudo por falta de interés social o interacciones sociales inusuales (p. ej., llevar a alguien de la mano sin intentar mirarle), patrones de juego extraños (p. ej., llevar juguetes de un lado a otro sin jugar con ellos) y patrones de comunicación inusuales (p. ej., saber el alfabeto pero no responder a su propio nombre). Puede sospecharse una sordera, pero normalmente se descarta. Durante el segundo año, los comportamientos extraños y repetitivos y la ausencia de juego característica se hacen más evidentes. Como muchos niños pequeños de desarrollo normal tienen fuertes preferencias y les gusta la repetición (p. ej., comer los mismos alimentos, mirar el mismo video varias veces), puede ser difícil distinguir los comportamientos restringidos y repetitivos típicos del trastorno del espectro autista en los niños de edad preescalar. La distinción clínica se basa en el tipo, la frecuencia y la intensidad del comportamiento (p. ej., un niño que alinea objetos durante horas cada día y presenta mucho malestar si se le mueve cualquiera de esos objetos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del espectro autista no es un trastorno degenerativo y es normal que el aprendizaje y la compensación continúen durante toda la vida. Los síntomas a menudo son muy marcados durante la infancia temprana y en los primeros años escolares, con mejoría del desarrollo típico en la infancia más tardía, al menos en algunas áreas (p. ej., aumento del interés por la interacción social). Una pequeña proporción de individuos se deteriora conductualmente durante la adolescencia, mientras que la mayoría mejora. Aunque antes ocurría que solamente una minoría de individuos con trastorno del espectro autista vivían y trabajaban independientemente en la edad adulta, como el diagnóstico del trastorno del espectro autista se realiza ahora con mayor frecuencia en aquellos que tienen mayores capacidades lingüísticas e intelectuales, más individuos logran encontrar un área que compagine sus especiales intereses y capacidades, y consiguen un empleo productivo. El acceso a los servicios de rehabilitación vocacional mejora significativamente las oportunidades de empleo competitivo en los jóvenes de edad transicional con trastorno del espectro autista."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En general, los individuos con un nivel menor de deterioro pueden ser más capaces de funcionar independientemente. Sin embargo, incluso estos individuos pueden seguir siendo socialmente ingenuos y vulnerables, pueden tener dificultades para organizar las exigencias prácticas sin ayuda y pueden tener tendencia a la ansiedad y a la depresión. Muchos adultos describen que utilizan estrategias de compensación y afrontamiento para esconder sus dificultades en público, pero sufren el estrés y el esfuerzo de mantener una fachada social aceptable. Se sabe relativamente poco sobre la edad avanzada en el trastorno del espectro autista, aunque se han documentado tasas más altas de afecciones médicas concurrentes en la bibliografía."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Algunos individuos consultan para un primer diagnóstico en la edad adulta, quizás impulsados por el diagnóstico de autismo en un niño de la familia o un empeoramiento de las relaciones en el trabajo o en casa. En tales casos puede ser difícil obtener una historia detallada del desarrollo y sería importante tener en cuenta las dificultades descritas por el propio paciente. Cuando la observación clínica sugiere que actualmente se cumplen los criterios, se puede diagnosticar el trastorno del espectro autista, especialmente si está respaldada por un historial de escasas habilidades sociales y comunicativas en la infancia. Una descripción convincente (por los padres u otro familiar) de que el individuo tenía amistades recíprocas normales y continuadas, y buenas habilidades para la comunicación no verbal durante toda la infancia, reduciría significativamente la probabilidad de un diagnóstico de trastorno del espectro autista; sin embargo, que no haya información sobre el desarrollo o que esta sea ambigua no es en sí motivo para descartar el diagnóstico de trastorno del espectro autista."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las manifestaciones de deterioro social y de la comunicación, y los comportamientos restringidos/ repetitivos que definen el trastorno del espectro autista, son claros en el período de desarrollo. En etapas posteriores de la vida, la intervención y la compensación, y también los apoyos actuales, pueden enmascarar estas dificultades en, al menos, algunos contextos. En general, los sintomas son suficientes como para causar deterioro actual en el funcionamiento social u ocupacional, o en otras áreas."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 559,
+        "lineaFin": 575
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los factores pronósticos mejor establecidos para el resultado individual dentro del trastorno del espectro autista son la presencia o ausencia de un trastorno del desarrollo intelectual asociado, el deterioro de lenguaje (p. ej., un lenguaje funcional al llegar a los 5 años de edad es un buen signo pronóstico) y los otros problemas añadidos de salud mental. La epilepsia, como diagnóstico comórbido, se asoci a una mayor discapacidad intelectual y a una menor capacidad verbal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ambiental. Los trastornos del neurodesarrollo presentan diversos factores de riesgo, como la edad avanzada de los padres, la prematuridad extrema o la exposición intrauterina a ciertos fármacos o teratógenos como el ácido valproico, que podrían contribuir en líneas generales al riesgo de presentar un trastorno del espectro autista."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Genético y fisiológico. Las estimaciones de la heredabilidad del trastorno del espectro autista varian entre el 37 y más del 90 %, basándose en las tasas de concordancia entre gemelos; una cohorte más reciente en cinco países ha estimado que la heredabilidad es del 80 %. Actualmente, hasta el 15 % de los casos de trastorno del espectro autista parece asociarse a una mutación genética conocida, siendo muchas las variantes de novo, del número de copias y las mutaciones de novo en genes específicos que se asocian al trastorno en las diferentes familias. Sin embargo, incluso cuando el trastorno del espectro autista está asociado a una mutación genética conocida, esta no parece ser completamente penetrante (es decir, no todos los individuos con la misma anomalía genética desarrollarán un trastorno del espectro autista). El riesgo en la mayoría de los casos parece ser poligénico, quizás con centenares de locus genéticos que realizan contribuciones relativamente pequeñas. No está claro que estos hallazgos puedan aplicarse por igual a todas las poblaciones raciales/étnicas, dada la limitada inclusión de comunidades de color en la investigación genética."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 577,
+        "lineaFin": 583
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque existen diferencias culturales respecto a la normalidad de la interacción social, la comunicación no verbal y las relaciones, los individuos con trastorno del espectro autista tienen una alteración marcadamente distinta de la normalidad dentro de su contexto cultural. La cultura influye en la percepción de los comportamientos autistas, la prominencia percibida de algunos comportamientos sobre otros y las expectativas referentes al comportamiento infantil y las prácticas parentales. Se observan discrepancias considerables en la edad a la que se diagnostica el trastorno del espectro autista en los niños de distintos ámbitos etnorraciales; la mayoría de los estudios encuentran retrasos diagnósticos entre los niños de etnias socialmente oprimidas y racializados. Además de diagnosticarse más tarde, a los niños afroamericanos les diagnostican erróneamente más a menudo que a los niños blancos un trastorno de adaptación o de la conducta."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 585,
+        "lineaFin": 587
+      }
+    },
+    {
+      "clave": "sexo_genero",
+      "claveOriginal": "aspectos diagnosticos relacionados con el sexo y el genero",
+      "titulo": "Aspectos diagnósticos relacionados con el sexo y el género",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del espectro autista se diagnostica de tres a cuatro veces más frecuentemente en los varones que en las mujeres y, de media, la edad al diagnóstico es más tardía en las mujeres. En las muestras clínicas, las mujeres tienden a tener más probabilidades de presentar un trastorno del desarrollo intelectual acompañante, así como epilepsia, lo que sugiere que en las niñas sin deterioro intelectual acompañante o retrasos del lenguaje el trastorno podría no reconocerse, quizás por ser más sutil la manifestación de las dificultades sociales y de comunicación. En comparación con los varones con trastorno del espectro autista, las mujeres pueden presentar mejores conversaciones reciprocas y es más probable que compartan intereses, integren las conductas verbales y no verbales, y que modifiquen su comportamiento de acuerdo con la situación, a pesar de tener dificultades de comprensión social parecidas a las de los varones. Los intentos de ocultar o enmascarar el comportamiento autista (p. ej., copiando la vestimenta, la voz y las maneras de mujeres con éxito social) también pueden dificultar el diagnóstico en algunas mujeres. Las conductas repetitivas, de media, pueden ser algo menos evidentes en las mujeres que en los varones y los intereses especiales pueden tener un enfoque más social (p. ej., un cantante, un actor) o \"normativo\" (p. ej., los caballos), aunque la intensidad siga siendo inusual. En relación con la población general, se ha descrito que las tasas de varianza de género son mayores en el trastorno del espectro autista, siendo dicha varianza mayor en las mujeres que en los varones."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 589,
+        "lineaFin": 591
+      }
+    },
+    {
+      "clave": "suicidio",
+      "claveOriginal": "asociacion con pensamientos o conductas suicidas",
+      "titulo": "Asociación con pensamientos o conductas suicidas",
+      "reconocida": true,
+      "orden": 10,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los individuos con trastorno del espectro autista tienen más riesgo de suicidarse que aquellos otros sin trastorno del espectro autista. Los niños con trastorno del espectro autista que presentan deterioro de la comunicación social tienen más riesgo de presentar autolesiones con intención suicida, pensamientos suicidas y planes de suicidio a los 16 años que aquellos otros sin deterioro de la comunicación social. Los adolescentes y jóvenes con trastorno del espectro autista tienen más riesgo de llevar a cabo intentos de suicidio que los sujetos de control de igual edad y sexo, incluso después de ajustar los factores demográficos y la comorbilidad psiquiátrica."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 593,
+        "lineaFin": 595
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno del espectro autista",
+      "titulo": "Consecuencias funcionales del trastorno del espectro autista",
+      "reconocida": true,
+      "orden": 11,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En los niños pequeños con trastorno del espectro autista, la falta de habilidades sociales y de comunicación puede impedir el aprendizaje, particularmente el aprendizaje a través de la interacción social o en las situaciones con compañeros. En casa, la insistencia en las rutinas y la aversion a los cambios, así como las sensibilidades sensoriales, pueden interferir con el comer y el dormir, y hacer muy difíciles los cuidados rutinarios (p. ej., cortes de pelo, intervenciones dentales). Las habilidades adaptativas están típicamente por debajo del CI medida. Las dificultades extremas para planificar, organizar y enfrentarse a los cambios impactan negativamente en los logros académicos, incluso en los estudiantes con inteligencia por encima de la media. Durante la edad adulta, estos individuos pueden tener dificultades para establecerse con independencia por la continua rigidez y sus problemas para aceptar novedades."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos individuos con trastorno del espectro autista, incluso sin trastorno del desarrollo intelectual, tienen un funcionamiento psicosocial bajo en la edad adulta, según indican medidas como vivir independientemente y el empleo remunerado. Las consecuencias funcionales en la edad avanzada se desconocen, pero el aislamiento social y los problemas de comunicación (p. ej., la poca búsqueda de ayuda) probablemente tengan consecuencias para la salud en la madurez tardía."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La presencia concurrente de un trastorno del desarrollo intelectual, epilepsia, trastornos mentales y afecciones médicas crónicas puede asociarse a un mayor riesgo de mortalidad prematura en los individuos con trastorno del espectro autista. Las muertes por lesiones y tóxicos son más frecuentes que entre la población general, al igual que las muertes por suicidio. El ahogamiento es la causa principal de muerte accidental entre los niños con trastorno del espectro autista."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 597,
+        "lineaFin": 605
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 12,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno por déficit de atención/hiperactividad. Las anormalidades en la atención (excesivamente centrado o fácilmente distraído) son frecuentes en los individuos con trastorno del espectro autista, al igual que la hiperactividad. Es más, algunos individuos con TDAH pueden presentar déficits de comunicación social como interrumpir a los demás, hablar demasiado alto y no respetar el espacio personal. Aunque puede resultar difícil distinguir el TDAH del trastorno del espectro autista, el curso del desarrollo y la ausencia de conductas restringidas y repetitivas e intereses inusuales en el TDAH ayudan a diferenciar las dos afecciones. Se debería considerar un diagnóstico concurrente de trastorno por déficit de atención/hiperactividad (TDAH) si las dificultades atencionales o la hiperactividad superan las que normalmente se observan en los individuos de edad mental comparable, y el TDAH es una de las comorbilidades más frecuentes en el trastorno del espectro autista."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del desarrollo intelectual (discapacidad intelectual) sin trastorno del espectro autista. El trastorno del desarrollo intelectual sin trastorno del espectro autista puede ser difícil de diferenciar del trastorno del espectro autista en los niños muy pequeños. Los individuos con trastorno del desarrollo intelectual, que no han desarrollado capacidades del lenguaje o simbólicas, también constituyen un reto para el diagnóstico diferencial, ya que los comportamientos repetitivos a menudo se presentan también en estos individuos. Un diagnóstico de trastorno de espectro autista en un individuo con trastorno del desarrollo intelectual sería correcto si la comunicación y la interacción social están significativamente deterioradas en comparación con el nivel del desarrollo de las capacidades no verbales del individuo (p. ej., habilidades motoras finas, resolución de problemas no verbales). En cambio, el trastorno del desarrollo intelectual sería el diagnóstico apropiado si no hay ninguna discrepancia aparente entre el nivel de las habilidades de comunicación social y el de las demás capacidades intelectuales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos del lenguaje y trastorno de la comunicación social (pragmático). En algunas formas del trastorno del lenguaje puede haber problemas de comunicación y algunas dificultades sociales secundarias. Sin embargo, el trastorno del lenguaje específico normalmente no está asociado con una comunicación no verbal anormal, ni con la presencia de patrones de comportamiento, intereses o actividades restringidos y repetitivos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si un individuo muestra deterioro de la comunicación social y las interacciones sociales, pero no muestra comportamientos o intereses restringidos y repetitivos, se pueden cumplir los criterios del trastorno de la comunicación social (pragmático) en vez de los del trastorno del espectro autista. El diagnóstico de trastorno del espectro autista sustituye al de trastorno de la comunicación social (pragmático) siempre que se cumplan los criterios del trastorno del espectro autista. Habría que asegurarse de investigar bien los comportamientos restringidos o repetitivos del pasado y el momento presente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Mutismo selectivo. En el mutismo selectivo, el desarrollo temprano no está habitualmente alterado. El niño afectado muestra normalmente capacidades de comunicación apropiadas en ciertos contextos y entornos. Incluso en los entornos donde el niño está mudo, la reciprocidad social no está deteriorada y no se presentan patrones de comportamiento restringidos o repetitivos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de movimientos estereotipados. Las estereotipias motoras se incluyen entre las características diagnósticas del trastorno del espectro autista y, por tanto, no se realiza un diagnóstico adicional de trastorno de movimientos estereotipados cuando tales comportamientos repetitivos se pueden explicar mejor por la presencia del trastorno del espectro autista. Sin embargo, cuando las estereotipias causan autolesiones y llegan a ser uno de los objetivos del tratamiento, los dos diagnósticos podrían ser apropiados."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Sindrome de Rett. Puede observarse una alteración de la interacción social durante la fase regresiva del síndrome de Rett (típicamente entre 1 y 4 años de edad); así pues, una proporción sustancial de las niñas pequeñas afectadas podrían debutar con una presentación que cumpla los criterios diagnósticos del trastorno del espectro autista. Sin embargo, después de este período, la mayoría de los individuos con síndrome de Rett mejoran sus habilidades para la comunicación social y los rasgos autistas dejan de ser tan problemáticos. Por tanto, se debería tener en cuenta el trastorno del espectro autista solamente si se cumplen todos los criterios diagnósticos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Síntomas asociados a los trastornos de ansiedad. El solapamiento de los síntomas de ansiedad con los síntomas cardinales del trastorno del espectro autista puede dificultar la clasificación de los síntomas de ansiedad en dicho trastorno del espectro autista. Por ejemplo, el retraimiento social y las conductas repetitivas son rasgos nucleares del trastorno del espectro autista, pero también pueden ser expresiones de ansiedad. Los trastornos de ansiedad más frecuentes en el trastorno del espectro autista son la fobia específica (hasta en el 30 % de los casos), la ansiedad social y la agorafobia (hasta en el 17 % de los casos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno obsesivo-compulsivo. El comportamiento repetitivo es un rasgo definitorio tanto del trastorno obsesivo-compulsivo como del trastorno del espectro autista. En ambas entidades, las conductas repetitivas se consideran inapropiadas o raras. En el trastorno obsesivo-compulsivo, los pensamientos intrusivos suelen referirse a temas de contaminación, organización, sexuales o religiosos. Las compulsiones se llevan a cabo en respuesta a dichos pensamientos intrusivos para tratar de aliviar la ansiedad. En el trastorno del espectro autista, los comportamientos repetitivos incluyen clásicamente más conductas motoras estereotipadas, como aletear las manos, juguetear con los dedos o conductas más complejas, como la insistencia en las rutinas o en alinear objetos. Al contrario que en el trastorno obsesivo-compulsivo, las conductas repetitivas del trastorno del espectro autista pueden percibirse como placentas y reforzadoras."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Esquizofrenia. La esquizofrenia de inicio en la infancia normalmente se desarrolla después de un período de desarrollo normal o casi normal. Se ha descrito un estado prodrómico en el que se produce deterioro social y aparecen intereses y creencias atípicas, lo que podría confundirse con las deficiencias sociales y los intereses fijos restringidos observados en el trastorno del espectro autista. Las alucinaciones y los delirios, que son las características definitorias de la esquizofrenia, no son rasgos del trastorno del espectro autista. Sin embargo, los clínicos deben tener en cuenta la posibilidad de que los individuos con trastorno del espectro autista interpreten de manera excesivamente concreta las preguntas relacionadas con las características clave de la esquizofrenia (p. ej., \"¿Oyes voces cuando no hay nadie presente?\" \"Sí [en la radio]\"). El trastorno del espectro autista y la esquizofrenia pueden concurrir y se deben diagnosticar ambas entidades si los criterios se cumplen."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos de la personalidad. En los adultos sin trastorno del desarrollo intelectual o deterioro importante del lenguaje, algunos de los comportamientos asociados al trastorno del espectro autista pueden percibirlos los demás como sintomas de un trastorno de la personalidad narcisista, esquizotípico esquizoide. El trastorno de la personalidad esquizotípica, en concreto, puede coincidir con el trastorno del espectro autista en las preocupaciones y experiencias perceptivas inusuales, la rareza del pensamiento y el habla, el afecto constrñido y la ansiedad social, la ausencia de amigos intimos y el comportamiento extraño o excéntrico. El curso del trastorno del espectro autista en las primeras fases del desarrollo (ausencia de juego imaginativo, conducta restringida/repetitiva, sensibilidades sensoriales) es lo más útil para diferenciarlo de los trastornos de la personalidad."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 607,
+        "lineaFin": 631
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 13,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno del espectro autista se asocia frecuentemente al trastorno del desarrollo intelectual y el trastorno del lenguaje (es decir, incapacidad para comprender y construir frases gramaticalmente correctas). Las dificultades específicas del aprendizaje (lectoescritura y aritmética) son frecuentes, al igual que el trastorno del desarrollo de la coordinación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La comorbilidad psiquiátrica también puede darse en el trastorno del espectro autista. Aproximadamente el 70 % de los individuos con trastorno del espectro autista puede tener un trastorno mental comórbido, y el 40 % puede tener dos o más trastornos mentales comórbidos. Los trastornos de ansiedad, la depresión y el TDAH son especialmente frecuentes. El trastorno de evitación/restricción de la ingesta de alimentos es una característica bastante frecuente de la presentación del trastorno del espectro autista, y las preferencias alimentarias extremas y restrictivas pueden persistir."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Entre los individuos que tienen deficiencias en el lenguaje o no verbales, signos observables como serían las alteraciones del sueño o la alimentación y el incremento de conductas problemáticas deberían llevar a evaluar si existe ansiedad o depresión, así como dolor o molestias por problemas médicos o dentales no diagnosticados. Las afecciones médicas frecuentemente asociadas al trastorno del espectro autista son la epilepsia y el estreñimiento."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 633,
+        "lineaFin": 639
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:trastorno-del-espectro-autista:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Trastorno del espectro autista»?",
+        "opciones": [
+          {
+            "id": "o0",
+            "texto": "F84.0"
+          },
+          {
+            "id": "o2",
+            "texto": "F88"
+          },
+          {
+            "id": "o3",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 435–642), el código es F84.0.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:trastorno-del-espectro-autista:criterio:A",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del espectro autista — Criterio A",
+        "reverso": "Deficiencias persistentes en la comunicación social y en la interacción social en diversos contextos, manifestado por todo lo siguiente, actualmente o por los antecedentes (los ejemplos son ilustrativos, pero no exhaustivos):\n1. Las deficiencias en la reciprocidad socioemocional varian, por ejemplo, desde un acercamiento social anormal y fracaso de la conversación normal en ambos sentidos, pasando por la disminución en intereses, emociones o afectos compartidos, hasta el fracaso en iniciar o responder a interacciones sociales.\n2. Las deficiencias en las conductas comunicativas no verbales utilizadas en la interacción social varian, por ejemplo, desde una comunicación verbal y no verbal poco integrada, pasando por anomalías del contacto visual y del lenguaje corporal o deficiencias de la comprensión y el uso de gestos, hasta una falta total de expresión facial y de comunicación no verbal.\n3. Las deficiencias en el desarrollo, mantenimiento y comprensión de las relaciones varian, por ejemplo, desde dificultades para ajustar el comportamiento en diversos contextos sociales, pasando por dificultades para compartir juegos imaginativos o para hacer amigos, hasta la ausencia de interés por otras personas.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-espectro-autista:criterio:B",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del espectro autista — Criterio B",
+        "reverso": "Patrones restrictivos y repetitivos de comportamiento, intereses o actividades, que se manifiestan en dos o más de los siguientes puntos, actualmente o por los antecedentes (los ejemplos son ilustrativos, pero no exhaustivos):\n1. Movimientos, utilización de objetos o habla estereotipados o repetitivos (p. ej., estereotipias motoras simples, alineación de los juguetes o cambio de lugar de los objetos, ecolalia, frases idiosincrásicas).\n2. Insistencia en la monotonia, excesiva inflexibilidad de rutinas o patrones ritualizados de comportamiento verbal o no verbal (p. ej., gran angustia frente a cambios pequeños, dificultades con las transiciones, patrones de pensamiento rigidos, rituales de saludo, necesidad de tomar el mismo camino o de comer los mismos alimentos cada día).\n3. Intereses muy restringidos y fijos que son anormales en cuanto a su intensidad o foco de interés (p. ej., fuerte apego o preocupación por objetos inusuales, intereses excesivamente circunscritos o perseverantes).\n4. Hiperreactividad o hiporreactividad a los estímulos sensoriales o interés inhabitual por aspectos sensoriales del entorno (p. ej., indiferencia aparente al dolor/temperatura, respuesta adversa a sonidos o texturas específicos, olfateo o palpación excesiva de objetos, fascinación visual por las luces o el movimiento).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-espectro-autista:criterio:C",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del espectro autista — Criterio C",
+        "reverso": "Los sintomas deben estar presentes en las primeras fases del periodo de desarrollo (pero pueden no manifestarse totalmente hasta que la demanda social supera las capacidades limitadas, o pueden estar enmascarados por estrategias aprendidas en fases posteriores de la vida).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-espectro-autista:criterio:D",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del espectro autista — Criterio D",
+        "reverso": "Los sintomas causan un deterioro clínicamente significativo en lo social, laboral u otras áreas importantes del funcionamiento habitual.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-espectro-autista:criterio:E",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno del espectro autista — Criterio E",
+        "reverso": "Estas alteraciones no se explican mejor por el trastorno del desarrollo intelectual (discapacidad intellectual) o por el retraso global del desarrollo. El trastorno del desarrollo intelectual y el trastorno del espectro autista con frecuencia coinciden; para hacer diagnósticos de comorbilidades de un trastorno del espectro autista y trastorno del desarrollo, la comunicación social ha de estar por debajo de lo previsto para el nivel general de desarrollo.\nA los pacientes con un diagnóstico bien establecido según el DSM-IV de trastorno autista, enfermedad de Asperger o trastorno generalizado del desarrollo no especificado de otro modo, se les aplicará el diagnóstico de trastorno del espectro autista. Los pacientes con deficiencias notables de la comunicación social, pero cuyos sintomas no cumplen los criterios de trastorno del espectro autista, deben ser evaluados para diagnosticar el trastorno de la comunicación social (pragmática).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastorno-del-espectro-autista:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Trastorno del espectro autista",
+        "reverso": "F84.0",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-del-desarrollo-intelectual-discapacidad-intelectual",
+        "nombre": "Trastorno del desarrollo intelectual (discapacidad intelectual)",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-del-lenguaje",
+        "nombre": "Trastorno del lenguaje",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-de-la-comunicacion-social-pragmatico",
+        "nombre": "Trastorno de la comunicación social (pragmático)",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-por-deficit-de-atencion-hiperactividad",
+        "nombre": "Trastorno por déficit de atención/hiperactividad",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-de-movimientos-estereotipados",
+        "nombre": "Trastorno de movimientos estereotipados",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 435,
+    "lineaFin": 642
+  },
+  "advertencias": []
+}

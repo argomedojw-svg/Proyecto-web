@@ -1,0 +1,793 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastornos-de-tics",
+  "nombre": "Trastornos de tics",
+  "nombreCorto": null,
+  "sinonimos": [
+    "Trastorno de la Tourette",
+    "Trastorno de tics motores o vocales persistente (crónico)",
+    "Trastorno de tics provisional",
+    "Tourette"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [
+    {
+      "etiqueta": "Trastorno de la Tourette",
+      "codigo": "F95.2"
+    },
+    {
+      "etiqueta": "Trastorno de tics motores o vocales persistente (crónico)",
+      "codigo": "F95.1"
+    },
+    {
+      "etiqueta": "Trastorno de tics provisional",
+      "codigo": "F95.0"
+    }
+  ],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-motores",
+    "nombre": "Trastornos motores"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 15,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastornos-de-tics-criterios",
+              "nombre": null,
+              "codigo": null,
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "nota",
+                  "etiqueta": null,
+                  "tipo": "nota",
+                  "texto": "Un tic es una vocalización o movimiento súbito, rápido, recurrente y no ritmico.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": []
+            },
+            {
+              "id": "trastornos-de-tics-trastorno-de-la-tourette",
+              "nombre": "Trastorno de la Tourette",
+              "codigo": "F95.2",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Los tics motores múltiples y uno o más tics vocales han estado presentes en algún momento durante la enfermedad, aunque no necesariamente de forma concurrente.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Los tics pueden aparecer intermitentemente en frecuencia, pero persisten durante más de 1 año desde la aparición del primer tic.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Comienza antes de los 18 años.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., cocaina) o a otra afección médica (p. ej., enfermedad de Huntington, encefalitis posvírica).",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": []
+            },
+            {
+              "id": "trastornos-de-tics-trastorno-de-tics-motores-o-vocales-persistente-cronico",
+              "nombre": "Trastorno de tics motores o vocales persistente (crónico)",
+              "codigo": "F95.1",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Los tics motores o vocales únicos o múltiples han estado presentes durante la enfermedad, pero no ambos a la vez.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Los tics pueden aparecer intermitentemente en frecuencia, pero persisten durante más de 1 año desde la aparición del primer tic.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Comienza antes de los 18 años.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., cocaina) o a otra afección médica (p. ej., enfermedad de Huntington, encefalitis posvírica).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "Nunca se han cumplido los criterios de trastorno de la Tourette.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Solo contics motores",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Solo con tics vocales",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                }
+              ]
+            },
+            {
+              "id": "trastornos-de-tics-trastorno-de-tics-provisional",
+              "nombre": "Trastorno de tics provisional",
+              "codigo": "F95.0",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Tics motores y/o vocales únicos o múltiples.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Los tics han estado presentes durante menos de 1 año desde la aparición del primer tic.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Comienza antes de los 18 años.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., cocaína) o a otra afección médica (p. ej., enfermedad de Huntington, encefalitis posvírica).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "Nunca se han cumplido los criterios de trastorno de la Tourette o de trastorno de tics motores o vocales persistente (crónico).",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1214,
+        "lineaFin": 1262
+      }
+    },
+    {
+      "clave": "especificadores",
+      "claveOriginal": "especificadores",
+      "titulo": "Especificadores",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El especificador \"solo con tics motores\" o \"solo con tics vocales\" es necesario solamente para el trastorno de tics motores o vocales persistente (crónico)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1264,
+        "lineaFin": 1266
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos de tics constan de cinco categorías diagnósticas: el trastorno de la Tourette, el trastorno de tics motores o vocales persistente (crónico), el trastorno de tics provisional, el otro trastorno de tics especificado y el trastorno de tics no especificado. El diagnóstico de cualquier trastorno de tics se basa en la presencia de tics motores o vocales (Criterio A), en la duración de los tics (Criterio B), en la edad de comienzo (Criterio C) y en la ausencia de cualquier causa conocida, como otra afección médica o el uso de sustancias (Criterio D). Los diagnósticos de los trastornos de tics siguen un orden jerárquico (es decir, el trastorno de la Tourette, seguido por el trastorno de tics motores o vocales persistente [crónico], seguido por el trastorno de tics provisional, seguido por el otro trastorno de tics especificado y el trastorno de tics no especificado). Una vez que se ha diagnosticado un trastorno de tics en un nivel de la jerarquía, no se puede hacer otro diagnóstico situado por debajo de él (Criterio E)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los tics son movimientos o vocalizaciones típicamente súbitos, rápidos, recurrentes y no rítmicos. Algunos tics motores pueden ser movimientos más lentos de torcerse o tensarse que tienen duraciones variables. Un individuo puede tener varios tics a lo largo del tiempo, pero en cualquier momento, el repertorio de tics puede recurrir de manera característica. Aunque los tics pueden involucrar a casi cualquier grupo de músculos o vocalización, ciertos tics, como parpadear los ojos o carraspear, son frecuentes en todas las poblaciones de pacientes. Existe a menudo una sensación desagradable localizada (sensación premonitoria) antes del tic, y la mayoría de los individuos refieren una \"necesidad apremiante\" de expresar el tic. Por consiguiente, los tics generalmente se experimentan como involuntarios, pero algunos tics se pueden suprimir voluntariamente durante diferentes períodos de tiempo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Hablar de forma explícita de los tics puede servir de detonante. Igualmente, observar un gesto o sonido en otra persona puede llevar a un individuo con trastorno de tics a hacer un gesto o sonido similar, que los demás pueden percibir erróneamente como un acto intencionado. Esto puede ser especialmente problemático cuando el individuo está interactuando con figuras de autoridad que no tienen conocimientos suficientes sobre el trastorno de tics (p. ej., docentes, supervisores, policías)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los tics se clasifican clásicamente en simples o complejos. Los tics motores simples se caracterizan por la intervención limitada de determinados grupos musculares, a menudo son de duración corta y pueden incluir parpadeos de los ojos, muecas faciales, encogimientos de hombros o extensiones de las extremidades. Los tics vocales simples consisten en carraspeos, sorbos nasales, gorjeos, ladridos y gruñidos, a menudo por contracción del diafragma o de los músculos de la orofaringe. Los tics motores complejos tienen una duración más larga y a menudo consisten en combinaciones de tics simples, como girar la cabeza y encoger los hombros simultáneamente. Los tics complejos pueden parecer intencionados, como gestos con la cabeza o movimientos del torso. También pueden incluir imitaciones de los movimientos de otro (ecopraxia) o gestos sexuales o tabú (copropraxia). Igualmente, los tics vocales complejos tienen significados lingüísticos (palabras completas o parciales) y pueden consistir en repetir los sonidos o palabras de uno mismo (palilalia), repetir la última palabra o frase que se haya escuchado (ecolalia) o decir palabras socialmente inceptables, como obscenidades o insultos étnicos, raciales o religiosos (coprolalia). Es importante señalar que la coprolalia es algo que se expresa como un ladrido o un gruñido abrupto, y que carece de la prosodia del habla inapropiada similar que se observa en las interacciones humanas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La presencia de tics motores y/o vocales varía entre los cinco trastornos de tics (Criterio A). En el síndrome de la Tourette deben estar presentes (si bien no necesariamente al mismo tiempo) tanto tics motores como tics vocales, mientras que en el trastorno de tics motores o vocales persistente (crónico) se van a presentar solo tics motores o tics vocales. En el trastorno de tics provisional se pueden presentar tics motores y/o vocales. En el otro trastorno de tics especificado o el trastorno de tics no especificado, los tics o síntomas semejantes a los tics son la mejor forma de caracterizar el trastorno del movimiento, pero se trata de tics atípicos en su presentación o edad del comienzo, o que tienen una etiología conocida."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El criterio de duración mínima de 1 año (Criterio B) garantiza que los individuos diagnosticados de síndrome de la Tourette o trastorno de tics motores o vocales persistente (crónico) han tenido síntomas persistentes. La gravedad de los tics fluctúa y algunos individuos pueden pasar intervalos de semanas a meses sin tics; sin embargo, en un individuo que ha tenido tics durante más de 1 año desde el comienzo del primer tic se consideraría que tiene síntomas persistentes a pesar de la duración de los períodos intermitentes libres de tics. Para un individuo con tics motores y/o vocales de menos de 1 año desde el comienzo del primer tic, se puede considerar el diagnóstico de trastorno de tics provisional. El comienzo de los tics debe producirse antes de los 18 años de edad (Criterio C). Los trastornos de tics normalmente empiezan en el período prepuberal, con una media de edad de inicio entre los 4 y los 6 años, y con una incidencia de trastornos de tics de nueva aparición que es más baja en la posterior adolescencia. Es muy raro que aparezcan tics nuevos en la edad adulta y frecuentemente se asocian a la exposición a sustancias ilegales (p. ej., el uso excesivo de cocaína) o son el resultado de daños en el sistema nervioso central o están relacionados con un trastorno neurológico funcional. Aunque el comienzo de los tics es poco común en los adolescentes y en los adultos, no es infrecuente que estos acudan para una evaluación diagnóstica inicial y que, cuando se les evalúa cuidadosamente, expliquen una historia de tics más leves que empezaron en la infancia, incluso si en las primeras fases del desarrollo hubo períodos sin tics de meses o años de duración. La aparición de movimientos anormales indicativos de tics fuera del intervalo de edad usual debería conducir a una evaluación en busca de otros trastornos del movimiento, incluidos los movimientos o las vocalizaciones de carácter complejo y funcional similares a los tics."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los tics no pueden atribuirse a los efectos fisiológicos de una sustancia ni a otra afección médica (Criterio D). Cuando hay datos importantes en la historia, la exploración física o los resultados de laboratorio que sugieren una causa creíble, próxima y probable para el trastorno de tics, se debería usar el diagnóstico de \"otro trastorno de tics especificado\"."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si previamente se han cumplido los criterios diagnósticos del trastorno de la Tourette, esto niega la posibilidad de diagnosticar un trastorno de tics motores o vocales persistente (crónico) (Criterio E). Del mismo modo, un diagnóstico previo de trastorno de tics motores o vocales persistente (crónico) impide el diagnóstico de trastorno de tics provisional o de trastorno de tics especificado o no especificado (Criterio E)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1268,
+        "lineaFin": 1288
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los tics son frecuentes en la infancia, aunque transitorios en la mayoría de los casos. Una encuesta nacional en Estados Unidos estimó la prevalencia de los casos identificados clínicamente en el 3 por 1.000. La frecuencia de los casos identificados era más baja entre los individuos afroamericanos y latinoamericanos, lo que podría deberse a diferencias en el acceso a la asistencia médica. La prevalencia estimada del trastorno de la Tourette en Canadá varía del 3 al 9 por 1.000 entre los niños en edad escolar. En general, los varones se afectan normalmente más que las mujeres, variando la relación entre 2:1 y 4:1. Los estudios epidemiológicos han mostrado que los tics están presentes en los niños de todos los continentes, pero que las tasas de prevalencia exactas están influenciadas por las diferencias metodológicas de la investigación."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1290,
+        "lineaFin": 1292
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El primer comienzo de los tics se produce típicamente entre los 4 y 6 años de edad. El parpadeo es muy característico como síntoma inicial. La mayor gravedad se encuentra entre los 10 y 12 años, con una disminución de la gravedad durante la adolescencia. Muchos adultos con trastornos de tics presentan síntomas disminuidos. Sin embargo, un porcentaje de individuos tendrán síntomas persistentemente graves o empeorarán durante la vida adulta."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los tics se manifiestan de forma similar en todos los grupos de edad y durante toda la vida. La gravedad (frecuencia e intensidad) de los tics fluctúa y con el tiempo cambia en términos de los grupos musculares afectados y la naturaleza de las vocalizaciones. Muchos individuos, incluidos los niños pequeños, refieren que sus tics se acompañan de una sensación corporal localizada que precede al tic y de un impulso premonitorio de moverse. Puede ser difícil encontrar palabras para describir estas sensaciones e impulsos premonitorios. Los tics asociados a un impulso premonitorio pueden experimentarse como algo que no es completamente \"involuntario\" en el sentido de que el impulso y el tic se pueden resistir. El individuo puede también sentir la necesidad de realizar un tic reiteradamente o de determinada forma hasta lograr la sensación de que el tic se ha realizado \"correctamente\". Suele aparecer cierta sensación de alivio y reducción de la tensión después de la expresión de un tic o una serie de tics."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La vulnerabilidad para desarrollar afecciones concurrentes cambia al pasar los individuos por la edad de riesgo para varias afecciones concurrentes. Por ejemplo, los niños prepúberes con trastornos de tics tienen más posibilidades de presentar concurrentemente un trastorno por déficit de atención/ hiperactividad (TDAH), un trastorno obsesivo-compulsivo (TOC) y un trastorno de ansiedad por separación. Los adolescentes y los adultos son más vulnerables a la aparición de trastornos del ánimo y de ansiedad, así como trastornos por consumo de sustancias."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1294,
+        "lineaFin": 1300
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Ambiental. En las primeras fases del desarrollo cerebral se han detectado varios factores de riesgo medioambientales, como la edad paterna avanzada y los acontecimientos adversos prenatales y perinatales (p. ej., deterioro del crecimiento fetal, fiebre intraparto de la madre, tabaquismo materno, estrés psicosocial materno grave, nacimiento pretérmino, presentación de nalgas y parte por cesárea)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Genético y fisiológico. Los factores genéticos y ambientales influyen en la expresión y la gravedad de los tics. La heredabilidad de los trastornos de tics se estima que es del 70-85 %, sin diferencias de riesgo familiar o heredabilidad entre los varones y las mujeres. Se han identificado importantes alelos de riesgo para el trastorno de la Tourette y variantes genéticas raras en las familias con trastornos de tics. También se han identificado variantes genéticas comunes. Las comparten todos los trastornos de tics de una forma gradual que se correlaciona con la gravedad de la enfermedad. Ciertamente, los trastornos de tics existen probablemente a lo largo de un espectro de desarrollo continuo, conforme a su fenomenología y su trasfondo genético"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos de tics crónicos comparten varianza genética con el TOC, el TDAH y otros trastornos del neurodesarrollo, incluido el trastorno del espectro autista. Además, los individuos con trastornos de tics tienen más riesgo de presentar algún trastorno autoinmune (p. ej., tiroiditis de Hashimoto). Es cada vez más evidente que el sistema inmunitario y la neuroinflamación desempeñan papeles importantes en la biopatología de los tics en al menos un subconjunto de individuos afectados (p. ej., las personas con corea de Sydenham). Sin embargo, se necesitan más trabajos para comprender las bases y el posible papel causal de las infecciones en otras afecciones neuropsiquiátricas, como el síndrome neuropsiquiátrico de inicio agudo pediátrico y el trastorno neuropsiquiátrico autoinmune pediátrico asociado a las infecciones estreptocócicas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Modificadores de la evolución. Los tics aumentan con la ansiedad, el entusiasmo y el agotamiento, y mejoran con la calma y la actividad concentrada. Por ejemplo, muchos individuos tienen característicamente menos tics cuando realizan tareas que requieren concentración y control motor. Los acontecimientos estresantes o emocionantes (p. ej., examinarse, participar en actividades emocionantes) suelen empeorar los tics."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1302,
+        "lineaFin": 1310
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos de tics no parecen variar en sus características clínicas, curso o etiología dependiendo del contexto étnico, racializado y cultural, pero tales contextos pueden influir en cómo se perciben y manejan los trastornos de tics en la familia y en la comunidad, influyendo en los patrones de búsqueda de ayuda y en las elecciones de tratamiento, como la edad de presentación a los servicios especialistas. Por ejemplo, la distancia social preferida ante los individuos con trastornos de tics (p. ej., al trabajar o estudiar juntos) fue mayor en una muestra coreana que en los estudios estadounidenses."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1312,
+        "lineaFin": 1314
+      }
+    },
+    {
+      "clave": "sexo_genero",
+      "claveOriginal": "aspectos diagnosticos relacionados con el sexo y el genero",
+      "titulo": "Aspectos diagnósticos relacionados con el sexo y el género",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El sexo masculino se afecta más frecuentemente que el femenino, pero no hay diferencias de sexo en cuanto a tipos de tics, edad de comienzo o curso. Las mujeres con trastornos de tics persistentes suelen tener más probabilidad de presentar ansiedad y depresión."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1316,
+        "lineaFin": 1318
+      }
+    },
+    {
+      "clave": "suicidio",
+      "claveOriginal": "asociacion con pensamientos o conductas suicidas",
+      "titulo": "Asociación con pensamientos o conductas suicidas",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Un estudio de casos y cohortes equiparados realizado en Suecia de 1969 a 2013 demostró que los individuos con trastorno de la Tourette o trastorno de tics motores o vocales persistente (crónico) poseen un riesgo considerablemente mayor de intentos de suicidio (razón de posibilidades: 3,86) y de muerte por suicidio (razón de posibilidades: 4,39), incluso después de ajustar la comorbilidad psiquiátrica, en comparación con los sujetos de control equiparados de la población general. La persistencia de los tics después de la juventud y un intento de suicidio previo fueron los predictores más potentes de la muerte por suicidio. Los datos procedentes de casos y controles indican que alrededor de 1 de cada 10 jóvenes con trastorno de tics motores o vocales persistente (crónico) presenta pensamientos y/o conductas suicidas, especialmente en caso de ira/frustración y asociados con ansiedad/depresión, problemas sociales o retraimiento, agresividad y problemas internalizantes, la gravedad de los tics y el deterioro con ellos relacionado."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1320,
+        "lineaFin": 1322
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales de los trastornos de tics",
+      "titulo": "Consecuencias funcionales de los trastornos de tics",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos individuos con tics de gravedad leve a moderada no presentan malestar ni deterioro en el funcionamiento e incluso pueden no darse cuenta de sus tics. Los individuos con síntomas más graves generalmente tienen mayor deterioro en la vida cotidiana, pero aun los individuos con trastornos de tics moderados o graves pueden funcionar bien. La presencia de una afección concurrente, como el TDAH o el TOC, puede afectar al funcionamiento más que los propios tics. Menos frecuentemente, los tics pueden alterar el funcionamiento en las actividades de la vida cotidiana y llevar al aislamiento social, un conflicto interpersonal, la victimización por los compañeros, una incapacidad para trabajar o ir a la escuela y una peor calidad de vida. A menudo, a los individuos con tics les cuesta centrar la atención en las tareas relacionadas con el trabajo mientras tratan activamente de suprimir los tics. El individuo también puede presentar un malestar psicológico considerable e incluso pensamientos suicidas. Entre las complicaciones raras del trastorno de la Tourette se incluyen las lesiones físicas, como lesiones oculares (de darse golpes en la cara) y lesiones ortopédicas y neurológicas (p. ej., enfermedad del disco relacionada con movimientos fuertes de cabeza y cuello)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1324,
+        "lineaFin": 1328
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 10,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Movimientos anormales que pueden acompañar a otras afecciones médicas, incluidos otros trastornos del movimiento. Las estereotipias motoras se definen como movimientos involuntarios rítmicos, repetitivos y predecibles que parecen ser a propósito pero que no tienen ninguna función adaptativa obvia. Son con frecuencia calmantes o placenteras y se detienen con la distracción. Entre los ejemplos cabe citar los movimientos repetitivos, como agitar/rotar la mano, aletear los brazos y mover los dedos. Las estereotipias motoras usualmente pueden diferenciarse de los tics por la edad de comienzo más temprana de las primeras (con frecuencia antes de los 3 años), por su duración prolongada (de segundos a minutos), por ser repetitivas y rítmicas en forma y localización, sin sensación ni impulso premonitorio, y por su cese con la distracción (p. ej., al oír su nombre o al tocarle). La corea implica acciones rápidas, aleatorias, continuas, abruptas, irregulares, impredecibles y no estereotipadas que, normalmente, son bilaterales y afectan a todas las partes del cuerpo (es decir, la cara, el torso, las extremidades). El ritmo, la dirección y la distribución de los movimientos varián de un momento a otro, y los movimientos normalmente empeoran durante los intentos de acción voluntaria. Una distonía es una contracción sostenida y simultánea de músculos agonistas y antagonistas que da lugar a una postura distorsionada o a movimientos distorsionados de partes del cuerpo. Las posturas distónicas a menudo están desencadenadas por intentos de realizar movimientos voluntarios y no se observan durante el sueño."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discinesias paroxísticas. Las discinesias paroxísticas se caracterizan por movimientos distónicos o coreoatetósicos episódicos e involuntarios que están precipitados por un movimiento voluntario o un esfuerzo, y que se producen menos frecuentemente durante la actividad normal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Mioclonías. Las mioclonías se caracterizan por un movimiento unidireccional súbito que muchas veces no es rítmico. Pueden empeorar con el movimiento y producirse durante el sueño. Las mioclonías se diferencian de los tics por su rapidez, por la incapacidad de suprimirlas y por la ausencia de sensación o impulso premonitorio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno obsesivo-compulsivo y trastornos relacionados. Puede ser difícil diferenciar las compulsiones del TOC de los tics complejos, sobre todo porque concurren con frecuencia en el mismo individuo. Las compulsiones del TOC tienen por objetivo prevenir o reducir la ansiedad o la angustia, y normalmente se llevan a cabo en respuesta a una obsesión (p. ej., miedo de contaminarse). En cambio, muchos individuos con trastorno de tics sienten la necesidad de efectuar la acción de manera especial, por igual en ambos lados del cuerpo y un cierto número de veces hasta alcanzar una sensación de \"asi está bien\". Los trastornos de movimientos repetitivos centrados en el cuerpo (p. ej., tricotilomanía persistente, rascarse la piel, morderse las uñas) son más deliberados y complejos que los tics."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de tics funcionales. También deben considerarse los trastornos funcionales cuando un individuo presenta \"ataques de tics\" que pueden proseguir durante períodos prolongados que duran de 15 minutos a varias horas."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1330,
+        "lineaFin": 1340
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 11,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se han descrito muchas afecciones médicas y psiquiátricas que serían concurrentes con los trastornos de tics, siendo el TDAH, la conducta disruptiva y el TOC particularmente frecuentes. Los niños con"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "TDAH pueden mostrar comportamientos disruptivos, inmadurez social y dificultades de aprendizaje que pueden interferir con el progreso académico y las relaciones interpersonales, y conducir a un deterioro mayor que el producido por un trastorno de tics. Los síntomas obsesivo-compulsivos observados en los trastornos de tics tienden a tener una edad de inicio menor y suelen caracterizarse por cierta necesidad de simetría y exactitud y/o pensamientos prohibidos o tabú (p. ej., obsesiones agresivas, sexuales o religiosas y sus compulsiones relacionadas). Los individuos con trastornos de tics también pueden tener otros trastornos del movimiento (p. ej., corea de Sydenham, trastorno de movimientos estereotipados) y otras afecciones del neurodesarrollo y psiquiátricas, como el trastorno del espectro autista y el trastorno específico del aprendizaje. Como se dijo anteriormente, los adolescentes y adultos con trastorno de tics tienen mayor riesgo de desarrollar algún trastorno del ánimo, de ansiedad o por consumo de sustancias."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 1342,
+        "lineaFin": 1346
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [
+      {
+        "id": "and:trastornos-de-tics:criterio:A:Trastorno de la Tourette",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la Tourette — Criterio A",
+        "reverso": "Los tics motores múltiples y uno o más tics vocales han estado presentes en algún momento durante la enfermedad, aunque no necesariamente de forma concurrente.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:B:Trastorno de la Tourette",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la Tourette — Criterio B",
+        "reverso": "Los tics pueden aparecer intermitentemente en frecuencia, pero persisten durante más de 1 año desde la aparición del primer tic.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:C:Trastorno de la Tourette",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la Tourette — Criterio C",
+        "reverso": "Comienza antes de los 18 años.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:D:Trastorno de la Tourette",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de la Tourette — Criterio D",
+        "reverso": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., cocaina) o a otra afección médica (p. ej., enfermedad de Huntington, encefalitis posvírica).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:A:Trastorno de tics motores o vocales persistente (crónico)",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics motores o vocales persistente (crónico) — Criterio A",
+        "reverso": "Los tics motores o vocales únicos o múltiples han estado presentes durante la enfermedad, pero no ambos a la vez.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:B:Trastorno de tics motores o vocales persistente (crónico)",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics motores o vocales persistente (crónico) — Criterio B",
+        "reverso": "Los tics pueden aparecer intermitentemente en frecuencia, pero persisten durante más de 1 año desde la aparición del primer tic.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:C:Trastorno de tics motores o vocales persistente (crónico)",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics motores o vocales persistente (crónico) — Criterio C",
+        "reverso": "Comienza antes de los 18 años.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:D:Trastorno de tics motores o vocales persistente (crónico)",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics motores o vocales persistente (crónico) — Criterio D",
+        "reverso": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., cocaina) o a otra afección médica (p. ej., enfermedad de Huntington, encefalitis posvírica).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:E:Trastorno de tics motores o vocales persistente (crónico)",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics motores o vocales persistente (crónico) — Criterio E",
+        "reverso": "Nunca se han cumplido los criterios de trastorno de la Tourette.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:A:Trastorno de tics provisional",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics provisional — Criterio A",
+        "reverso": "Tics motores y/o vocales únicos o múltiples.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:B:Trastorno de tics provisional",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics provisional — Criterio B",
+        "reverso": "Los tics han estado presentes durante menos de 1 año desde la aparición del primer tic.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:C:Trastorno de tics provisional",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics provisional — Criterio C",
+        "reverso": "Comienza antes de los 18 años.",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:D:Trastorno de tics provisional",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics provisional — Criterio D",
+        "reverso": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., cocaína) o a otra afección médica (p. ej., enfermedad de Huntington, encefalitis posvírica).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:criterio:E:Trastorno de tics provisional",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": "criterios"
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastorno de tics provisional — Criterio E",
+        "reverso": "Nunca se han cumplido los criterios de trastorno de la Tourette o de trastorno de tics motores o vocales persistente (crónico).",
+        "etiquetas": [
+          "criterios"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:codigo:F95.2",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastornos de tics — código de «Trastorno de la Tourette»",
+        "reverso": "F95.2",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:codigo:F95.1",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastornos de tics — código de «Trastorno de tics motores o vocales persistente (crónico)»",
+        "reverso": "F95.1",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      },
+      {
+        "id": "and:trastornos-de-tics:codigo:F95.0",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Trastornos de tics — código de «Trastorno de tics provisional»",
+        "reverso": "F95.0",
+        "etiquetas": [
+          "códigos",
+          "especificadores"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 1210,
+    "lineaFin": 1347
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (3)",
+      "textoLiteral": null,
+      "linea": 1210
+    }
+  ]
+}

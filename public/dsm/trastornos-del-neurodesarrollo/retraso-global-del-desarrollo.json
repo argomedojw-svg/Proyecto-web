@@ -1,0 +1,123 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "retraso-global-del-desarrollo",
+  "nombre": "Retraso global del desarrollo",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F88",
+    "cie10": "F88",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "trastornos-del-neurodesarrollo",
+    "nombre": "Trastornos del neurodesarrollo"
+  },
+  "subcategoria": {
+    "id": "trastornos-del-desarrollo-intelectual",
+    "nombre": "Trastornos del desarrollo intelectual"
+  },
+  "tipoEntrada": "variante",
+  "orden": 1,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 175)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Este diagnóstico se reserva para individuos menores de 5 años cuando el nivel de gravedad clínica no se puede valorar de forma fiable durante los primeros años de la infancia. Esta categoría se diagnostica cuando el individuo no cumple con los hitos del desarrollo esperados en varios campos del funcionamiento intelectual y se aplica a los individuos que no pueden someterse a valoraciones sistemáticas del funcionamiento intelectual, incluidos los niños demasiado pequeños para participar en pruebas estandarizadas. Esta categoría se debe volver a valorar después de un período de tiempo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+        "lineaInicio": 175,
+        "lineaFin": 175
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [
+      {
+        "id": "and:retraso-global-del-desarrollo:pregunta:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "enunciado": "¿Qué código CIE-10 corresponde a «Retraso global del desarrollo»?",
+        "opciones": [
+          {
+            "id": "o3",
+            "texto": "F80.9"
+          },
+          {
+            "id": "o0",
+            "texto": "F88"
+          },
+          {
+            "id": "o2",
+            "texto": "F90.8"
+          },
+          {
+            "id": "o1",
+            "texto": "F95.8"
+          }
+        ],
+        "respuestaCorrecta": "o0",
+        "explicacion": "Según tu archivo de origen (Transtornos del neurodesarrollo- corregido.md, líneas 171–176), el código es F88.",
+        "seccionReferencia": "criterios"
+      }
+    ],
+    "flashcards": [
+      {
+        "id": "and:retraso-global-del-desarrollo:codigo",
+        "validado": false,
+        "fuente": {
+          "origen": "andamiaje",
+          "referencia": "Reordenación mecánica del texto del propio archivo. No revisado.",
+          "seccionOrigen": null
+        },
+        "notas": null,
+        "creadoEn": null,
+        "anverso": "Código CIE-10 de: Retraso global del desarrollo",
+        "reverso": "F88",
+        "etiquetas": [
+          "códigos"
+        ]
+      }
+    ],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "Transtornos del neurodesarrollo- corregido.md",
+    "lineaInicio": 171,
+    "lineaFin": 176
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 171
+    }
+  ]
+}
