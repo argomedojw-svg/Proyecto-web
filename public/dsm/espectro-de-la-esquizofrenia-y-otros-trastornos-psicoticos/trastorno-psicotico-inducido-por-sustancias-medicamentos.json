@@ -1,0 +1,474 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-psicotico-inducido-por-sustancias-medicamentos",
+  "nombre": "Trastorno psicótico inducido por sustancias/medicamentos",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 6,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-psicotico-inducido-por-sustancias-medicamentos-criterios",
+              "nombre": null,
+              "codigo": null,
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Presencia de uno o los dos sintomas siguientes:",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Delirios.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Alucinaciones.",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Existen pruebas a partir de la historia clínica, la exploración física o las pruebas de laboratorio de (1) y (2):",
+                  "hijos": [
+                    {
+                      "ruta": "B.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Síntomas del Criterio A desarrollados durante o poco después de la intoxicación o abstinencia de la sustancia o después de la exposición o la retirada de un medicamento.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "B.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "La sustancia/medicamento implicado puede producir los sintomas del Criterio A.",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se explica mejor por un trastorno psicótico no inducido por sustancias/medicamentos. Estas pruebas de un trastorno psicótico independiente pueden incluir lo siguiente:",
+                  "hijos": [
+                    {
+                      "ruta": "C.texto1",
+                      "etiqueta": null,
+                      "tipo": "texto",
+                      "texto": "Los síntomas fueron anteriores al inicio del uso de la sustancia/medicamento; los síntomas persisten durante un periodo importante (p. ej., aproximadamente 1 mes) después del cese de la abstinencia aguda o intoxicación grave; o existen otras pruebas de un trastorno psicótico independiente no inducido por sustancias/medicamentos (p. ej., antecedentes de episodios recurrentes no relacionados con sustancias/medicamentos).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se produce exclusivamente durante el curso de un delirium.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "El trastorno causa malestar clínicamente significativo o deterioro en los ámbitos social, laboral u otros campos importantes del funcionamiento.",
+                  "hijos": [
+                    {
+                      "ruta": "E.nota",
+                      "etiqueta": null,
+                      "tipo": "nota",
+                      "texto": "Este diagnóstico solo se puede hacer en lugar de un diagnóstico de intoxicación por sustancias o de abstinencia de sustancias cuando en el cuadro clínico predominan los síntomas del Criterio A y cuando son suficientemente graves para merecer atención clinica.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "E.nota",
+                      "etiqueta": null,
+                      "tipo": "nota_codificacion",
+                      "texto": "Los códigos CIE-10-MC para los trastornos psicóticos inducidos por [una sustancia/medicamento específico] se indican en la siguiente tabla. Obsérvese que el código CIE-10-MC depende de si existe o no algún trastorno concomitante por consumo de sustancias de la misma clase. En todo caso, no se añade el diagnóstico aparte de trastorno por consumo de sustancia. Si un trastorno leve por consumo de sustancias coincide con el trastorno psicótico inducido por sustancias, el carácter en 4º posición es \"1,\" y el clínico hará constar \"trastorno leve por consumo de [sustancia]\" antes del trastorno psicótico inducido por sustancias (p. ej, \"trastorno leve por consumo de cocaína con trastorno psicótico inducido por cocaína\"). Si un trastorno moderado o grave por consumo de sustancias coincide con el trastorno psicótico inducido por sustancias, el carácter en 4º posición es \"2,\" y el clínico hará constar \"trastorno moderado por consumo de [sustancia]\" o \"trastorno grave por consumo de [sustancia]\" según la gravedad del trastorno concurrente por consumo de sustancias. Si no existe un trastorno concurrente por consumo de sustancias (p. ej., después de un consumo importante puntual de la sustancia), el carácter en 4º posición es \"9,\" y el clínico solo hará constar el trastorno psicótico inducido por sustancias.",
+                      "hijos": []
+                    }
+                  ]
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        },
+        {
+          "tipo": "tabla",
+          "titulo": null,
+          "encabezados": [
+            "",
+            "CIE-10-MC"
+          ],
+          "filas": [
+            [
+              "",
+              "Con trastorno por consumo, leve",
+              "Con trastorno por consumo, moderado o grave",
+              "Sin trastorno por consumo"
+            ],
+            [
+              "Alcohol",
+              "F10.159",
+              "F10.259",
+              "F10.959"
+            ],
+            [
+              "Cannabis",
+              "F12.159",
+              "F12.259",
+              "F12.959"
+            ],
+            [
+              "Fenciclidina",
+              "F16.159",
+              "F16.259",
+              "F16.959"
+            ],
+            [
+              "Otro alucinógeno",
+              "F16.159",
+              "F16.259",
+              "F16.959"
+            ],
+            [
+              "Inhalante",
+              "F18.159",
+              "F18.259",
+              "F18.959"
+            ],
+            [
+              "Sedante, hipnótico o ansiolítico",
+              "F13.159",
+              "F13.259",
+              "F13.959"
+            ],
+            [
+              "Sustancia de tipo anfetamínico (u otro estimulante)",
+              "F15.159",
+              "F15.259",
+              "F15.959"
+            ],
+            [
+              "Cocaína",
+              "F14.159",
+              "F14.259",
+              "F14.959"
+            ],
+            [
+              "Otra sustancia (o sustancia desconocida)",
+              "F19.159",
+              "F19.259",
+              "F19.959"
+            ],
+            [
+              "Especificar si (véase la Tabla 1 en el capítulo “Trastornos relacionados con sustancias y trastornos adictivos”, que indica si “con inicio durante la intoxicación” y/o “con inicio durante la abstinencia” pueden aplicarse a determinada clase de sustancias; o especifique “con inicio después de consumir el medicamento”):Con inicio durante la intoxicación: Si se cumplen los criterios de intoxicación con la sustancia y los síntomas aparecen durante la intoxicación.Con inicio durante la abstinencia: Si se cumplen los criterios de abstinencia de la sustancia y los síntomas aparecen durante o poco después de dejar la sustancia.Con inicio después de consumir el medicamento: Si los síntomas aparecen al inicio de la medicación, al introducir cambios en su pauta o durante la retirada de esta。"
+            ],
+            [
+              "Especificar la gravedad actual:La gravedad se clasifica mediante una evaluación cuantitativa de los síntomas primarios de psicosis tales como: delirios, alucinaciones, comportamiento psicomotor anormal y síntomas negativos.Cada uno de estos síntomas se puede clasificar por su gravedad actual (máxima gravedad en los últimos 7 días) sobre una escala de 5 puntos de 0 (ausente) a 4 (presente y grave).(Véase la escala clínica Gravedad de los síntomas de las dimensiones de psicosis en el capítulo “Medidas de evaluación”, en la Sección III del DSM-5-TR.)Nota:El diagnóstico de trastorno psicótico inducido por sustancias/medicamentos se puede hacer sin utilizar este especificador de gravedad。"
+            ]
+          ],
+          "fragmentosUnidos": 1
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 637,
+        "lineaFin": 663
+      }
+    },
+    {
+      "clave": "procedimientos_registro",
+      "claveOriginal": "procedimientos de registro",
+      "titulo": "Procedimientos de registro",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El nombre del trastorno psicótico inducido por sustancias/medicamentos empieza con la sustancia específica (p. ej., cocaína, dexametasona) que se supone que es la causante de los delirios o las alucinaciones. El código diagnóstico se selecciona de la tabla incluida en el conjunto de criterios, que se basa en la clase de sustancia y en la presencia o ausencia de un trastorno concurrente por consumo de sustancias. Para sustancias que no se ajustan a ninguna de las clases (p. ej., dexametasona), se utilizará el código \"otra sustancia (o sustancia desconocida)\", y en los casos en que se considere que una sustancia es un factor etiológico, pero se desconoce la clase específica de sustancia, se utilizará también el mismo código."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para registrar el nombre del trastorno, se indica en primer lugar el trastorno concurrente por consumo de sustancias (si existe) y, a continuación, la palabra \"con\" seguida del nombre del trastorno psicótico inducido por sustancias, seguido de la especificación del inicio (es decir, inicio durante la intoxicación, inicio durante la abstinencia). Por ejemplo, en el caso de los delirios que se producen durante la intoxicación en un sujeto con un trastorno grave por consumo de cocaína, el diagnóstico es F14.259 trastorno grave por consumo de cocaína con trastorno psicótico inducido por cocaína, con inicio durante la intoxicación. No se utiliza un diagnóstico aparte del trastorno concurrente grave por consumo de cocaína. Si el trastorno psicótico inducido por sustancias se produce sin un trastorno concurrente por consumo de sustancias (p. ej., después de un consumo importante puntual de la sustancia), no se hace constar el trastorno acompañante por consumo de sustancias (p. ej., F16.959 trastorno psicótico inducido por fenciclidina, con inicio durante la intoxicación). Cuando se considera que más de una sustancia tiene un papel importante en el desarrollo de síntomas psicóticos, cada una de ellas se indicará por separado (p. ej., F12.259 trastorno grave por consumo de cannabis con trastorno psicótico inducido por cannabis, con inicio durante la intoxicación; F16.159 trastorno leve por consumo de fenciclidina con trastorno psicótico inducido por fenciclidina, con inicio durante la intoxicación)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 665,
+        "lineaFin": 669
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las características esenciales del trastorno psicótico inducido por sustancias/medicamentos son los delirios o alucinaciones prominentes (Criterio A) que se consideran debidos a los efectos fisiológicos de una sustancia/medicamento (es decir, una droga, un medicamento o una toxina) (Criterio B). Las alucinaciones que el propio sujeto identifica como inducidas por sustancias/medicamentos no se incluyen aquí, y se diagnosticarán como intoxicación por sustancias o abstinencia de sustancias, acompañada del especificador \"con alteraciones de la percepción\" (se aplica a la abstinencia de alcohol, la intoxicación por cannabis, la abstinencia de sedantes, hipnóticos o ansiolíticos y la intoxicación por estimulantes)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Un trastorno psicótico inducido por sustancias/medicamentos se distingue de un trastorno psicótico independiente considerando el inicio, el curso y otros factores. Para las drogas deben encontrarse pruebas de consumo, intoxicación o abstinencia de sustancias en la historia, la exploración física o los hallazgos de laboratorio. Los trastornos psicóticos inducidos por sustancias/medicamentos surgen durante o poco después de la exposición o la suspensión de un medicamento, o tras la intoxicación o abstinencia de sustancias, pero pueden persistir durante semanas, mientras que los trastornos psicóticos independientes pueden preceder al inicio del uso de sustancias/medicamentos o pueden presentarse durante períodos de abstinencia prolongada. Una vez que se inician, los síntomas psicóticos pueden mantenerse mientras se continúe usando la sustancia/medicamento. Otro factor a considerar es la presencia de características que son atípicas de un trastorno psicótico independiente (p. ej., una edad de inicio o un curso atípicos). Por ejemplo, la aparición de delirios de novo en un varón mayor de 35 años sin historia conocida de trastorno psicótico independiente debería sugerir la posibilidad de un trastorno psicótico inducido por sustancias/medicamentos. Incluso una historia previa de trastorno psicótico independiente no descarta la posibilidad de un trastorno psicótico inducido por sustancias/medicamentos. Por el contrario, algunos de los factores que sugieren que los síntomas psicóticos se explican mejor por un trastorno psicótico independiente son la persistencia de síntomas psicóticos durante un período de tiempo sustancial (es decir, 1 mes o más) tras el fin de la intoxicación o la abstinencia aguda de una sustancia, o tras cesar el uso de un medicamento, y la presencia de antecedentes de algún trastorno psicótico independiente recurrente. Deben considerarse otras causas de síntomas psicóticos incluso en los individuos con intoxicación o abstinencia de sustancias, puesto que los problemas por uso de sustancias no son infrecuentes entre los sujetos con trastornos psicóticos no inducidos por sustancias/medicamentos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Además de los dos dominios sintomáticos identificados en los criterios diagnósticos (es decir, delirios y alucinaciones), la evaluación de los dominios de síntomas cognitivos, depresivos y maniacos es fundamental para realizar distinciones de importancia crítica entre los diferentes trastornos del espectro de la esquizofrenia y otros trastornos psicóticos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 671,
+        "lineaFin": 677
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos psicóticos pueden asociarse a una intoxicación por los siguientes tipos de sustancias: alcohol, cannabis, alucinógenos como la fenciclidina y otras sustancias relacionadas, inhalantes, sedantes, hipnóticos y ansiolíticos, estimulantes (incluida la cocaína) y otras sustancias (o sustancias desconocidas). Los trastornos psicóticos pueden estar asociados a la abstinencia de los siguientes tipos de sustancias: alcohol, sedantes, hipnóticos y ansiolíticos, y otras sustancias (o sustancias desconocidas)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Algunos de los medicamentos con los que se ha descrito la aparición de síntomas psicóticos son: anestésicos y analgésicos, agentes anticolinérgicos, anticonvulsivantes, antihistamínicos, antihipertensivos y fármacos cardiovasculares, medicamentos antimicrobianos, fármacos antiparkinsonianos, agentes quimioterapéuticos (p. ej., ciclosporina, procarbazina), corticosteroides, medicamentos gastrointestinales, relajantes musculares, antiinflamatorios no esteroideos, otros medicamentos de venta sin receta (p. ej., fenilefrina, seudoefedrina), fármacos antidepresivos y disulfiram. Las toxinas que se han descrito que pueden inducir síntomas psicóticos son: inhibidores de la acetilcolinesterasa, insecticidas organofosforados, sarín y otros gases nerviosos, monóxido de carbono, dióxido de carbono y sustancias volátiles como el combustible o la pintura."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 679,
+        "lineaFin": 683
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La prevalencia del trastorno psicótico inducido por sustancias/medicamentos en la población general no se conoce. Se ha descrito que entre el 7 y el 25 % de los individuos que presentan un primer episodio de psicosis en diferentes entornos tiene un trastorno psicótico inducido por sustancias/ medicamentos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 685,
+        "lineaFin": 687
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El inicio de los síntomas psicóticos puede variar de manera considerable en función de la sustancia. Por ejemplo, fumar una dosis alta de cocaína puede producir una psicosis en minutos, mientras que pueden ser necesarios días o semanas de consumo de alcohol o sedantes a dosis altas para producirla. El trastorno psicótico con alucinaciones inducido por alcohol habitualmente se produce solo tras una ingesta prolongada e importante de alcohol en sujetos que tienen un trastorno por uso de alcohol moderado o grave. En este caso, las alucinaciones generalmente son de tipo auditivo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los trastornos psicóticos inducidos por sustancias por tipo anfetamínico y cocaína comparten características clínicas similares. Los delirios persecutorios pueden desarrollarse rápidamente poco tiempo después de consumir anfetaminas o simpaticomiméticos de acción similar. Las alucinaciones de bichos o parásitos reptando bajo la piel (formicación) pueden llevar al rascado y a excoriaciones cutáneas extensas. El trastorno psicótico inducido por cannabis puede desarrollarse poco tiempo después de consumir dosis altas de cannabis y habitualmente cursa con delirios persecutorios, ansiedad marcada, labilidad emocional y despersonalización. El trastorno habitualmente remite en menos de 1 día, pero en algunos casos puede persistir más tiempo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En ocasiones, el trastorno psicótico inducido por sustancias/medicamentos puede persistir una vez retirada la sustancia implicada, por lo que inicialmente puede resultar difícil distinguirlo de un trastorno psicótico independiente. Se ha descrito que sustancias como las sustancias anfetamínicas, la fenciclidina y la cocaína pueden producir estados psicóticos transitorios que, en ocasiones, persisten durante semanas o incluso más tiempo a pesar de la retirada de la sustancia y del tratamiento con fármacos neurolépticos. En edades avanzadas, la polifarmacia para tratar patologías médicas y la exposición a medicamentos para el parkinsonismo, los trastornos cardiovasculares y otras enfermedades pueden asociarse a una mayor probabilidad de presentar psicosis inducida por medicamentos que por abuso de otras sustancias."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Según los datos de un estudio de registro danés que siguió longitudinalmente casos de psicosis inducida por sustancias durante 20 años, aproximadamente un tercio (32 %) de los individuos con psicosis inducida por sustancias se diagnostican más adelante de trastorno del espectro de la esquizofrenia (26 %) o trastorno bipolar (8 %), correspondiendo la tasa más alta (44 %) al trastorno psicótico inducido por cannabis."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 689,
+        "lineaFin": 697
+      }
+    },
+    {
+      "clave": "marcadores_diagnosticos",
+      "claveOriginal": "marcadores diagnosticos",
+      "titulo": "Marcadores diagnósticos",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Para las sustancias en que pueden medirse concentraciones hemáticas relevantes (p. ej., niveles de alcohol en sangre, otros niveles sanguineos cuantificables, como los de digoxina), la presencia de un nivel compatible con toxicidad puede aumentar el grado de certeza diagnóstica."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 699,
+        "lineaFin": 701
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno psicotico inducido por sustancias/medicamentos",
+      "titulo": "Consecuencias funcionales del trastorno psicótico inducido por sustancias/medicamentos",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno psicótico inducido por sustancias/medicamentos es típicamente muy incapacitante y, por lo tanto, se observa con más frecuencia en los servicios de urgencias, ya que a menudo se traslada a los individuos a servicios de atención aguda cuando aparece el trastorno. Sin embargo, la incapacidad que produce normalmente es autolimitada y se resuelve al retirar el agente implicado."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 703,
+        "lineaFin": 705
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Intoxicación o abstinencia de sustancias. Los individuos intoxicados por estimulantes, cannabis, el opioide meperidina o fenciclidina, y los que tienen síndrome de abstinencia de alcohol o sedantes, pueden experimentar alteraciones de la percepción que reconocen como efectos de la droga. Si la prueba de realidad para estas experiencias permanece intacta (es decir, si el individuo reconoce que la percepción está inducida por la sustancia y ni la cree real, ni actúa según ella), el diagnóstico no es de trastorno psicótico inducido por sustancias/medicamentos. En su lugar se diagnosticará una intoxicación por sustancias o abstinencia de sustancias con alteraciones de la percepción (p. ej., intoxicación por cocaína, con alteraciones de la percepción). Las alucinaciones de tipo flashback que pueden aparecer mucho tiempo después de dejar de consumir alucinógenos se diagnostican como trastorno de percepción persistente por alucinógenos. Si los síntomas psicóticos inducidos por sustancias/medicamentos se producen exclusivamente durante el curso de un delirium, como en los cuadros graves de la abstinencia de alcohol, los síntomas psicóticos se consideran una característica asociada del delirium y no se diagnostican por separado. Los delirios en el contexto de un trastorno neurocognitivo mayor o leve se diagnosticarian como trastorno neurocognitivo mayor o leve, con alteración del comportamiento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno psicótico independiente. Un trastorno psicótico inducido por sustancias/medicamentos se diferencia de un trastorno psicótico independiente, como la esquizofrenia, el trastorno esquizoafectivo, el trastorno delirante, el trastorno psicótico breve, otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico, o un trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico, por el hecho de que se considera que existe una sustancia que está relacionada con la etiología de los síntomas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno psicótico debido a otra afección médica. Un trastorno psicótico inducido por sustancias/medicamentos debido a un tratamiento prescrito para un trastorno mental o una afección médica se debe iniciar mientras el individuo está tomando el medicamento (o durante la retirada de este si existe un síndrome de abstinencia asociado al fármaco). Puesto que los individuos con afecciones médicas a menudo toman medicamentos para dichas afecciones, el clínico debe considerar la posibilidad de que los síntomas psicóticos estén causados por las consecuencias fisiológicas de la patología médica en sí en lugar de por la medicación, en cuyo caso se diagnosticaría un trastorno psicótico debido a otra afección médica. La historia a menudo supone la base principal para realizar este diagnóstico. En ocasiones puede requerirse cambiar el tratamiento de la afección médica (p. ej., sustituir o retirar el medicamento) para determinar de manera empírica si, en ese individuo, el medicamento es el agente causal. Si el clínico determina que la alteración es attribuible tanto a una afección médica como al uso de sustancias/medicamentos, se pueden realizar ambos diagnósticos (es decir, trastorno psicótico debido a otra afección médica y trastorno psicótico inducido por sustancias/medicamentos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otro trastorno del espectro de la esquizofrenia y otro trastorno psicótico especificado o no especificado. Los sintomas psicóticos incluidos en el diagnóstico del trastorno psicótico inducido por sustancias/medicamentos se limitan bien a delirios o bien a alucinaciones. Los individuos con otros síntomas psicóticos inducidos por sustancias (p. ej., conducta desorganizada o catatónica, habla desorganizada, incoherencia o contenido irracional) deben clasificarse en la categoria de otro trastorno del espectro de la esquizofrenia y otro trastorno psicótico especificado o no especificado."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 707,
+        "lineaFin": 717
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-delirante",
+        "nombre": "Trastorno delirante",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-breve",
+        "nombre": "Trastorno psicótico breve",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "esquizofrenia",
+        "nombre": "Esquizofrenia",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizoafectivo",
+        "nombre": "Trastorno esquizoafectivo",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-debido-a-otra-afeccion-medica",
+        "nombre": "Trastorno psicótico debido a otra afección médica",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "otro-trastorno-del-espectro-de-la-esquizofrenia-especificado-y-otro-trastorno-psicotico",
+        "nombre": "Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-del-espectro-de-la-esquizofrenia-no-especificado-y-otro-trastorno-psicotico",
+        "nombre": "Trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 635,
+    "lineaFin": 718
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código CIE localizado en la fuente",
+      "textoLiteral": null,
+      "linea": 635
+    }
+  ]
+}

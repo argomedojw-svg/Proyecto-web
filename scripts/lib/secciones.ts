@@ -54,6 +54,8 @@ const ALIAS: Record<string, ClaveSeccion> = {
   'relacion con otros sistemas de clasificacion': 'relacion_otras_clasificaciones',
   'especificadores de gravedad': 'especificadores',
   'subtipos y especificadores': 'especificadores',
+  // El trastorno delirante desarrolla sus subtipos bajo este rotulo escueto.
+  subtipos: 'especificadores',
   'procedimiento de registro': 'procedimientos_registro',
   'nota de codificacion': 'procedimientos_registro',
 };

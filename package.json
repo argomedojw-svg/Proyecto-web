@@ -12,7 +12,7 @@
     "build:search": "tsx scripts/build-search-index.ts",
     "andamiaje": "tsx scripts/generar-andamiaje.ts",
     "validate": "tsx scripts/validate.ts",
-    "verify": "node scripts/verificar-fidelidad.mjs && node scripts/verificar-cobertura.mjs",
+    "verify": "tsx scripts/verificar-fidelidad.mjs && tsx scripts/verificar-cobertura.mjs",
     "check": "tsc --noEmit && npm run convert && npm run validate && npm run verify",
     "typecheck": "tsc --noEmit",
     "sync:drive": "node scripts/sincronizar-drive.mjs"

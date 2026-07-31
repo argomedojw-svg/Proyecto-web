@@ -8,7 +8,8 @@
  */
 
 import type { CapituloDeclarado, EntradaRegistro } from './tipos.js';
-import { neurodesarrollo } from './neurodesarrollo.js';
+import { CONJUNTOS_NOMBRADOS as CONJUNTOS_NEURODESARROLLO, neurodesarrollo } from './neurodesarrollo.js';
+import { esquizofrenia } from './esquizofrenia.js';
 
 export const REGISTRO_CATEGORIAS: EntradaRegistro[] = [
   { id: 'trastornos-del-neurodesarrollo', nombre: 'Trastornos del neurodesarrollo', orden: 1 },
@@ -56,4 +57,16 @@ export const REGISTRO_CATEGORIAS: EntradaRegistro[] = [
 ];
 
 /** Capitulos que tienen manifiesto y por tanto pueden convertirse. */
-export const CAPITULOS: CapituloDeclarado[] = [neurodesarrollo];
+export const CAPITULOS: CapituloDeclarado[] = [neurodesarrollo, esquizofrenia];
+
+/**
+ * Conjuntos de criterios nombrados de TODOS los capitulos, indexados por el id
+ * del trastorno que los contiene.
+ *
+ * Vive aqui y no en el conversor para que anadir un capitulo con este patron
+ * (un unico apartado de criterios que alberga varios trastornos nombrados,
+ * como los trastornos de tics) siga siendo cuestion de tocar solo su manifiesto.
+ */
+export const CONJUNTOS_NOMBRADOS: Record<string, string[]> = {
+  ...CONJUNTOS_NEURODESARROLLO,
+};

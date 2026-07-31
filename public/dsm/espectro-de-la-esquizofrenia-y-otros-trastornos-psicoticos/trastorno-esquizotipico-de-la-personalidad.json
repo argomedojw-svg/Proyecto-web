@@ -1,0 +1,82 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-esquizotipico-de-la-personalidad",
+  "nombre": "Trastorno esquizotípico (de la personalidad)",
+  "nombreCorto": "Trastorno esquizotípico",
+  "sinonimos": [
+    "de la personalidad",
+    "Trastorno de la personalidad esquizotípica"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "variante",
+  "orden": 0,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 71)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los criterios y el texto relativos al trastorno de la personalidad esquizotípica pueden encontrarse en el capítulo \"Trastornos de la personalidad.\" Este trastorno se menciona en el presente capítulo ya que se considera parte del espectro de la esquizofrenia y, según la CIE-10, está catalogado como trastorno esquizotípico dentro de esta sección, abordándose en profundidad en el capítulo \"Trastornos de la personalidad\"."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 71,
+        "lineaFin": 71
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 69,
+    "lineaFin": 72
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código CIE localizado en la fuente",
+      "textoLiteral": null,
+      "linea": 69
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 69
+    }
+  ]
+}

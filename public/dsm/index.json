@@ -1,7 +1,7 @@
 {
   "esquema": "dsm5tr-indice/1",
   "version": 1,
-  "generadoEn": "2026-07-26T19:09:32.715Z",
+  "generadoEn": "2026-07-31T18:30:23.028Z",
   "categorias": [
     {
       "id": "trastornos-del-neurodesarrollo",
@@ -16,8 +16,8 @@
       "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
       "orden": 2,
       "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/index.json",
-      "disponible": false,
-      "totalTrastornos": 0
+      "disponible": true,
+      "totalTrastornos": 13
     },
     {
       "id": "trastorno-bipolar-y-trastornos-relacionados",

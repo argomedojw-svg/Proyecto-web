@@ -1,0 +1,96 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "otro-trastorno-del-espectro-de-la-esquizofrenia-especificado-y-otro-trastorno-psicotico",
+  "nombre": "Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico",
+  "nombreCorto": "Otro trastorno del espectro de la esquizofrenia especificado",
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F28",
+    "cie10": "F28",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "otro_especificado",
+  "orden": 11,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 917)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Esta categoría se aplica a presentaciones en las que predominan los síntomas características de un trastorno del espectro de la esquizofrenia y otro trastorno psicótico que causan malestar clinicamente significativo o deterioro en lo social, laboral u otras áreas importantes del funcionamiento, pero que no cumplen todos los criterios de ninguno de los trastornos de la categoría diagnóstica del trastorno del espectro de la esquizofrenia y otros trastornos psicóticos. La categoría de otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico se utiliza en situaciones en las que el clínico opta por comunicar el motivo específico por el que la presentación no cumple los criterios de un trastorno específico del espectro de la esquizofrenia u otro trastorno psicótico. Esto se hace registrando \"otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico\" y a continuación el motivo específico (p. ej., \"alucinaciones auditivas persistentes\")."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Algunos ejemplos de presentaciones que se pueden especificar utilizando la designación \"otro especificado\" son los siguientes:"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "1. Alucinaciones auditivas persistentes que se producen en ausencia de cualquier otra característica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "2. Delirios con episodios importantes del estado de ánimo superpuestos: Incluye delirios persistentes con periodos de episodios del estado de ánimo superpuestos que están presentes durante una parte importante del trastorno delirante (de tal manera que no se cumple el criterio que estipula solo una alteración breve del estado de ánimo en el trastorno delirante)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "3. Síndrome de psicosis atenuado: Este síndrome se caracteriza por presentar síntomas parecidos a los psicóticos que están por debajo del umbral de la psicosis establecida (p. ej., los síntomas son menos graves y más transitorios, y la introspección se mantiene relativamente)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "4. Sintomas delirantes en el contexto de la relación con un individuo con delirios prominentes:"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En el contexto de una relación de pareja, material delirante del individuo con trastorno psicótico aporta contenido para los mismos delirios en la otra persona, que, de otro modo, podría no tener síntomas que cumplieran los criterios de un trastorno psicótico."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 917,
+        "lineaFin": 929
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 913,
+    "lineaFin": 930
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 913
+    }
+  ]
+}

@@ -18,6 +18,9 @@ export default defineConfig({
     // se recarga y no hay que recompilar.
     assetsInlineLimit: 0,
   },
-  server: { port: 5173 },
-  preview: { port: 4173 },
+  // Sin puerto fijo: la aplicación es estática y local, no depende de ningún
+  // puerto concreto (no hay OAuth, ni webhooks, ni CORS). Si el entorno define
+  // PORT se respeta; si no, Vite elige uno libre.
+  server: { port: process.env.PORT ? Number(process.env.PORT) : undefined },
+  preview: { port: process.env.PORT ? Number(process.env.PORT) : undefined },
 });

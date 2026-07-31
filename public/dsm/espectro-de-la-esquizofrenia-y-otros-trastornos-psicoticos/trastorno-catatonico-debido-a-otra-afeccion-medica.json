@@ -1,0 +1,287 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-catatonico-debido-a-otra-afeccion-medica",
+  "nombre": "Trastorno catatónico debido a otra afección médica",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F06.1",
+    "cie10": "F06.1",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "catatonia",
+    "nombre": "Catatonía"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 9,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-catatonico-debido-a-otra-afeccion-medica-criterios",
+              "nombre": null,
+              "codigo": "F06.1",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "El cuadro clínico está dominado por tres (o más) de los síntomas siguientes:",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Estupor (es decir, ausencia de actividad psicomotora; no relacionado activamente con el entorno).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Catalepsia (es decir, inducción pasiva de una postura mantenida contra la gravedad).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Flexibilidad cérea (es decir, resistencia leve y constante al cambio de postura dirigida por el examinador).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Mutismo (es decir, respuesta verbal ausente o escasa [Nota: no aplicable si existe afasia establecida]).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.5",
+                      "etiqueta": "5",
+                      "tipo": "criterio",
+                      "texto": "Negativismo (es decir, oposición o ausencia de respuesta a instrucciones o estimulos externos).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.6",
+                      "etiqueta": "6",
+                      "tipo": "criterio",
+                      "texto": "Adopción de una postura (es decir, mantenimiento espontáneo y activo de una postura contra la gravedad).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.7",
+                      "etiqueta": "7",
+                      "tipo": "criterio",
+                      "texto": "Manierismo (es decir, caricatura extraña, circunstancial de acciones normales).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.8",
+                      "etiqueta": "8",
+                      "tipo": "criterio",
+                      "texto": "Estereotipia (es decir, movimientos repetitivos, anormalmente frecuentes, no dirigidos a un objetivo).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.9",
+                      "etiqueta": "9",
+                      "tipo": "criterio",
+                      "texto": "Agitación, no influida por estimulos externos.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.10",
+                      "etiqueta": "10",
+                      "tipo": "criterio",
+                      "texto": "Muecas.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.11",
+                      "etiqueta": "11",
+                      "tipo": "criterio",
+                      "texto": "Ecolalia (es decir, imitación del habla de otra persona).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.12",
+                      "etiqueta": "12",
+                      "tipo": "criterio",
+                      "texto": "Ecopraxia (es decir, imitación de los movimientos de otra persona).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Existen pruebas a partir de la historia clínica, la exploración física o las pruebas de laboratorio de que el trastorno es la consecuencia fisiopatológica directa de otra afección médica.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se explica mejor por otro trastorno mental (p. ej., un episodio maniaco).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se produce exclusivamente durante el curso de un delirium.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "El trastorno causa malestar clínicamente significativo o deterioro en lo social, laboral u otras áreas importantes del funcionamiento.",
+                  "hijos": [
+                    {
+                      "ruta": "E.nota",
+                      "etiqueta": null,
+                      "tipo": "nota_codificacion",
+                      "texto": "Incluir el nombre de la afección médica en el nombre del trastorno mental (p. ej., F06.1 trastorno catatónico debido a encefalopatia hepática). La otra afección médica se codificará y se indicará por separado inmediatamente antes del trastorno catatónico debido a la afección médica (p. ej., K76.82 encefalopatia hepática; F06.1 trastorno catatónico debido a encefalopatia hepática).",
+                      "hijos": []
+                    }
+                  ]
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 855,
+        "lineaFin": 893
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La característica esencial del trastorno catatónico debido a otra afección médica es la presencia de catatonía que se considera atribuible a los efectos fisiológicos de otra afección médica. La catatonía puede diagnosticarse por la presencia de al menos tres de las 12 características diagnósticas del Criterio A. Debe haber indicios, a partir de la historia, la exploración física o los hallazgos de laboratorio, de que la catatonía es atribuible a otra afección médica (Criterio B). No se realiza este diagnóstico si la catatonía se explica mejor por otro trastorno mental (p. ej., un episodio maníaco) (Criterio C) o si aparece exclusivamente durante el curso de un delirium (Criterio D)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 895,
+        "lineaFin": 897
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Diversas afecciones médicas pueden causar catatonía, en especial las patologías neurológicas (p. ej., neoplasias, traumatismos craneoencefálicos, enfermedad cerebrovascular, encefalitis) y metabólicas (p. ej., hipercalcemia, encefalopatía hepática, homocistinuria, cetoacidosis diabética). Los hallazgos de la exploración física, las pruebas de laboratorio y los patrones de prevalencia e inicio asociados son reflejo de los de la afección médica subyacente."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 899,
+        "lineaFin": 901
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "No se realiza el diagnóstico aparte de trastorno catatónico debido a otra afección médica si la catatonia aparece únicamente durante el curso de un delirium o de un síndrome neuroléptico maligno. Sin embargo, aunque no se pueda hacer un diagnóstico separado de catatonía, las investigaciones indican que los síntomas de la catatonia aparecen en un porcentaje significativo de casos de delirium. Si el individuo está tomando medicación antipsicótica en ese momento, se debe considerar el trastorno motor inducido por medicamentos (p. ej., las posturas anómalas pueden deberse a una distonía aguda inducida por neurolépticos) o el síndrome neuroléptico maligno (p. ej., puede haber características de apariencia catatónica junto con alteraciones de las constantes vitales o los parámetros de laboratorio). Los síntomas catatónicos pueden presentarse en cualquiera de los cinco trastornos psicóticos siguientes: trastorno psicótico breve, trastorno esquizofreniforme, esquizofrenia, trastorno esquizoafectivo y trastorno psicótico inducido por sustancias/medicamentos. También pueden presentarse en algunos de los trastornos del neurodesarrollo, en todos los trastornos bipolares y depresivos, y en otros trastornos mentales."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 903,
+        "lineaFin": 905
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-psicotico-breve",
+        "nombre": "Trastorno psicótico breve",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizofreniforme",
+        "nombre": "Trastorno esquizofreniforme",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "esquizofrenia",
+        "nombre": "Esquizofrenia",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizoafectivo",
+        "nombre": "Trastorno esquizoafectivo",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-inducido-por-sustancias-medicamentos",
+        "nombre": "Trastorno psicótico inducido por sustancias/medicamentos",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 853,
+    "lineaFin": 906
+  },
+  "advertencias": []
+}

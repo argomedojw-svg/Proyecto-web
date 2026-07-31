@@ -1,0 +1,382 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-psicotico-debido-a-otra-afeccion-medica",
+  "nombre": "Trastorno psicótico debido a otra afección médica",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [
+    {
+      "etiqueta": "Con delirios",
+      "codigo": "F06.2"
+    },
+    {
+      "etiqueta": "Con alucinaciones",
+      "codigo": "F06.0"
+    }
+  ],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 7,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-psicotico-debido-a-otra-afeccion-medica-criterios",
+              "nombre": null,
+              "codigo": null,
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Alucinaciones o delirios destacados.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Existen pruebas a partir de la historia clínica, la exploración física o las pruebas de laboratorio de que el trastorno es la consecuencia fisiopatológica directa de otra afección médica.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se explica mejor por otro trastorno mental.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se produce exclusivamente durante el curso de un delirium.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "El trastorno causa malestar clínicamente significativo o deterioro en los ámbitos social, laboral u otras áreas importantes del funcionamiento.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Código basado en el sintoma predominante:",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": "F06.2",
+                      "etiqueta": "Con delirios",
+                      "descripcion": "Si los delirios son el sintoma predominante.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": "F06.0",
+                      "etiqueta": "Con alucinaciones",
+                      "descripcion": "Si las alucinaciones son el síntoma predominante.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "Incluir el nombre de la otra afección médica en el nombre del trastorno mental (p. ej., F06.2 trastorno psicótico debido a neoplasia pulmonar maligna, con delirios). La otra afección médica se codificará y se indicará por separado inmediatamente antes del trastorno psicótico debido a la afección médica (p. ej., C34.90 neoplasia pulmonar maligna; F06.2 trastorno psicótico debido a neoplasia pulmonar maligna, con delirios)."
+                  ]
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "La gravedad se clasifica mediante una evaluación cuantitativa de los síntomas primarios de psicosis, tales como: delirios, alucinaciones, comportamiento psicomotor anormal y síntomas negativos. Cada uno de estos síntomas se puede clasificar por su gravedad actual (máxima gravedad en los últimos 7 días) sobre una escala de 5 puntos de 0 (ausente) a 4 (presente y grave). (Véase la escala clínica Gravedad de los síntomas de las dimensiones de psicosis en el capítulo \"Medidas de evaluación\", en la Sección III del DSM-5-TR.)",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "El diagnóstico de trastorno psicótico debido a otra afección médica se puede hacer sin utilizar este especificador de gravedad."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 721,
+        "lineaFin": 747
+      }
+    },
+    {
+      "clave": "especificadores",
+      "claveOriginal": "especificadores",
+      "titulo": "Especificadores",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Además de los dominios sintomáticos identificados en los criterios diagnósticos, la evaluación de los dominios de síntomas cognitivos, depresivos y maniacos es fundamental para realizar distinciones de importancia crítica entre los diferentes trastornos del espectro de la esquizofrenia y otros trastornos psicóticos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 749,
+        "lineaFin": 751
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las características esenciales de un trastorno psicótico debido a otra afección médica son los delirios o las alucinaciones prominentes que se consideran atribuibles a los efectos fisiológicos de otra afección médica y que no se explican mejor por otro trastorno mental (p. ej., los síntomas no son una respuesta mediada psicológicamente a un trastorno médico grave, en cuyo caso lo adecuado sería diagnosticar un trastorno psicótico breve con factor de estrés notable)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las alucinaciones pueden aparecer en cualquier modalidad sensorial (es decir, visual, olfatoria, gustativa, táctil o auditiva), pero ciertos factores etiológicos son proclives a suscitar fenómenos alucinatorios específicos. Las alucinaciones olfatorias sugieren, por ejemplo, una epilepsia del lóbulo temporal. Las alucinaciones pueden variar desde simples e informes a muy complejas y organizadas, dependiendo de factores etiológicos y ambientales. Generalmente no se diagnostica un trastorno psicótico debido a otra afección médica si el individuo mantiene la prueba de realidad para las alucinaciones y entiende que se deben a una afección médica. Los delirios pueden presentar diversos temas, como somáticos, de grandeza, religiosos y, más habitualmente, persecutorios. Sin embargo, en conjunto, las asociaciones entre delirios y afecciones médicas concretas parecen menos específicas que en el caso de las alucinaciones."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque no existen directrices infalibles para determinar si el trastorno psicótico es atribuable a otra afección médica, hay tres consideraciones que pueden ser orientativas: plausibilidad biológica, temporalidad y tipicidad. Primero, debe identificarse la presencia de una afección médica capaz de causar síntomas psicóticos a través de un presunto mecanismo fisiológico (p. ej., infección grave generalizada, porfiria, lupus, epilepsia del lóbulo temporal) (plausibilidad biológica). La segunda consideración es si existe relación temporal entre el inicio, la exacerbación o la remisión de la afección médica y del trastorno psicótico (temporalidad). La tercera consideración a favor de una etiología médica de los síntomas psicóticos es la presencia de rasgos que fueran atípicos en un trastorno psicótico independiente (p. ej., edad atípica de inicio, presencia de alucinaciones visuales u olfativas) (tipicidad). Finalmente, deben considerarse y descartarse las causas de síntomas psicóticos distintas de los efectos fisiológicos de una afección médica (p. ej., trastorno psicótico inducido por sustancias/medicamentos, síntomas psicóticos como efectos secundarios del tratamiento de una afección médica)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La asociación temporal con el inicio o la exacerbación de la afección médica ofrece la mayor certeza diagnóstica de que los delirios o las alucinaciones son atribuibles a una patología médica. Puede haber otros factores adicionales, como los tratamientos concomitantes de la afección médica subyacente, que confieran de forma independiente un riesgo de psicosis, como el tratamiento con esteroides de los trastornos autoinmunes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El diagnóstico de trastorno psicótico debido a otra afección médica depende de la dolencia clínica de cada individuo y las pruebas diagnósticas variarán dependiendo de dicha afección. Gran variedad de afecciones médicas puede causar síntomas psicóticos. Entre ellas están las afecciones neurológicas (p. ej., neoplasias, enfermedad cerebrovascular, enfermedad de Huntington, enfermedad de Parkinson, esclerosis múltiple, epilepsia, lesión o deterioro neural auditivo o visual, sordera, migraña, infecciones del sistema nervioso central), las afecciones endocrinas (p. ej., hipertiroidismo e hipotiroidismo, hiperparatiroidismo e hipoparatiroidismo, hiperadrenocorticismo e hipoadrenocorticismo), las afecciones metabólicas (p. ej., hipoxia, hipercarbia, hipoglucemia), el déficit de vitamina $ B_{12} $ , los desequilibrios hidroelectrolíticos, las enfermedades hepáticas o renales y los trastornos autoinmunes con afectación del sistema nervioso central (p. ej., lupus eritematoso, encefalitis autoinmune antirreceptor de N-metil-D-aspartato [NMDA]). Los hallazgos de la exploración física, los analíticos y los patrones de prevalencia o inicio reflejan la afección médica etiológica."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 753,
+        "lineaFin": 763
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las tasas de prevalencia del trastorno psicótico debido a otra afección médica son dificiles de estimar dada la amplia variedad de etiologías médicas subyacentes. Se estima que la prevalencia a lo largo de la vida está entre el 0,21 y el 0,54 % en estudios realizados en Suecia y Finlandia. Cuando se estratifican los hallazgos de prevalencia en función del grupo etario, los individuos mayores de 65 años tienen una prevalencia significativamente superior, del 0,74 %, en comparación con los grupos de menor edad en Finlandia. Las tasas de psicosis también varian en función de la afección médica subyacente; las afecciones que más comúnmente se asocian a la psicosis son los trastornos endocrinos y metabólicos no tratados, los trastornos autoinmunitarios (p. ej., lupus eritematoso sistémico, encefalitis autoinmune por anticuerpos contra el receptor de NMDA) y la epilepsia del lóbulo temporal. Dentro de la psicosis atribuible a la epilepsia se han diferenciado las psicosis comiciales, poscomiciales e intercomiciales. La más común de estas es la psicosis poscomicial, que se observa en el 2-7,8 % de los individuos con epilepsia. Entre los individuos de más edad puede haber una mayor prevalencia del trastorno en las mujeres, aunque las características adicionales asociadas al sexo o género no están claras, y varian considerablemente con la distribución por sexos y géneros de los trastornos médicos subyacentes. Se calcula que, en un 60 % de los individuos de mayor edad con psicosis de nueva aparición, los síntomas psicóticos tienen una etiología médica."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 765,
+        "lineaFin": 769
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno psicótico debido a otra afección médica puede ser un único estado transitorio o puede ser recurrente, con ciclos que dependan de las exacerbaciones y remisiones de la afección médica subyacente. Aunque el tratamiento de la afección médica subyacente consigue a menudo la resolución de la psicosis, esto no es siempre así y los síntomas psicóticos pueden persistir mucho después del acontecimiento médico (p. ej., el trastorno psicótico debido a una lesión cerebral focal). En el contexto de las patologías crónicas, como la esclerosis múltiple o la psicosis intercomicial crónica de la epilepsia, la psicosis puede adoptar un curso a largo plazo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La expresión fenomenológica de un trastorno psicótico debido a otra afección médica no difiere sustancialmente en función de la edad a la que se presenta. Sin embargo, los grupos de más edad tienen una mayor prevalencia del trastorno, lo que probablemente se deba al aumento de la carga médica que acompaña a la edad avanzada y a los efectos acumulativos de las exposiciones perjudiciales y otros procesos asociados al envejecimiento (p. ej., la arteriosclerosis). Es probable que la naturaleza de las afecciones médicas subyacentes cambie a lo largo de la vida, estando los grupos de menor edad más afectados por la epilepsia, los traumatismos craneoencefálicos, los trastornos autoinmunitarios y las enfermedades neoplásicas, y los grupos de mayor edad por enfermedades neurodegenerativas (p. ej., enfermedad de Alzheimer), ictus, episodios anóxicos y procesos comórbidos en múltiples sistemas. Los factores subyacentes asociados al envejecimiento, como el deterioro cognitivo preexistente o las discapacidades de visión u oído, pueden producir un mayor riesgo de psicosis, posiblemente una disminución del umbral para experimentarla."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 771,
+        "lineaFin": 775
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Modificadores del curso. La identificación y el tratamiento de la afección médica subyacente tiene el mayor impacto sobre el curso, aunque las lesiones preexistentes del sistema nervioso central (p. ej., traumatismo craneoencefálico, enfermedad cerebrovascular) pueden conferir un peor pronóstico."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 777,
+        "lineaFin": 779
+      }
+    },
+    {
+      "clave": "suicidio",
+      "claveOriginal": "asociacion con pensamientos o conductas suicidas",
+      "titulo": "Asociación con pensamientos o conductas suicidas",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El riesgo de suicidio en el contexto de un trastorno psicótico debido a otra afección médica no está claramente definido, aunque algunas patologías como la epilepsia y la esclerosis múltiple se asocian a mayores tasas de suicidio, que pueden aumentar aún más si aparece una psicosis."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 781,
+        "lineaFin": 783
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno psicotico debido a otra afeccion medica",
+      "titulo": "Consecuencias funcionales del trastorno psicótico debido a otra afección médica",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El deterioro funcional en el contexto de un trastorno psicótico debido a otra afección médica es tipicamente grave, pero varía considerablemente según el tipo de afección y habitualmente mejora con la resolución de esta."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 785,
+        "lineaFin": 787
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Delirium y trastorno neurocognitivo mayor o leve. Las alucinaciones y los delirios son comunes en el contexto de un delirium; no se realiza un diagnóstico aparte de trastorno psicótico debido a otra afección médica si los delirios y/o las alucinaciones ocurren exclusivamente durante el transcurso de un delirium. Por otra parte, puede hacerse un diagnóstico de trastorno psicótico debido a otra afección médica, además del diagnóstico de trastorno neurocognitivo mayor o leve, si se considera que los delirios o las alucinaciones son consecuencia fisiológica del proceso patológico causante del trastorno neurocognitivo (p. ej., trastorno psicótico por enfermedad con cuerpos de Lewy, con delirios)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno psicótico inducido por sustancias/medicamentos. Si hay indicios de un uso reciente o prolongado de sustancias (incluidos medicamentos con efectos psicoactivos), de la abstinencia de una sustancia o medicamento capaz de causar síntomas psicóticos al retirarse, o de la exposición a una toxina (p. ej., intoxicación por dietilamida de ácido lisérgico, abstinencia de alcohol), se debe considerar el trastorno psicótico inducido por sustancias/medicamentos. Los síntomas que tienen lugar durante o poco después (es decir, dentro de las primeras 4 semanas) de una intoxicación o abstinencia, o después del uso de medicamentos, pueden ser indicativos de un trastorno psicótico inducido por sustancias, dependiendo del tipo, la duración y la cantidad de la sustancia consumida. Si el clínico determina que la alteración es atribuible tanto a una afección médica como al uso de sustancias, se pueden realizar ambos diagnósticos (es decir, trastorno psicótico debido a otra afección médica y trastorno psicótico inducido por sustancias/medicamentos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno psicótico. El trastorno psicótico debido a otra afección médica debe distinguirse del trastorno psicótico no debido a otra afección médica (p. ej., esquizofrenia, trastorno delirante, trastorno esquizoafectivo) y del trastorno depresivo mayor o bipolar con características psicóticas. En los trastornos psicóticos y en los trastornos depresivos o bipolares con características psicóticas no se pueden demostrar mecanismos fisiológicos causales específicos y directos asociados a una afección médica. La edad de inicio tardía y la ausencia de antecedentes personales o familiares de esquizofrenia o de trastorno delirante sugieren la necesidad de realizar una evaluación completa para descartar el diagnóstico de trastorno psicótico debido a otra afección médica. Las alucinaciones auditivas en forma de voces que pronuncian frases complejas son más características de la esquizofrenia que del trastorno psicótico debido a otra afección médica. Aunque ciertos síntomas sugieren una etiología tóxica o médica (p. ej., alucinaciones visuales u olfativas, calidad onírica de los delirios [el individuo como observador no implicado]), no existen signos ni síntomas patognomónicos que orienten al clínico hacia uno u otro trastorno de forma inequivoca. Las alucinaciones visuales no son frecuentes ni en la esquizofrenia ni en el trastorno bipolar, y las alucinaciones olfativas (p. ej., olores desagradables) también son compatibles con un diagnóstico de esquizofrenia. Por tanto, los clínicos no deben otorgar ningún peso indebido a ningún tipo concreto de alucinación en sí a la hora de decidir entre una causa psiquiátrica y una médica como psicopatología."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 789,
+        "lineaFin": 797
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno psicótico debido a otra afección médica en los individuos mayores de 80 años se relaciona con el trastorno neurocognitivo mayor (demencia). La enfermedad de Alzheimer se acompaña habitualmente de psicosis, y la psicosis es un rasgo definitorio de la enfermedad con cuerpos de Lewy."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 799,
+        "lineaFin": 801
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-delirante",
+        "nombre": "Trastorno delirante",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "esquizofrenia",
+        "nombre": "Esquizofrenia",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizoafectivo",
+        "nombre": "Trastorno esquizoafectivo",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-inducido-por-sustancias-medicamentos",
+        "nombre": "Trastorno psicótico inducido por sustancias/medicamentos",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 719,
+    "lineaFin": 802
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (2)",
+      "textoLiteral": null,
+      "linea": 719
+    }
+  ]
+}

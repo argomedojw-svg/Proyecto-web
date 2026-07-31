@@ -1,0 +1,477 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-esquizoafectivo",
+  "nombre": "Trastorno esquizoafectivo",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [
+    {
+      "etiqueta": "Tipo bipolar",
+      "codigo": "F25.0"
+    },
+    {
+      "etiqueta": "Tipo depresivo",
+      "codigo": "F25.1"
+    }
+  ],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 5,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-esquizoafectivo-criterios",
+              "nombre": null,
+              "codigo": null,
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Un periodo ininterrumpido de enfermedad durante el cual existe un episodio mayor del estado de ánimo (maniaco o depresivo mayor) concurrente con el Criterio A de esquizofrenia.",
+                  "hijos": [
+                    {
+                      "ruta": "A.nota",
+                      "etiqueta": null,
+                      "tipo": "nota",
+                      "texto": "El episodio depresivo mayor ha de incluir el Criterio A1: Depresión del estado de ánimo.",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Delirios o alucinaciones durante 2 o más semanas en ausencia de un episodio mayor del estado de ánimo (maniaco o depresivo) durante todo el curso de la enfermedad.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Los síntomas que cumplen los criterios de un episodio mayor del estado de ánimo están presentes durante la mayor parte de la duración total de las fases activa y residual de la enfermedad.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se puede atribuir a los efectos de una sustancia (p. ej., una droga o medicamento) o a otra afección médica.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": "F25.0",
+                      "etiqueta": "Tipo bipolar",
+                      "descripcion": "Este subtipo se aplica si un episodio maniaco forma parte de la presentación. También se pueden producir episodios depresivos mayores.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": "F25.1",
+                      "etiqueta": "Tipo depresivo",
+                      "descripcion": "Este subtipo solo se aplica si episodios depresivos mayores forman parte de la presentación.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con catatonía (para la definición, véanse los criterios de catatonía asociada a otro trastorno mental; pág. 135).",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "Utilizar el código adicional F06.1 catatonía asociada a trastorno esquizoafectivo para indicar la presencia de catatonía concurrente."
+                  ]
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Los siguientes especificadores del curso de la enfermedad solo se utilizarán después de 1 año de duración del trastorno y si no están en contradicción con los criterios de evolución diagnósticos:",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en episodio agudo",
+                      "descripcion": "La primera manifestación del trastorno cumple los criterios requeridos para el diagnóstico en cuanto a síntomas y tiempo. Un episodio agudo es un período en que se cumplen los criterios sintomáticos.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en remisión parcial",
+                      "descripcion": "Remisión parcial es el período durante el cual se mantiene una mejoría después de un episodio anterior y en el que los criterios que definen el trastorno solo se cumplen parcialmente.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en remisión total",
+                      "descripcion": "Remisión total es el período después de un episodio anterior durante el cual los síntomas específicos del trastorno no están presentes.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en episodio agudo",
+                      "descripcion": "Los episodios múltiples se pueden determinar después de un mínimo de dos episodios (es decir, después de un primer episodio, una remisión y un mínimo de una recidiva).",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en remisión parcial",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en remisión total",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Continuo",
+                      "descripcion": "Los síntomas que cumplen los criterios de diagnóstico del trastorno están presentes durante la mayor parte del curso de la enfermedad, con periodos sintomáticos por debajo del umbral muy breves en comparación con el curso global.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "No especificado",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "La gravedad se clasifica mediante una evaluación cuantitativa de los síntomas primarios de psicosis que incluye: delirios, alucinaciones, discursos desorganizado, comportamiento psicomotor anormal y síntomas negativos. Cada uno de estos síntomas se puede clasificar por su gravedad actual (máxima gravedad en los últimos 7 días) sobre una escala de 5 puntos de 0 (ausente) a 4 (presente y grave). (Véase la escala clínica Gravedad de los síntomas de las dimensiones de psicosis en el capítulo “Medidas de evaluación”, en la Sección III del DSM-5-TR.)",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "El diagnóstico de trastorno esquizoafectivo se puede hacer sin utilizar este especificador de gravedad."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 525,
+        "lineaFin": 573
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El diagnóstico de trastorno esquizoafectivo se basa en la valoración de un período ininterrumpido de enfermedad durante el cual el individuo sigue manifestando síntomas activos o residuales de la patología psicótica. El diagnóstico habitualmente, aunque no necesariamente, se hace durante el período de enfermedad psicótica. En algún momento del período debe cumplirse el Criterio A de la esquizofrenia. El Criterio B (disfunción social), el C (duración de 6 meses) y el F (exclusión de un trastorno del espectro autista u otro trastorno de la comunicación de inicio en la infancia) de la esquizofrenia no tienen por qué cumplirse. Además de cumplir el Criterio A de la esquizofrenia, hay un episodio mayor del estado de ánimo (depresivo mayor o maníaco) (Criterio A para el trastorno esquizoafectivo). Puesto que la pérdida de interés o de placer es frecuente en la esquizofrenia, para cumplir el Criterio A del trastorno esquizoafectivo, el episodio depresivo mayor debe cursar con ánimo deprimido de manera generalizada (es decir, que la presencia de una disminución importante del interés o del placer no es suficiente). Los episodios de depresión o de manía están presentes durante la mayor parte de la duración total de la enfermedad (es decir, después de que se cumpla el Criterio A) (Criterio C del trastorno esquizoafectivo). Para diferenciar el trastorno esquizoafectivo de un trastorno depresivo o bipolar con características psicóticas, los delirios o alucinaciones deben estar presentes durante al menos 2 semanas en ausencia de un episodio mayor del estado de ánimo (depresivo o maníaco) en algún momento de la enfermedad (Criterio B para el trastorno esquizoafectivo). Los sintomas no son atribuibles a los efectos de una sustancia o a otra afección médica (Criterio D del trastorno esquizoafectivo)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El Criterio C del trastorno esquizoafectivo especifica que los síntomas del estado de ánimo que cumplen los criterios de un episodio mayor del estado de ánimo deben estar presentes durante la mayor parte de las fases activa y residual de la enfermedad. El Criterio C requiere la valoración de los síntomas del estado de ánimo durante todo el curso vitalicio de la enfermedad psicótica. Si los síntomas del estado de ánimo solo están presentes durante un período relativamente breve, el diagnóstico es de esquizofrenia, no de trastorno esquizoafectivo. A la hora de decidir si la presentación de un individuo cumple el Criterio C, el clínico debe revisar toda la duración de la enfermedad psicótica (es decir, tanto los síntomas activos como los residuales) y determinar cuándo hubo síntomas del estado de ánimo significativos (no tratados o que necesitaron tratamiento con antidepresivos o fármacos estabilizadores del ánimo) acompañando a los síntomas psicóticos. Determinar esto requiere tanto información histórica suficiente como juicio clínico. Por ejemplo, un individuo con antecedentes de 4 años de síntomas activos y residuales de esquizofrenia desarrolla episodios depresivos y maniacos que, tomados en conjunto, no ocupan más de 1 año a lo largo de los 4 años de la historia de la enfermedad psicótica. Esta presentación no cumpliría el Criterio C."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Además de los cinco dominios sintomáticos identificados en los criterios diagnósticos, es fundamental la evaluación de los dominios de síntomas cognitivos, depresivos y maníacos para realizar las distinciones de importancia crítica entre los diferentes trastornos del espectro de la esquizofrenia y otros trastornos psicóticos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 575,
+        "lineaFin": 583
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El funcionamiento ocupacional y social a menudo se ve afectado, pero esto no es un criterio definitorio (a diferencia de la esquizofrenia). La restricción del contacto social y las dificultades con el autocuidado se asocian al trastorno esquizoafectivo, pero los síntomas negativos pueden ser menos graves y menos persistentes que los que aparecen en la esquizofrenia. La anosognosia (es decir, la ausencia de introspección) también es común en el trastorno esquizoafectivo, pero los déficits en la capacidad de introspección pueden ser menos graves y generalizados que los de la esquizofrenia. Los individuos con trastorno esquizoafectivo pueden tener un riesgo mayor de desarrollar posteriormente episodios de trastorno depresivo mayor o trastorno bipolar si los síntomas del estado de ánimo se mantienen tras la remisión de los síntomas que cumplen el Criterio A para la esquizofrenia. Pueden asociarse trastornos relacionados con el alcohol u otras sustancias."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No hay pruebas ni medidas biológicas que puedan ayudar definitivamente a diagnosticar un trastorno esquizoafectivo. Las pruebas neuropsicológicas muestran típicamente déficits cognitivos en áreas tales como la función ejecutiva, la memoria verbal y la velocidad de procesamiento, que pueden ser menos pronunciados que en la esquizofrenia. El trastorno esquizoafectivo se caracteriza a menudo por una pérdida de volumen de la materia gris en las imágenes cerebrales, de forma muy parecida a la esquizofrenia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 585,
+        "lineaFin": 589
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La frecuencia del trastorno esquizoafectivo parece ser una tercera parte de la frecuencia de la esquizofrenia. Se calculó en una muestra finlandesa que la prevalencia del trastorno esquizoafectivo a lo largo de la vida es del 0,3 %, siendo mayor en las mujeres que en los varones al utilizar los criterios diagnósticos del DSM-IV. Cabría esperar que esta tasa fuera menor en virtud del requisito más estricto del Criterio C del DSM-5 (es decir, los síntomas que cumplen los criterios de un episodio mayor del estado de ánimo están presentes durante la mayor parte de la duración total de las fases activa y residual de la enfermedad)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 591,
+        "lineaFin": 593
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La edad típica de inicio del trastorno esquizoafectivo es la vida adulta temprana, aunque el inicio puede darse en cualquier momento entre la adolescencia y las etapas tardías de la vida. Un número significativo de sujetos diagnosticados inicialmente de otra enfermedad psicótica recibirán posteriormente un diagnóstico de trastorno esquizoafectivo una vez que el patrón de episodios del estado de ánimo se ha hecho más evidente, mientras que otros podrán diagnosticarse de trastornos del ánimo antes de la detección de los síntomas psicóticos independientes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Por el contrario, en algunos individuos el diagnóstico de trastorno esquizoafectivo se cambiará por el de un trastorno del ánimo o el de esquizofrenia con el tiempo. El cambio de diagnóstico de trastorno esquizoafectivo a esquizofrenia era más frecuente que el cambio a trastorno del ánimo con los criterios del DSM-IV, y la diferencia se espera que sea más pronunciada con el DSM-5, pues el actual Criterio C del trastorno esquizoafectivo es ahora más estricto y requiere que los síntomas anímicos estén presentes durante la mayor parte de la enfermedad, mientras que la definición del DSM-IV solo requería que los síntomas anímicos estuvieran presentes durante un período \"sustancial\". El pronóstico del trastorno esquizoafectivo es algo mejor que el de la esquizofrenia, pero peor que el de los trastornos del estado de ánimo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno esquizoafectivo puede presentarse con diversos patrones temporales. El siguiente sería un patrón típico: un individuo puede tener alucinaciones auditivas pronunciadas y delirios persecutorios durante 2 meses antes del inicio de un episodio depresivo mayor prominente. Luego, los síntomas psicóticos y el episodio depresivo mayor completo se mantienen durante 4 meses. Posteriormente el individuo se recupera por completo del episodio depresivo mayor, pero persisten los síntomas psicóticos durante otro mes más antes de remitir también. Durante este período de enfermedad, los síntomas del individuo cumplieron simultáneamente los criterios del trastorno depresivo mayor y el Criterio A de la esquizofrenia, y durante este mismo período de la enfermedad las alucinaciones auditivas y los delirios estuvieron presentes tanto antes como después de la fase depresiva. El período total de enfermedad duró unos 7 meses, solo con síntomas psicóticos durante los primeros 2 meses, con síntomas tanto depresivos como psicóticos durante los siguientes 4 meses y únicamente con síntomas psicóticos durante el último mes. En este caso, el episodio depresivo estuvo presente durante la mayor parte de la duración total del trastorno psicótico, por lo que esta presentación cumple los requisitos del trastorno esquizoafectivo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La relación temporal entre los síntomas animicos y los síntomas psicóticos a lo largo de la vida es variable. Los síntomas depresivos o maniacos pueden ocurrir antes del inicio de la psicosis, durante los episodios psicóticos agudos, durante los periodos residuales y tras cesar la psicosis. Por ejemplo, un individuo puede presentar síntomas del estado de ánimo prominentes durante la fase prodrómica de la esquizofrenia. Este patrón no indica necesariamente un trastorno esquizoafectivo, puesto que lo que determina el diagnóstico es la concurrencia de síntomas psicóticos y del estado de ánimo. Para un individuo con síntomas que claramente cumplen los criterios del trastorno esquizoafectivo pero que durante el seguimiento solo presenta síntomas psicóticos residuales (como psicosis por debajo del umbral o síntomas negativos prominentes), el diagnóstico puede cambiar a esquizofrenia, puesto que se vuelve más prominente la proporción total del cuadro psicótico en comparación con los síntomas del estado de ánimo. El trastorno esquizoafectivo de tipo bipolar podría ser más común en los adultos jóvenes y el trastorno esquizoafectivo de tipo depresivo podría ser más común en los adultos mayores."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 595,
+        "lineaFin": 605
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Genéticos y fisiológicos. Puede haber un mayor riesgo de presentar trastorno esquizoafectivo en los familiares de primer grado de los sujetos con esquizofrenia. El riesgo del trastorno esquizoafectivo podría estar también incrementado entre los individuos que tienen un familiar de primer grado con esquizofrenia, trastorno bipolar o trastorno esquizoafectivo. Las firmas compuestas genético-moleculares conocidas como puntuaciones de riesgo poligénico de la esquizofrenia, el trastorno bipolar y el trastorno depresivo mayor pueden estar todas ellas elevadas en el trastorno esquizoafectivo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 607,
+        "lineaFin": 609
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Deben considerarse los factores culturales y socioeconómicos, en especial cuando el individuo y el clínico no comparten el mismo entorno cultural y económico. Ideas que parecen delirantes en un contexto cultural (p. ej., mal de ojo, producción de enfermedades mediante maldiciones, influencias de espíritus) pueden estar ampliamente extendidas en otra. También hay algún indicio en la bibliografía de que las poblaciones afroamericanas e hispanoamericanas con síntomas que cumplen los criterios del trastorno esquizoafectivo tienen más probabilidades de recibir un diagnóstico de esquizofrenia. Para mitigar el impacto del sesgo clínico hay que ser cuidadosos y asegurarse de realizar una evaluación exhaustiva que cubra los síntomas tanto psicóticos como animicos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 611,
+        "lineaFin": 613
+      }
+    },
+    {
+      "clave": "suicidio",
+      "claveOriginal": "asociacion con pensamientos y conductas suicidas",
+      "titulo": "Asociación con pensamientos y conductas suicidas",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El riesgo de suicidio a lo largo de la vida en la esquizofrenia y el trastorno esquizoafectivo es del 5 %. La presencia de síntomas depresivos se correlaciona con un mayor riesgo de suicidio. Se ha demostrado que las tasas de suicidio son mayores en las poblaciones de sujetos con esquizofrenia o trastorno esquizoafectivo norteamericanas que en las europeas, sudamericanas e indias."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 615,
+        "lineaFin": 617
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno esquizoafectivo",
+      "titulo": "Consecuencias funcionales del trastorno esquizoafectivo",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno esquizoafectivo se asoci a disfunción global, incluidos los dominios social y ocupacional, pero la disfunción no es un criterio diagnóstico (como sí lo es en la esquizofrenia) y la variabilidad es considerable entre los individuos diagnosticados de trastorno esquizoafectivo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 619,
+        "lineaFin": 621
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Otros trastornos mentales y afecciones médicas. Una amplia variedad de afecciones psiquiátricas y médicas se pueden manifestar con síntomas psicóticos y del estado de ánimo, y deben ser consideradas en el diagnóstico diferencial del trastorno esquizoafectivo. Estas son el delirium, el trastorno neurocognitivo mayor, el trastorno psicótico o neurocognitivo inducido por sustancias/ medicamentos, los trastornos bipolares con características psicóticas, el trastorno depresivo mayor con características psicóticas, los trastornos depresivos y bipolares con características catatónicas, los trastornos esquizotípico, esquizoide y paranoide de la personalidad, el trastorno psicótico breve, el trastorno esquizofreniforme, la esquizofrenia, el trastorno delirante y otros trastornos del espectro de la esquizofrenia especificados y no especificados, y otros trastornos psicóticos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno psicótico debido a otra afección médica. Otras afecciones médicas y el uso de sustancias pueden manifestarse como una combinación de síntomas psicóticos y del estado de ánimo, por lo que es necesario excluir el trastorno psicótico debido a otra afección médica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Esquizofrenia, trastornos bipolar y depresivo. Distinguir el trastorno esquizoafectivo de la esquizofrenia y de los trastornos depresivo y bipolar con características psicóticas resulta a menudo dificil. El Criterio C está diseñado para separar el trastorno esquizoafectivo de la esquizofrenia, y el Criterio B, para distinguir el trastorno esquizoafectivo de un trastorno depresivo o bipolar con características psicóticas. En concreto, el trastorno esquizoafectivo puede distinguirse de un trastorno depresivo mayor o bipolar con características psicóticas por la presencia de delirios o alucinaciones prominentes durante al menos 2 semanas en ausencia de un episodio mayor del estado de ánimo. Por el contrario, en los trastornos depresivos o bipolares con características psicóticas, estas características aparecen solamente durante los episodios del estado de ánimo. Puesto que la proporción relativa de síntomas del estado de ánimo y psicóticos puede cambiar a lo largo del tiempo, el diagnóstico apropiado puede cambiar y dejar de ser o volver a ser el de trastorno esquizoafectivo (p. ej., un diagnóstico de trastorno esquizoafectivo por un cuadro depresivo mayor grave y prominente, que dura 4 meses durante los primeros 6 meses de un trastorno psicótico persistente, se cambiaría a esquizofrenia si persisten los síntomas psicóticos activos o los síntomas residuales prominentes durante varios años, sin la recurrencia de otro episodio del estado de ánimo). Conocer más claramente la ratio relativa entre síntomas animicos y psicóticos a lo largo del tiempo y su concurrencia podría requerir información colateral a partir de la historia clínica y de informadores."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 623,
+        "lineaFin": 629
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 10,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos individuos diagnosticados de trastorno esquizoafectivo también son diagnosticados de otros trastornos mentales, en especial de trastornos por uso de sustancias y trastornos de ansiedad. De manera similar, la incidencia de afecciones médicas, incluido el síndrome metabólico, está aumentada con respecto a la tasa basal de la población general y lleva a una menor esperanza de vida."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 631,
+        "lineaFin": 633
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-delirante",
+        "nombre": "Trastorno delirante",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-breve",
+        "nombre": "Trastorno psicótico breve",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizofreniforme",
+        "nombre": "Trastorno esquizofreniforme",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "esquizofrenia",
+        "nombre": "Esquizofrenia",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-debido-a-otra-afeccion-medica",
+        "nombre": "Trastorno psicótico debido a otra afección médica",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 523,
+    "lineaFin": 634
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (2)",
+      "textoLiteral": null,
+      "linea": 523
+    }
+  ]
+}

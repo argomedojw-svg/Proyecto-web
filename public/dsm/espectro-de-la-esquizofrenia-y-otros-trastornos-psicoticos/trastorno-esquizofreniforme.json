@@ -1,0 +1,359 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-esquizofreniforme",
+  "nombre": "Trastorno esquizofreniforme",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F20.81",
+    "cie10": "F20.81",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 3,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-esquizofreniforme-criterios",
+              "nombre": null,
+              "codigo": "F20.81",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Dos (o más) de los síntomas siguientes, cada uno de ellos presente durante una parte significativa de tiempo durante un período de 1 mes (o menos si se trató con éxito). Al menos uno de ellos ha de ser (1), (2) o (3):",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Delirios.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Alucinaciones.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Discurso desorganizado (p. ej., disgregación o incoherencia frecuente).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Comportamiento muy desorganizado o catatónico.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.5",
+                      "etiqueta": "5",
+                      "tipo": "criterio",
+                      "texto": "Sintomas negativos (es decir, expresión emotiva disminuida o abulia).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Un episodio del trastorno dura como mínimo 1 mes pero menos de 6 meses. Cuando el diagnóstico se ha de hacer sin esperar a la recuperación, se calificará como \"provisional\".",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Se han descartado el trastorno esquizoafectivo y el trastorno depresivo o bipolar con caracteristicas psicóticas porque 1) no se han producido episodios maniacos o depresivos mayores de forma concurrente con los síntomas de la fase activa, o 2) si se han producido episodios del estado de ánimo durante los síntomas de fase activa, han estado presentes durante una parte mínima de la duración total de los periodos activo y residual de la enfermedad.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., una droga o un medicamento) u otra afección médica.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con características de buen pronóstico",
+                      "descripcion": "Este especificador requiere la presencia de dos o más de las siguientes características: aparición de síntomas psicóticos notables en las primeras 4 semanas después del primer cambio apreciable del comportamiento o funcionamiento habitual, confusión o perplejidad, buen funcionamiento social y laboral antes de la enfermedad, y ausencia de afecto embotado o plano.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Sin características de buen pronóstico",
+                      "descripcion": "Este especificador se aplica si no han estado presentes dos o más de las características anteriores.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con catatonía (para la definición, veanse los criterios de catatonía asociada a otro trastorno mental; pág. 135).",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "Utilizar el código adicional F06.1 catatonia asociada a trastorno esquizofreniforme para indicar la presencia de catatonia concurrente."
+                  ]
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "La gravedad se clasifica mediante una evaluación cuantitativa de los síntomas primarios de psicosis",
+                      "descripcion": "delirios, alucinaciones, discurso desorganizado, comportamiento psicomotor anormal y síntomas negativos. Cada uno de estos síntomas se puede clasificar por su gravedad actual (máxima gravedad en los últimos 7 días) sobre una escala de 5 puntos de 0 (ausente) a 4 (presente y grave). (Véase la escala clínica Gravedad de los síntomas de las dimensiones de psicosis en el capítulo \"Medidas de evaluación\", en la Sección III del DSM-5-TR).",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "El diagnóstico de trastorno esquizofreniforme se puede hacer sin utilizar este especificador de gravedad.",
+                    "Véase información adicional sobre las características asociadas que apoyan el diagnóstico, el desarrollo y el curso (factores relacionados con la edad), los aspectos diagnósticos relacionados con la cultura, los aspectos diagnósticos relacionados con el sexo y el género, el diagnóstico diferencial y las afecciones concomitantes en las secciones correspondientes de la esquizofrenia."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 275,
+        "lineaFin": 317
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los síntomas característicos del trastorno esquizofreniforme son idénticos a los de la esquizofrenia (Criterio A). El trastorno esquizofreniforme se distingue por su diferente duración: la duración total de la enfermedad, incluidas las fases prodrómica, activa y residual, es de al menos 1 mes, pero menor de 6 meses (Criterio B). El requisito de duración del trastorno esquizofreniforme se encuentra entre el del trastorno psicótico breve, que dura más de 1 día y remite antes de 1 mes, y el de la esquizofrenia, que dura al menos 6 meses. El diagnóstico de trastorno esquizofreniforme se realiza en dos situaciones: 1) cuando un episodio de la enfermedad dura entre 1 y 6 meses y el sujeto ya se ha recuperado, y 2) cuando un individuo tiene síntomas durante menos de los 6 meses requeridos para diagnosticar una esquizofrenia, pero todavía no se ha recuperado. En este caso, el diagnóstico debe anotarse como \"trastorno esquizofreniforme (provisional)\", puesto que no es seguro que el individuo vaya a recuperarse del trastorno dentro del período de 6 meses. Si la alteración persiste más allá de los 6 meses, el diagnóstico debe cambiarse a esquizofrenia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otra característica que distingue al trastorno esquizofreniforme es la ausencia de un criterio que requiera deterioro del funcionamiento social y laboral. Aunque, en potencia, dichas alteraciones puedan estar presentes, no son necesarias para diagnosticar el trastorno esquizofreniforme."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Además de los cinco dominios sintomáticos identificados en los criterios diagnósticos, la evaluación de los dominios de sintomas cognitivos, depresivos y maniacos es fundamental para realizar distinciones de importancia crítica entre los diferentes trastornos del espectro de la esquizofrenia y otros trastornos psicóticos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 319,
+        "lineaFin": 325
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Al igual que en la esquizofrenia, no se dispone en la actualidad de pruebas de laboratorio o psicométricas para el trastorno esquizofreniforme. Hay múltiples regiones cerebrales en las que los estudios de neuroimagen, la neuropatología y la neurofisiología han encontrado anomalías, pero ninguna de ellas es diagnóstica."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 327,
+        "lineaFin": 329
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La incidencia del trastorno esquizofreniforme en los diferentes contextos socioculturales probablemente sea similar a la observada en la esquizofrenia. En Estados Unidos y en otros países de rentas altas, la incidencia es baja, posiblemente cinco veces menor que la de la esquizofrenia. En los países de rentas bajas, la incidencia puede ser mayor, en especial para el especificador \"con características de buen pronóstico\"; en algunos de estos contextos, el trastorno esquizofreniforme puede ser tan frecuente como la esquizofrenia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 331,
+        "lineaFin": 333
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El desarrollo del trastorno esquizofreniforme es similar al de la esquizofrenia. Alrededor de un tercio de los individuos con diagnóstico inicial de trastorno esquizofreniforme (provisional) se recuperan dentro del período de 6 meses y el trastorno esquizofreniforme es el diagnóstico final. La mayoría de los dos tercios restantes recibirá posteriormente un diagnóstico de esquizofrenia o de trastorno esquizoafectivo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 335,
+        "lineaFin": 337
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Genéticos y fisiológicos. Los familiares de los sujetos con trastorno esquizofreniforme tienen un riesgo aumentado de padecer esquizofrenia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 339,
+        "lineaFin": 341
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno esquizofreniforme",
+      "titulo": "Consecuencias funcionales del trastorno esquizofreniforme",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Para la mayoría de los individuos con trastorno esquizofreniforme que posteriormente reciben un diagnóstico de esquizofrenia o de trastorno esquizoafectivo, las consecuencias funcionales son similares a las de estos trastornos. La mayoría de los sujetos presentan disfunción en varias áreas del funcionamiento diario, como los estudios o el trabajo, las relaciones interpersonales y el autocuidado. Los individuos que se recuperan del trastorno esquizofreniforme tienen mejores resultados funcionales."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 343,
+        "lineaFin": 345
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Otros trastornos mentales y afecciones médicas pueden manifestarse con síntomas psicóticos que deben ser considerados en el diagnóstico diferencial del trastorno esquizofreniforme. Son el trastorno psicótico debido a otra afección médica o a su tratamiento, el delirium o el trastorno neurocognitivo mayor, el trastorno psicótico o el delirium inducidos por sustancias/medicamentos, el trastorno depresivo mayor o bipolar con características psicóticas, el trastorno esquizoafectivo, otro trastorno bipolar y trastorno relacionado especificado o no especificado, el trastorno depresivo mayor o bipolar con características catatónicas, la esquizofrenia, el trastorno delirante, otro trastorno del espectro de la esquizofrenia especificado o no especificado y otro trastorno psicótico, los trastornos de la personalidad esquizotípica, esquizoide o paranoide, los trastornos del espectro autista, los trastornos de inicio en la infancia con desorganización del lenguaje, el trastorno por déficit de atención/hiperactividad, el trastorno obsesivo-compulsivo, el trastorno de estrés postraumático y el traumatismo cerebral."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Puesto que los criterios diagnósticos del trastorno esquizofreniforme y la esquizofrenia difieren fundamentalmente en la duración de la enfermedad, la discusión acerca del diagnóstico diferencial de la esquizofrenia también se aplica al trastorno esquizofreniforme."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno psicótico breve. El trastorno esquizofreniforme difiere en su duración del trastorno psicótico breve, cuya duración es inferior a 1 mes."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 347,
+        "lineaFin": 353
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-delirante",
+        "nombre": "Trastorno delirante",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-breve",
+        "nombre": "Trastorno psicótico breve",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "esquizofrenia",
+        "nombre": "Esquizofrenia",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizoafectivo",
+        "nombre": "Trastorno esquizoafectivo",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-debido-a-otra-afeccion-medica",
+        "nombre": "Trastorno psicótico debido a otra afección médica",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 273,
+    "lineaFin": 354
+  },
+  "advertencias": []
+}

@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-07-26T19:09:32.727Z",
+  "generadoEn": "2026-07-31T18:30:23.033Z",
   "incidencias": [
     {
       "codigo": "tabla_fragmentada",
@@ -608,6 +608,398 @@
       "textoLiteral": null,
       "linea": 1380,
       "ambito": "Trastorno del neurodesarrollo no especificado"
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 19–21)",
+      "textoLiteral": "…íntomas postraumáticos. Una evaluación cuida- ⟨+⟩ dosa de si los miedos de la persona están jus…",
+      "linea": 21,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 39–41)",
+      "textoLiteral": "… disminución de la expresión de las emociones ⟨+⟩ mediante la cara, el contacto ocular, la ento…",
+      "linea": 41,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 133–135)",
+      "textoLiteral": "…ganizado, comportamiento psicomotor anormal y ⟨+⟩ síntomas negativos. Cada uno de estos síntoma…",
+      "linea": 135,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 175–177)",
+      "textoLiteral": "…ivo con el especificador \"ausencia de intros- ⟨+⟩ pección/con creencias delirantes\", en lugar d…",
+      "linea": 177,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 265–267)",
+      "textoLiteral": "… u otro trastorno del espectro de la esquizo- ⟨+⟩ frenia especificado o no especificado y otro …",
+      "linea": 267,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 307–309)",
+      "textoLiteral": "…F06.1 catatonia asociada a trastorno esquizo- ⟨+⟩ freniforme para indicar la presencia de catat…",
+      "linea": 309,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 373–375)",
+      "textoLiteral": "…o (o cuando comienza en la infancia o la ado- ⟨+⟩ lescencia, fracasa la consecución del nivel e…",
+      "linea": 375,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 373–377)",
+      "textoLiteral": "… de funcionamiento interpersonal, académico o ⟨+⟩ laboral).…",
+      "linea": 377,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 457–459)",
+      "textoLiteral": "…idad). Estos síntomas no deben ser atribuidos ⟨+⟩ a una esquizofrenia sin haber considerado los…",
+      "linea": 459,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 473–475)",
+      "textoLiteral": "…ucinaciones visuales o auditivas de contenido ⟨+⟩ religioso (p. ej., escuchar la voz de Dios) f…",
+      "linea": 475,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 489–491)",
+      "textoLiteral": "… más acusados de lo que cabría esperar de los ⟨+⟩ deterioros cognitivos generales asociados al …",
+      "linea": 491,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 511–513)",
+      "textoLiteral": "…. Los individuos con delirium o con trastorno ⟨+⟩ neurocognitivo mayor o leve pueden presentar …",
+      "linea": 513,
+      "ambito": null
+    },
+    {
+      "codigo": "guion_de_corte",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 579–581)",
+      "textoLiteral": "…cio de la enfermedad psicótica. Si los sínto- ⟨+⟩ mas del estado de ánimo solo están presentes …",
+      "linea": 581,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 599–601)",
+      "textoLiteral": "…frecuente que el cambio a trastorno del ánimo ⟨+⟩ con los criterios del DSM-IV, y la diferencia…",
+      "linea": 601,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 715–717)",
+      "textoLiteral": "…lirios o bien a alucinaciones. Los individuos ⟨+⟩ con otros síntomas psicóticos inducidos por s…",
+      "linea": 717,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 767–769)",
+      "textoLiteral": "… se han diferenciado las psicosis comiciales, ⟨+⟩ poscomiciales e intercomiciales. La más común…",
+      "linea": 769,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 791–793)",
+      "textoLiteral": "…óstico aparte de trastorno psicótico debido a ⟨+⟩ otra afección médica si los delirios y/o las …",
+      "linea": 793,
+      "ambito": null
+    },
+    {
+      "codigo": "parrafo_partido",
+      "severidad": "info",
+      "mensaje": "Párrafo reunido (líneas 805–807)",
+      "textoLiteral": "…nía asociada a otro trastorno mental (p. ej., ⟨+⟩ un trastorno del neurodesarrollo, un trastorn…",
+      "linea": 807,
+      "ambito": null
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 91,
+      "ambito": "Trastorno delirante"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 107,
+      "ambito": "Trastorno delirante"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 111,
+      "ambito": "Trastorno delirante"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar la gravedad actual:\"",
+      "textoLiteral": "Especificar la gravedad actual:",
+      "linea": 131,
+      "ambito": "Trastorno delirante"
+    },
+    {
+      "codigo": "seccion_por_alias",
+      "severidad": "info",
+      "mensaje": "\"Subtipos\" → especificadores",
+      "textoLiteral": "Subtipos",
+      "linea": 139,
+      "ambito": "Trastorno delirante"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno delirante\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno delirante",
+      "linea": 169,
+      "ambito": "Trastorno delirante"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 209,
+      "ambito": "Trastorno psicótico breve"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 217,
+      "ambito": "Trastorno psicótico breve"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar la gravedad actual:\"",
+      "textoLiteral": "Especificar la gravedad actual:",
+      "linea": 223,
+      "ambito": "Trastorno psicótico breve"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno esquizofreniforme\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno esquizofreniforme",
+      "linea": 343,
+      "ambito": "Trastorno esquizofreniforme"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 387,
+      "ambito": "Esquizofrenia"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar si:\"",
+      "textoLiteral": "Especificar si:",
+      "linea": 407,
+      "ambito": "Esquizofrenia"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Asociación con pensamientos y conductas suicidas\" → suicidio",
+      "textoLiteral": "Asociación con pensamientos y conductas suicidas",
+      "linea": 483,
+      "ambito": "Esquizofrenia"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales de la esquizofrenia\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales de la esquizofrenia",
+      "linea": 487,
+      "ambito": "Esquizofrenia"
+    },
+    {
+      "codigo": "encabezado_absorbido",
+      "severidad": "info",
+      "mensaje": "Encabezado tratado como bloque de especificación: \"Especificar la gravedad actual:\"",
+      "textoLiteral": "Especificar la gravedad actual:",
+      "linea": 569,
+      "ambito": "Trastorno esquizoafectivo"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Asociación con pensamientos y conductas suicidas\" → suicidio",
+      "textoLiteral": "Asociación con pensamientos y conductas suicidas",
+      "linea": 615,
+      "ambito": "Trastorno esquizoafectivo"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno esquizoafectivo\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno esquizoafectivo",
+      "linea": 619,
+      "ambito": "Trastorno esquizoafectivo"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno psicótico inducido por sustancias/medicamentos\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno psicótico inducido por sustancias/medicamentos",
+      "linea": 703,
+      "ambito": "Trastorno psicótico inducido por sustancias/medicamentos"
+    },
+    {
+      "codigo": "seccion_por_prefijo",
+      "severidad": "info",
+      "mensaje": "\"Consecuencias funcionales del trastorno psicótico debido a otra afección médica\" → consecuencias_funcionales",
+      "textoLiteral": "Consecuencias funcionales del trastorno psicótico debido a otra afección médica",
+      "linea": 785,
+      "ambito": "Trastorno psicótico debido a otra afección médica"
+    },
+    {
+      "codigo": "discrepancia_manifiesto",
+      "severidad": "aviso",
+      "mensaje": "\"Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico\" aparece bajo \"Catatonía\" pero el manifiesto lo declara en \"Espectro de la esquizofrenia y otros trastornos psicóticos\". Gana el manifiesto.",
+      "textoLiteral": "Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico",
+      "linea": 913,
+      "ambito": "Catatonía no especificada"
+    },
+    {
+      "codigo": "discrepancia_manifiesto",
+      "severidad": "aviso",
+      "mensaje": "\"Trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico\" aparece bajo \"Catatonía\" pero el manifiesto lo declara en \"Espectro de la esquizofrenia y otros trastornos psicóticos\". Gana el manifiesto.",
+      "textoLiteral": "Trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico",
+      "linea": 931,
+      "ambito": "Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código CIE localizado en la fuente",
+      "textoLiteral": null,
+      "linea": 69,
+      "ambito": "Trastorno esquizotípico (de la personalidad)"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 69,
+      "ambito": "Trastorno esquizotípico (de la personalidad)"
+    },
+    {
+      "codigo": "ocr_sospechoso",
+      "severidad": "aviso",
+      "mensaje": "Criterio con 3 posibles daños de OCR (falta espacio tras puntuación); el texto se conserva literal",
+      "textoLiteral": "Nota:Las alucinaciones,si existen,no son importantes y están relacionadas con el tema delirante(p.ej.,la sensación de es",
+      "linea": 83,
+      "ambito": "Trastorno delirante"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (2)",
+      "textoLiteral": null,
+      "linea": 523,
+      "ambito": "Trastorno esquizoafectivo"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código CIE localizado en la fuente",
+      "textoLiteral": null,
+      "linea": 635,
+      "ambito": "Trastorno psicótico inducido por sustancias/medicamentos"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código único: el manual solo imprime códigos por especificador (2)",
+      "textoLiteral": null,
+      "linea": 719,
+      "ambito": "Trastorno psicótico debido a otra afección médica"
+    },
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código CIE localizado en la fuente",
+      "textoLiteral": null,
+      "linea": 907,
+      "ambito": "Catatonía no especificada"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 907,
+      "ambito": "Catatonía no especificada"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 913,
+      "ambito": "Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico"
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 931,
+      "ambito": "Trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico"
     }
   ]
 }

@@ -1,0 +1,364 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-psicotico-breve",
+  "nombre": "Trastorno psicótico breve",
+  "nombreCorto": null,
+  "sinonimos": [
+    "Psicosis reactiva breve"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F23",
+    "cie10": "F23",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 2,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-psicotico-breve-criterios",
+              "nombre": null,
+              "codigo": "F23",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Presencia de uno (o más) de los síntomas siguientes. Al menos uno de ellos ha de ser (1), (2) o (3):",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Delirios.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Alucinaciones.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Discurso desorganizado (p. ej., disgregación o incoherencia frecuente).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Comportamiento muy desorganizado o catatónico.",
+                      "hijos": [
+                        {
+                          "ruta": "A.4.nota",
+                          "etiqueta": null,
+                          "tipo": "nota",
+                          "texto": "No incluir un sintoma si es una respuesta aprobada culturalmente.",
+                          "hijos": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "La duración de un episodio del trastorno es al menos de 1 día pero menos de 1 mes, con retorno final total al grado de funcionamiento previo a la enfermedad.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se explica mejor por un trastorno depresivo mayor o bipolar con características psicóticas u otro trastorno psicótico como esquizofrenia o catatonía, y no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., una droga o un medicamento) o a otra afección médica.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con factor(es) de estrés notable(s) (psicosis reactiva breve)",
+                      "descripcion": "Si los síntomas se producen en respuesta a sucesos que, por separado o juntos, causarian mucho estrés prácticamente a todo el mundo en circunstancias similares en el medio cultural del individuo.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Sin factor(es) de estrés notable(s)",
+                      "descripcion": "Si los síntomas no se producen en respuesta a sucesos que, por separado o juntos, causarian mucho estrés prácticamente a todo el mundo en circunstancias similares en el medio cultural del individuo.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con inicio en el periparto",
+                      "descripcion": "Si comienza durante el embarazo o en las primeras 4 semanas después del parto.",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con catatonía (para la definición, véanse los criterios de catatonía asociada a otro trastorno mental; pág. 135).",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "Utilizar el código adicional F06.1 catatonía asociada a trastorno psicótico breve para indicar la presencia de catatonía concurrente."
+                  ]
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "La gravedad se clasifica mediante evaluación cuantitativa de los síntomas primarios de psicosis",
+                      "descripcion": "delirios, alucinaciones, discursos desorganizado, comportamiento psicomotor anormal y síntomas negativos. Cada uno de estos síntomas se puede clasificar por su gravedad actual (máxima gravedad en los últimos 7 días) sobre una escala de 5 puntos de 0 (ausente) a 4 (presente y grave).",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "(Véase la escala clínica Gravedad de los síntomas de las dimensiones de psicosis en el capítulo “Medidas de evaluación”, en la Sección III del DSM-5-TR.)",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "El diagnóstico de trastorno psicótico se puede hacer sin utilizar este especificador de gravedad."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 189,
+        "lineaFin": 229
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La característica esencial del trastorno psicótico breve es una alteración que implica, al menos, uno de los siguientes síntomas psicóticos positivos: delirios, alucinaciones, discurso desorganizado (p. ej., disgregación o incoherencia frecuente) o comportamiento psicomotor muy anómalo, incluyendo la catatonía (Criterio A). Un episodio del trastorno dura al menos 1 día pero menos de 1 mes y el individuo al final retorna por completo al nivel de funcionamiento premórbido (Criterio B). El trastorno no se explica mejor por un trastorno depresivo o bipolar con características psicóticas, por un trastorno esquizoafectivo ni por una esquizofrenia, y no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., un alucinógeno) o de otra afección médica (p. ej., hematoma subdural) (Criterio C)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Además de los cuatro dominios sintomáticos identificados en los criterios diagnósticos, es fundamental la evaluación de los dominios de síntomas cognitivos, depresivos y maniacos para realizar distinciones de importancia crítica entre los diferentes trastornos del espectro de la esquizofrenia y otros trastornos psicóticos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 231,
+        "lineaFin": 235
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los individuos con trastorno psicótico breve normalmente experimentan agitación emocional o una gran confusión. Pueden presentar cambios rápidos de un afecto intenso a otro. Aunque el trastorno sea breve, el grado de disfunción puede ser grave, y puede requerirse supervisión para asegurarse de que las necesidades nutricionales e higiénicas se satisfacen y que el individuo está protegido de las consecuencias de la falta de juicio, de la disfunción cognitiva y de las acciones basadas en los delirios. Parece haber un aumento del riesgo de comportamiento suicida, en especial durante el episodio agudo."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 237,
+        "lineaFin": 239
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno psicótico breve puede suponer el 2-7 % de los casos de primer episodio de psicosis en varios países."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 241,
+        "lineaFin": 243
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El trastorno psicótico breve puede aparecer en la adolescencia o en la vida adulta temprana y el inicio puede tener lugar a lo largo de toda la vida, siendo la edad media de inicio la mitad de la treintena. Por definición, el diagnóstico de trastorno psicótico breve requiere la remisión completa de todos los síntomas y un retorno completo al nivel de funcionamiento premórbido antes de transcurrido 1 mes del inicio del trastorno. En algunos sujetos, la duración de los síntomas psicóticos puede ser bastante breve (p. ej., unos pocos días)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque el trastorno psicótico breve alcanza la remisión completa, por definición, en el plazo de 1 mes, posteriormente, más del 50 % de los individuos presentan una recaída. A pesar de la posibilidad de recaer, para la mayoría de los individuos el resultado es favorable en términos de funcionamiento social y sintomatología."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En menos de la mitad de los casos diagnosticados de trastorno psicótico breve con el DSM-IV o de trastorno psicótico agudo y transitorio con la CIE-10, el diagnóstico cambia: con la mayor frecuencia a trastornos del espectro de la esquizofrenia y menos a menudo a trastornos afectivos o a otros trastornos psicóticos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 245,
+        "lineaFin": 251
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Es importante diferenciar los síntomas del trastorno psicótico breve de los patrones de respuesta culturalmente aprobados. Por ejemplo, en algunas ceremonias religiosas, un individuo puede decir que escucha voces, pero habitualmente estas no persisten ni se perciben como anómalas por la mayoría de los miembros de la comunidad del individuo. En una amplia gama de contextos culturales sería frecuente o esperable que los familiares en duelo oyeran, vieran o interactuaran con el espíritu de un ser querido fallecido recientemente sin secuelas patológicas notables. Además, se debe tener en cuenta el entorno cultural y religioso al considerar si las creencias son delirantes."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 253,
+        "lineaFin": 255
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Otras afecciones médicas. Diferentes afecciones médicas pueden manifestarse con síntomas psicóticos de breve duración. El trastorno psicótico debido a otra afección médica y el delirium se diagnostican cuando hay pruebas, a partir de la historia, la exploración física o las pruebas de laboratorio, de que los delirios o las alucinaciones son consecuencia fisiológica directa de una afección médica específica (p. ej., síndrome de Cushing, tumor cerebral) (véase \"Trastorno psicótico debido a otra afección médica\" más adelante en este capítulo)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos relacionados con sustancias. El trastorno psicótico inducido por sustancias/medicamentos, el delirium inducido por sustancias y la intoxicación por sustancias se diferencian del trastorno psicótico breve porque se considera que existe una sustancia (p. ej., una droga de abuso, un medicamento, la exposición a una toxina) que está relacionada etiológicamente con los síntomas psicóticos (véase \"Trastorno psicótico inducido por sustancias/medicamentos\" más adelante en este capítulo). Las pruebas de laboratorio, como la determinación de tóxicos en orina o los niveles de alcohol en sangre, pueden ser útiles para ayudar a dilucidar esta situación, así como una cuidadosa historia del uso de sustancias que preste atención a las relaciones temporales entre el consumo y el inicio de los síntomas, y al tipo de sustancia que se está consumiendo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos depresivos y bipolares. El diagnóstico de trastorno psicótico breve no puede realizarse si los síntomas psicóticos se explican mejor por un episodio del estado de ánimo (es decir, si los síntomas psicóticos tienen lugar únicamente durante un episodio depresivo mayor, maniaco o mixto)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otros trastornos psicóticos. Si los síntomas psicóticos persisten durante 1 mes o más, el diagnóstico será de trastorno esquizofreniforme, trastorno delirante, trastorno depresivo con características psicóticas, trastorno bipolar con características psicóticas u otro trastorno del espectro de la esquizofrenia especificado o no especificado y otro trastorno psicótico, dependiendo de los demás síntomas que se presenten. El diagnóstico diferencial entre el trastorno psicótico breve y el trastorno esquizo-freniforme es difícil cuando los síntomas psicóticos han remitido antes de 1 mes debido a una buena respuesta a la medicación. Se debe prestar especial atención a la posibilidad de que un trastorno recurrente (p. ej., un trastorno bipolar, las exacerbaciones agudas recurrentes de una esquizofrenia) pueda ser el responsable de que aparezcan episodios psicóticos repetidos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Simulación y trastornos facticios. Un episodio de trastorno facticio con signos y síntomas predominantemente psicológicos puede tener la apariencia de un trastorno psicótico breve, pero en estos casos hay pruebas de que los síntomas se han producido intencionadamente. Cuando la simulación conlleva síntomas aparentemente psicóticos, habitualmente hay indicios de que se está fingiendo la enfermedad para lograr un objetivo comprensible."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos de la personalidad. En algunos sujetos con trastornos de la personalidad, los factores de estrés pueden precipitar breves períodos de síntomas psicóticos. Estos síntomas suelen ser transitorios y no justifican un diagnóstico aparte. Si los síntomas psicóticos persisten durante al menos 1 día, podría convenir realizar un diagnóstico adicional de trastorno psicótico breve."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 257,
+        "lineaFin": 271
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-delirante",
+        "nombre": "Trastorno delirante",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizofreniforme",
+        "nombre": "Trastorno esquizofreniforme",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "esquizofrenia",
+        "nombre": "Esquizofrenia",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-inducido-por-sustancias-medicamentos",
+        "nombre": "Trastorno psicótico inducido por sustancias/medicamentos",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-debido-a-otra-afeccion-medica",
+        "nombre": "Trastorno psicótico debido a otra afección médica",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 187,
+    "lineaFin": 272
+  },
+  "advertencias": []
+}

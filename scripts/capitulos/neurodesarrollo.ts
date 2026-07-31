@@ -12,7 +12,7 @@ export const neurodesarrollo: CapituloDeclarado = {
   id: 'trastornos-del-neurodesarrollo',
   nombre: 'Trastornos del neurodesarrollo',
   orden: 1,
-  archivoFuente: 'Transtornos del neurodesarrollo- corregido.md',
+  archivoFuente: '01-Transtornos del neurodesarrollo- corregido.md',
   subcategorias: [
     {
       nombre: 'Trastornos del desarrollo intelectual',

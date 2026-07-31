@@ -1,0 +1,212 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "catatonia-asociada-a-otro-trastorno-mental-especificador-de-catatonia",
+  "nombre": "Catatonía asociada a otro trastorno mental (especificador de catatonía)",
+  "nombreCorto": "Catatonía asociada a otro trastorno mental",
+  "sinonimos": [
+    "especificador de catatonía"
+  ],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F06.1",
+    "cie10": "F06.1",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "catatonia",
+    "nombre": "Catatonía"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 8,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "catatonia-asociada-a-otro-trastorno-mental-especificador-de-catatonia-criterios",
+              "nombre": null,
+              "codigo": "F06.1",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "El cuadro clínico está dominado por tres (o más) de los síntomas siguientes:",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Estupor (es decir, ausencia de actividad psicomotora; no interactuar activamente con el entorno).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Catalepsia (es decir, inducción pasiva de una postura mantenida contra la gravedad).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Flexibilidad cérea (es decir, resistencia leve y constante al cambio de postura dirigida por el examinator).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Mutismo (es decir, respuesta verbal ausente o escasa [excluir si hay afasia confirmada]).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.5",
+                      "etiqueta": "5",
+                      "tipo": "criterio",
+                      "texto": "Negativismo (es decir, oposición o ausencia de respuesta a instrucciones o estimulos externos).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.6",
+                      "etiqueta": "6",
+                      "tipo": "criterio",
+                      "texto": "Adopción de una postura (es decir, mantenimiento espontáneo y activo de una postura contra la gravedad).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.7",
+                      "etiqueta": "7",
+                      "tipo": "criterio",
+                      "texto": "Manierismo (es decir, caricatura extraña, circunstancial de acciones normales).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.8",
+                      "etiqueta": "8",
+                      "tipo": "criterio",
+                      "texto": "Estereotipia (es decir, movimientos repetitivos, anormalmente frecuentes, no dirigidos hacia un objetivo).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.9",
+                      "etiqueta": "9",
+                      "tipo": "criterio",
+                      "texto": "Agitación, no influida por estimulos externos.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.10",
+                      "etiqueta": "10",
+                      "tipo": "criterio",
+                      "texto": "Muecas.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.11",
+                      "etiqueta": "11",
+                      "tipo": "criterio",
+                      "texto": "Ecolalia (es decir, imitación del habla de otra persona).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.12",
+                      "etiqueta": "12",
+                      "tipo": "criterio",
+                      "texto": "Ecopraxia (es decir, imitación de los movimientos de otra persona).",
+                      "hijos": [
+                        {
+                          "ruta": "A.12.nota",
+                          "etiqueta": null,
+                          "tipo": "nota_codificacion",
+                          "texto": "Cuando se registre el nombre de la afección, indicar el nombre del trastorno mental asociado (p. ej., F06.1 catatonia asociada a trastorno depresivo mayor). Codificar en primer lugar el trastorno mental asociado (es decir, trastorno del neurodesarrollo, trastorno psicótico breve, trastorno esquizofreniforme, esquizofrenia, trastorno esquizoafectivo, trastorno bipolar, trastorno depresivo mayor u otro trastorno mental) (p. ej., F25.1 trastorno esquizoafectivo, tipo depresivo; F06.1 catatonia asociada a trastorno esquizoafectivo).",
+                          "hijos": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "especificaciones": []
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 813,
+        "lineaFin": 843
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El diagnóstico de catatonía asociada a otro trastorno mental (especificador de la catatonía) puede utilizarse cuando se cumplen los criterios de la catatonía durante el curso de un trastorno del neurodesarrollo, psicótico, bipolar, depresivo o mental de otro tipo. Es apropiado emplear el especificador de catatonía cuando el cuadro clínico se caracteriza por una alteración psicomotora marcada e incluye al menos tres de las 12 características diagnósticas enumeradas en el Criterio A. La catatonía se diagnostica normalmente en el entorno hospitalario y aparece hasta en el 35 % de los sujetos con esquizofrenia, pero la mayoría de los casos de catatonía se produce en individuos con trastornos depresivos o bipolares. Los metaanálisis de muestras clínicas indican que alrededor del 9 % de los pacientes presentaban catatonía. Antes de utilizar el especificador de catatonía en los trastornos del neurodesarrollo, psicóticos, bipolares, depresivos y otros trastornos mentales, deben descartarse una amplia variedad de afecciones médicas; estas son, entre otras, las afecciones médicas debidas a patologías infecciosas, metabólicas o neurológicas (véase \"Trastorno catatónico debido a otra afección médica\"). La catatonía también puede ser un efecto adverso de un medicamento (véase el capítulo \"Trastornos motores inducidos por medicamentos y otros efectos adversos de los medicamentos\"). Debido a la gravedad de las complicaciones, se debe prestar especial atención a la posibilidad de que la catatonía sea atribuible al G21.0 síndrome neuroléptico maligno."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 845,
+        "lineaFin": 847
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La asociación entre catatonía y trastornos del ánimo se ha observado en una amplia gama de contextos culturales."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 849,
+        "lineaFin": 851
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 811,
+    "lineaFin": 852
+  },
+  "advertencias": []
+}

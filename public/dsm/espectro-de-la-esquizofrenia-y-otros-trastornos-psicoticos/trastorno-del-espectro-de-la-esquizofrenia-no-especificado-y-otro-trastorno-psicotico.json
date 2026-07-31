@@ -1,0 +1,72 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-del-espectro-de-la-esquizofrenia-no-especificado-y-otro-trastorno-psicotico",
+  "nombre": "Trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico",
+  "nombreCorto": "Trastorno del espectro de la esquizofrenia no especificado",
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F29",
+    "cie10": "F29",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "no_especificado",
+  "orden": 12,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 935)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Esta categoría se aplica a presentaciones en las que predominan los síntomas característicos de un trastorno del espectro de la esquizofrenia y otro trastorno psicótico que causan malestar clinicamente significativo o deterioro en lo social, laboral u otras áreas importantes del funcionamiento, pero que no cumplen todos los criterios de ninguno de los trastornos de la categoría diagnóstica del trastorno del espectro de la esquizofrenia y otros trastornos psicóticos. La categoría del trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico se utiliza en situaciones en las que el clínico opta por no especificar el motivo del incumplimiento de los criterios de un trastorno específico del espectro de la esquizofrenia y otro trastorno psicótico, e incluye presentaciones en las que no existe suficiente información para hacer un diagnóstico más específico (p. ej., en servicios de urgencias)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 935,
+        "lineaFin": 935
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 931,
+    "lineaFin": 931
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 931
+    }
+  ]
+}

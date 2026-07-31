@@ -1,0 +1,83 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "catatonia-no-especificada",
+  "nombre": "Catatonía no especificada",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": null,
+    "cie10": null,
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "catatonia",
+    "nombre": "Catatonía"
+  },
+  "tipoEntrada": "no_especificado",
+  "orden": 10,
+  "secciones": [
+    {
+      "clave": null,
+      "claveOriginal": "(sin título, línea 909)",
+      "titulo": "Descripción",
+      "reconocida": false,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Esta categoría se aplica a presentaciones en las que los síntomas características de catatonía causan malestar clínicamente significativo o deterioro en lo social, laboral u otras áreas importantes del funcionamiento, pero la naturaleza del trastorno mental subyacente u otra afección médica no está clara, no se cumplen todos los criterios de catatonía o no existe información suficiente para hacer un diagnóstico más específico (p. ej., en servicios de urgencias)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Nota de codificación: Codificar en primer lugar R29.818 otros síntomas que afectan a los sistemas nervioso y musculoesquelético, y a continuación F06.1 catatonia no especificada."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 909,
+        "lineaFin": 911
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 907,
+    "lineaFin": 912
+  },
+  "advertencias": [
+    {
+      "codigo": "sin_codigo",
+      "severidad": "aviso",
+      "mensaje": "Sin código CIE localizado en la fuente",
+      "textoLiteral": null,
+      "linea": 907
+    },
+    {
+      "codigo": "sin_criterios",
+      "severidad": "info",
+      "mensaje": "Sin apartado de criterios diagnósticos",
+      "textoLiteral": null,
+      "linea": 907
+    }
+  ]
+}

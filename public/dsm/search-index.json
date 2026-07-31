@@ -1,7 +1,7 @@
 {
   "esquema": "dsm5tr-busqueda/1",
   "version": 1,
-  "generadoEn": "2026-07-26T19:09:55.087Z",
+  "generadoEn": "2026-07-31T18:30:23.581Z",
   "entradas": [
     {
       "id": "otro-trastorno-de-tics-especificado",
@@ -523,6 +523,371 @@
       "categoriaNombre": "Trastornos del neurodesarrollo",
       "subcategoriaNombre": "Trastornos motores",
       "archivo": "trastornos-del-neurodesarrollo/trastornos-de-tics.json"
+    },
+    {
+      "id": "catatonia-asociada-a-otro-trastorno-mental-especificador-de-catatonia",
+      "nombre": "Catatonía asociada a otro trastorno mental (especificador de catatonía)",
+      "sinonimos": [
+        "especificador de catatonía",
+        "Catatonía asociada a otro trastorno mental"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F06.1"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Características diagnósticas",
+        "Aspectos diagnósticos relacionados con la cultura"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Catatonía",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/catatonia-asociada-a-otro-trastorno-mental-especificador-de-catatonia.json"
+    },
+    {
+      "id": "catatonia-no-especificada",
+      "nombre": "Catatonía no especificada",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Catatonía",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/catatonia-no-especificada.json"
+    },
+    {
+      "id": "esquizofrenia",
+      "nombre": "Esquizofrenia",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F20.9"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Primer episodio, actualmente en episodio agudo",
+        "Primer episodio, actualmente en remisión parcial",
+        "Primer episodio, actualmente en remisión total",
+        "Episodios múltiples, actualmente en episodio agudo",
+        "Episodios múltiples, actualmente en remisión parcial",
+        "Episodios múltiples, actualmente en remisión total",
+        "Continuo",
+        "No especificado",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Aspectos diagnósticos relacionados con el sexo y el género",
+        "Asociación con pensamientos y conductas suicidas",
+        "Consecuencias funcionales de la esquizofrenia",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno esquizotípico (de la personalidad)",
+        "Trastorno delirante",
+        "Trastorno psicótico breve",
+        "Trastorno esquizofreniforme",
+        "Trastorno esquizoafectivo",
+        "Trastorno psicótico inducido por sustancias/medicamentos"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/esquizofrenia.json"
+    },
+    {
+      "id": "otro-trastorno-del-espectro-de-la-esquizofrenia-especificado-y-otro-trastorno-psicotico",
+      "nombre": "Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico",
+      "sinonimos": [
+        "Otro trastorno del espectro de la esquizofrenia especificado"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F28"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/otro-trastorno-del-espectro-de-la-esquizofrenia-especificado-y-otro-trastorno-psicotico.json"
+    },
+    {
+      "id": "trastorno-catatonico-debido-a-otra-afeccion-medica",
+      "nombre": "Trastorno catatónico debido a otra afección médica",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F06.1"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Diagnóstico diferencial",
+        "Trastorno psicótico breve",
+        "Trastorno esquizofreniforme",
+        "Esquizofrenia",
+        "Trastorno esquizoafectivo",
+        "Trastorno psicótico inducido por sustancias/medicamentos"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Catatonía",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-catatonico-debido-a-otra-afeccion-medica.json"
+    },
+    {
+      "id": "trastorno-del-espectro-de-la-esquizofrenia-no-especificado-y-otro-trastorno-psicotico",
+      "nombre": "Trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico",
+      "sinonimos": [
+        "Trastorno del espectro de la esquizofrenia no especificado"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F29"
+      ],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-del-espectro-de-la-esquizofrenia-no-especificado-y-otro-trastorno-psicotico.json"
+    },
+    {
+      "id": "trastorno-delirante",
+      "nombre": "Trastorno delirante",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F22"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Tipo erotomaniaco",
+        "Tipo de grandeza",
+        "Tipo celotípico",
+        "Tipo persecutorio",
+        "Tipo somático",
+        "Tipo mixto",
+        "Tipo no especificado",
+        "Con contenido extravagante",
+        "Primer episodio, actualmente en episodio agudo",
+        "Primer episodio, actualmente en remisión parcial",
+        "Primer episodio, actualmente en remisión total",
+        "Episodios múltiples, actualmente en episodio agudo",
+        "Episodios múltiples, actualmente en remisión parcial",
+        "Episodios múltiples, actualmente en remisión total",
+        "Continuo",
+        "No especificado",
+        "Subtipos",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Consecuencias funcionales del trastorno delirante",
+        "Diagnóstico diferencial",
+        "Trastorno esquizofreniforme",
+        "Esquizofrenia",
+        "Trastorno esquizoafectivo",
+        "Trastorno psicótico inducido por sustancias/medicamentos",
+        "Trastorno psicótico debido a otra afección médica"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-delirante.json"
+    },
+    {
+      "id": "trastorno-esquizoafectivo",
+      "nombre": "Trastorno esquizoafectivo",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F25.0",
+        "F25.1"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Tipo bipolar",
+        "Tipo depresivo",
+        "Primer episodio, actualmente en episodio agudo",
+        "Primer episodio, actualmente en remisión parcial",
+        "Primer episodio, actualmente en remisión total",
+        "Episodios múltiples, actualmente en episodio agudo",
+        "Episodios múltiples, actualmente en remisión parcial",
+        "Episodios múltiples, actualmente en remisión total",
+        "Continuo",
+        "No especificado",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Asociación con pensamientos y conductas suicidas",
+        "Consecuencias funcionales del trastorno esquizoafectivo",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno delirante",
+        "Trastorno psicótico breve",
+        "Trastorno esquizofreniforme",
+        "Esquizofrenia",
+        "Trastorno psicótico debido a otra afección médica"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-esquizoafectivo.json"
+    },
+    {
+      "id": "trastorno-esquizofreniforme",
+      "nombre": "Trastorno esquizofreniforme",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F20.81"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Con características de buen pronóstico",
+        "Sin características de buen pronóstico",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Consecuencias funcionales del trastorno esquizofreniforme",
+        "Diagnóstico diferencial",
+        "Trastorno delirante",
+        "Trastorno psicótico breve",
+        "Esquizofrenia",
+        "Trastorno esquizoafectivo",
+        "Trastorno psicótico debido a otra afección médica"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-esquizofreniforme.json"
+    },
+    {
+      "id": "trastorno-esquizotipico-de-la-personalidad",
+      "nombre": "Trastorno esquizotípico (de la personalidad)",
+      "sinonimos": [
+        "de la personalidad",
+        "Trastorno de la personalidad esquizotípica",
+        "Trastorno esquizotípico"
+      ],
+      "abreviaturas": [],
+      "codigos": [],
+      "palabrasClave": [
+        "Descripción"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-esquizotipico-de-la-personalidad.json"
+    },
+    {
+      "id": "trastorno-psicotico-breve",
+      "nombre": "Trastorno psicótico breve",
+      "sinonimos": [
+        "Psicosis reactiva breve"
+      ],
+      "abreviaturas": [],
+      "codigos": [
+        "F23"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Sin factor(es) de estrés notable(s)",
+        "Con inicio en el periparto",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Aspectos diagnósticos relacionados con la cultura",
+        "Diagnóstico diferencial",
+        "Trastorno delirante",
+        "Trastorno esquizofreniforme",
+        "Esquizofrenia",
+        "Trastorno psicótico inducido por sustancias/medicamentos",
+        "Trastorno psicótico debido a otra afección médica"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-psicotico-breve.json"
+    },
+    {
+      "id": "trastorno-psicotico-debido-a-otra-afeccion-medica",
+      "nombre": "Trastorno psicótico debido a otra afección médica",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [
+        "F06.2",
+        "F06.0"
+      ],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Código basado en el sintoma predominante:",
+        "Con delirios",
+        "Con alucinaciones",
+        "Especificadores",
+        "Características diagnósticas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Factores de riesgo y pronóstico",
+        "Asociación con pensamientos o conductas suicidas",
+        "Consecuencias funcionales del trastorno psicótico debido a otra afección médica",
+        "Diagnóstico diferencial",
+        "Comorbilidad",
+        "Trastorno delirante",
+        "Esquizofrenia",
+        "Trastorno esquizoafectivo",
+        "Trastorno psicótico inducido por sustancias/medicamentos"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-psicotico-debido-a-otra-afeccion-medica.json"
+    },
+    {
+      "id": "trastorno-psicotico-inducido-por-sustancias-medicamentos",
+      "nombre": "Trastorno psicótico inducido por sustancias/medicamentos",
+      "sinonimos": [],
+      "abreviaturas": [],
+      "codigos": [],
+      "palabrasClave": [
+        "Criterios diagnósticos",
+        "Procedimientos de registro",
+        "Características diagnósticas",
+        "Características asociadas",
+        "Prevalencia",
+        "Desarrollo y curso",
+        "Marcadores diagnósticos",
+        "Consecuencias funcionales del trastorno psicótico inducido por sustancias/medicamentos",
+        "Diagnóstico diferencial",
+        "Trastorno delirante",
+        "Trastorno psicótico breve",
+        "Esquizofrenia",
+        "Trastorno esquizoafectivo",
+        "Trastorno psicótico debido a otra afección médica",
+        "Otro trastorno del espectro de la esquizofrenia especificado y otro trastorno psicótico",
+        "Trastorno del espectro de la esquizofrenia no especificado y otro trastorno psicótico"
+      ],
+      "categoriaId": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+      "categoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "subcategoriaNombre": "Espectro de la esquizofrenia y otros trastornos psicóticos",
+      "archivo": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos/trastorno-psicotico-inducido-por-sustancias-medicamentos.json"
     }
   ]
 }

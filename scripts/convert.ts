@@ -31,8 +31,7 @@ import {
   type Trastorno,
 } from '../src/lib/schema.js';
 import { DIR_FUENTE, DIR_SALIDA, RAIZ } from './config.js';
-import { CAPITULOS, REGISTRO_CATEGORIAS } from './capitulos/registro.js';
-import { CONJUNTOS_NOMBRADOS } from './capitulos/neurodesarrollo.js';
+import { CAPITULOS, CONJUNTOS_NOMBRADOS, REGISTRO_CATEGORIAS } from './capitulos/registro.js';
 import type { CapituloDeclarado, TrastornoDeclarado } from './capitulos/tipos.js';
 import { construirCriterios, type EntradaCriterios } from './lib/criterios.js';
 import { Informe, type Incidencia } from './lib/informe.js';
@@ -427,8 +426,15 @@ function construirEntradasCriterios(seccion: SeccionCruda, informe: Informe): {
 
   for (const pieza of seccion.piezas) {
     if (pieza.tipo === 'tabla') {
-      // Tabla-criterios: la primera fila es ["Criterios diagnósticos", código].
-      // La primera fila de la tabla-criterios es ["Criterios diagnósticos", código].
+      // Solo se aplana la tabla-criterios, cuya primera fila es
+      // ["Criterios diagnósticos", código]. Una tabla cualquiera que caiga
+      // dentro del apartado (la rejilla de códigos CIE-10-MC del trastorno
+      // psicótico inducido por sustancias) es una tabla de verdad: aplanarla
+      // metería sus celdas sueltas en el árbol de criterios y además perdería
+      // su primera fila. Se deja pasar; `construirContenido` la conserva
+      // intacta como bloque `tabla` justo detrás de los criterios.
+      if (plegar(pieza.encabezados[0] ?? '') !== 'criterios diagnosticos') continue;
+
       const codigoTabla = pieza.encabezados[1]?.trim();
       if (codigoTabla && RE_SOLO_CODIGO.test(codigoTabla)) {
         codigos.push(codigoTabla);
@@ -954,17 +960,25 @@ function agrupar(incidencias: Incidencia[]): Map<string, Incidencia[]> {
 function imprimirInforme(
   informe: Informe,
   trastornos: Trastorno[],
-  categoria: Categoria,
+  categorias: Categoria[],
 ): void {
   titulo('INFORME DE CONVERSIÓN — DSM-5-TR');
-  console.log(`Capítulo: ${categoria.nombre}`);
-  console.log(`Fuente:   ${categoria.procedencia?.archivoFuente ?? '?'}`);
-  console.log(`Salida:   public/dsm/${categoria.id}/`);
+  for (const categoria of categorias) {
+    console.log(`Capítulo: ${categoria.nombre}`);
+    console.log(`Fuente:   ${categoria.procedencia?.archivoFuente ?? '?'}`);
+    console.log(`Salida:   public/dsm/${categoria.id}/`);
+  }
 
   /* --- 1. Trastornos convertidos --- */
   titulo(`1 · TRASTORNOS CONVERTIDOS (${trastornos.length})`);
+  let capActual = '';
   let subActual = '';
   for (const t of trastornos) {
+    if (t.categoria.nombre !== capActual) {
+      capActual = t.categoria.nombre;
+      subActual = '';
+      console.log(`\n${COLOR.cian}${t.categoria.nombre}${COLOR.reset}`);
+    }
     const sub = t.subcategoria?.nombre ?? '—';
     if (sub !== subActual) {
       subActual = sub;
@@ -1062,8 +1076,11 @@ function imprimirInforme(
         .reduce((m, b) => m + (b.tipo === 'criterios' ? b.conjuntos.length : 0), 0),
     0,
   );
+  console.log(`  Capítulos convertidos .......... ${categorias.length}`);
   console.log(`  Trastornos convertidos ......... ${trastornos.length}`);
-  console.log(`  Subcategorías .................. ${categoria.subcategorias.length}`);
+  console.log(
+    `  Subcategorías .................. ${categorias.reduce((n, c) => n + c.subcategorias.length, 0)}`,
+  );
   console.log(`  Secciones totales .............. ${secciones}`);
   console.log(`  Conjuntos de criterios ......... ${criterios}`);
   console.log(`  Secciones no reconocidas ....... ${desconocidas.length}`);
@@ -1214,8 +1231,9 @@ async function main(): Promise<void> {
   });
   await writeFile(join(DIR_SALIDA, 'index.json'), `${JSON.stringify(indice, null, 2)}\n`, 'utf8');
 
-  const primera = categoriasGeneradas[0];
-  if (primera) imprimirInforme(informe, todosTrastornos, primera);
+  if (categoriasGeneradas.length > 0) {
+    imprimirInforme(informe, todosTrastornos, categoriasGeneradas);
+  }
 
   if (rescatado.size > 0) {
     const elementos = [...rescatado.values()].reduce((n, r) => {

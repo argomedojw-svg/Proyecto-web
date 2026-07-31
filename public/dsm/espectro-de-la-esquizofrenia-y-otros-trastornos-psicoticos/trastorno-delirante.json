@@ -1,0 +1,465 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "trastorno-delirante",
+  "nombre": "Trastorno delirante",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F22",
+    "cie10": "F22",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 1,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "trastorno-delirante-criterios",
+              "nombre": null,
+              "codigo": "F22",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Presencia de uno(o más) delirios de 1 mes o más de duración.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Nunca se ha cumplido el Criterio A de esquizofrenia.",
+                  "hijos": [
+                    {
+                      "ruta": "B.nota",
+                      "etiqueta": null,
+                      "tipo": "nota",
+                      "texto": "Las alucinaciones,si existen,no son importantes y están relacionadas con el tema delirante(p.ej.,la sensación de estar infestado por insectos asociada a delirios de infestación).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Aparte del impacto del delirio(s) o sus ramificaciones, el funcionamiento no está muy alterado y el comportamiento no es manifiestamente extravagante o extraño.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Si se han producido episodios maniacos o depresivos mayores, han sido breves en comparación con la duración de los periodos delirantes.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia o a otra afección médica y no se explica mejor por otro trastorno mental, como el trastorno dismórfico corporal o el trastorno obsesivo-compulsivo.",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Tipo erotomaniaco",
+                      "descripcion": "Este subtipo se aplica cuando el tema central del delirio es que otra persona está enamorada del individuo.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Tipo de grandeza",
+                      "descripcion": "Este subtipo se aplica cuando el tema central del delirio es la convicción de tener cierto talento o conocimientos (no reconocidos) o de haber hecho algún descubrimiento importante.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Tipo celotípico",
+                      "descripcion": "Este subtipo se aplica cuando el tema central del delirio del individuo es que su cónyuge o amante le es infiel.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Tipo persecutorio",
+                      "descripcion": "Este subtipo de aplica cuanto el tema central del delirio implica la creencia del individuo de que están conspirando en su contra, o que le engañan, espían, siguen, envenenan o drogan, difaman, acosan o impiden que consiga objetivos a largo plazo.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Tipo somático",
+                      "descripcion": "Este subtipo se aplica cuando el tema central del delirio implica funciones o sensaciones corporales.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Tipo mixto",
+                      "descripcion": "Este tipo se aplica cuando no predomina ningún tipo de delirio.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Tipo no especificado",
+                      "descripcion": "Este subtipo se aplica cuando el delirio dominante no se puede determinar claramente o no está descrito en los tipos especificos (p. ej., delirios referenciales sin un componente persecutorio o de grandeza importante).",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con contenido extravagante",
+                      "descripcion": "Los delirios se consideran extravagantes si son claramente inverosimiles, incomprensibles y no proceden de experiencias de la vida corriente (p. ej., la creencia de un individuo de que un extraño le ha quitado sus órganos internos y se los ha sustituido por los de otro sin dejar heridas ni cicatrices).",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Los siguientes especificadores de evolución solo se utilizarán después de 1 año de duración del trastorno:",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en episodio agudo",
+                      "descripcion": "La primera manifestación del trastorno cumple los criterios definidos de síntoma diagnóstico y tiempo. Un episodio agudo es el período en que se cumplen los criterios sintomáticos.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en remisión parcial",
+                      "descripcion": "Remisión parcial es el período durante el cual se mantiene una mejoría después de un episodio anterior y en el que los criterios que definen el trastorno solo se cumplen parcialmente.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en remisión total",
+                      "descripcion": "Remisión total es un período después de un episodio anterior durante el cual los síntomas específicos del trastorno no están presentes.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en episodio agudo",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en remisión parcial",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en remisión total",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Continuo",
+                      "descripcion": "Los sintomas que cumplen los criterios de diagnóstico del trastorno están presentes durante la mayor parte del curso de la enfermedad, con periodos sintomáticos por debajo del umbral que son muy breves en comparación con el curso global.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "No especificado",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "La gravedad se clasifica según una evaluación cuantitativa de los síntomas primarios de psicosis que incluye",
+                      "descripcion": "delirios, alucinaciones, discurso desorganizado, comportamiento psicomotor anormal y síntomas negativos. Cada uno de estos síntomas se puede clasificar por su gravedad actual (máxima gravedad en los últimos 7 días) sobre una escala de 5 puntos de 0 (ausente) a 4 (presente y grave). (Véase la escala clínica Gravedad de los síntomas de las dimensiones de psicosis en el capitulo \"Medidas de evaluación\", en la Sección III del DSM-5-TR.)",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "El diagnóstico de trastorno delirante se puede hacer sin utilizar este especificador de gravedad."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 75,
+        "lineaFin": 137
+      }
+    },
+    {
+      "clave": "especificadores",
+      "claveOriginal": "subtipos",
+      "titulo": "Subtipos",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "En el tipo erotomaníaco, el tema central del delirio es que otra persona está enamorada del paciente. La persona acerca de la cual se mantiene esta convicción suele tener un estatus más alto (p. ej., una persona famosa o un superior en el trabajo), aunque también puede ser un completo desconocido. En el tipo de grandeza, el tema central del delirio es la convicción de tener cierto talento o conocimientos, o de haber hecho algún descubrimiento importante. Con menos frecuencia, el sujeto puede presentar el delirio de que mantiene una relación especial con una persona importante o de que él mismo es una persona importante (en cuyo caso, puede considerar que el sujeto en cuestión es un impostor). Los delirios de grandeza pueden tener un contenido religioso. En el tipo celotípico, el tema central del delirio es que la pareja es infiel. Se llega a esta creencia sin motivo justificado, basándose en inferencias incorrectas apoyadas en pequeños \"indicios\" (p. ej., ropa descolocada). Habitualmente, el individuo se encara con su cónyuge o amante e intenta interponerse en la infidelidad imaginada. En el tipo persecutorio, el tema central del delirio implica la creencia del individuo de que están conspirando en su contra o de que lo engañan, lo espían, lo siguen, lo envenenan, lo difaman, lo acosan o impiden que consiga objetivos a largo plazo. Pueden exagerarse pequeños desaires que se convierten en el foco de un sistema delirante. El sujeto afecto puede dedicarse de manera repetida a intentar desquitarse mediante acciones legales o legislativas. Los individuos con delirios persecutorios a menudo se muestran resentidos y enfadados, y pueden recurrir a la violencia hacia aquellos que creen que les están haciendo daño. En el tipo somático, el tema central del delirio implica funciones o sensaciones corporales. Los delirios somáticos pueden aparecer de diferentes formas. Las más habituales son las creencias de que el sujeto desprende un olor repugnante, de que hay una infestación de insectos sobre la piel o debajo de ella, de que hay un parásito interno o de que hay partes del cuerpo que no funcionan."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 139,
+        "lineaFin": 141
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La característica esencial del trastorno delirante es la presencia de uno o más delirios que persisten durante al menos 1 mes (Criterio A). No se lleva a cabo el diagnóstico de trastorno delirante si el sujeto ha tenido alguna vez una presentación clínica que cumpliese el Criterio A de la esquizofrenia (Criterio B). Aparte del impacto directo producido por los delirios, el deterioro del funcionamiento psicosocial puede estar más circunscrito que en otros trastornos psicóticos, como la esquizofrenia, y el comportamiento no es manifiestamente extravagante o extraño (Criterio C). Si se producen episodios del estado de ánimo de manera simultánea a los delirios, la duración total de estos episodios del estado de ánimo es breve en comparación con la duración total de los periodos delirantes (Criterio D). Los delirios no se pueden atribuir a los efectos fisiológicos de una sustancia (p. ej., la cocaína) o de otra afección médica (p. ej., la enfermedad de Alzheimer), y no se explican mejor por otro trastorno mental, como el trastorno dismórfico corporal o el trastorno obsesivo-compulsivo (Criterio E)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Además de los delirios identificados en los criterios diagnósticos, es fundamental la evaluación de los dominios de los síntomas cognitivos, depresivos y maniacos para llevar a cabo las distinciones que tienen importancia crítica entre los diferentes trastornos del espectro de la esquizofrenia y otros trastornos psicóticos. Mientras que los delirios son condición sine qua non del trastorno delirante, las alucinaciones y los síntomas negativos son infrecuentes y la desorganización es rara. Por definición, la presencia de catatonía junto con delirios descarta el trastorno delirante, pues se cumpliría el Criterio A de la esquizofrenia. Un subgrupo de casos presenta síntomas depresivos prominentes, pero rara vez se observan el deterioro cognitivo y la manía."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 143,
+        "lineaFin": 147
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las creencias delirantes del trastorno delirante pueden tener como consecuencia problemas sociales, conyugales o laborales. Los sujetos con trastorno delirante pueden ser capaces de describir el hecho de que otras personas consideran sus creencias irracionales, pero ellos mismos son incapaces de aceptarlo (es decir, puede haber \"introspección fáctica\", pero no introspección verdadera). Muchos individuos pueden desarrollar un afecto irritable o disfórico que a veces puede entenderse como una reacción a sus creencias delirantes. El enfado y el comportamiento violento pueden aparecer en los subtipos persecutorio, celotípico y erotomaníaco. El individuo puede presentar comportamientos litigantes o antagónicos (p. ej., enviar cientos de cartas de protesta al gobierno). Puede haber dificultades legales, en especial en los tipos celotípico y erotomaníaco."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 149,
+        "lineaFin": 151
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se estima que la prevalencia del trastorno delirante a lo largo de la vida está en un 0,2% en una muestra finlandesa y que el subtipo más frecuente es el persecutorio. El tipo celotípico del trastorno delirante probablemente sea más común en los hombres que en las mujeres, pero no hay diferencias importantes entre sexos o géneros en cuanto a la frecuencia global del trastorno delirante o el contenido de los delirios."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 153,
+        "lineaFin": 155
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "De media, el funcionamiento global medio es habitualmente mejor que el observado en la esquizofrenia. Aunque, por lo general, el diagnóstico es estable, una proporción de sujetos desarrollará posteriormente una esquizofrenia. El trastorno delirante tiene una relación familiar importante tanto con la esquizofrenia como con el trastorno de la personalidad esquizotípica. Aunque el trastorno delirante puede aparecer en grupos etarios más jóvenes, podría ser más prevalente en los individuos mayores."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 157,
+        "lineaFin": 159
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Genéticos y fisiológicos. El trastorno delirante presenta una relación familiar importante con la esquizofrenia y con el trastorno de la personalidad esquizotípica."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 161,
+        "lineaFin": 163
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Debe tenerse en cuenta el entorno cultural y religioso del individuo al evaluar la posible presencia de un trastorno delirante. De hecho, algunas creencias tradicionales poco conocidas en las culturas occidentales podrían etiquetarse erróneamente de delirantes, por lo que el contexto debe valorarse con cuidado. La naturaleza y el contenido de los delirios también varian entre los distintos grupos culturales."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 165,
+        "lineaFin": 167
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales del trastorno delirante",
+      "titulo": "Consecuencias funcionales del trastorno delirante",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "El deterioro funcional habitualmente está más circunscrito que en otros trastornos psicóticos, aunque en algunos casos el deterioro puede ser importante e incluir un rendimiento laboral deficiente y aislamiento social. Cuando existe un funcionamiento psicosocial pobre, a menudo intervienen de forma importante las creencias delirantes en sí. Una característica habitual de los sujetos con trastorno delirante es la aparente normalidad de su comportamiento y apariencia cuando no se habla acerca de sus ideas delirantes o se actúa según ellas. Los varones con trastorno delirante tienen en general síntomas más graves y peores resultados funcionales que las mujeres."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 169,
+        "lineaFin": 171
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno obsesivo-compulsivo y trastornos relacionados. Si un individuo con trastorno obsesivo-compulsivo está completamente convencido de que sus creencias patológicas son ciertas, se debe hacer un diagnóstico de trastorno obsesivo-compulsivo con el especificador \"ausencia de introspección/con creencias delirantes\", en lugar de un diagnóstico de trastorno delirante. De la misma manera, si un sujeto con trastorno dismórfico corporal está completamente convencido de que sus creencias debidas a dicho trastorno son ciertas, se debe hacer un diagnóstico de trastorno dismórfico corporal con el especificador \"ausencia de introspección/con creencias delirantes\", en lugar de un diagnóstico de trastorno delirante."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Delirium, trastorno neurocognitivo mayor y trastorno psicótico debido a otra afección médica. Los individuos con estos trastornos pueden presentar síntomas que sugieran un trastorno delirante. Por ejemplo, la presencia de delirios persecutorios simples en el contexto de un trastorno neurocognitivo mayor se diagnosticaría como trastorno neurocognitivo mayor con alteración del comportamiento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno psicótico inducido por sustancias/medicamentos. Un trastorno psicótico inducido por sustancias/medicamentos puede ser transversalmente idéntico, en cuanto a los síntomas, a un trastorno delirante, pero se puede diferenciar según la relación cronológica del uso de sustancias con el inicio y la remisión de las creencias delirantes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Esquizofrenia y trastorno esquizofreniforme. El trastorno delirante puede distinguirse de la esquizofrenia y del trastorno esquizofreniforme por la ausencia de los demás sintomas característicos de la fase activa de la esquizofrenia. Además, la calidad de los delirios puede ayudar a distinguir la esquizofrenia del trastorno delirante. En la esquizofrenia, los delirios presentan más desorganización (el grado en que los delirios presentan consistencia interna, lógica y sistematización, mientras que en el trastorno delirante demuestran más convicción (el grado en que el individuo está convencido de la realidad del delirio), mayor extensión (el grado en que el delirio afecta a diversas áreas de la vida del individuo) y mayor presión (el grado en que el individuo está inquieto y preocupado por el delirio expresado)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastornos depresivos y bipolares y trastorno esquizoafectivo. Estos trastornos pueden diferenciarse del trastorno delirante por la relación temporal entre la alteración del estado de ánimo y los delirios, y por la gravedad de los síntomas del estado de ánimo. Si los delirios aparecen únicamente durante los episodios del estado de ánimo, el diagnóstico será de trastorno depresivo mayor o trastorno bipolar con características psicóticas. Pueden superponerse al trastorno delirante síntomas afectivos que cumplan los criterios de un trastorno del estado de ánimo. Solo se puede diagnosticar un trastorno delirante si la duración total de todos los episodios del estado de ánimo es breve en comparación a la duración total de la clínica delirante. En caso contrario, lo apropiado será diagnosticar otro trastorno del espectro de la esquizofrenia, especificado o no especificado y otro trastorno psicótico, acompañado por otro trastorno depresivo especificado, un trastorno depresivo no especificado, otro trastorno bipolar o relacionado especificado, o un trastorno bipolar o relacionado no especificado."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 173,
+        "lineaFin": 185
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-esquizofreniforme",
+        "nombre": "Trastorno esquizofreniforme",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "esquizofrenia",
+        "nombre": "Esquizofrenia",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizoafectivo",
+        "nombre": "Trastorno esquizoafectivo",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-inducido-por-sustancias-medicamentos",
+        "nombre": "Trastorno psicótico inducido por sustancias/medicamentos",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-debido-a-otra-afeccion-medica",
+        "nombre": "Trastorno psicótico debido a otra afección médica",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 73,
+    "lineaFin": 186
+  },
+  "advertencias": []
+}

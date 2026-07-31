@@ -1,0 +1,580 @@
+{
+  "esquema": "dsm5tr-trastorno/1",
+  "version": 1,
+  "id": "esquizofrenia",
+  "nombre": "Esquizofrenia",
+  "nombreCorto": null,
+  "sinonimos": [],
+  "abreviaturas": [],
+  "codigos": {
+    "dsm5tr": "F20.9",
+    "cie10": "F20.9",
+    "cie11": null
+  },
+  "codigosAdicionales": [],
+  "categoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "subcategoria": {
+    "id": "espectro-de-la-esquizofrenia-y-otros-trastornos-psicoticos",
+    "nombre": "Espectro de la esquizofrenia y otros trastornos psicóticos"
+  },
+  "tipoEntrada": "trastorno",
+  "orden": 4,
+  "secciones": [
+    {
+      "clave": "criterios",
+      "claveOriginal": "criterios diagnosticos",
+      "titulo": "Criterios diagnósticos",
+      "reconocida": true,
+      "orden": 0,
+      "contenido": [
+        {
+          "tipo": "criterios",
+          "conjuntos": [
+            {
+              "id": "esquizofrenia-criterios",
+              "nombre": null,
+              "codigo": "F20.9",
+              "preambulo": [],
+              "nodos": [
+                {
+                  "ruta": "A",
+                  "etiqueta": "A",
+                  "tipo": "criterio",
+                  "texto": "Dos (o más) de los síntomas siguientes, cada uno de ellos presente durante una parte significativa de tiempo en un período de 1 mes (o menos si se trató con éxito). Al menos uno de ellos ha de ser (1), (2) o (3):",
+                  "hijos": [
+                    {
+                      "ruta": "A.1",
+                      "etiqueta": "1",
+                      "tipo": "criterio",
+                      "texto": "Delirios.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.2",
+                      "etiqueta": "2",
+                      "tipo": "criterio",
+                      "texto": "Alucinaciones.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.3",
+                      "etiqueta": "3",
+                      "tipo": "criterio",
+                      "texto": "Discurso desorganizado (p. ej., disgregación o incoherencia frecuente).",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.4",
+                      "etiqueta": "4",
+                      "tipo": "criterio",
+                      "texto": "Comportamiento muy desorganizado o catatónico.",
+                      "hijos": []
+                    },
+                    {
+                      "ruta": "A.5",
+                      "etiqueta": "5",
+                      "tipo": "criterio",
+                      "texto": "Sintomas negativos (es decir, expresión emotiva disminuida o abulia).",
+                      "hijos": []
+                    }
+                  ]
+                },
+                {
+                  "ruta": "B",
+                  "etiqueta": "B",
+                  "tipo": "criterio",
+                  "texto": "Durante una parte significativa del tiempo desde el inicio del trastorno, el nivel de funcionamiento en uno o más ámbitos principales, como el trabajo, las relaciones interpersonales o el cuidado personal, está muy por debajo del nivel alcanzado antes del inicio (o cuando comienza en la infancia o la adolescencia, fracasa la consecución del nivel esperado de funcionamiento interpersonal, académico o laboral).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "C",
+                  "etiqueta": "C",
+                  "tipo": "criterio",
+                  "texto": "Los signos continuos del trastorno persisten durante un mínimo de 6 meses. Este período de 6 meses ha de incluir al menos 1 mes de síntomas (o menos si se trató con éxito) que cumplan el Criterio A (es decir, síntomas de fase activa) y puede incluir períodos de síntomas prodrómicos o residuales. Durante estos períodos prodrómicos o residuales, los signos del trastorno se pueden manifestar únicamente por síntomas negativos o por dos o más síntomas enumerados en el Criterio A presentes de forma atenuada (p. ej., creencias extrañas, experiencias perceptivas inhabituales).",
+                  "hijos": []
+                },
+                {
+                  "ruta": "D",
+                  "etiqueta": "D",
+                  "tipo": "criterio",
+                  "texto": "Se han descartado el trastorno esquizoafectivo y el trastorno depresivo o bipolar con caracteristicas psicóticas porque 1) no se han producido episodios maniacos o depresivos mayores de forma concurrente con los síntomas de fase activa, o 2) si se han producido episodios del estado de ánimo durante los síntomas de fase activa, han estado presentes solo durante una mínima parte de la duración total de los períodos activo y residual de la enfermedad.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "E",
+                  "etiqueta": "E",
+                  "tipo": "criterio",
+                  "texto": "El trastorno no se puede atribuir a los efectos fisiológicos de una sustancia (p. ej., una droga o medicamento) o a otra afección médica.",
+                  "hijos": []
+                },
+                {
+                  "ruta": "F",
+                  "etiqueta": "F",
+                  "tipo": "criterio",
+                  "texto": "Si existen antecedentes de un trastorno del espectro autista o de un trastorno de la comunicación de inicio en la infancia, el diagnóstico adicional de esquizofrenia solo se hace si los delirios o alucinaciones notables, además de los otros sintomas requeridos para la esquizofrenia, también están presentes durante un mínimo de 1 mes (o menos si se trató con éxito).",
+                  "hijos": []
+                }
+              ],
+              "especificaciones": [
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Los siguientes especificadores del curso de la enfermedad solo se utilizarán después de 1 año de duración del trastorno y si no están en contradicción con los criterios de evolución diagnósticos:",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en episodio agudo",
+                      "descripcion": "La primera manifestación del trastorno cumple los criterios definidos de sintoma diagnóstico y tiempo. Un episodio agudo es el periodo en que se cumplen los criterios sintomáticos.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en remisión parcial",
+                      "descripcion": "Remisión parcial es el período durante el cual se mantiene una mejoria después de un episodio anterior y en el que los criterios que definen el trastorno solo se cumplen parcialmente.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Primer episodio, actualmente en remisión total",
+                      "descripcion": "Remisión total es el período después de un episodio anterior durante el cual los síntomas específicos del trastorno no están presentes.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en episodio agudo",
+                      "descripcion": "Los episodios múltiples se pueden determinar después de un mínimo de dos episodios (es decir, después de un primer episodio, una remisión y un mínimo de una recidiva).",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en remisión parcial",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Episodios múltiples, actualmente en remisión total",
+                      "descripcion": null,
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "Continuo",
+                      "descripcion": "Los síntomas que cumplen los criterios de diagnóstico del trastorno están presentes durante la mayor parte del curso de la enfermedad, y los periodos sintomáticos por debajo del umbral son muy breves en comparación con el curso global.",
+                      "subopciones": []
+                    },
+                    {
+                      "codigo": null,
+                      "etiqueta": "No especificado",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": []
+                },
+                {
+                  "encabezado": "Especificar si:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "Con catatonía (para la definición,véanse los criterios de catatonía asociada a otro trastorno mental, pág. 135).",
+                      "descripcion": null,
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "Utilizar el código adicional F06.1 catatonia asociada a esquizofrenia para indicar la presencia de catatonia concurrente."
+                  ]
+                },
+                {
+                  "encabezado": "Especificar la gravedad actual:",
+                  "opciones": [
+                    {
+                      "codigo": null,
+                      "etiqueta": "La gravedad se clasifica mediante evaluación cuantitativa de los síntomas primarios de psicosis",
+                      "descripcion": "ideas delirantes, alucinaciones, habla desorganizada, comportamiento psicomotor anormal y síntomas negativos. Cada uno de estos síntomas se puede clasificar por su gravedad actual (máxima gravedad en los últimos 7 días) sobre una escala de 5 puntos de 0 (ausente) a 4 (presente y grave). (Véase la escala clínica Gravedad de los síntomas de las dimensiones de psicosis en el capítulo \"Medidas de evaluación\", en la Sección III del DSM-5-TR.)",
+                      "subopciones": []
+                    }
+                  ],
+                  "notas": [
+                    "El diagnóstico de esquizofrenia se puede hacer sin utilizar este especificador de gravedad."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 357,
+        "lineaFin": 417
+      }
+    },
+    {
+      "clave": "caracteristicas_diagnosticas",
+      "claveOriginal": "caracteristicas diagnosticas",
+      "titulo": "Características diagnósticas",
+      "reconocida": true,
+      "orden": 1,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los síntomas característicos de la esquizofrenia comprenden todo un abanico de disfunciones cognitivas, conductuales y emocionales, aunque ningún síntoma concreto es patognomónico del trastorno. El diagnóstico conlleva la identificación de una constelación de signos y síntomas asociados con un deterioro del funcionamiento laboral o social. Los sujetos con este trastorno variarán de manera sustancial en la mayoría de las características, ya que la esquizofrenia es un síndrome clínico heterogéneo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Al menos dos de los síntomas del Criterio A deben estar presentes durante una proporción de tiempo significativa, durante un período de 1 mes o más. Al menos uno de esos síntomas debe ser la presencia clara de delirios (Criterio A1), alucinaciones (Criterio A2) o discurso desorganizado (Criterio A3). También puede haber comportamientos muy desorganizados o catatónicos (Criterio A4) y síntomas negativos (Criterio A5). En las situaciones en las que los síntomas de la fase activa remiten antes de 1 mes en respuesta al tratamiento, el Criterio A se sigue cumpliendo si el clínico estima que habrían persistido en ausencia de tratamiento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La esquizofrenia implica un déficit en una o más áreas principales del funcionamiento (Criterio B). Si el trastorno se inicia en la infancia o en la adolescencia, no se alcanza el nivel de funcionamiento esperado. Puede resultar útil comparar al individuo con los hermanos no afectos. La disfunción persiste durante un período sustancial a lo largo del curso del trastorno y no parece ser el resultado directo de ningún síntoma concreto. La abulia (es decir, la disminución de la motivación para realizar actividades dirigidas a lograr una meta, Criterio A5) está relacionada con la disfunción social descrita en el Criterio B. También hay muchos datos que relacionan la disfunción cognitiva (véase más adelante el apartado \"Características asociadas\" de este trastorno) y los déficits en el funcionamiento de los individuos con esquizofrenia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Algunos signos del trastorno deben persistir durante un período de tiempo continuo de al menos 6 meses (Criterio C). Los síntomas prodrómicos a menudo preceden a la fase activa y puede haber síntomas residuales posteriores, que consisten en formas leves o por debajo del umbral de alucinaciones o delirios. Los sujetos pueden expresar una variedad de creencias poco habituales o extrañas que no son de proporciones delirantes (p. ej., ideas referenciales o pensamiento mágico); pueden tener experiencias perceptivas poco habituales (p. ej., sentir la presencia de una persona que no está a la vista); su discurso puede ser comprensible en general, pero difuso; su comportamiento puede ser poco habitual, pero no muy desorganizado (p. ej., murmurar en público). Los síntomas negativos son comunes en las fases prodrómica y residual y pueden ser graves. Los individuos que habían sido socialmente activos pueden retraerse de sus hábitos previos. Estos comportamientos a menudo son el primer signo del trastorno."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los síntomas del estado de ánimo y los episodios del estado de ánimo completos son comunes en la esquizofrenia y pueden ser concurrentes con la sintomatología de la fase activa. Sin embargo, a diferencia de un trastorno del estado de ánimo con características psicóticas, el diagnóstico de esquizofrenia requiere la presencia de delirios o alucinaciones en ausencia de episodios del estado de ánimo. Además, los episodios del estado de ánimo, en total, deben estar presentes solo durante una parte minoritaria de la duración total de los períodos activo y residual de la enfermedad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Además de los cinco dominios sintomáticos identificados en los criterios diagnósticos, la evaluación de los dominios de síntomas cognitivos, depresivos y maniacos es fundamental para realizar distinciones de importancia crítica entre los diferentes trastornos del espectro de la esquizofrenia y otros trastornos psicóticos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 419,
+        "lineaFin": 431
+      }
+    },
+    {
+      "clave": "caracteristicas_asociadas",
+      "claveOriginal": "caracteristicas asociadas",
+      "titulo": "Características asociadas",
+      "reconocida": true,
+      "orden": 2,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Los individuos con esquizofrenia pueden mostrar un afecto inapropiado (p. ej., reirse en ausencia de un estímulo apropiado); un ánimo disfórico que puede tomar la forma de depresión, ansiedad o enfado; una alteración del patrón del sueño (p. ej., sueño diurno y actividad nocturna), y falta de interés por comer o rechazo de la comida. La despersonalización, la desrealización y las preocupaciones somáticas pueden aparecer y, en ocasiones, alcanzar proporciones delirantes. La ansiedad y las fobias son comunes. Los déficits cognitivos son comunes en la esquizofrenia y están muy relacionados con los déficits laborales y vocacionales. Estos déficits pueden consistir en un deterioro de la memoria declarativa, de la memoria de trabajo, del lenguaje y de otras funciones ejecutivas, además de una velocidad de procesamiento más lenta. También aparecen anomalías en el procesamiento sensorial y en la capacidad inhibitoria, además de reducciones de la atención. Algunos individuos con esquizofrenia presentan déficits de la cognición social, incluidos déficits de la capacidad para inferir las intenciones de otras personas (teoria de la mente), y pueden prestar atención a sucesos o estimulos irrelevantes y posteriormente interpretarlos como significativos, lo que puede conducir a la generación de delirios explicativos. Estos déficits a menudo persisten durante la remisión sintomática."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Algunos individuos con psicosis pueden carecer de introspección o de conciencia de su trastorno (es decir, pueden tener anosognosia). Esta ausencia de \"introspección\" incluye la falta de conciencia de los síntomas de la esquizofrenia y puede estar presente a lo largo de todo el curso de la enfermedad. La falta de conciencia de la enfermedad es un síntoma típico de la esquizofrenia en sí, y no una estrategia de afrontamiento. Es comparable a la falta de conciencia de los déficits neurológicos posteriores al daño cerebral, denominada anosognosia. Este síntoma es el factor que predice con mayor frecuencia la inobservancia del tratamiento, así como mayores tasas de recaída, un mayor número de tratamientos involuntarios, un peor funcionamiento psicosocial, las agresiones y un peor curso de la enfermedad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La hostilidad y la agresión pueden asociarse a la esquizofrenia, aunque las agresiones espontáneas o inesperadas son poco comunes. La agresión es más frecuente en los varones jóvenes y en los individuos con antecedentes de violencia, falta de cumplimiento terapéutico, abuso de sustancias e impulsividad. Debe señalarse que la gran mayoría de las personas con esquizofrenia no son agresivas y son víctimas con más frecuencia que los individuos de la población general."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "A día de hoy no hay pruebas radiológicas, de laboratorio ni psicométricas para el trastorno. Se han encontrado diferencias entre grupos de individuos sanos y personas con esquizofrenia en múltiples regiones cerebrales, procediendo los datos de estudios de neuroimagen, de neuropatología y de neurofisiología. También hay diferencias en la arquitectura celular, en la conectividad de la sustancia blanca y en el volumen de sustancia gris de varias regiones, como las cortezas prefrontal y temporal. Se ha observado una reducción del volumen cerebral total, así como una mayor reducción del volumen con la edad. Las reducciones del volumen cerebral con la edad son más pronunciadas en los individuos con esquizofrenia que en los sujetos sanos. Por último, los sujetos con esquizofrenia parecen diferir de los individuos sin dicho trastorno en los índices de seguimiento ocular y electrofisiológicos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los signos neurológicos menores son comunes en los individuos con esquizofrenia e incluyen déficits en la coordinación motora, la integración sensorial y la secuenciación motora de los movimientos complejos, así como confusión izquierda-derecha y desinhibición de los movimientos asociados. Además, puede haber anomalías físicas menores en la cara y los miembros."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 433,
+        "lineaFin": 443
+      }
+    },
+    {
+      "clave": "prevalencia",
+      "claveOriginal": "prevalencia",
+      "titulo": "Prevalencia",
+      "reconocida": true,
+      "orden": 3,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La prevalencia estimada de la esquizofrenia a lo largo de la vida es aproximadamente del 0,3 al 0,7 %, con variaciones que superan las cinco veces en los metaanálisis de las encuestas nacionalmente representativas. Los estudios han mostrado una mayor prevalencia e incidencia de la esquizofrenia en algunos grupos según la condición de migrante o refugiado, la urbanicidad y la situación y latitud económica del país. Es importante observar que la prevalencia y la incidencia comunicadas respecto a la esquizofrenia pueden verse afectadas por el hecho de que algunos tienen más probabilidades de ser diagnosticados de forma errónea o en exceso."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La proporción de sexos difiere según la muestra y la población: por ejemplo, las presentaciones con síntomas negativos prominentes y una mayor duración de la enfermedad (que se asocian a un peor pronóstico), presentan tasas de incidencia mayores en los varones, mientras que las definiciones que permiten incluir más síntomas del estado de ánimo y cuadros breves (que se asocian a un mejor pronóstico) muestran un riesgo equivalente para ambos sexos. Un gran estudio a escala mundial, basado en diversas definiciones de la esquizofrenia, no halló diferencias de prevalencia entre los sexos."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 445,
+        "lineaFin": 449
+      }
+    },
+    {
+      "clave": "desarrollo_curso",
+      "claveOriginal": "desarrollo y curso",
+      "titulo": "Desarrollo y curso",
+      "reconocida": true,
+      "orden": 4,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las características psicóticas obligadas del diagnóstico de esquizofrenia aparecen típicamente entre la adolescencia tardía y la mitad de la treintena; el inicio antes de la adolescencia es raro. El pico de la edad de inicio se sitúa al comienzo y la mitad de la veintena en los varones y a finales de la veintena en las mujeres. El inicio puede ser brusco o insidioso, pero la mayoría de los individuos presenta un desarrollo lento y gradual de diversos signos y síntomas clínicamente significativos, especialmente retraimiento social, cambios emocionales y alteraciones cognitivas que ocasionan un deterioro del funcionamiento de rol. La mitad de estos individuos presentan síntomas depresivos. En el pronóstico influyen tanto la duración como la gravedad del cuadro y el género. Los varones, especialmente aquellos con psicosis de larga duración antes del tratamiento y peor adaptación premórbida, tienen síntomas negativos más prominentes, mayor deterioro cognitivo y, en general, resultados funcionales peores que las mujeres. Los déficits sociocognitivos pueden manifestarse durante el desarrollo y preceder la aparición de la psicosis, adoptando la forma de deterioros estables durante la etapa adulta, resistentes a los medicamentos antipsicóticos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El curso y el desenlace de la esquizofrenia son heterogéneos, y el pronóstico es incierto al comienzo de la psicosis. Aunque la mayoría de los individuos con esquizofrenia siguen siendo vulnerables a la exacerbación de los síntomas psicóticos y un curso crónico definido por síntomas y deterioro funcional es frecuente, muchos individuos presentan períodos de remisión e incluso recuperación. Según un metaanálisis de 79 estudios longitudinales de primeros episodios de psicosis con más de 1 año de seguimiento, la tasa acumulada de remisiones (definida cualitativamente como síntomas leves o ausentes durante un mínimo de 6 meses) de los primeros episodios de esquizofrenia era del 56 % y la tasa acumulada de recuperaciones (definida cualitativamente como una mejoría sintomática y funcional durante más de 2 años) era del 30 %. Un metaanálisis distinto de 50 estudios de individuos con esquizofrenia de amplia definición (es decir, esquizofrenia, trastorno esquizofreniforme, trastorno esquizoafectivo o trastorno delirante) encontró que la mediana del porcentaje de individuos que cumplían los criterios de recuperación (como mucho, síntomas leves y mejorías del funcionamiento social y/u ocupacional durante al menos 2 años) era del 13,5 %. Existe una tendencia a que se reduzcan las experiencias psicóticas en las últimas etapas de la vida. Además de la psicosis, el deterioro cognitivo y los síntomas negativos son rasgos nucleares de la esquizofrenia, y el curso de estos rasgos características es distinto del que siguen los síntomas psicóticos positivos. La cognición tiende a declinar durante el desarrollo previo a la psicosis plena y es relativamente estable en el largo plazo. Los síntomas negativos, si los hay durante el desarrollo, también tienden a ser rasgos relativamente estables en el tiempo. Los síntomas negativos que aparecen después del inicio de la psicosis son más variables y pueden reflejar causas secundarias. El diagnóstico de esquizofrenia requiere cierto grado de cronicidad y el curso a largo plazo refleja la necesidad de atención de salud mental y apoyos vitales en muchos individuos. Aunque la esquizofrenia no supone en general un trastorno neurodegenerativo progresivo, los retos de la vida, los cambios de estilo de vida y los síntomas persistentes pueden conducir a una disfunción progresiva en los casos crónicos más graves."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las características esenciales de la esquizofrenia son las mismas en la infancia, pero resulta más difícil realizar el diagnóstico. En los niños, los delirios y las alucinaciones pueden ser menos elaborados que en los adultos, y las alucinaciones visuales son más frecuentes y deben distinguirse de los juegos de fantasía normales. El discurso desorganizado aparece en muchos trastornos de inicio en la infancia (p. ej., en el trastorno del espectro autista), al igual que sucede con el comportamiento desorganizado (p. ej., en el trastorno por déficit de atención/hiperactividad). Estos síntomas no deben ser atribuidos a una esquizofrenia sin haber considerado los trastornos más frecuentes de la infancia. Los casos de inicio en la infancia tienden a parecerse a los casos de los adultos con mal pronóstico, con un inicio gradual y síntomas negativos prominentes. Los niños que posteriormente recibirán un diagnóstico de esquizofrenia tienen más probabilidades de haber presentado psicopatología y trastornos emocionales-conductuales inespecíficos, alteraciones intelectuales y del lenguaje y retrasos motores sutiles."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los casos de inicio tardío (es decir, con una edad de inicio mayor de 40 años) están sobrerrepresentados por las mujeres, que pueden haberse casado. A menudo el curso se caracteriza por un predominio de los síntomas psicóticos, con afecto y funcionamiento social preservados. Estos casos de inicio tardío pueden cumplir los criterios diagnósticos de la esquizofrenia, pero no está claro si se trata del mismo trastorno que la esquizofrenia diagnosticada antes de la mediana edad (p. ej., antes de los 55 años)."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 451,
+        "lineaFin": 461
+      }
+    },
+    {
+      "clave": "factores_riesgo_pronostico",
+      "claveOriginal": "factores de riesgo y pronostico",
+      "titulo": "Factores de riesgo y pronóstico",
+      "reconocida": true,
+      "orden": 5,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Ambientales. La estación de nacimiento se ha relacionado con la incidencia de la esquizofrenia: por ejemplo, finales de invierno/principios de primavera en algunas zonas y el verano para la forma deficitaria del trastorno. La incidencia de la esquizofrenia y de los trastornos relacionados puede ser mayor en los niños que crecen en un medio urbano, en los refugiados, en algunos grupos de inmigrantes y en los grupos socialmente oprimidos que padecen discriminación. Hay datos indicativos de que la privación social, la adversidad social y los factores socioeconómicos pueden asociarse a tasas mayores de este trastorno. Entre los individuos con esquizofrenia y otros trastornos psicóticos, la gravedad de los síntomas positivos y negativos parece correlacionarse con la gravedad de las experiencias adversas durante la infancia, como los traumas y la negligencia. Se han documentado tasas de esquizofrenia más altas en algunos grupos étnicos y racializados cuando viven en zonas con porcentajes pequeños de personas de la misma etnia o grupo racializado. Los motivos no están totalmente claros, pero parecen estar relacionados con varios factores, incluidos los siguientes: 1) niveles altos de discriminación o miedo a la discriminación; 2) menos respaldo social y más estigmatización de quienes tienen esquizofrenia; 3) mayor aislamiento social, y 4) menor disponibilidad y acceso a explicaciones normalizadoras de las experiencias perceptivas y las creencias anormales referidas por los individuos con riesgo alto de llegar a tener esquizofrenia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Genéticos y fisiológicos. Hay una importante contribución de los factores genéticos a la hora de determinar el riesgo de presentar esquizofrenia, aunque la mayoría de los individuos diagnosticados de esquizofrenia no tienen antecedentes familiares de psicosis. La predisposición la confieren un abanico de alelos de riesgo, comunes y raros, de forma que cada alelo contribuye solo en una pequeña fracción a la varianza total en la población. Los alelos de riesgo que se han identificado hasta la fecha también se asocian a otros trastornos mentales, como el trastorno bipolar, la depresión y el trastorno del espectro autista."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las complicaciones del embarazo y el parto con hipoxia y una mayor edad paterna se asocian a un riesgo más elevado de padecer esquizofrenia para el feto en desarrollo. Además, otras situaciones adversas prenatales y perinatales, como el estrés, la infección, la malnutrición, la diabetes materna y otras afecciones médicas, también se han asociado a la esquizofrenia. Sin embargo, la gran mayoría de los hijos que tienen estos factores de riesgo no desarrolla una esquizofrenia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 463,
+        "lineaFin": 469
+      }
+    },
+    {
+      "clave": "cultura",
+      "claveOriginal": "aspectos diagnosticos relacionados con la cultura",
+      "titulo": "Aspectos diagnósticos relacionados con la cultura",
+      "reconocida": true,
+      "orden": 6,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La forma y el contenido de los síntomas de esquizofrenia pueden variar de una cultura a otra, incluyendo: la proporción relativa de alucinaciones visuales y auditivas (p. ej., aunque las alucinaciones auditivas tienden a ser más frecuentes que las visuales en todo el mundo, la proporción relativa de alucinaciones visuales puede ser particularmente más alta en algunas regiones que en otras); el contenido concreto de los delirios (p. ej., persecutorio, de grandeza, somático) y las alucinaciones (p. ej., ordenes, insultante, religioso), y el nivel de miedo asociado. Deben considerarse los factores culturales y socioeconómicos, en especial cuando el individuo y el clínico no comparten el mismo entorno socioeconómico. Ideas que parecen delirantes en un contexto cultural (p. ej., mal de ojo, producción de enfermedades mediante maldiciones, influencias de espíritus) pueden estar ampliamente extendidas en otra. En algunos contextos culturales, las alucinaciones visuales o auditivas de contenido religioso (p. ej., escuchar la voz de Dios) forman parte de la experiencia religiosa normal. Además, la evaluación del discurso desorganizado puede verse dificultada por las variaciones lingüísticas que aparecen en los estilos narrativos de las diferentes culturas. La evaluación del afecto requiere sensibilidad para las diferencias en los estilos de expresión emocional, contacto ocular y lenguaje corporal, que varián a lo largo de las distintas culturas. Si la valoración se lleva a cabo en un idioma diferente del idioma primario del sujeto, se debe prestar atención para asegurarse de que la alogia no se debe a las barreras lingüísticas. En determinadas culturas, el malestar puede tomar la forma de alucinaciones o seudoalucinaciones e ideas sobrevaloradas que clínicamente pueden presentarse de manera similar a la verdadera psicosis, pero que son normales en el subgrupo al que pertenece el individuo. El diagnóstico erróneo de esquizofrenia en individuos con trastornos del ánimo con características psicóticas o con otros trastornos psiquiátricos es más probable que se produzca en los miembros de los grupos étnicos y racializados más desatendidos (en EE.UU., especialmente en los afroamericanos). Esto puede ser atribuible a sesgo clínico, racismo o discriminación, que llevarian a obtener información de escasa calidad y a una posible malinterpretación de los síntomas."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 471,
+        "lineaFin": 475
+      }
+    },
+    {
+      "clave": "sexo_genero",
+      "claveOriginal": "aspectos diagnosticos relacionados con el sexo y el genero",
+      "titulo": "Aspectos diagnósticos relacionados con el sexo y el género",
+      "reconocida": true,
+      "orden": 7,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Hay varias características que distinguen la expresión clínica de la esquizofrenia en las mujeres y en los varones. La edad de inicio es posterior en las mujeres, produciéndose un segundo pico en la mediana edad. En las mujeres, los síntomas tienden a presentar más carga afectiva, aparecen más síntomas psicóticos y hay una mayor tendencia a que los síntomas psicóticos empeoren en las etapas posteriores de la vida. Otra diferencia sintomática es la menor frecuencia de síntomas negativos y desorganización en las mujeres. Por último, el funcionamiento social tiende a estar mejor preservado en las mujeres. Sin embargo, hay frecuentes excepciones a estas normas generales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se ha observado que los síntomas psicóticos empeoran durante el período premenstrual, cuando descienden los niveles de estrógenos; en consecuencia, se constata un aumento de la tasa de ingresos psiquiátricos en las mujeres con esquizofrenia justo antes de la menstruación y durante esta. Los niveles reducidos de estrógenos de la menopausia podrían ser otro factor asociado al segundo pico de incidencia en las mujeres en la etapa media de la vida. Asimismo, los síntomas psicóticos parecen mejorar durante el embarazo, cuando los niveles de estrógenos son altos, y empeorar de nuevo en el posparto, cuando los niveles de estrógenos se desploman."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 477,
+        "lineaFin": 481
+      }
+    },
+    {
+      "clave": "suicidio",
+      "claveOriginal": "asociacion con pensamientos y conductas suicidas",
+      "titulo": "Asociación con pensamientos y conductas suicidas",
+      "reconocida": true,
+      "orden": 8,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Aproximadamente, el 5-6 % de los individuos con esquizofrenia fallece por suicidio, alrededor del 20 % intenta suicidarse en al menos una ocasion y muchos más tienen ideación suicida significativa. El comportamiento suicida a veces responde a alucinaciones que ordenan hacerse daño a uno mismo o a otros. El riesgo de suicidio se mantiene alto a lo largo de toda la vida en los varones y en las mujeres, aunque podría ser especialmente elevado en los varones jóvenes con consumo comórbido de sustancias. Otros factores de riesgo son los síntomas depresivos, la desesperanza, el desempleo, el período posterior a un episodio psicótico o a un alta hospitalaria, el número de ingresos psiquiátricos, la proximidad al inicio del cuadro y la mayor edad de debut de la enfermedad. Una revisión sistemática y metaanálisis de estudios longitudinales encontró que las posibilidades de presentar conductas suicidas durante el seguimiento después de un primer episodio de psicosis eran mayores en los individuos con síntomas depresivos durante ese primer episodio de psicosis que entre los individuos sin síntomas depresivos. Un metaanálisis de un gran número de estudios sobre la relación de la esquizofrenia con el comportamiento suicida halló que el abuso de alcohol, tabaco y drogas, la depresión, el número de hospitalizaciones, la comorbilidad física y los antecedentes familiares de depresión y conducta suicida aumentaban el riesgo de intentos de suicidio. Entre los factores de riesgo de suicidio estaban el sexo masculino, ser más joven, tener un CI más alto, los antecedentes de otros intentos, la desesperanza y la escasa observancia del tratamiento."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 483,
+        "lineaFin": 485
+      }
+    },
+    {
+      "clave": "consecuencias_funcionales",
+      "claveOriginal": "consecuencias funcionales de la esquizofrenia",
+      "titulo": "Consecuencias funcionales de la esquizofrenia",
+      "reconocida": true,
+      "orden": 9,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "La esquizofrenia se asocia a una disfunción social y laboral significativa. Entre los individuos con esquizofrenia, los deficits de capacidad lectora son más acusados de lo que cabría esperar de los deterioros cognitivos generales asociados al trastorno. Tales deficits pueden conceptualizarse como una dislexia secundaria o adquirida, subyacente en el deterioro académico observado en la esquizofrenia. Los progresos académicos y la conservación de un empleo a menudo se ven dificultados por la abulia u otras manifestaciones del trastorno, incluso cuando las habilidades cognitivas son suficientes para realizar las tareas requeridas. La mayoría de los sujetos consigue un empleo de categoría inferior al de sus padres y la mayoría, en especial los hombres, no se casa o tiene escasos contactos sociales más allá de su familia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 487,
+        "lineaFin": 491
+      }
+    },
+    {
+      "clave": "diagnostico_diferencial",
+      "claveOriginal": "diagnostico diferencial",
+      "titulo": "Diagnóstico diferencial",
+      "reconocida": true,
+      "orden": 10,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno depresivo mayor o trastorno bipolar con características psicóticas o catatónicas. La distinción entre la esquizofrenia y el trastorno depresivo mayor o el trastorno bipolar con características psicóticas o catatonía depende de la relación temporal entre la alteración del ánimo y la psicosis, y de la gravedad de los síntomas depresivos o maniacos. Si los delirios o las alucinaciones aparecen únicamente durante un episodio depresivo mayor o maniaco, el diagnóstico es de trastorno depresivo o bipolar con características psicóticas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno esquizoafectivo. El diagnóstico de trastorno esquizoafectivo requiere que un episodio depresivo mayor o maníaco se presente de forma concurrente con los síntomas de la fase activa y que los síntomas del estado de ánimo estén presentes durante la mayor parte de la duración total de los periodos activos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno esquizofreniforme y trastorno psicótico breve. Estos trastornos tienen una duración menor que la esquizofrenia tal y como especifica el Criterio C, que requiere la presencia de síntomas durante 6 meses. En el trastorno esquizofreniforme, la alteración está presente durante menos de 6 meses, y en el trastorno psicótico breve, los síntomas están presentes durante al menos 1 día pero menos de 1 mes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno delirante. El trastorno delirante se puede distinguir de la esquizofrenia por la ausencia de otros síntomas características de la esquizofrenia (p. ej., delirios, alucinaciones auditivas o visuales prominentes, discurso desorganizado, comportamiento muy desorganizado o catatónico, síntomas negativos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de la personalidad esquizotípica. El trastorno de la personalidad esquizotípica puede distinguirse de la esquizofrenia por la presencia de síntomas por debajo del umbral asociados a rasgos de personalidad persistentes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno obsesivo-compulsivo y trastorno dismórfico corporal. Los individuos con trastorno obsesivo-compulsivo y con trastorno dismórfico corporal pueden presentar una introspección escasa o ausente y sus preocupaciones pueden alcanzar proporciones delirantes. Sin embargo, estos trastornos se distinguen de la esquizofrenia por sus obsesiones y compulsiones, la preocupación por el aspecto o el olor corporal, el acaparamiento y los comportamientos repetitivos centrados en el cuerpo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno de estrés postraumático. El trastorno de estrés postraumático puede incluir escenas retrospectivas que tengan una cualidad alucinatoria, y la hipervigilancia puede alcanzar proporciones paranoides. Sin embargo, se requiere la presencia de un suceso traumático y los síntomas características de revivir o reaccionar al suceso para realizar el diagnóstico de trastorno de estrés postraumático."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno del espectro autista o trastornos de la comunicación. Estos trastornos también pueden presentar síntomas similares a los de un episodio psicótico, pero se distinguen por los déficits de la interacción social con comportamientos repetitivos y restringidos, y por otros déficits cognitivos y de la comunicación, respectivamente. Un individuo con un trastorno del espectro autista o con un trastorno de la comunicación debe presentar síntomas que cumplan los criterios completos de la esquizofrenia, con alucinaciones o delirios prominentes durante al menos 1 mes, para poder recibir el diagnóstico de esquizofrenia como trastorno concurrente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otros trastornos mentales asociados con un episodio psicótico. El diagnóstico de esquizofrenia se realiza únicamente cuando el episodio psicótico es persistente y no se puede atribuir a los efectos fisiológicos de una sustancia o de otra afección médica. Los individuos con delirium o con trastorno neurocognitivo mayor o leve pueden presentar síntomas psicóticos, pero estos tendrán relación temporal con el inicio de los cambios cognitivos que aparecen en dichos trastornos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Trastorno psicótico inducido por sustancias/medicamentos. Los sujetos con un trastorno psicótico inducido por sustancias/medicamentos pueden presentar los síntomas característicos del Criterio A de la esquizofrenia, pero el trastorno psicótico inducido por sustancias/medicamentos habitualmente puede distinguirse por la relación cronológica entre el uso de las sustancias y su inicio, y por la remisión de la psicosis en ausencia del uso de dichas sustancias."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 493,
+        "lineaFin": 515
+      }
+    },
+    {
+      "clave": "comorbilidad",
+      "claveOriginal": "comorbilidad",
+      "titulo": "Comorbilidad",
+      "reconocida": true,
+      "orden": 11,
+      "contenido": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las tasas de comorbilidad con los trastornos relacionados con sustancias son elevadas en la esquizofrenia. Más de la mitad de los individuos con esquizofrenia tiene un trastorno por consumo de tabaco y fuma cigarrillos de manera habitual. Cada vez se reconoce más la comorbilidad con los trastornos de ansiedad en la esquizofrenia. Las tasas de trastorno obsesivo-compulsivo y de trastorno de pánico son elevadas en los individuos con esquizofrenia en comparación con la población general. El trastorno de la personalidad esquizotípica o paranoide a veces puede preceder al inicio de una esquizofrenia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La esperanza de vida está acortada en las personas con esquizofrenia debido a las afecciones médicas asociadas. El aumento de peso, la diabetes, el síndrome metabólico y las enfermedades cardiovasculares y pulmonares son más habituales en los individuos con esquizofrenia que en la población general. El escaso compromiso para realizar conductas dirigidas a mantener la salud (p. ej., cribado para el cáncer, ejercicio físico) aumenta el riesgo de presentar enfermedades crónicas, pero también pueden intervenir otros factores asociados al trastorno, como la medicación, el estilo de vida, fumar cigarrillos y la dieta. Podría haber una vulnerabilidad compartida para la psicosis y las afecciones médicas que explicaría parte de la comorbilidad médica de la esquizofrenia."
+        }
+      ],
+      "procedencia": {
+        "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+        "lineaInicio": 517,
+        "lineaFin": 521
+      }
+    }
+  ],
+  "educativo": {
+    "resumen": null,
+    "perlas": [],
+    "preguntas": [],
+    "flashcards": [],
+    "casos": [],
+    "instrumentos": [],
+    "algoritmos": []
+  },
+  "relaciones": {
+    "comparadoCon": [
+      {
+        "idTrastorno": "trastorno-esquizotipico-de-la-personalidad",
+        "nombre": "Trastorno esquizotípico (de la personalidad)",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-delirante",
+        "nombre": "Trastorno delirante",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-breve",
+        "nombre": "Trastorno psicótico breve",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizofreniforme",
+        "nombre": "Trastorno esquizofreniforme",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-esquizoafectivo",
+        "nombre": "Trastorno esquizoafectivo",
+        "procedencia": "extraida",
+        "nota": null
+      },
+      {
+        "idTrastorno": "trastorno-psicotico-inducido-por-sustancias-medicamentos",
+        "nombre": "Trastorno psicótico inducido por sustancias/medicamentos",
+        "procedencia": "extraida",
+        "nota": null
+      }
+    ],
+    "referenciasCruzadas": []
+  },
+  "procedencia": {
+    "archivoFuente": "02-Espectro de la esquizofrenia y otros transtornos psicóticos.md",
+    "lineaInicio": 355,
+    "lineaFin": 522
+  },
+  "advertencias": []
+}
